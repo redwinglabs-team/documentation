@@ -1,0 +1,14 @@
+img[src*="#login"] {
+    width:200px;
+    height:300px;
+}
+
+p:nth-of-type(5) {
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+}

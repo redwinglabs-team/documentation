@@ -1,0 +1,97 @@
+# Project Information
+site_name: RedWingLabs Docs
+site_description: 'Documentazione delle app prodotte da RedWingLabs'
+site_author: 'RedWingLabs'
+
+# Repository
+repo_name: "rewinglabs/fb-fe"
+repo_url: "https://github.com/redwinglabs/fb-fe"
+
+# Copyright
+copyright: 'Copyright &copy; 2019 - 2020 RWL Srl'
+
+# Configuration
+theme:
+  name: material
+  language: 'it'
+  palette:
+    primary: "light blue"
+    accent: "light blue"
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo: 'assets/img/redwingbird.png'
+  search:
+    language: "en, it"
+  favicon: 'assets/img/redwing.ico'
+  feature:
+    tabs: true
+
+# Customization
+extra:
+  social:
+    - type: "github"
+      link: "https://github.com/redwinglabs"
+extra_css:
+  - 'assets/stylesheets/extra.css'
+extra_javascript:
+  - 'assets/javascripts/extra.js'
+
+# Google Analytics
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: false
+  - codehilite
+  - footnotes
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tilde
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+# Navigation
+
+nav:
+  - Welcome to RedWingLabs Docs: 'index.md'
+  - F&B:
+    - About F&B: 'F&B/aboutF&B.md'
+    - Impostazioni:
+      - Generali: 'F&B/Settings/general.md'
+      - Prenotazioni: 'F&B/Settings/reservation.md'
+      - Sala: 'F&B/Settings/room.md'
+      - Servizio: 'F&B/Settings/service.md'
+      - Segmenti: 'F&B/Settings/segment.md'
+    - Editor Sala:
+      - About Editor Sala: 'F&B/EditorSala/aboutEditorSala.md'
+      - Crea Tavolo: 'F&B/EditorSala/createTable.md'
+      - Modifica Tavolo: 'F&B/EditorSala/editTable.md'
+    - Menu: 'F&B/Menu/menu.md'
+    - Prenotazioni:
+      - Nuova Prenotazione: 'F&B/Reservations/newReservation.md'
+      - Modifica Prenotazione: 'F&B/Reservations/editReservation.md'
+    - Lista Prenotazioni: 'F&B/ViewReservations/viewReservations.md'
+    - Visualizza Tavoli:
+      - Tables Manager: 'F&B/ViewTables/viewTables.md'
+      - Comanda: 'F&B/ViewTables/order.md'
+      - Assegna Sedia: 'F&B/ViewTables/assignChair.md'
+    - Cassa: 'F&B/Cash/cash.md'
+    - Gestione Conti: 'F&B/BillsManagement/aboutBillsManagement.md'
+    - Storico Ordini:
+      - Tavoli: 'F&B/Registry/tables.md'
+      - Prenotazione: 'F&B/Registry/reservations.md'
+  - Cucina:
+    - About Kitchen: 'Kitchen/aboutKitchen.md'
+    - Sommario Ordini: 'Kitchen/orderSummary.md'
+    - Dettaglio Ordini: 'Kitchen/detailedOrder.md'
+  - Local:
+    - About Local: 'Local/aboutLocal.md'
+    - Check-in: 'Local/check-in.md'
+    - Arrivi: 'Local/arrivals.md'

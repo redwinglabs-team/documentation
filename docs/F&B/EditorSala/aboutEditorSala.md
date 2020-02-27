@@ -1,0 +1,1 @@
+Permette di modificare la sala selezionata creando, modificando o cancellando i tavoli all’interno di essa
