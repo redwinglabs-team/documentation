@@ -9,5 +9,5 @@ python:
 
 formats: all
 
-requirements_file: requirements.txt
+requirements_file: mkdocs.yml
 
