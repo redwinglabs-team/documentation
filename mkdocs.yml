@@ -1,3 +1,4 @@
+# Project Information
 site_name: RedWingLabs Documentation
 site_description: 'Documentazione delle app prodotte da RedWingLabs'
 site_author: 'RedWingLabs'
@@ -47,7 +48,6 @@ markdown_extensions:
       permalink: false
   - codehilite
   - footnotes
-  - pymdownx.caret
   - pymdownx.critic
   - pymdownx.magiclink
   - pymdownx.mark
@@ -55,8 +55,6 @@ markdown_extensions:
   - pymdownx.tilde
 plugins:
   - search
-  - minify:
-      minify_html: true
 
 # Navigation
 
