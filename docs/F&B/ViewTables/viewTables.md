@@ -8,11 +8,15 @@ Select Servizio: permette di selezionare lo specifico servizio del quale si vogl
 
 visualizza i dati principali della prenotazione in questione quali: Nome Ospite, Ora Prenotazione, N Stanza, N Pax e due bottoni:
 
+![guestProfile](../../assets/img/imgTables/guestProfile.png#guestProfile)
+
 * Aggiungi (permette tramite click sull’icona e successivamente sul tavolo scelto di assegnarla ad esso)
 
 * Dettagli (permette tramite click l’apertura della sezione ‘Modifica Prenotazione);
 
 ## Bottoni Gestisci Tavoli
+
+![actionButtons](../../assets/img/imgTables/actionButtons.png#actionButtons)
 
 * Unisci Tavoli: clicca il bottone e sui due tavoli che desideri unire, scegliere se confermare o annullare l’operazione;
 
@@ -28,15 +32,17 @@ visualizza i dati principali della prenotazione in questione quali: Nome Ospite,
 
 * Libera Sedia: clicca il bottone e seleziona la sedia che vuoi liberare;
 
-## Display Sala
+## Display Sale
 
 permette di visualizzare le sale disponibili, la disposizione dei tavoli al loro interno consentendone la modifica e la gestione delle azioni per il singolo tavolo;
 
+![roomDisplay](../../assets/img/imgTables/roomDisplay.png#roomDisplay)
+
 * Seleziona Sala: clicca il tab con il nome della sala desiderata per visualizzare la disposizione dei tavoli al suo interno;
 
-### Display Sala
+### Sala
 
-* Cerca: clicca l’icona per aumentare o diminuire lo zoom della visualizzazione della sala;
+* Clicca l’icona per aumentare o diminuire lo zoom della visualizzazione della sala;
 
 * Editor Sala: clicca il bottone per avere la possibilità di spostare e ordinare i tavoli a proprio piacimento. Selezionare il tavolo e trascinarlo nella direzione desiderata. Al termine delle modifiche clicca il bottone per memorizzare la configurazione impostata o il bottone per tornare alla configurazione precedente;
 
@@ -48,9 +54,13 @@ Utilizza i Tavoli presenti in Sala per gestire le prenotazioni e le comande rice
 
  al clic sul tavolo libero si apre la lista Prenotazioni che permette di assegnarne una selezionandola tra le prenotazioni esistenti, crearne una nuova cliccando il bottone  o   per occupare il tavolo senza bisogno di prenotazione alcuna;
 
+ ![emptyTable](../../assets/img/imgTables/emptyTable.png#emptyTable)
+
 ### Tavolo Occupato
 
  al clic sul tavolo occupato si visualizza una lista con le seguenti proprietà:
+
+ ![busyTable](../../assets/img/imgTables/busyTable.png#busyTable)
 
 * Chiamata: selezionare questa voce permette di cambiare lo stato della/e portata/e da ‘To Do’, ‘Preparing’ o ‘Ready’ (vedi cap. 10 Cucina) in ‘Completed’, modificando a sua volta quello della prima portata con stato ‘None’ in ‘To Do’;
 

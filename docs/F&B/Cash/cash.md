@@ -2,9 +2,13 @@
 
 permette di visualizzare il conto di un tavolo selezionato, pagarlo o creare un nuovo conto veloce
 
+![cashPage](../../assets/img/imgCash/cashPage.png#cashPage)
+
 ## Sezione Menu
 
-permette di aggiungere un piatto dal Menu a un nuovo conto o ad uno già esistente
+<div>permette di aggiungere un piatto dal Menu a un nuovo conto o ad uno già esistente</div>
+
+![menuList](../../assets/img/imgCash/menuList.png#menuList)
 
 * Cliccare il banner con la categoria del menu desiderata apre la selezione del piatto.
 
@@ -20,6 +24,8 @@ permette di aggiungere un piatto dal Menu a un nuovo conto o ad uno già esisten
 
     * Annulla
 
+![menuItem](../../assets/img/imgCash/menuItem.png#menuItem)
+
 ## Sezione Ordine/Riepilogo
 
 permette di visualizzare il resoconto dell’ordine effettuato, aprire un nuovo ordine e selezionare quali piatti si desiderano pagare;
@@ -27,6 +33,8 @@ permette di visualizzare il resoconto dell’ordine effettuato, aprire un nuovo 
 ### Display Ordine
 
 permette di visualizzare i dettagli dei piatti presenti nell’ordine secondo i seguenti campi: Quantità, Descrizione, Importo,
+
+![orderList](../../assets/img/imgCash/orderList.png#list) 
 
 * Sedia/e: Aggiungi: cliccare il bottone corrispondente fornisce la possibilità di aggiungere al conto solamente il piatto desiderato per una sedia specifica;
 
@@ -42,23 +50,25 @@ Aggiungi Tutto: cliccare il bottone corrispondente permette di aggiungere al con
 
 ## Sezione Conti
 
-permette la gestione di tutti i piatti o gli ordini di cui si vuole processare il pagamento;
+<div>Permette la gestione di tutti i piatti o gli ordini di cui si vuole processare il pagamento;</div>
 
 ### Conto
 
 permette di visualizzare l’elenco dei piatti di cui si vuole processare il pagamento (pannello di colore Blu) o di quelli già pagati (pannello colore Verde) secondo i seguenti campi:
 
+![billList](../../assets/img/imgCash/billList.png#list)
+
 * Quantità: cliccare il numero corrispondente apre la Tastiera Numerica che permette di modificare la quantità del piatto selezionato prima di averlo pagato;
 
-* Descrizione
+* <div>Descrizione: visualizza il nome completo del piatto</div>
 
 * Importo: cliccare il prezzo corrispondente apre la Tastiera Numerica che permette di modificare il costo del piatto selezionato prima di averlo pagato;
 
-* x: cliccare l’icona corrispondente permette di cancellare il piatto dalla lista dell’ordine;
+* <div>x: cliccare l’icona corrispondente permette di cancellare il piatto dalla lista dell’ordine;</div>
 
-* Totale: visualizza la somma totale dei prodotti presenti nella sezione Conto;
+* <div>Totale: visualizza la somma totale dei prodotti presenti nella sezione Conto;</div>
 
-+: cliccare il pannello corrispondente permette la creazione di un nuovo Conto;
+<div>+: cliccare il pannello corrispondente permette la creazione di un nuovo Conto;</div>
 
 ## Lista Azioni
 
@@ -66,9 +76,11 @@ permette di visualizzare l’elenco dei piatti di cui si vuole processare il pag
 
 cliccare il bottone corrispondente apre un pannello che visualizza le sale dell’outlet e permette la selezione di un tavolo, trasferendo così in cassa l’ordine ad esso relativo;
 
+![tablesMap](../../assets/img/imgCash/tablesMap.png#tablesMap)
+
 ### Storico Conti
 
-cliccare il bottone corrispondente permette di collegarsi alla pagina di Storico Conti;
+<div>Cliccare il bottone corrispondente permette di collegarsi alla pagina di Storico Conti;</div>
 
 ### Pre Conto
 
@@ -76,13 +88,17 @@ cliccare il bottone corrispondente permette di visualizzare l’anteprima dello 
 
 * Stampa: cliccare il bottone corrispondente permette la stampa del Pre Conto associato;
 
+![billSummary](../../assets/img/imgCash/billSummary.png#billSummary)
+
 ### Paga
 
 cliccare il bottone corrispondente apre la selezione delle modalità di pagamento disponibili (Contanti, Carte di Credito, Assegno e Bonifico) con il relativo form per la stampa dello scontrino o della fattura;
 
+![paymentList](../../assets/img/imgCash/paymentList.png#paymentList)
+
 ### Addebita
 
-cliccare il bottone corrispondente apre il form delle tipologie di addebito disponibili;
+<div>Cliccare il bottone corrispondente apre il form delle tipologie di addebito disponibili;</div>
 
 * Camera: permette di effettuare l’addebito del conto selezionato in camera compilando i seguenti campi:
 
@@ -94,51 +110,55 @@ cliccare il bottone corrispondente apre il form delle tipologie di addebito disp
 
 * PM: permette di effettuare l’addebito del conto selezionato su un conto aperto esistente o su un nuovo PM;
 
-     * Tab PM: mostra l’elenco di tutti i PM aperti visualizzando le seguenti informazioni: Nome PM, Intestatario, Tipo PM, Scadenza e Dettagli. Include anche una checkbox che permette di selezionare il PM desiderato;
+![chargeModal](../../assets/img/imgCash/chargeModal.png#chargeModal)
 
-     * Cerca per Nome: compilare il form corrispondente permette la ricerca del PM desiderato;
+* Tab PM: mostra l’elenco di tutti i PM aperti visualizzando le seguenti informazioni: Nome PM, Intestatario, Tipo PM, Scadenza e Dettagli. Include anche una checkbox che permette di selezionare il PM desiderato;
 
-     * Nuovo PM: cliccare il bottone corrispondente permette di aprire il form per la creazione di un nuovo PM;
+* <div>Cerca per Nome: compilare il form corrispondente permette la ricerca del PM desiderato;</div>
 
-         * Tipo PM: cliccare lo switch corrispondente per scegliere la tipologia di PM, se crearlo per un singolo individuo o un gruppo di persone;
+* Nuovo PM: cliccare il bottone corrispondente permette di aprire il form per la creazione di un nuovo PM;
 
-        * Durata PM: cliccare lo switch corrispondente per scegliere se assegnare una data di scadenza al Pm, o crearne uno con scadenza indefinita;
+    * Tipo PM: cliccare lo switch corrispondente per scegliere la tipologia di PM, se crearlo per un singolo individuo o un gruppo di persone;
 
-        * Dati Anagrafici: compilare il form dei rispettivi campi con i dati richiesti (Nome Pm, Nome e Cognome campi Obbligatori);
+    * Durata PM: cliccare lo switch corrispondente per scegliere se assegnare una data di scadenza al Pm, o crearne uno con scadenza indefinita;
 
-        * Annulla: cliccare il bottone corrispondente chiude il form di creazione PM visualizzando la schermata precedente;
+    * Dati Anagrafici: compilare il form dei rispettivi campi con i dati richiesti (Nome Pm, Nome e Cognome campi Obbligatori);
 
-        * Salva: cliccare il bottone corrispondente permette il salvataggio e la creazione del PM appena configurato;
+    * Annulla: cliccare il bottone corrispondente chiude il form di creazione PM visualizzando la schermata precedente;
 
-        * Salva e Assegna: cliccare il bottone corrispondente permette il salvataggio e l’assegnazione del Pm appena configurato al Conto selezionato;
+    * Salva: cliccare il bottone corrispondente permette il salvataggio e la creazione del PM appena configurato;
 
-    * Cancella
+    * Salva e Assegna: cliccare il bottone corrispondente permette il salvataggio e l’assegnazione del Pm appena configurato al Conto selezionato;
 
-    * Check Digitale: cliccare il bottone corrispondente permette di visualizzare il riepilogo del conto selezionato con eventuali sconti e/o modifiche applicate ad esso;
+* <div>Cancella: clicca il bottone per chiudere la modale di addebito;</div>
 
-        * Firma: form compilabile con firma digitale;
+* Check Digitale: cliccare il bottone corrispondente permette di visualizzare il riepilogo del conto selezionato con eventuali sconti e/o modifiche applicate ad esso;
 
-        * Addebita: cliccare il bottone corrispondente permette di addebitare il conto relativo al check visualizzato sul PM selezionato;
+    * <div>Firma: form compilabile con firma digitale;</div>
 
-        * Stampa: cliccare il bottone corrispondente permette la stampa del check visualizzato;
+    * Addebita: cliccare il bottone corrispondente permette di addebitare il conto relativo al check visualizzato sul PM selezionato;
 
-    * Check Cartaceo: cliccare il bottone corrispondente permette di visualizzare il riepilogo del conto selezionato con eventuali sconti e/o modifiche applicate ad esso;
+    * <div>Stampa: cliccare il bottone corrispondente permette la stampa del check visualizzato;</div>
 
-        * Firma: form compilabile con firma autografa;
+* Check Cartaceo: cliccare il bottone corrispondente permette di visualizzare il riepilogo del conto selezionato con eventuali sconti e/o modifiche applicate ad esso;
 
-        * Addebita: cliccare il bottone corrispondente permette di addebitare il conto relativo al check acquisito previa firma autografa;
+    * <div>Firma: form compilabile con firma autografa;</div>
 
-        * Stampa: cliccare il bottone corrispondente permette la stampa del check visualizzato;
+    * Addebita: cliccare il bottone corrispondente permette di addebitare il conto relativo al check acquisito previa firma autografa;
+
+    * <div>Stampa: cliccare il bottone corrispondente permette la stampa del check visualizzato;</div>
 
 ### Split
 
 cliccare il bottone corrispondente mostra le opzioni per dividere il Riepilogo/Ordine in più conti separati;
 
+![splitList](../../assets/img/imgCash/splitList.png#splitList)
+
 * Per Seduta: cliccare il bottone corrispondente permette la selezione dal Riepilogo di una delle sedie presenti al tavolo, estrapolandone i piatti ordinati e aggiungendoli in un conto appositamente creato;
 
 * Per X Persone: cliccare il bottone corrispondente permette la selezione del numero di persone per il quale dividere il Riepilogo/Ordine, dividendo il totale da pagare per il numero di Pax selezionato e creando un numero di conti pari al loro;
 
-### Trasferisci Conto
+### Trasferisci Ordine
 
 cliccare il bottone corrispondente permette di assegnare l’Ordine creato e le sue portate, ad un tavolo presente all’interno dell’Outlet corrente (vedi Mappa Tavoli);
 
@@ -146,9 +166,11 @@ cliccare il bottone corrispondente permette di assegnare l’Ordine creato e le 
 
 cliccare il bottone corrispondente apre il form per la selezione dello sconto desiderato calcolato attraverso il sistema percentuale;
 
+![%Discount](../../assets/img/imgCash/%Discount.png#%Discount)
+
 * Sconto %: compilare il form con il valore numerico corrispondente allo sconto percentuale desiderato;
 
-* Note: compilare il form corrispondente (max. 500 caratteri inclusi gli spazi);
+* <div>Note: compilare il form corrispondente (max. 500 caratteri inclusi gli spazi);</div>
 
 * Bottoni %: cliccare uno dei bottoni permette di selezionare la percentuale di sconto desiderata;
 
@@ -160,9 +182,11 @@ cliccare il bottone corrispondente apre il form per la selezione dello sconto de
 
 cliccare il bottone corrispondente apre il form per la selezione dello sconto applicato in valuta;
 
+![euroDiscount](../../assets/img/imgCash/euroDiscount.png#euroDiscount)
+
  * Sconto €: compilare il form con il valore numerico corrispondente allo sconto in valuta che si vuole applicare;
 
- * Note: compilare il form corrispondente (max. 500 caratteri inclusi gli spazi);
+ * <div>Note: compilare il form corrispondente (max. 500 caratteri inclusi gli spazi);</div>
 
  * Annulla: cliccare il bottone corrispondente chiude il form, annulla le modifiche indirizzando alla pagina precedente;
 

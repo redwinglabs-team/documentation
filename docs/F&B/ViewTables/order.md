@@ -6,6 +6,8 @@ Utilizza la comanda per inviare in cucina l’ordine effettuato e gestire i piat
 
 clicca sulla portata desiderata per aprire una modale che ti permette di aggiungere, modificare o eliminare un piatto dalla portata;
 
+![modifyCourse](../../assets/img/imgTables/modifyCourse.png#modifyCourse)
+
 * Clicca il bottone  e successivamente  per eliminare la portata desiderata
 
 * Cliccare il bottone  per visualizzare tutte le portate inserite;
@@ -16,13 +18,19 @@ clicca sulla portata desiderata per aprire una modale che ti permette di aggiung
 
 ## Gestione Piatto
 
+![menuCategory](../../assets/img/imgTables/menuCategory.png#menuCategory)
+
 * Compila la search bar per cercare il piatto desiderato;
 
 * Clicca il tag di ogni categoria (es. primi, secondi) per visualizzare la lista dei piatti appartenenti alla categoria selezionata;
 
+![menuItem](../../assets/img/imgTables/menuItem.png#menuItem)
+
 * Clicca il piatto desiderato per aprire la modale di personalizzazione del piatto:
 
 ### Aggiungi Piatto
+
+![dishManager](../../assets/img/imgTables/dishManager.png#dishManager)
 
 * Seleziona il numero di sedia al quale associare il piatto cliccando sull’icona corrispondente();
 

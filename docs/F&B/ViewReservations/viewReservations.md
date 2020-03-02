@@ -2,6 +2,8 @@
 
 Permette di visualizzare, modificare lo stato, gestire il Servizio e cercare le prenotazioni odierne, passate e future
 
+![resrevationList](../../assets/img/imgList/reservationList.png#reservationList)
+
 ## Filtra Prenotazioni
 
 Permette di visualizzare le prenotazioni filtrate per i seguenti campi (è possibile attivare più di un filtro simultaneamente):

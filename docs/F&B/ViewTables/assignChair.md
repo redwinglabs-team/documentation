@@ -6,6 +6,8 @@ Assegnare una sedia ad un ospite ti permette di avere una gestione più completa
 
 fornisce una panoramica dei dati principali del titolare della prenotazione per il tavolo selezionato visualizzando i seguenti campi: Nome, Stanza, Ora prenotazione, n pax, n tavolo, allergie, intolleranze, vino preferito e acqua preferita;
 
+![guestinfo](../../assets/img/imgTables/guestinfo.png#guestinfo)
+
 * Vai alla Comanda: clicca il bottone corrispondente permette di aprire la modale di Agg/mod portata;
 
 * Libera Sedia: vedi bottone corrispondente in [Visualizza Tavoli](viewTables.md);
@@ -18,9 +20,13 @@ fornisce una panoramica dei dati principali del titolare della prenotazione per 
 
 clicca su una sedia tra quelle disponibili per avere la possibilità di assegnarle un ospite attraverso l’apposito form;
 
+![assignChair](../../assets/img/imgTables/assignChair.png#assignChair)
+
 ### Form Assegna Sedia
 
 il form ti aiuta a selezionare gli ospiti filtrando quelli associati alla camera appartenente al titolare della prenotazione;
+
+![externalForm](../../assets/img/imgTables/externalForm.png#externalForm)
 
 * Cerca per Stanza: compila l’apposito form con il numero di stanza desiderato;
 
@@ -31,5 +37,7 @@ il form ti aiuta a selezionare gli ospiti filtrando quelli associati alla camera
     * Assegna Ospite: clicca la checkbox corrispondente all’ospite desiderato nella colonna Sel;
 
     * Clicca  per assegnare l’ospite selezionato alla sedia corrispondente;
+
+![searchName](../../assets/img/imgTables/searchName.png#searchName)
 
 * Esterno: clicca il bottone corrispondente per selezionare la tipologia di Ospite qualora non si dovessero conoscere le sue generalità;

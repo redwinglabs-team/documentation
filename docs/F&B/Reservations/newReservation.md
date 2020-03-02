@@ -4,6 +4,8 @@ Permette la creazione di una nuova prenotazione o modificare quella appena creat
 
 ## Nuova Prenotazione
 
+![tabClient](../../assets/img/imgReservation/tabClient.png#tabClient)
+
 * Cliente: la sezione corrispondente permette la selezione della tipologia cliente prenotante
 
     * Cliente Interno: permette di selezionare un ospite interno alla struttura;
@@ -11,6 +13,10 @@ Permette la creazione di una nuova prenotazione o modificare quella appena creat
     * Cliente Esterno: permette di selezionare o creare un ospite non presente in struttura;
 
 ### Cliente Interno
+
+![internalClient](../../assets/img/imgReservation/internalClient.png#internalClient)
+
+![searchClient](../../assets/img/imgReservation/searchClient.png#searchClient)
 
 * Cerca per data check-in/check-out: cliccare  e selezionare la data desiderata (opzionale);
 
@@ -23,6 +29,10 @@ Permette la creazione di una nuova prenotazione o modificare quella appena creat
 * Banner Ospite: cliccare il banner con le informazioni dell’ospite desiderato permette di aprire il form per la Nuova Prenotazione;
 
 ### Cliente Esterno
+
+![externalClient](../../assets/img/imgReservation/externalClient.png#externalClient)
+
+![searchClient](../../assets/img/imgReservation/searchClient.png#searchClient)
 
 * Repeater: : cliccare il suddetto bottone permette, attraverso un filtro, di visualizzare la lista degli ospiti che hanno già completato una prenotazione nell’outlet corrispondente;
 
@@ -38,36 +48,52 @@ Permette la creazione di una nuova prenotazione o modificare quella appena creat
 
 permette la compilazione dei campi richiesti verificando la disponibilità ad effettuare la prenotazione;
 
-* Form Principale: permette di visualizzare e modificare le informazioni relative al prenotante e alla prenotazione che si desidera effettuare;
+#### Form Principale
 
-    * Generale: compilare o controllare i dati richiesti dai seguenti form: Nome, Cognome, e-mail e telefono;
+Permette di visualizzare e modificare le informazioni relative al prenotante e alla prenotazione che si desidera effettuare;
 
-    * Preferenze e Intolleranze: compilare o controllare i dati richiesti dai seguenti form: Intolleranze, Allergie, Acqua Preferita e Vino Preferito;
+![informationSummary](../../assets/img/imgReservation/informationSummary.png#informationSummary)
 
-    * Prenotazioni: permette la compilazioni di uno o più form di prenotazione
+* Generale: compilare o controllare i dati richiesti dai seguenti form: Nome, Cognome, e-mail e telefono;
 
-        * Outlets: cliccare la multi-select corrispondente permette di selezionare l’outlet desiderato;
+* Preferenze e Intolleranze: compilare o controllare i dati richiesti dai seguenti form: Intolleranze, Allergie, Acqua Preferita e Vino Preferito;
 
-        * Data Prenotazione: cliccare l’icona  apre il form che permette la selezione della data desiderata per la prenotazione;
+#### Pannello Prenotazioni
 
-        * Ora prenotazione: cliccare l’icona  apre il form che permette la selezione dell’ora desiderata per la prenotazione;
+Permette la compilazioni di uno o più form di prenotazione
 
-        * Canale di Prenotazione: cliccare la multi-select corrispondente permette la selezione del canale attraverso il quale si sta effettuando la prenotazione;
+![reservationPanel](../../assets/img/imgReservation/reservationPanel.png#reservationPanel)
 
-        * N. Pax: cliccare i bottoni associati a ciascuna categoria fisica disponibile (adulti, bambini o infanti) permette di selezionare il numero di pax desiderati per la prenotazione;
+* Outlets: cliccare la multi-select corrispondente permette di selezionare l’outlet desiderato;
 
-        * Note: compilare il form corrispondente (500 caratteri inclusi gli spazi);
+* Data Prenotazione: cliccare l’icona  apre il form che permette la selezione della data desiderata per la prenotazione;
 
-        * Elimina: cliccare l’icona corrispondente permette di eliminare il form della prenotazione corrispondente;
+* Ora prenotazione: cliccare l’icona  apre il form che permette la selezione dell’ora desiderata per la prenotazione;
 
-        * +1: cliccare l’icona corrispondente permette di aggiungere un nuovo form per un ulteriore prenotazione con le medesime modalità appena descritte;
+* Canale di Prenotazione: cliccare la multi-select corrispondente permette la selezione del canale attraverso il quale si sta effettuando la prenotazione;
 
-* Form Verifica Disponibilità: permette di effettuare una sola prenotazione attraverso le modalità appena descritte;
+* N. Pax: cliccare i bottoni associati a ciascuna categoria fisica disponibile (adulti, bambini o infanti) permette di selezionare il numero di pax desiderati per la prenotazione;
 
-    * Verifica Disponibilità: cliccare il bottone corrispondente permette la selezione di uno dei tre slot di orari disponibili per la prenotazione;
+* Note: compilare il form corrispondente (500 caratteri inclusi gli spazi);
 
-    * Storico Ordini: cliccare il bottone corrispondente permette di aprire la modale contenente lo storico delle ordinazioni effettuate dal prenotante;
+* Elimina: cliccare l’icona corrispondente permette di eliminare il form della prenotazione corrispondente;
 
-    * Storico Vini: cliccare il bottone corrispondente permette di aprire la modale contenente lo storico dei vini consumati dal prenotante;
+* +1: cliccare l’icona corrispondente permette di aggiungere un nuovo form per un ulteriore prenotazione con le medesime modalità appena descritte;
 
-    * Salva: cliccare il bottone corrispondente permette di salvare la/e prenotazione/i effettuate;
+#### Form Prenotazioni
+
+Permette di effettuare una sola prenotazione attraverso le modalità appena descritte;
+
+![reservationForm](../../assets/img/imgReservation/reservationForm.png#reservationForm)
+
+* Outlet, Sala, data, Ora e Npax
+
+![paxForm](../../assets/img/imgReservation/paxForm.png#paxForm)
+
+* Verifica Disponibilità: cliccare il bottone corrispondente permette la selezione di uno dei tre slot di orari disponibili per la prenotazione;
+
+* Storico Ordini: cliccare il bottone corrispondente permette di aprire la modale contenente lo storico delle ordinazioni effettuate dal prenotante;
+
+* Storico Vini: cliccare il bottone corrispondente permette di aprire la modale contenente lo storico dei vini consumati dal prenotante;
+
+* Salva: cliccare il bottone corrispondente permette di salvare la/e prenotazione/i effettuate;

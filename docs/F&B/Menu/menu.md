@@ -6,9 +6,13 @@ Permette di visualizzare, creare e modificare le categorie e i piatti offerti da
 
 Permette di visualizzare le categorie presenti nel menu dell’outlet corrispondente e, cliccare la categoria desiderata, permette di visualizzare i piatti del menu corrispondenti alla categoria selezionata;
 
+![tabCategory](../../assets/img/imgMenu/tabCategory.png#tabCategory)
+
 ### Aggiungi Elemento
 
  Cliccare il bottone corrispondente apre il form di creazione di un nuovo piatto per la categoria selezionata;
+
+ ![addElement](../../assets/img/imgMenu/addElement.png#addElement)
 
  *  cliccare l’icona corrispondente per aprire la schermata di selezione immagine;
 
@@ -28,9 +32,11 @@ Permette di visualizzare le categorie presenti nel menu dell’outlet corrispond
 
  * Salva, Cancella o X: cliccare il bottone corrispondente per salvare il piatto, resettare i campi compilati o chiudere la finestra di creazione piatto;
 
- ### Aggiungi Categoria
+### Aggiungi Categoria
 
  cliccare il bottone corrispondente apre il form di creazione di una nuova categoria di piatti;
+
+ ![addCategory](../../assets/img/imgMenu/addCategory.png#addCategory)
 
  * Nome: compilare il form corrispondente con il nome della categoria desiderato;
 
@@ -42,9 +48,11 @@ Permette di visualizzare le categorie presenti nel menu dell’outlet corrispond
 
  * Salva, Cancella o X: cliccare il bottone corrispondente per salvare il piatto, resettare i campi compilati o chiudere la finestra di creazione piatto;
 
- ### Modifica Categoria
+### Modifica Categoria
 
  cliccare il bottone corrispondente apre una finestra che permette la modifica della categoria di piatti selezionata;
+
+ ![editCategory](../../assets/img/imgMenu/editCategory.png#editCategory)
 
  * Nome: modificare ove si desideri il form corrispondente;
 
@@ -64,6 +72,8 @@ cliccare il bottone corrispondente apre una schermata di conferma che permette d
 
 permette di visualizzare, modificare o cancellare il piatto selezionato
 
+![tabElements](../../assets/img/imgMenu/tabElements.png#Elements)
+
 +: cliccare l’icona corrispondente permette di aprire la modale di creazione di un piatto (vedi Aggiungi Elemento);
 
 cliccare le icone corrispondenti permette di modificare le opzioni di visualizzazione dei piatti;
@@ -72,7 +82,11 @@ cliccare le icone corrispondenti permette di modificare le opzioni di visualizza
 
  al suo interno vengono visualizzate le informazioni relative al piatto quali: Nome Piatto, Prezzo, Immagine, categoria appartenente e possibilità di modificare o cancellare il piatto in questione
 
+ ![tabElement](../../assets/img/imgMenu/tabElement.png#tabElement)
+
  * Categoria: cliccare la multi-select corrispondente permette di selezionare una tra le categorie di piatti disponibili e cambiarla;
+
+ ![changeCategory](../../assets/img/imgMenu/changeCategory.png#changeCategory)
 
  * Modifica: cliccare l’icona corrispondente per aprire la finestra di modifica del piatto (vedi );
 
