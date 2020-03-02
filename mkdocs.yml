@@ -1,11 +1,11 @@
 # Project Information
-site_name: 'RedWingLabs Docs'
+site_name: 'RedWingLabs'
 site_description: 'Documentazione delle app prodotte da RedWingLabs'
 site_author: 'RedWingLabs'
 
 # Repository
-repo_name: "rewinglabs/fb-fe"
-repo_url: "https://github.com/redwinglabs/fb-fe"
+repo_name: "rewinglabs/documentation"
+repo_url: "https://github.com/redwinglabs/documentation"
 
 # Copyright
 copyright: 'Copyright &copy; 2019 - 2020 RWL Srl'
