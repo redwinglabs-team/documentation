@@ -2,6 +2,7 @@
 site_name: RedWingLabs Documentation
 site_description: 'Documentazione delle app prodotte da RedWingLabs'
 site_author: 'RedWingLabs'
+docs_dir: docs
 
 # Repository
 repo_name: "redwinglabs/documentation"
@@ -12,8 +13,7 @@ copyright: 'Copyright &copy; 2019 - 2020 RWL Srl'
 
 # Configuration
 theme:
-  name: material
-  custom_dir: 'mkdocs-material/material'
+  name: 'material'
   language: 'it'
   palette:
     primary: "light blue"
@@ -46,7 +46,8 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: false
-  - codehilite
+  - codehilite:
+      guess_lang: true
   - footnotes
 plugins:
   - search
