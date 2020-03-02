@@ -12,7 +12,7 @@ copyright: 'Copyright &copy; 2019 - 2020 RWL Srl'
 
 # Configuration
 theme:
-  name: null
+  name: material
   custom_dir: 'mkdocs-material/material'
   language: 'it'
   palette:
