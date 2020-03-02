@@ -3,7 +3,7 @@ site_description: 'Documentazione delle app prodotte da RedWingLabs'
 site_author: 'RedWingLabs'
 
 # Repository
-repo_name: "rewinglabs/documentation"
+repo_name: "redwinglabs/documentation"
 repo_url: "https://github.com/redwinglabs/documentation"
 
 # Copyright
