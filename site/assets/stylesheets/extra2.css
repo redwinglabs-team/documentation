@@ -3,21 +3,6 @@ img[src*="#login"] {
     height:300px;
 }
 
-img[src*="#homepage"] {
-    width:100vw;
-    height:45vh;
-}
-
-img[src*="#generali"] {
-    width:100vw;
-    height:40vh;
-}
-
-img[src*="#prenotazioni"] {
-    width:100vw;
-    height:45vh;
-}
-
 img[src*="#tabCategory"] {
     width:150px;
     height:300px;
@@ -161,11 +146,11 @@ img[src*="#euroDiscount"] {
 @media screen and (max-width: 540px) {
     p {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
     }
 
     img {
         width: 100vw;
-        height: 40vh;
+        height: 20vh;
     }
 }
