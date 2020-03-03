@@ -14,20 +14,20 @@ copyright: 'Copyright &copy; 2019 - 2020 RWL Srl'
 # Configuration
 theme:
   name: 'mkdocs'
-  custom_dir: 'mkdocs-material/material'
-  language: 'it'
-  palette:
-    primary: "light blue"
-    accent: "light blue"
-  font:
-    text: 'Roboto'
-    code: 'Roboto Mono'
-  logo: 'assets/img/redwingbird.png'
-  search:
-    language: "en, it"
-  favicon: 'assets/img/redwing.ico'
-  feature:
-    tabs: true
+  # custom_dir: 'mkdocs-material/material'
+  # language: 'it'
+  # palette:
+  #   primary: "light blue"
+  #   accent: "light blue"
+  # font:
+  #   text: 'Roboto'
+  #   code: 'Roboto Mono'
+  # logo: 'assets/img/redwingbird.png'
+  # search:
+  #   language: "en, it"
+  # favicon: 'assets/img/redwing.ico'
+  # feature:
+  #   tabs: true
 
 # Customization
 extra:
