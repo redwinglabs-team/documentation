@@ -161,7 +161,7 @@ img[src*="#euroDiscount"] {
 @media screen and (max-width: 540px) {
     p {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
     }
 
     img {
