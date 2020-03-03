@@ -163,4 +163,9 @@ img[src*="#euroDiscount"] {
         width:100vw;
         height:15vh;
     }
+
+    img[src*="#mediumMobile"] {
+        width:100vw;
+        height:10vh;
+    }
 }
