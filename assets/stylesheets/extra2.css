@@ -3,16 +3,6 @@ img[src*="#login"] {
     height:300px;
 }
 
-img[src*="#homepage"] {
-    width:100vw;
-    height:45vh;
-}
-
-img[src*="#generali"] {
-    width:100vw;
-    height:40vh;
-}
-
 img[src*="#prenotazioni"] {
     width:100vw;
     height:45vh;
@@ -166,6 +156,6 @@ img[src*="#euroDiscount"] {
 
     img {
         width: 100vw;
-        height: 20vh;
+        height: 10vh;
     }
 }
