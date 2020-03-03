@@ -6,7 +6,7 @@ Permette di modificare o creare una nuova sala per l’outlet corrispondente
 
 Tabella riepilogativa contenente le informazioni relative alla/e sala/e create ordinate nei seguenti campi: Stato, Nome, Coperti Totali, Prenotazioni Online e Servizio;
 
-![Sala](../../assets/img/imgSettings/Sala.png#sala)
+![Sala](../../assets/img/imgSettings/Sala.png#mobile)
 
 * Dettagli: permette di modificare la Sala corrispondente
 
@@ -20,7 +20,7 @@ Tabella riepilogativa contenente le informazioni relative alla/e sala/e create o
 
 Permette la creazione di una nuova Sala;
 
-![Nuova-Sala](../../assets/img/imgSettings/Nuova-Sala.png#nuova-sala)
+![Nuova-Sala](../../assets/img/imgSettings/Nuova-Sala.png#mobile)
 
 * +: cliccare il bottone corrispondente apre il form di creazione di una nuova Sala;
 

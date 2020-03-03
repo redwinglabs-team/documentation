@@ -2,3 +2,31 @@ p {
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 540px) {
+    p {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        width: 100vw;
+        height: 20vh;
+    }
+
+    img[src*="#mobile"] {
+        width:100vw;
+        height:7vh;
+    }
+
+    img[src*="#largerMobile"] {
+        width:100vw;
+        height:15vh;
+    }
+
+    img[src*="#mediumMobile"] {
+        width:100vw;
+        height:12vh;
+    }
+}
+

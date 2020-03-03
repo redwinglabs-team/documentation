@@ -1,6 +1,6 @@
 # Comanda
 
-Utilizza la comanda per inviare in cucina l’ordine effettuato e gestire i piatti al suo interno
+<div>Utilizza la comanda per inviare in cucina l’ordine effettuato e gestire i piatti al suo interno</div>
 
 ## Gestione Portata
 
@@ -20,13 +20,11 @@ clicca sulla portata desiderata per aprire una modale che ti permette di aggiung
 
 ![menuCategory](../../assets/img/imgTables/menuCategory.png#menuCategory)
 
-* Compila la search bar per cercare il piatto desiderato;
+* <div>Compila la search bar per cercare il piatto desiderato;</div>
 
 * Clicca il tag di ogni categoria (es. primi, secondi) per visualizzare la lista dei piatti appartenenti alla categoria selezionata;
 
-![menuItem](../../assets/img/imgTables/menuItem.png#menuItem)
-
-* Clicca il piatto desiderato per aprire la modale di personalizzazione del piatto:
+* <div>Clicca il piatto desiderato per aprire la modale di personalizzazione del piatto:</div>
 
 ### Aggiungi Piatto
 

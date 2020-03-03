@@ -6,7 +6,7 @@ Permette di creare o modificare un Segmento che imposta un periodo di apertura o
 
 Tabella riepilogativa dei Segmenti creati contenente le informazioni ad essi relativi ordinati per i seguenti campi: Stato, Nome, Periodo, Servizio,
 
-![Tab-Segmenti](../../assets/img/imgSettings/Tab-Segmenti.png#tab-Segmenti)
+![Tab-Segmenti](../../assets/img/imgSettings/Tab-Segmenti.png#largerMobile)
 
 * Modifica: permette di modificare il Segmento corrispondente;
     
@@ -26,7 +26,7 @@ Permette la creazione di un nuovo segmento;
 
 Permette di creare un periodo di apertura o chiusura dell’outlet per un determinato Servizio rispettando i seguenti campi obbligatori:
 
-![Nuovo-Segmento](../../assets/img/imgSettings/Nuovo-Segmento.png#nuovo-segmento)
+![Nuovo-Segmento](../../assets/img/imgSettings/Nuovo-Segmento.png#mobile)
 
 * Nome: compilare il form corrispondente (max. 250 caratteri inclusi gli spazi);
 

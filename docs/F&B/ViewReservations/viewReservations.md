@@ -2,7 +2,7 @@
 
 Permette di visualizzare, modificare lo stato, gestire il Servizio e cercare le prenotazioni odierne, passate e future
 
-![resrevationList](../../assets/img/imgList/reservationList.png#reservationList)
+![resrevationList](../../assets/img/imgList/reservationList.png#mediumMobile)
 
 ## Filtra Prenotazioni
 
@@ -28,15 +28,17 @@ visualizza le prenotazioni per l’outlet desiderato, con le informazioni ricevu
 
 ### Dettagli
 
-* Dettagli: Cliccare il bottone corrispondente permette di visualizzare le informazioni relative alla prenotazione desiderata e i seguenti bottoni:
+Cliccare il bottone corrispondente permette di visualizzare le informazioni relative alla prenotazione desiderata e i seguenti bottoni:
 
-    * Scheda Anagrafica: cliccare il bottone corrispondente permette di aprire la modale contenente le informazioni anagrafiche del cliente selezionato;
+![reservationDetails](../../assets/img/imgList/reservationDetails.png#reservationDetails)
 
-    * Controllo Pacchetto: cliccare il bottone corrispondente permette di verificare i pacchetti presenti nella prenotazione selezionata;
+* Scheda Anagrafica: cliccare il bottone corrispondente permette di aprire la modale contenente le informazioni anagrafiche del cliente selezionato;
 
-    * Storico Vini: cliccare il bottone corrispondente permette di aprire la modale contenente lo storico dei vini consumati dal cliente selezionato;
+* Controllo Pacchetto: cliccare il bottone corrispondente permette di verificare i pacchetti presenti nella prenotazione selezionata;
 
-    * Storico Ordini: cliccare il bottone corrispondente permette di aprire la modale contenente lo storico delle ordinazioni effettuate dal cliente selezionato;
+* Storico Vini: cliccare il bottone corrispondente permette di aprire la modale contenente lo storico dei vini consumati dal cliente selezionato;
+
+* Storico Ordini: cliccare il bottone corrispondente permette di aprire la modale contenente lo storico delle ordinazioni effettuate dal cliente selezionato;
 
 ### Azioni
 

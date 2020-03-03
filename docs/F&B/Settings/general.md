@@ -16,6 +16,6 @@ Le Impostazioni Generali forniscono i dati del tuo Outlet visualizzabili a tutti
 
 * Clicca lo switch corrispondente per accettare o meno prenotazioni dalle categorie ammissibili: Adulti, Bambini, Infanti e Disabili;
 
-* <div>prova: memorizza la configurazione inserita;</div>
+* <div>Salva: memorizza la configurazione inserita;</div>
 
 * <div>Cancella: cancella la configurazione inserita ripristinando la precedente;</div>

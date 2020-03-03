@@ -142,15 +142,3 @@ img[src*="#euroDiscount"] {
     width:350px;
     height:180px;
 }
-
-@media screen and (max-width: 540px) {
-    p {
-        display: flex;
-        justify-content: center;
-    }
-
-    img {
-        width: 100vw;
-        height: 20vh;
-    }
-}

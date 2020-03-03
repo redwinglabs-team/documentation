@@ -20,7 +20,7 @@ Tabella riepilogativa dei Servizi creati contenente le informazioni ad essi rela
 
 Permette la creazione di un nuovo Servizio;
 
-![Nuovo-Servizio](../../assets/img/imgSettings/Nuovo_Servizio.png#nuovo-servizio)
+![Nuovo-Servizio](../../assets/img/imgSettings/Nuovo_Servizio.png#mobile)
 
 * +: cliccare l’icona corrispondente apre il form di creazione di un nuovo Servizio con i seguenti campi compilabili;
 

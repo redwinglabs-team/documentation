@@ -1,6 +1,6 @@
 # Crea Tavolo
 
-![NewTable](../../assets/img/imgEditor/nuovoTavolo.png#nuovo-tavolo)
+![NewTable](../../assets/img/imgEditor/nuovoTavolo.png#mobile)
 
 * Scegli Sala: cliccare la multi-select corrispondente e selezionare la sala desiderata;
 

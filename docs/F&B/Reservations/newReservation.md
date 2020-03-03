@@ -16,7 +16,7 @@ Permette la creazione di una nuova prenotazione o modificare quella appena creat
 
 ![internalClient](../../assets/img/imgReservation/internalClient.png#internalClient)
 
-![searchClient](../../assets/img/imgReservation/searchClient.png#searchClient)
+![searchClient](../../assets/img/imgReservation/searchClient.png#mobile)
 
 * Cerca per data check-in/check-out: cliccare  e selezionare la data desiderata (opzionale);
 
@@ -32,7 +32,7 @@ Permette la creazione di una nuova prenotazione o modificare quella appena creat
 
 ![externalClient](../../assets/img/imgReservation/externalClient.png#externalClient)
 
-![searchClient](../../assets/img/imgReservation/searchClient.png#searchClient)
+![searchClient](../../assets/img/imgReservation/searchClient.png#mobile)
 
 * Repeater: : cliccare il suddetto bottone permette, attraverso un filtro, di visualizzare la lista degli ospiti che hanno già completato una prenotazione nell’outlet corrispondente;
 
