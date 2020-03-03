@@ -153,4 +153,14 @@ img[src*="#euroDiscount"] {
         width: 100vw;
         height: 20vh;
     }
+
+    img[src*="#nuova-sala"] {
+        width:100vw;
+        height:10vh;
+    }
+
+    img[src*="#sala"] {
+        width:100vw;
+        height:10vh;
+    }
 }
