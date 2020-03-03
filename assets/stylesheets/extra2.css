@@ -5,7 +5,17 @@ img[src*="#login"] {
 
 img[src*="#homepage"] {
     width:100vw;
-    height:50vh;
+    height:45vh;
+}
+
+img[src*="#generali"] {
+    width:100vw;
+    height:40vh;
+}
+
+img[src*="#prenotazioni"] {
+    width:100vw;
+    height:45vh;
 }
 
 img[src*="#tabCategory"] {
@@ -146,4 +156,16 @@ img[src*="#%Discount"] {
 img[src*="#euroDiscount"] {
     width:350px;
     height:180px;
+}
+
+@media screen and (max-width: 540px) {
+    p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        width: 100vw;
+        height: 40vh;
+    }
 }
