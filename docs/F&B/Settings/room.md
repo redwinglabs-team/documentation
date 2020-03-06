@@ -1,6 +1,6 @@
 # Sala
 
-Permette di modificare o creare una nuova sala per l’outlet corrispondente
+<div>Permette di modificare o creare una nuova sala per l’outlet corrispondente</div>
 
 ## Tabella Sale
 
@@ -8,23 +8,23 @@ Tabella riepilogativa contenente le informazioni relative alla/e sala/e create o
 
 ![Sala](../../assets/img/imgSettings/Sala.png#mobile)
 
-* Dettagli: permette di modificare la Sala corrispondente
+* <div>Dettagli: permette di modificare la Sala corrispondente</div>
 
     * Apri: : cliccare il bottone corrispondente apre il form di modifica della Sala selezionata, seguendo i passaggi elencati in seguito (vedi Nuova Sala);
 
-* Cancella: permette di eliminare la Sala corrispondente
+* <div>Cancella: permette di eliminare la Sala corrispondente</div>
 
     * Elimina: cliccare il bottone corrispondente permette la cancellazione della Sala in questione;
 
 ## Nuova Sala
 
-Permette la creazione di una nuova Sala;
+<div>Permette la creazione di una nuova Sala;</div>
 
 ![Nuova-Sala](../../assets/img/imgSettings/Nuova-Sala.png#mobile)
 
-* +: cliccare il bottone corrispondente apre il form di creazione di una nuova Sala;
+* <div>+: cliccare il bottone corrispondente apre il form di creazione di una nuova Sala;</div>
 
-    * Nome: compilare il form corrispondente;
+    * <div>Nome: compilare il form corrispondente;</div>
 
     * Coperti Totali: compilare il form corrispondente con il numero di coperti massimo che la sala può ospitare;
 
@@ -34,6 +34,6 @@ Permette la creazione di una nuova Sala;
 
     * Stato: cliccare  il radio button desiderato permette di abilitare o disabilitare tutte le funzioni della sala corrispondente;
 
-    * Salva: memorizza la configurazione inserita;
+    * <div>Salva: memorizza la configurazione inserita;</div>
 
-    * Cancella: cancella la configurazione inserita ripristinando la precedente;
+    * <div>Cancella: cancella la configurazione inserita ripristinando la precedente;</div>

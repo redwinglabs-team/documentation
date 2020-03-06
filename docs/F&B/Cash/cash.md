@@ -1,38 +1,38 @@
 # Cassa
 
-permette di visualizzare il conto di un tavolo selezionato, pagarlo o creare un nuovo conto veloce
+Permette di visualizzare il conto di un tavolo selezionato, pagarlo o creare un nuovo conto veloce
 
 ![cashPage](../../assets/img/imgCash/cashPage.png#cashPage)
 
 ## Sezione Menu
 
-<div>permette di aggiungere un piatto dal Menu a un nuovo conto o ad uno già esistente</div>
+<div>Permette di aggiungere un piatto dal Menu a un nuovo conto o ad uno già esistente</div>
 
 ![menuList](../../assets/img/imgCash/menuList.png#menuList)
 
-* Cliccare il banner con la categoria del menu desiderata apre la selezione del piatto.
+* <div>Cliccare il banner con la categoria del menu desiderata apre la selezione del piatto.</div>
 
 * Cliccare il piatto desiderato apre il form Selezione piatto che consente di ordinare il piatto scelto selezionando i seguenti attributi:
 
-    * Quantità
+    * <div>Quantità</div>
 
-    * Con e Senza
+    * <div>Con e Senza</div>
 
-    * Note
+    * <div>Note</div>
 
-    * Salva
+    * <div>Salva</div>
 
-    * Annulla
+    * <div>Annulla</div>
 
 ![menuItem](../../assets/img/imgCash/menuItem.png#menuItem)
 
 ## Sezione Ordine/Riepilogo
 
-permette di visualizzare il resoconto dell’ordine effettuato, aprire un nuovo ordine e selezionare quali piatti si desiderano pagare;
+Permette di visualizzare il resoconto dell’ordine effettuato, aprire un nuovo ordine e selezionare quali piatti si desiderano pagare;
 
 ### Display Ordine
 
-permette di visualizzare i dettagli dei piatti presenti nell’ordine secondo i seguenti campi: Quantità, Descrizione, Importo,
+Permette di visualizzare i dettagli dei piatti presenti nell’ordine secondo i seguenti campi: Quantità, Descrizione, Importo,
 
 ![orderList](../../assets/img/imgCash/orderList.png#list) 
 
@@ -40,9 +40,9 @@ permette di visualizzare i dettagli dei piatti presenti nell’ordine secondo i 
 
 * Aggiungi Tutto: cliccare il bottone corrispondente permette di aggiungere al conto tutta la quantità dei piatti selezionati indipendentemente dalle sedie che l'hanno ordinato;
 
-* x: cliccare l’icona corrispondente permette di cancellare il piatto dalla lista dell’ordine; 
+* <div>x: cliccare l’icona corrispondente permette di cancellare il piatto dalla lista dell’ordine;</div> 
 
-* Totale: visualizza la somma totale dei prodotti presenti nella sezione di Ordine/Riepilogo;
+* <div>Totale: visualizza la somma totale dei prodotti presenti nella sezione di Ordine/Riepilogo;</div>
 
 +: cliccare il pannello corrispondente permette la creazione di un nuovo Ordine veloce;
 
@@ -54,7 +54,7 @@ Aggiungi Tutto: cliccare il bottone corrispondente permette di aggiungere al con
 
 ### Conto
 
-permette di visualizzare l’elenco dei piatti di cui si vuole processare il pagamento (pannello di colore Blu) o di quelli già pagati (pannello colore Verde) secondo i seguenti campi:
+Permette di visualizzare l’elenco dei piatti di cui si vuole processare il pagamento (pannello di colore Blu) o di quelli già pagati (pannello colore Verde) secondo i seguenti campi:
 
 ![billList](../../assets/img/imgCash/billList.png#list)
 
@@ -74,7 +74,7 @@ permette di visualizzare l’elenco dei piatti di cui si vuole processare il pag
 
 ### Mappa Tavoli
 
-cliccare il bottone corrispondente apre un pannello che visualizza le sale dell’outlet e permette la selezione di un tavolo, trasferendo così in cassa l’ordine ad esso relativo;
+Cliccare il bottone corrispondente apre un pannello che visualizza le sale dell’outlet e permette la selezione di un tavolo, trasferendo così in cassa l’ordine ad esso relativo;
 
 ![tablesMap](../../assets/img/imgCash/tablesMap.png#tablesMap)
 
@@ -84,7 +84,7 @@ cliccare il bottone corrispondente apre un pannello che visualizza le sale dell�
 
 ### Pre Conto
 
-cliccare il bottone corrispondente permette di visualizzare l’anteprima dello scontrino con il riepilogo di tutti i prodotti appartenenti all’Ordine/Riepilogo;
+Cliccare il bottone corrispondente permette di visualizzare l’anteprima dello scontrino con il riepilogo di tutti i prodotti appartenenti all’Ordine/Riepilogo;
 
 * Stampa: cliccare il bottone corrispondente permette la stampa del Pre Conto associato;
 
@@ -92,7 +92,7 @@ cliccare il bottone corrispondente permette di visualizzare l’anteprima dello 
 
 ### Paga
 
-cliccare il bottone corrispondente apre la selezione delle modalità di pagamento disponibili (Contanti, Carte di Credito, Assegno e Bonifico) con il relativo form per la stampa dello scontrino o della fattura;
+Cliccare il bottone corrispondente apre la selezione delle modalità di pagamento disponibili (Contanti, Carte di Credito, Assegno e Bonifico) con il relativo form per la stampa dello scontrino o della fattura;
 
 ![paymentList](../../assets/img/imgCash/paymentList.png#paymentList)
 
@@ -150,7 +150,7 @@ cliccare il bottone corrispondente apre la selezione delle modalità di pagament
 
 ### Split
 
-cliccare il bottone corrispondente mostra le opzioni per dividere il Riepilogo/Ordine in più conti separati;
+Cliccare il bottone corrispondente mostra le opzioni per dividere il Riepilogo/Ordine in più conti separati;
 
 ![splitList](../../assets/img/imgCash/splitList.png#splitList)
 
@@ -160,11 +160,11 @@ cliccare il bottone corrispondente mostra le opzioni per dividere il Riepilogo/O
 
 ### Trasferisci Ordine
 
-cliccare il bottone corrispondente permette di assegnare l’Ordine creato e le sue portate, ad un tavolo presente all’interno dell’Outlet corrente (vedi Mappa Tavoli);
+Cliccare il bottone corrispondente permette di assegnare l’Ordine creato e le sue portate, ad un tavolo presente all’interno dell’Outlet corrente (vedi Mappa Tavoli);
 
 ### Sconto %
 
-cliccare il bottone corrispondente apre il form per la selezione dello sconto desiderato calcolato attraverso il sistema percentuale;
+Cliccare il bottone corrispondente apre il form per la selezione dello sconto desiderato calcolato attraverso il sistema percentuale;
 
 ![%Discount](../../assets/img/imgCash/%Discount.png#%Discount)
 
@@ -180,7 +180,7 @@ cliccare il bottone corrispondente apre il form per la selezione dello sconto de
 
 ### Sconto €
 
-cliccare il bottone corrispondente apre il form per la selezione dello sconto applicato in valuta;
+<div>Cliccare il bottone corrispondente apre il form per la selezione dello sconto applicato in valuta;</div>
 
 ![euroDiscount](../../assets/img/imgCash/euroDiscount.png#euroDiscount)
 
@@ -194,4 +194,4 @@ cliccare il bottone corrispondente apre il form per la selezione dello sconto ap
 
 ### Acquisisci Check
 
-cliccare il bottone corrispondente permette l’acquisizione digitale del Check Cartaceo precedentemente stampato, permettendone così l’addebito;
+Cliccare il bottone corrispondente permette l’acquisizione digitale del Check Cartaceo precedentemente stampato, permettendone così l’addebito;

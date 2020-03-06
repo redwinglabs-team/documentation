@@ -717,10 +717,106 @@
           
 
 
-  <li class="md-nav__item">
-    <a href="../../BillsManagement/aboutBillsManagement/" title="Gestione Conti" class="md-nav__link">
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-9" type="checkbox" id="nav-2-9">
+    
+    <label class="md-nav__link" for="nav-2-9">
       Gestione Conti
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-9">
+        Gestione Conti
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../BillsManagement/aboutBillsManagement/" title="Panoramica Gestione Conti" class="md-nav__link">
+      Panoramica Gestione Conti
     </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../BillsManagement/billsList/" title="Lista Conti" class="md-nav__link">
+      Lista Conti
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../BillsManagement/bankCheck%26Transfer/" title="Assegni/Bonifici" class="md-nav__link">
+      Assegni/Bonifici
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../BillsManagement/closingReports/" title="Chiusure Fiscali" class="md-nav__link">
+      Chiusure Fiscali
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../BillsManagement/invoices/" title="Fatture" class="md-nav__link">
+      Fatture
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../BillsManagement/charges/" title="Addebiti" class="md-nav__link">
+      Addebiti
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../BillsManagement/PM/" title="PM" class="md-nav__link">
+      PM
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -1001,14 +1097,14 @@
 <p>La sezione del Tables Manager è l’interfaccia ideale per la gestione delle proprie sale durante il Servizio in corso, per la gestione dei tavoli occupati e delle Comande ricevute o in attesa</p>
 <p>Select Servizio: permette di selezionare lo specifico servizio del quale si vogliono visualizzare le prenotazioni;</p>
 <h2 id="scheda-riassunto-ospite">Scheda Riassunto Ospite</h2>
-<p>visualizza i dati principali della prenotazione in questione quali: Nome Ospite, Ora Prenotazione, N Stanza, N Pax e due bottoni:</p>
+<p>Visualizza i dati principali della prenotazione in questione quali: Nome Ospite, Ora Prenotazione, N Stanza, N Pax e due bottoni:</p>
 <p><img alt="guestProfile" src="../../../assets/img/imgTables/guestProfile.png#guestProfile" /></p>
 <ul>
 <li>
 <p>Aggiungi (permette tramite click sull’icona e successivamente sul tavolo scelto di assegnarla ad esso)</p>
 </li>
 <li>
-<p>Dettagli (permette tramite click l’apertura della sezione ‘Modifica Prenotazione);</p>
+<p><div>Dettagli (permette tramite click l’apertura della sezione ‘Modifica Prenotazione);</div></p>
 </li>
 </ul>
 <h2 id="bottoni-gestisci-tavoli">Bottoni Gestisci Tavoli</h2>
@@ -1021,23 +1117,23 @@
 <p>Dividi Tavolo: clicca il bottone e seleziona il tavolo, aumentare o diminuire la capacità del tavolo che vuoi creare e scegliere se confermare o annullare l’operazione;</p>
 </li>
 <li>
-<p>Libera Tavolo: clicca il bottone e seleziona un tavolo occupato;</p>
+<p><div>Libera Tavolo: clicca il bottone e seleziona un tavolo occupato;</div></p>
 </li>
 <li>
 <p>Trasferisci Tavolo: clicca il bottone, seleziona il tavolo da trasferire e il tavolo di destinazione;</p>
 </li>
 <li>
-<p>Trasferisci Sedia: clicca il bottone, seleziona la sedia da trasferire e la sedia di destinazione;</p>
+<p><div>Trasferisci Sedia: clicca il bottone, seleziona la sedia da trasferire e la sedia di destinazione;</div></p>
 </li>
 <li>
 <p>Aggiungi Sedia: clicca il bottone, seleziona il tavolo su cui si vogliono aggiungere le sedie e seleziona il numero di sedie che vuoi aggiungere;</p>
 </li>
 <li>
-<p>Libera Sedia: clicca il bottone e seleziona la sedia che vuoi liberare;</p>
+<p><div>Libera Sedia: clicca il bottone e seleziona la sedia che vuoi liberare;</div></p>
 </li>
 </ul>
 <h2 id="display-sale">Display Sale</h2>
-<p>permette di visualizzare le sale disponibili, la disposizione dei tavoli al loro interno consentendone la modifica e la gestione delle azioni per il singolo tavolo;</p>
+<p>Permette di visualizzare le sale disponibili, la disposizione dei tavoli al loro interno consentendone la modifica e la gestione delle azioni per il singolo tavolo;</p>
 <p><img alt="roomDisplay" src="../../../assets/img/imgTables/roomDisplay.png#roomDisplay" /></p>
 <ul>
 <li>Seleziona Sala: clicca il tab con il nome della sala desiderata per visualizzare la disposizione dei tavoli al suo interno;</li>
@@ -1045,35 +1141,36 @@
 <h3 id="sala">Sala</h3>
 <ul>
 <li>
-<p>Clicca l’icona per aumentare o diminuire lo zoom della visualizzazione della sala;</p>
+<p><div>Clicca l’icona per aumentare o diminuire lo zoom della visualizzazione della sala;</div></p>
 </li>
 <li>
 <p>Editor Sala: clicca il bottone per avere la possibilità di spostare e ordinare i tavoli a proprio piacimento. Selezionare il tavolo e trascinarlo nella direzione desiderata. Al termine delle modifiche clicca il bottone per memorizzare la configurazione impostata o il bottone per tornare alla configurazione precedente;</p>
 </li>
 </ul>
 <h2 id="tavolo">Tavolo</h2>
-<p>Utilizza i Tavoli presenti in Sala per gestire le prenotazioni e le comande ricevute</p>
+<div>Utilizza i Tavoli presenti in Sala per gestire le prenotazioni e le comande ricevute</div>
+
 <h3 id="tavolo-libero">Tavolo Libero</h3>
-<p>al clic sul tavolo libero si apre la lista Prenotazioni che permette di assegnarne una selezionandola tra le prenotazioni esistenti, crearne una nuova cliccando il bottone  o   per occupare il tavolo senza bisogno di prenotazione alcuna;</p>
+<p>Al clic sul tavolo libero si apre la lista Prenotazioni che permette di assegnarne una selezionandola tra le prenotazioni esistenti, crearne una nuova cliccando il bottone  o   per occupare il tavolo senza bisogno di prenotazione alcuna;</p>
 <p><img alt="emptyTable" src="../../../assets/img/imgTables/emptyTable.png#emptyTable" /></p>
 <h3 id="tavolo-occupato">Tavolo Occupato</h3>
-<p>al clic sul tavolo occupato si visualizza una lista con le seguenti proprietà:</p>
+<p><div>Al clic sul tavolo occupato si visualizza una lista con le seguenti proprietà:</div></p>
 <p><img alt="busyTable" src="../../../assets/img/imgTables/busyTable.png#busyTable" /></p>
 <ul>
 <li>
 <p>Chiamata: selezionare questa voce permette di cambiare lo stato della/e portata/e da ‘To Do’, ‘Preparing’ o ‘Ready’ (vedi cap. 10 Cucina) in ‘Completed’, modificando a sua volta quello della prima portata con stato ‘None’ in ‘To Do’;</p>
 </li>
 <li>
-<p>Agg./mod. portata: apre la modale di creazione e modifica della comanda;</p>
+<p><div>Agg./mod. portata: apre la modale di creazione e modifica della comanda;</div></p>
 </li>
 <li>
-<p>Assegna Sedia: apre la modale di assegnazione  e modifica della sedia;</p>
+<p><div>Assegna Sedia: apre la modale di assegnazione  e modifica della sedia;</div></p>
 </li>
 <li>
-<p>Modifica prenotazione: apre la modale di modifica della prenotazione;</p>
+<p><div>Modifica prenotazione: apre la modale di modifica della prenotazione;</div></p>
 </li>
 <li>
-<p>Paga:  apre la sezione Cassa per il relativo pagamento;</p>
+<p><div>Paga:  apre la sezione Cassa per il relativo pagamento;</div></p>
 </li>
 </ul>
                 

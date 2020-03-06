@@ -8,17 +8,17 @@ Tabella riepilogativa dei Segmenti creati contenente le informazioni ad essi rel
 
 ![Tab-Segmenti](../../assets/img/imgSettings/Tab-Segmenti.png#largerMobile)
 
-* Modifica: permette di modificare il Segmento corrispondente;
+* <div>Modifica: permette di modificare il Segmento corrispondente;</div>
     
     * Apri: cliccare il bottone corrispondente apre il form di modifica del Segmento selezionato secondo i passaggi spiegati in seguito (vedi Nuovo Segmento);
 
-* Cancella: permette di eliminare il Segmento corrispondente;
+* <div>Cancella: permette di eliminare il Segmento corrispondente;</div>
 
     * Elimina: : cliccare l’icona corrispondente permette la cancellazione del Segmento in questione;
 
 ## Nuovo Segmento
 
-Permette la creazione di un nuovo segmento;
+<div>Permette la creazione di un nuovo segmento;</div>
 
 * +: cliccare l’icona corrispondente apre il form di creazione di un nuovo Segmento con le seguenti sezioni;
 
@@ -28,9 +28,9 @@ Permette di creare un periodo di apertura o chiusura dell’outlet per un determ
 
 ![Nuovo-Segmento](../../assets/img/imgSettings/Nuovo-Segmento.png#mobile)
 
-* Nome: compilare il form corrispondente (max. 250 caratteri inclusi gli spazi);
+* <div>Nome: compilare il form corrispondente (max. 250 caratteri inclusi gli spazi);</div>
 
-* Data Inizio: cliccare l’icona  permette di selezionare la data di inizio Segmento desiderata;
+* <div>Data Inizio: cliccare l’icona  permette di selezionare la data di inizio Segmento desiderata;</div>
 
 * Data Fine: cliccare l’icona  permette di selezionare la data di fine Segmento desiderata (successiva alla Data Inizio);
 
@@ -54,10 +54,10 @@ Permette di visualizzare tutti i Segmenti creati per ogni Servizio scelto con le
 
 * Modifica: permette di modificare la tipologia di Servizio e i Giorni Lavorativi corrispondenti cliccando sui rispettivi bottoni;
 
-    * Salva: permette di salvare le modifiche appena effettuate;
+    * <div>Salva: permette di salvare le modifiche appena effettuate;</div>
 
     * Cancella: permette di cancellare le modifiche appena effettuate ripristinando la selezione precedente;
 
-* Salva: memorizza la configurazione inserita;
+* <div>Salva: memorizza la configurazione inserita;</div>
 
-* Cancella: cancella la configurazione inserita ripristinando la precedente;
+* <div>Cancella: cancella la configurazione inserita ripristinando la precedente;</div>

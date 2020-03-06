@@ -79,7 +79,14 @@ nav:
       - Comanda: 'F&B/ViewTables/order.md'
       - Assegna Sedia: 'F&B/ViewTables/assignChair.md'
     - Cassa: 'F&B/Cash/cash.md'
-    - Gestione Conti: 'F&B/BillsManagement/aboutBillsManagement.md'
+    - Gestione Conti:
+      - Panoramica Gestione Conti: 'F&B/BillsManagement/aboutBillsManagement.md'
+      - Lista Conti: 'F&B/BillsManagement/billsList.md'
+      - Assegni/Bonifici: 'F&B/BillsManagement/bankCheck&Transfer.md'
+      - Chiusure Fiscali: 'F&B/BillsManagement/closingReports.md'
+      - Fatture: 'F&B/BillsManagement/invoices.md'
+      - Addebiti: 'F&B/BillsManagement/charges.md'
+      - PM: 'F&B/BillsManagement/PM.md' 
     - Storico Ordini:
       - Tavoli: 'F&B/Registry/tables.md'
       - Prenotazione: 'F&B/Registry/reservations.md'

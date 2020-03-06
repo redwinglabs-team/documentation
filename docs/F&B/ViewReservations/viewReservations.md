@@ -8,7 +8,7 @@ Permette di visualizzare, modificare lo stato, gestire il Servizio e cercare le 
 
 Permette di visualizzare le prenotazioni filtrate per i seguenti campi (è possibile attivare più di un filtro simultaneamente):
 
-* Data:  cliccare l’icona  permette di aprire il form per la selezione della data e filtrare le prenotazioni per il giorno scelto;
+* Data: cliccare l’icona  permette di aprire il form per la selezione della data e filtrare le prenotazioni per il giorno scelto;
 
 * Outlet: cliccare la multi select corrispondente permette la selezione dell’outlet desiderato e filtrare le prenotazioni per l’outlet scelto;
 
@@ -16,11 +16,11 @@ Permette di visualizzare le prenotazioni filtrate per i seguenti campi (è possi
 
 * Servizio: cliccare la multi select corrispondente permette la selezione del Servizio per il quale visualizzare le prenotazioni associate;
 
-* Cerca per nome: compilare il form con il nome del prenotante desiderato;
+* <div>Cerca per nome: compilare il form con il nome del prenotante desiderato;</div>
 
 ## Tabella Prenotazioni
 
-visualizza le prenotazioni per l’outlet desiderato, con le informazioni ricevute per i seguenti campi della tabella: Cliente, Tipo Cliente, Mood, Note, n. pax, Num Tavolo, Ora prenotazione, Numero Stanza, Canale Prenotazione, Pacchetto e Arrangiamento;
+Visualizza le prenotazioni per l’outlet desiderato, con le informazioni ricevute per i seguenti campi della tabella: Cliente, Tipo Cliente, Mood, Note, n. pax, Num Tavolo, Ora prenotazione, Numero Stanza, Canale Prenotazione, Pacchetto e Arrangiamento;
 
 ### Ospite Arrivato
 
@@ -48,4 +48,4 @@ Cliccare il bottone corrispondente permette di visualizzare le informazioni rela
 
 ## Aggiungi Prenotazione
 
-Cliccare il bottone corrispondente apre il form di ‘Nuova Prenotazione’;
+<div>Cliccare il bottone corrispondente apre il form di ‘Nuova Prenotazione’;</div>

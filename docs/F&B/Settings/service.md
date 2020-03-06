@@ -1,6 +1,6 @@
 # Servizio
 
-Permette di creare o modificare una tipologia di servizio per il relativo outlet 
+<div>Permette di creare o modificare una tipologia di servizio per il relativo outlet</div> 
 
 ## Tabella Servizi 
 
@@ -8,27 +8,27 @@ Tabella riepilogativa dei Servizi creati contenente le informazioni ad essi rela
 
 ![Tab-Servizi](../../assets/img/imgSettings/Tab-Servizi.png#tab-servizi)
 
-* Modifica: permette di modificare il Servizio corrispondente;
+* <div>Modifica: permette di modificare il Servizio corrispondente;</div>
 
     * Apri: cliccare il bottone corrispondente apre il form di modifica del Servizio selezionato secondo i passaggi spiegati in seguito (vedi Nuovo Servizio);
 
-* Elimina: permette di eliminare il Servizio corrispondente;
+* <div>Elimina: permette di eliminare il Servizio corrispondente;</div>
 
     * Cancella: cliccare l’icona corrispondente permette la cancellazione del servizio in questione;
 
 ## Nuovo Servizio 
 
-Permette la creazione di un nuovo Servizio;
+<div>Permette la creazione di un nuovo Servizio;</div>
 
 ![Nuovo-Servizio](../../assets/img/imgSettings/Nuovo_Servizio.png#mobile)
 
 * +: cliccare l’icona corrispondente apre il form di creazione di un nuovo Servizio con i seguenti campi compilabili;
 
-    * Nome: compilare il form corrispondente;
+    * <div>Nome: compilare il form corrispondente;</div>
         
-    * Ora Inizio: cliccare l’icona  e selezionare l’orario di inizio del servizio desiderato;
+    * <div>Ora Inizio: cliccare l’icona  e selezionare l’orario di inizio del servizio desiderato;</div>
 
-    * Ora Fine: cliccare l’icona  e selezionare l’orario di fine del servizio desiderato;
+    * <div>Ora Fine: cliccare l’icona  e selezionare l’orario di fine del servizio desiderato;</div>
 
     * Stato: cliccare  il radio button desiderato permette di attivare o disattivare le prenotazioni per il servizio corrispondente;
 
@@ -40,6 +40,6 @@ Permette la creazione di un nuovo Servizio;
 
     * Icona: cliccare il form corrispondente permette di selezionare un’icona da associare al servizio corrispondente;
 
-    * Salva: memorizza la configurazione inserita;
+    * <div>Salva: memorizza la configurazione inserita;</div>
 
-    * Cancella: cancella la configurazione inserita ripristinando la precedente;
+    * <div>Cancella: cancella la configurazione inserita ripristinando la precedente;</div>

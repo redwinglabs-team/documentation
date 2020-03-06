@@ -8,9 +8,9 @@ clicca sulla portata desiderata per aprire una modale che ti permette di aggiung
 
 ![modifyCourse](../../assets/img/imgTables/modifyCourse.png#modifyCourse)
 
-* Clicca il bottone  e successivamente  per eliminare la portata desiderata
+* <div>Clicca il bottone  e successivamente  per eliminare la portata desiderata</div>
 
-* Cliccare il bottone  per visualizzare tutte le portate inserite;
+* <div>Cliccare il bottone  per visualizzare tutte le portate inserite;</div>
 
 * Cliccare il bottone  per confermare le portate inserite e inviare la comanda al modulo Cucina;
 
@@ -32,9 +32,9 @@ clicca sulla portata desiderata per aprire una modale che ti permette di aggiung
 
 * Seleziona il numero di sedia al quale associare il piatto cliccando sull’icona corrispondente();
 
-* Quantità: clicca i due bottoni  e  per modificare la quantità del piatto selezionato;
+* <div>Quantità: clicca i due bottoni  e  per modificare la quantità del piatto selezionato;</div>
 
-* Clicca ‘M’ o ‘F’ per assegnare alla sedia corrispondente un ospite;
+* <div>Clicca ‘M’ o ‘F’ per assegnare alla sedia corrispondente un ospite;</div>
 
 * Centrotavola: cliccare il bottone corrispondente per condividere il piatto selezionato con tutti i commensali;
 
@@ -50,9 +50,9 @@ clicca sulla portata desiderata per aprire una modale che ti permette di aggiung
 
 Clicca il bottone  nella modale della portata per visualizzare le opzioni di modifica del piatto  e mettere in pausa la portata corrispondente
 
-* Elimina: clicca l’icona corrispondente per eliminare il piatto selezionato;
+* <div>Elimina: clicca l’icona corrispondente per eliminare il piatto selezionato;</div>
 
-* Modifica: clicca l’icona corrispondente per aprire la modale di personalizzazione del piatto;
+* <div>Modifica: clicca l’icona corrispondente per aprire la modale di personalizzazione del piatto;</div>
 
 * Salva e Chiudi: clicca il bottone corrispondente per salvare e portare la portata nuovamente in lavorazione;
 

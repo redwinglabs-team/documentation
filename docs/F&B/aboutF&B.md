@@ -8,7 +8,7 @@ Una volta aver settato tutto, monitora l'attività utilizzando i diversi report 
 
 ## Login
 
-Apri un Internet Browser e collegati alla pagina di Login F&B (inserire link)
+<div>Apri un Internet Browser e collegati alla pagina di Login F&B (inserire link)</div>
 
 ![Login](../assets/img/Login.png#login)
 

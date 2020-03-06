@@ -4,17 +4,17 @@ Utilizza la sezione Reservations per avere traccia di tutte le prenotazioni effe
 
 ## Ricerca Prenotazione
 
-utilizza le diverse opzioni di ricerca per trovare la prenotazione che desideri;
+<div>Utilizza le diverse opzioni di ricerca per trovare la prenotazione che desideri;</div>
 
-* Ricerca per Data: clicca l’icona  per selezionare la data desiderata;
+* <div>Ricerca per Data: clicca l’icona  per selezionare la data desiderata;</div>
 
-* Ricerca per Ora: clicca l’icona  per selezionare l’orario desiderato;
+* <div>Ricerca per Ora: clicca l’icona  per selezionare l’orario desiderato;</div>
 
 * Ricerca per Nome: compila il form corrispondente per cercare le prenotazioni intestate al nome desiderato;
 
 ## Tabella Prenotazioni
 
-visualizza tutte le prenotazioni o solamente quelle desiderate ordinate secondo i seguenti campi: Nome Cliente, Data Prenotazione, Ora Prenotazione, Num. Stanza, N. Pax, Status Prenotazione, Canale Prenotazione, Pacchetto e Arrangiamento;
+Visualizza tutte le prenotazioni o solamente quelle desiderate ordinate secondo i seguenti campi: Nome Cliente, Data Prenotazione, Ora Prenotazione, Num. Stanza, N. Pax, Status Prenotazione, Canale Prenotazione, Pacchetto e Arrangiamento;
 
 * Ordine: clicca il bottone corrispondente per visualizzare lo storico della comanda con i relativi piatti;
 

@@ -2,7 +2,7 @@
 
 ![NewTable](../../assets/img/imgEditor/nuovoTavolo.png#mobile)
 
-* Scegli Sala: cliccare la multi-select corrispondente e selezionare la sala desiderata;
+* <div>Scegli Sala: cliccare la multi-select corrispondente e selezionare la sala desiderata;</div>
 
 * Tipo Forma: cliccare la multi-select corrispondente e selezionare la forma desiderata del tavolo che si vuole creare;
 

@@ -4,7 +4,7 @@ Il primo step da effettuare per poter utilizzare la nostra app è configurare le
 
 ## Generali
 
-Le Impostazioni Generali forniscono i dati del tuo Outlet visualizzabili a tutti gli utenti
+<div>Le Impostazioni Generali forniscono i dati del tuo Outlet visualizzabili a tutti gli utenti</div>
 
 ![Generali](../../assets/img/imgSettings/Generali.png#generali)
 

@@ -12,8 +12,8 @@ Le Impostazioni delle Prenotazioni fornisce un ottimo modo per gestire le prenot
 
 * Non consentire la modifica o cancellazione della prenotazione prima di N minuti dell’arrivo: digitare il numero desiderato all’interno della box corrispondente;
 
-* Quantità max. coperti: digitare il numero desiderato all’interno della box corrispondente;
+* <div>Quantità max. coperti: digitare il numero desiderato all’interno della box corrispondente;</div>
 
-* Salva: memorizza la configurazione inserita;
+* <div>Salva: memorizza la configurazione inserita;</div>
 
-* Cancella: cancella la configurazione inserita ripristinando la precedente;
+* <div>Cancella: cancella la configurazione inserita ripristinando la precedente;</div>
