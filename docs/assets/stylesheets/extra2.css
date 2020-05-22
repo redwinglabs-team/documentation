@@ -25,7 +25,7 @@ img[src*="#editCategory"] {
 
 img[src*="#tabElement"] {
     width:270px;
-    height:120px;
+    height:100px;
 }
 
 img[src*="#changeCategory"] {

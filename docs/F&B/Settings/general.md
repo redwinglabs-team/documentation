@@ -10,11 +10,11 @@ Il primo step da effettuare per poter utilizzare la nostra app è configurare le
 
 ### Info Ristorante
 
-* Compila i campi con le informazioni che vuoi che vengano visualizzate (Ristorante, Indirizzo, Città, Paese, Max coperti totali, Civico, CAP e Tel);
+* Compila i campi con le informazioni che desideri vengano visualizzate all'interno dell'app, in modo da facilitare la ricerca del tuo locale a tutti gli utenti (Nome, email, Foto, Indirizzo, Numero Civico, Città, Paese, Max coperti totali, CAP, Tel e Descrizione);
 
 ### Ospiti Ammessi
 
-* Clicca lo switch corrispondente per accettare o meno prenotazioni dalle categorie ammissibili: Adulti, Bambini, Infanti e Disabili;
+* Clicca lo switch corrispondente per accettare o meno prenotazioni dalle categorie ammissibili: Adulti, Bambini e Neonati;
 
 * <div>Salva: memorizza la configurazione inserita;</div>
 

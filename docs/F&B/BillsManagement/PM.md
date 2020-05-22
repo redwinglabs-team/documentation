@@ -10,7 +10,7 @@ Raccoglie tutti i PM attivi, ne visualizza le informazioni e permette il pagamen
 
 Permette di gestire il singolo PM visualizzando le sue informazioni, categorizzate per: Numero PM, Nome Cliente, Tipo PM, Durata PM, Operations e Prezzo
 
-Clicca il Tab PM per visualizzare tutti i conti, pagati e non, addebitati al PM selezionato
+<div>Clicca il Tab PM per visualizzare tutti i conti, pagati e non, addebitati al PM selezionato</div>
 
 * Seleziona conto: clicca la checkbox corrispondente per selezionare il conto desiderato e abilitarne il pagamento
 
@@ -18,7 +18,7 @@ Clicca il Tab PM per visualizzare tutti i conti, pagati e non, addebitati al PM 
 
 * Stato Conto: verifica lo stato del conto a lui associato e cambia il suo colore se è stato pagato (Verde) o è ancora insoluto (Rosso)
 
-* Icona Check: clicca l'icona per visualizzare il check firmato del conto corrispondente
+* <div>Icona Check: clicca l'icona per visualizzare il check firmato del conto corrispondente</div>
 
 * Paga: clicca il bottone corrispondente per essere indirizzato alla cassa e avere la possibilità di pagare il conto
 
@@ -42,5 +42,5 @@ Il Pannello di Ricerca offre una ricerca avanzata di un PM specifico secondo i s
 
 * Paga: seleziona un PM per abilitare il bottone corrispondente che indirizza alla pagina della cassa per poter effettuare il pagamento del PM selezionato
 
-* Nuovo PM: clicca il bottone corrispondente apre il form per la creazione di un nuovo PM
+* <div>Nuovo PM: clicca il bottone corrispondente apre il form per la creazione di un nuovo PM</div>
 
