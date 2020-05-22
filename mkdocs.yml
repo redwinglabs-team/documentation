@@ -65,6 +65,8 @@ nav:
     - Sala: 'F&B/Settings/room.md'
     - Servizio: 'F&B/Settings/service.md'
     - Segmenti: 'F&B/Settings/segment.md'
+    - MOH! Delivery & Take Away: 'F&B/Settings/moh!D&Ta.md'
+    - MOH! Services: 'F&B/Settings/moh!Services.md'
   - Editor Sala:
     - About Editor Sala: 'F&B/EditorSala/aboutEditorSala.md'
     - Crea Tavolo: 'F&B/EditorSala/createTable.md'
