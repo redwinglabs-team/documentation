@@ -10,7 +10,7 @@ img[src*="#tabCategory"] {
 
 img[src*="#addElement"] {
     width:275px;
-    height:240px;
+    height:270px;
 }
 
 img[src*="#addCategory"] {
@@ -141,4 +141,24 @@ img[src*="#%Discount"] {
 img[src*="#euroDiscount"] {
     width:350px;
     height:180px;
+}
+
+img[src*="#details"] {
+    width:400px;
+    height: 360px;
+}
+
+img[src*="#newDriver"] {
+    width:310px;
+    height: 300px;
+}
+
+img[src*="#takeAwayDetails"] {
+    width:410px;
+    height: 350px;
+}
+
+img[src*="#newPm"] {
+    width:450px;
+    height: 300px;
 }
