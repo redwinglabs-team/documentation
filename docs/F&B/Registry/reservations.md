@@ -2,6 +2,8 @@
 
 Utilizza la sezione Reservations per avere traccia di tutte le prenotazioni effettuate nel tuo Outlet, il loro stato, eventualmente l’ordine effettuato e tutte le informazioni visualizzate secondo i campi: Nome Cliente, Data Prenotazione, Ora Prenotazione, Num. Stanza, N. Pax, Status Prenotazione, Canale Prenotazione, Pacchetto e Arrangiamento;
 
+![registry](../../assets/img/imgRegistry/registry.png#registry)
+
 ## Ricerca Prenotazione
 
 <div>Utilizza le diverse opzioni di ricerca per trovare la prenotazione che desideri;</div>
@@ -21,5 +23,3 @@ Visualizza tutte le prenotazioni o solamente quelle desiderate ordinate secondo 
 ![registryOrder](../../assets/img/imgRegistry/registryOrder.png#registryOrder)
 
 * Dettagli: clicca il bottone corrispondente per visualizzare i dettagli della prenotazione dell’ospite secondo i seguenti campi: Ora arrivo, Tipo cliente, Arrangiamento, Num. coperti, Mood, Canale di prenotazione, Num. tavolo, Note e Pacchetto;
-
-![registryDetails](../../assets/img/imgRegistry/registryDetails.png#registryDetails)

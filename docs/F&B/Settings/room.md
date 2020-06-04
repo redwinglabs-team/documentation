@@ -1,39 +1,55 @@
 # Sala
 
-<div>Permette di modificare o creare una nuova sala per l’outlet corrispondente</div>
+<div>La sezione Sala aiuta la creazione, modifica e gestione delle vostre sale affinchè possiate ricreare il più fedelmente possibile la conformazione del ristorante</div>
 
 ## Tabella Sale
 
-Tabella riepilogativa contenente le informazioni relative alla/e sala/e create ordinate nei seguenti campi: Stato, Nome, Coperti Totali, Prenotazioni Online e Servizio;
+Tabella riepilogativa contenente le informazioni relative alla/e sala/e create, ordinate nei seguenti campi:
 
 ![Sala](../../assets/img/imgSettings/Sala.png#mobile)
 
-* <div>Dettagli: permette di modificare la Sala corrispondente</div>
+* Stato
 
-    * Apri: : cliccare il bottone corrispondente apre il form di modifica della Sala selezionata, seguendo i passaggi elencati in seguito (vedi Nuova Sala);
+* Nome
 
-* <div>Cancella: permette di eliminare la Sala corrispondente</div>
+* Coperti totali
 
-    * Elimina: cliccare il bottone corrispondente permette la cancellazione della Sala in questione;
+* Prenotazioni online
+
+* Servizio
+
+* <div>Modifica:</div>
+
+    * Apri: cliccate il bottone corrispondente per modificare le impostazioni relative alla relativa sala.
+
+* <div>Elimina:</div>
+
+    * cliccate l'icona in questa colonna per eliminare la relativa sala.
 
 ## Nuova Sala
 
-<div>Permette la creazione di una nuova Sala;</div>
-
 ![Nuova-Sala](../../assets/img/imgSettings/Nuova-Sala.png#mobile)
 
-* <div>+: cliccare il bottone corrispondente apre il form di creazione di una nuova Sala;</div>
+1. <div>cliccate il bottone in basso a sinistra (+)</div>
 
-    * <div>Nome: compilare il form corrispondente;</div>
+2. Compilate i campi richiesti:
 
-    * Coperti Totali: compilare il form corrispondente con il numero di coperti massimo che la sala può ospitare;
+    * <div>Nome</div>
 
-    * Servizio: cliccare la multi-select corrispondente permette di selezionare il/i servizio/i per il quale la sala è disponibile;
+    * Coperti Totali: numero dei coperti disponibili nella sala
 
-    * Prenotazioni online: cliccare il radio button desiderato permette di abilitare o disabilitare la possibilità di effettuare prenotazioni online per la sala corrispondente;
+    * Servizio: selezionate i servizi durante i quali la sala è disponibile
 
-    * Stato: cliccare  il radio button desiderato permette di abilitare o disabilitare tutte le funzioni della sala corrispondente;
+    * Prenotazioni online:
 
-    * <div>Salva: memorizza la configurazione inserita;</div>
+        * Sì: abilita le prenotazioni provenienti dall'App client
 
-    * <div>Cancella: cancella la configurazione inserita ripristinando la precedente;</div>
+        * No: disabilita le prenotazioni provenienti dall'App client
+
+    * Stato:
+
+        * Attivato: abilita tutte le funzioni della sala
+
+        * Disattivato: disabilita tutte le funzioni della sala
+
+3. Cliccate Salva e ultimate la creazione della Sala

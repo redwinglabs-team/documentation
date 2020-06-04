@@ -1,93 +1,119 @@
 # Menu
 
-<div>Permette di visualizzare, creare e modificare le categorie e i piatti offerti dall’outlet in questione</div>
+Le funzionalità del Menu vi aiuteranno a creare menu specializzati composti da diverse categorie.
+
+1. Create una o più categorie
+
+2. Create gli elementi appartenenti alle categorie
+
+3. Modificateli e ordinateli per ottenere il menu che più si addice alle vostre esigenze
 
 ## Sezione Categorie
 
-Permette di visualizzare le categorie presenti nel menu dell’outlet corrispondente e, cliccare la categoria desiderata, permette di visualizzare i piatti del menu corrispondenti alla categoria selezionata;
+Selezionate le categorie dal menu a sinistra, e createne di nuove grazie ai bottoni a piè pagina
 
 ![tabCategory](../../assets/img/imgMenu/tabCategory.png#tabCategory)
 
-### Aggiungi Elemento
+### Nuovo Elemento
 
- Cliccare il bottone corrispondente apre il form di creazione di un nuovo piatto per la categoria selezionata;
+ 1. Cliccate Aggiungi Elemento 
+
+ 2. Compilate i campi richiesti
+
+ 3. Cliccate Salva per creare l'elemento
 
  ![addElement](../../assets/img/imgMenu/addElement.png#addElement)
 
- * <div>Cliccare l’icona corrispondente per aprire la schermata di selezione immagine;</div>
+ * <div>Cliccate il form della foto per sceglierne una, o trascinatela al suo interno</div>
 
- * <div>Nome: compilare il form corrispondente con il nome del piatto desiderato;</div>
+ * <div>Nome: nome del piatto da visualizzare in App</div>
 
- * <div>Categoria: cliccare la multi-select corrispondente per selezionare la categoria desiderata;</div>
+ * <div>Categoria: assegnate l'elemento ad una categoria esistente</div>
 
- * Descrizione: compilare il form corrispondente inserendo i dettagli del piatto (max 500 caratteri inclusi gli spazi);
+ * Descrizione: dettagli sulla preparazione del prodotto
 
- * <div>Prezzo: compilare il form corrispondente (max. 9999);</div>
+ * <div>Prezzo: unità di prezzo del prodotto</div>
 
- * Allergie: compilare il form corrispondente con l’informazione richiesta, premere la virgola per controllare l’allergene e associarli il tag corrispondente;
+ * IVA: stabilite la percentuale di IVA applicata sul prodotto
 
- * Stato: cliccare il radio button corrispondente per determinare la visualizzazione del piatto selezionato in fase di ‘Presa comanda’;
+ * Allergie: allergeni presenti nel piatto dovuti agli ingredienti contenuti in esso
 
- * <div>Note: corpo delle note aggiuntive (max. 500 caratteri inclusi gli spazi);</div>
+ * Stato: influenza cosa accade all'elemento in fase di Comanda
 
- * Salva, Cancella o X: cliccare il bottone corrispondente per salvare il piatto, resettare i campi compilati o chiudere la finestra di creazione piatto;
+    * Attivo: disponibile in fase di presa comanda
+
+    * Nascosto: non disponibile in fase di presa comanda
+
+ * <div>Note: corpo delle note aggiuntive </div>
 
 ### Aggiungi Categoria
 
- <div>Cliccare il bottone corrispondente apre il form di creazione di una nuova categoria di piatti;</div>
+ 1. Cliccate Nuova Categoria
+
+ 2. Compilate i campi richiesti
+
+ 3. Cliccate Salva per creare la categoria
 
  ![addCategory](../../assets/img/imgMenu/addCategory.png#addCategory)
 
- * <div>Nome: compilare il form corrispondente con il nome della categoria desiderato;</div>
+ * <div>Nome: nome della categoria visualizzato in presa comanda</div>
 
- * <div>Colore: cliccare l’icona corrispondente per aprire il form di selezione del colore;</div>
+ * <div>Colore: segno distintivo della categoria</div>
 
- * Stato: selezionare il radio button corrispondente per determinare la visualizzazione della categoria selezionata in fase di ‘Presa comanda’;
+ * Stato: influenza cosa accade all'elemento in fase di Comanda
 
- * Categoria: cliccare la multi-select corrispondente per selezionare una tra le possibili categorie di appartenenza:  ‘food’ o ‘drink’;
+    * Attivo: disponibile in fase di presa comanda
 
- * Salva, Cancella o X: cliccare il bottone corrispondente per salvare il piatto, resettare i campi compilati o chiudere la finestra di creazione piatto;
+    * Nascosto: non disponibile in fase di presa comanda
 
+ * Categoria: influenza cosa accade in fase di presa comanda
+
+    * Food: i prodotti vengono visualizzati nella prima parte della comanda e in Cucina
+
+    * Drink: i prodotti vengono visualizzati nella seconda parte della comanda (Bevande) e non vengono mostrati in cucina
+ 
 ### Modifica Categoria
 
- Cliccare il bottone corrispondente apre una finestra che permette la modifica della categoria di piatti selezionata;
+ 1. Selezionate una categoria
+
+ 2. Cliccate Modifica Categoria
+
+ 3. Modificate i campi desiderati
+
+ 4. Cliccate Salva per salvare le modifiche
 
  ![editCategory](../../assets/img/imgMenu/editCategory.png#editCategory)
 
- * <div>Nome: modificare ove si desideri il form corrispondente;</div>
-
- * Colore: cliccare l’icona corrispondente per aprire la finestra di selezione del colore e effettuare eventuali modifiche;
-
- * Stato: selezionare il radio button corrispondente per determinare la visualizzazione della categoria selezionata in fase di ‘Presa comanda’;
-
- * Categoria: cliccare la multi-select corrispondente per selezionare una tra le possibili categorie di appartenenza:  ‘food’ o ‘drink’;
-
- * Salva, Cancella o X: cliccare il bottone corrispondente per salvare il piatto, resettare i campi compilati o chiudere la finestra di creazione piatto;
-
 ### Cancella Categoria
 
-Cliccare il bottone corrispondente apre una schermata di conferma che permette di confermare o annullare la cancellazione della categoria selezionata;
+1. Selezionate una categoria
 
-## Sezione Piatti
+2. Cliccate Cancella Categoria
 
-<div>permette di visualizzare, modificare o cancellare il piatto selezionato</div>
+## Lista Prodotti
+
+La lista prodotti è un utile interfaccia dal quale avere sotto controllo tutti gli elementi appartenenti a una categoria, modificarli e cancellarli
 
 ![tabElements](../../assets/img/imgMenu/tabElements.png#Elements)
 
-+: cliccare l’icona corrispondente permette di aprire la modale di creazione di un piatto (vedi Aggiungi Elemento);
+* Shortcut: icone situate in alto a destra
 
-<div>Cliccare le icone corrispondenti permette di modificare le opzioni di visualizzazione dei piatti;</div>
+    * Cliccate + per creare un Nuovo Elemento
 
-### Box Piatto
+    * Cliccate le restanti due icone per modificare la visualizzazione dei piatti
+
+### Box Prodotto
 
  Al suo interno vengono visualizzate le informazioni relative al piatto quali: Nome Piatto, Prezzo, Immagine, categoria appartenente e possibilità di modificare o cancellare il piatto in questione
 
  ![tabElement](../../assets/img/imgMenu/tabElement.png#tabElement)
 
- * Categoria: cliccare la multi-select corrispondente permette di selezionare una tra le categorie di piatti disponibili e cambiarla;
+ * Cambia Categoria: cliccate la multi-select corrispondente per selezionare una tra le categorie disponibili e cambiarla;
 
  ![changeCategory](../../assets/img/imgMenu/changeCategory.png#changeCategory)
 
- * <div>Modifica: cliccare l’icona corrispondente per aprire la finestra di modifica del piatto (vedi );</div>
+* Shortcut: icone situate a destra del prodotto
 
- * Elimina: cliccare l’icona corrispondente che permette di aprire la modale di conferma o meno dell’eliminazione del piatto;
+    * Cliccate la prima icona per modificare il prodotto
+
+    * Cliccate la seconda icona per cancellare il prodotto

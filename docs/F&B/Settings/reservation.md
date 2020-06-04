@@ -1,19 +1,25 @@
 # Prenotazioni
 
-Le Impostazioni delle Prenotazioni fornisce un ottimo modo per gestire le prenotazioni in entrata per il proprio Outlet
+La sezione Prenotazioni fornisce delle semplici scorciatoie per gestire le richieste in entrata per il proprio Ristorante
 
 ![Prenotazioni](../../assets/img/imgSettings/Prenotazioni.png#prenotazioni)
 
-* Accetta prenotazioni N giorni in anticipo: digita il numero di giorni desiderato all’interno della box;
+Impostazioni:
 
-* Accetta prenotazioni online: cliccare lo switch corrispondente per selezionare la preferenza desiderata;
+* Accetta prenotazioni N giorni in anticipo: numero di giorni entro il quale è possibile ricevere una prenotazione;
 
-* Accetta prenotazioni di minimo N e massimo N coperti: digitare i numeri desiderati all’interno delle box corrispondenti;
+* Accetta prenotazioni online: selezionate se accettare prenotazioni provenienti dall'App client;
 
-* Non consentire la modifica o cancellazione della prenotazione prima di N minuti dell’arrivo: digitare il numero desiderato all’interno della box corrispondente;
+* Accetta prenotazioni di minimo N e massimo N coperti: numero rappresentante il minimo e il massimo dei coperti accettati per una prenotazione;
 
-* <div>Quantità max. coperti: digitare il numero desiderato all’interno della box corrispondente;</div>
+* Consenti ai clienti di modificare la prenotazione:
+
+    * Si: attivare questa opzione ne permette la modifica
+
+    * No: attivare questa opzione disabilita la modifica
+
+* <div>Cancellation Policy: numero di minuti dal quale il cliente non potrà più modificare o cancellare la sua prenotazione</div>
 
 * <div>Salva: memorizza la configurazione inserita;</div>
 
-* <div>Cancella: cancella la configurazione inserita ripristinando la precedente;</div>
+* <div>Cancella: annulla l'operazione</div>

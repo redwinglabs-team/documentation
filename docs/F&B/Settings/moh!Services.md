@@ -1,14 +1,16 @@
-# MOH! Servizi
+# App Servizi
 
-La Sezione di MOH! Servizi permette la gestione delle impostazioni relative ai servizi offerti dalla struttura prenotabili attraverso l’App
+La Sezione di App Servizi permette la gestione delle impostazioni relative ai servizi offerti dalla struttura prenotabili attraverso l’App
 
-* Servizi: clicca lo switch corrispondente per scegliere se abilitare (SI) o disabilitare (NO) la vendita dei servizi offerti all’interno dell’App
+![MOH!ServicesSettings](../../assets/img/imgSettings/MOH!ServicesSettings.png#MOH!ServicesSettings)
 
-* Categoria: seleziona dalla drop-down le cateogorie appartenenti ai servizi proposti. Ciò migliorerà la visibilità della struttura all’interno dell’App
+* Servizi: cliccate lo switch corrispondente per scegliere se abilitare (SI) o disabilitare (NO) la vendita dei servizi offerti all’interno dell’App
 
-* Termini e Condizioni: compila il form corrispondente inserendo i Termini e Condizioni relativi ai servizi venduti
+* Categoria: selezionate dalla drop-down le cateogorie appartenenti ai servizi proposti. Ciò migliorerà la visibilità della struttura all’interno dell’App
 
-* Politiche di Cancellazione: compila il form corrispondente con le politiche di cancellazione adottate dalla struttura
+* Termini e Condizioni: compilate il form corrispondente inserendo i Termini e Condizioni relativi ai servizi venduti
+
+* Politiche di Cancellazione: compilate il form corrispondente con le politiche di cancellazione adottate dalla struttura
 
 * Servizi Offerti dalla Struttura: compilate il form corrispondente elencando e descrivendo i servizi aggiuntivi della struttura che non sono soggetti a prenotazione
 

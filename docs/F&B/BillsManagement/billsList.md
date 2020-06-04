@@ -4,6 +4,8 @@ Dalla Lista Conti puoi visualizzare report specifici filtrati per data. Un repor
 
 La Lista Conti visualizza tutti i pagamenti effettuati, compresi quelli saldati dalla cassa veloce o da una prenotazione al tavolo
 
+![billingList](../../assets/img/imgBilling/billingList.png#billingList)
+
 ## Tabella Conti
 
 La Tabella Conti visualizza la lista dei pagamenti e degli addebiti relativa alla data odierna effettuati in ordine cronologico

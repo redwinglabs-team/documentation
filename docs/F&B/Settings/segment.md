@@ -1,63 +1,66 @@
 # Segmenti
 
-Permette di creare o modificare un Segmento che imposta un periodo di apertura o chiusura del relativo outlet (dato l’elevato numero di azioni presenti all’interno della sezione, la sua documentazione verrà gestita su più livelli);
+La sezione Segmenti facilita la gestione dei periodi di apertura del locale. Potrete organizzare con largo anticipo i periodi di chiusura del ristorante, anche per un singolo servizio.
 
 ## Tab. Segmenti 
 
-Tabella riepilogativa dei Segmenti creati contenente le informazioni ad essi relativi ordinati per i seguenti campi: Stato, Nome, Periodo, Servizio,
+Tabella riepilogativa dei Segmenti creati contenente le informazioni ad essi relativi ordinati per i seguenti campi: 
+
+* Stato, 
+* Nome, 
+* Periodo, 
+* Servizio,
 
 ![Tab-Segmenti](../../assets/img/imgSettings/Tab-Segmenti.png#largerMobile)
 
-* <div>Modifica: permette di modificare il Segmento corrispondente;</div>
+* <div>Modifica:</div>
     
-    * Apri: cliccare il bottone corrispondente apre il form di modifica del Segmento selezionato secondo i passaggi spiegati in seguito (vedi Nuovo Segmento);
+    * Cliccate Apri e modificate il Segmento selezionato (vedi Nuovo Segmento)
 
-* <div>Cancella: permette di eliminare il Segmento corrispondente;</div>
+* <div>Cancella:</div>
 
-    * Elimina: : cliccare l’icona corrispondente permette la cancellazione del Segmento in questione;
+    *  cliccate l’icona corrispondente per cancellare il Segmento
 
 ## Nuovo Segmento
 
-<div>Permette la creazione di un nuovo segmento;</div>
+1. Cliccate il bottone in basso a sinistra (+)
 
-* +: cliccare l’icona corrispondente apre il form di creazione di un nuovo Segmento con le seguenti sezioni;
+    ![Nuovo-Segmento](../../assets/img/imgSettings/Nuovo-Segmento.png#mobile)
 
-### Crea Segmento per Servizio
+2. Compilate i campi relativi alle informazioni generali del Segmento:   
 
-Permette di creare un periodo di apertura o chiusura dell’outlet per un determinato Servizio rispettando i seguenti campi obbligatori:
+    * <div>Nome</div>
 
-![Nuovo-Segmento](../../assets/img/imgSettings/Nuovo-Segmento.png#mobile)
+    * <div>Data Inizio: cliccate l’icona e selezionate la data di inizio del Segmento</div>
 
-* <div>Nome: compilare il form corrispondente (max. 250 caratteri inclusi gli spazi);</div>
+    * Data Fine: cliccate l’icona e selezionate la data di fine del Segmento
 
-* <div>Data Inizio: cliccare l’icona  permette di selezionare la data di inizio Segmento desiderata;</div>
+    * Stato:
 
-* Data Fine: cliccare l’icona  permette di selezionare la data di fine Segmento desiderata (successiva alla Data Inizio);
+        * Attivato: abilita le funzioni del Segmento
 
-* Stato: cliccare il radio button desiderato permette di impostare l’apertura o chiusura dell’outlet per il periodo selezionato;
+        * Disattivato: disabilita le funzioni del Segmento
 
-* Giorni Lavorativi: cliccare i bottoni desiderati permette di selezionare i giorni specifici nel quale l’outlet corrispondente deve risultare aperto o chiuso. Selezionarne almeno uno abilita i seguenti campi obbligatori:
+3. Cliccate i bottoni raffiguranti i Giorni della settimana per stabilire quali sono i Giorni lavorativi del locale in relazione a un Servizio specifico. Selezionarne almeno uno abilita i seguenti campi:
 
-    * Servizio: cliccare la multi-select corrispondente permette di selezionare il/i Servizio/i per il quale utilizzare la selezione di Giorni Lavorativi effettuati;
+    * Servizio: cliccate la multi-select corrispondente e selezionate il/i Servizio/i per il quale utilizzare la configurazione dei Giorni Lavorativi
 
-    * Ripeti per tutti i giorni: cliccare il bottone corrispondente permette di selezionare automaticamente tutti i giorni della settimana;
+    * Cliccate "Ripeti per tutti i giorni" abilita automaticamente tutti i giorni della settimana
 
-    * Cancella: cliccare il bottone corrispondente resetta tutte le modifiche effettuate nei due punti precedenti;
+    * Cliccate "Cancella" per resettare la configurazione inserita
 
-    * Salva: cliccare il bottone corrispondente permette di salvare le modifiche effettuate e creare un Segmento relativo a ogni Servizio scelto;
+    * Cliccate "Salva" per memorizzare la configurazione inserita e avere la possibilità di modificare o aggiungerne altre
 
-### Tabella Segmento per Servizio
+    ![Nuovo-Segmento2](../../assets/img/imgSettings/Nuovo-Segmento2.png#nuovo-segmento2)
 
-Permette di visualizzare tutti i Segmenti creati per ogni Servizio scelto con le seguenti informazioni: Tipo Servizio, Data Inizio e Fine (Servizio), Giorni Lavorativi,
+4. Verificate la lista delle configurazioni per i Servizi
 
-![Nuovo-Segmento2](../../assets/img/imgSettings/Nuovo-Segmento2.png#nuovo-segmento2)
+    * Cliccate "Cancella" per eliminare il Servizio appena creato oppure "Modifica", e avrete la possibilità di modificare i giorni lavorativi attivi per il Servizio corrispondente
 
-* Modifica: permette di modificare la tipologia di Servizio e i Giorni Lavorativi corrispondenti cliccando sui rispettivi bottoni;
+        * Cliccate "Salva" per rendere effettive le modifiche
 
-    * <div>Salva: permette di salvare le modifiche appena effettuate;</div>
+        * Cliccate "Cancella" per annullare le modifiche e resettare la configurazione precedente
 
-    * Cancella: permette di cancellare le modifiche appena effettuate ripristinando la selezione precedente;
+    ![Nuovo-Segmento3](../../assets/img/imgSettings/Nuovo-Segmento3.png#nuovo-segmento3)
 
-* <div>Salva: memorizza la configurazione inserita;</div>
-
-* <div>Cancella: cancella la configurazione inserita ripristinando la precedente;</div>
+5. Cliccate "Salva" e ultimate la creazione del Segmento

@@ -98,16 +98,6 @@ Cliccare il bottone corrispondente apre la selezione delle modalità di pagament
 
 ### Addebita
 
-<div>Cliccare il bottone corrispondente apre il form delle tipologie di addebito disponibili;</div>
-
-* Camera: permette di effettuare l’addebito del conto selezionato in camera compilando i seguenti campi:
-
-     * Struttura: cliccare la multi select corrispondente permette di selezionare la struttura dove effettuare l’addebito;
-
-     * Camera: cliccare la multi select corrispondente permette la selezione della camera su cui effettuare l’addebito;
-
-      * Cliente: cliccare la multi select corrispondente per scegliere il Cliente al quale intestare l’addebito;
-
 * PM: permette di effettuare l’addebito del conto selezionato su un conto aperto esistente o su un nuovo PM;
 
 ![chargeModal](../../assets/img/imgCash/chargeModal.png#chargeModal)
@@ -151,8 +141,6 @@ Cliccare il bottone corrispondente apre la selezione delle modalità di pagament
 ### Split
 
 Cliccare il bottone corrispondente mostra le opzioni per dividere il Riepilogo/Ordine in più conti separati;
-
-![splitList](../../assets/img/imgCash/splitList.png#splitList)
 
 * Per Seduta: cliccare il bottone corrispondente permette la selezione dal Riepilogo di una delle sedie presenti al tavolo, estrapolandone i piatti ordinati e aggiungendoli in un conto appositamente creato;
 

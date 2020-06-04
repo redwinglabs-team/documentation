@@ -1,6 +1,8 @@
 # Sommario Ordini
 
-Permette di visualizzare tutti gli ordini di pietanze effettuati attraverso il modulo precedente (vedi cap. 5.1 Agg./Mod. Portata)
+Permette di visualizzare tutti gli ordini di pietanze effettuati
+
+![orderSummary](../assets/img/imgKitchen/orderSummary.png#orderSummary)
 
 ## Tabella Portate
 

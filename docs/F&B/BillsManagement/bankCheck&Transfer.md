@@ -2,6 +2,8 @@
 
 La pagina di Assegni e Bonifici semplifica la gestione di questi metodi di pagamento permettendo di aggiornare il loro stato, visualizzare i Report e filtrarli in maniera specifica
 
+![bankTransfer](../../assets/img/imgBilling/bankTransfer.png#bankTransfer)
+
 ## Tabella Conti
 
 La Tabella Conti visualizza la lista dei pagamenti e degli addebiti relativa al mese corrente effettuati in ordine cronologico

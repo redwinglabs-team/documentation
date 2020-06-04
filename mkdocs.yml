@@ -1,5 +1,5 @@
 # Project information
-site_name: MOH! Documentation
+site_name: RWL Documentation
 site_description: Documentazione delle app prodotte da RedWingLabs
 site_author: RedWing Labs
 
@@ -38,7 +38,7 @@ extra_javascript:
 
 # Google Analytics
 google_analytics:
-  - UA-XXXXXXXX-X
+  - UA-167197052-1
   - auto
 
 # Extensions
@@ -53,36 +53,29 @@ plugins:
 
 # Navigation
 nav:
-  - MOH! Orders:
-    - MOH! Orders: 'F&B/MOH!Orders/orders.md'
-  - MOH! Services:
-    - MOH! Services: 'F&B/MOH!Services/services.md'
-  - MOH! Bookings:
-    - MOH! Bookings: 'F&B/MOH!Bookings/bookings.md'
+- RWL Property Manager: 
+  - RWL Property Manager: 'index.md'
+  - App Ordini: 'F&B/MOH!Orders/orders.md'
+  - App Prenotazioni: 'F&B/MOH!Bookings/bookings.md'
   - Impostazioni:
     - Generali: 'F&B/Settings/general.md'
     - Prenotazioni: 'F&B/Settings/reservation.md'
     - Sala: 'F&B/Settings/room.md'
     - Servizio: 'F&B/Settings/service.md'
     - Segmenti: 'F&B/Settings/segment.md'
-    - MOH! Delivery & Take Away: 'F&B/Settings/moh!D&Ta.md'
-    - MOH! Services: 'F&B/Settings/moh!Services.md'
-  - Editor Sala:
-    - About Editor Sala: 'F&B/EditorSala/aboutEditorSala.md'
-    - Crea Tavolo: 'F&B/EditorSala/createTable.md'
-    - Modifica Tavolo: 'F&B/EditorSala/editTable.md'
-  - Menu: 
-    - Menu: 'F&B/Menu/menu.md'
+    - App Consegna: 'F&B/Settings/moh!Delivery.md'
+    - App Asporto: 'F&B/Settings/moh!TakeAway.md'
+    - App Servizi: 'F&B/Settings/moh!Services.md'
+  - Editor Sala: 'F&B/EditorSala/aboutEditorSala.md'
+  - Menu: 'F&B/Menu/menu.md'
   - Prenotazioni:
+    - Lista Prenotazioni: 'F&B/Reservations/viewReservations.md'
     - Nuova Prenotazione: 'F&B/Reservations/newReservation.md'
-    - Modifica Prenotazione: 'F&B/Reservations/editReservation.md'
-    - Lista Prenotazioni: 'F&B/ViewReservations/viewReservations.md'
   - Visualizza Tavoli:
     - Tables Manager: 'F&B/ViewTables/viewTables.md'
     - Comanda: 'F&B/ViewTables/order.md'
     - Assegna Sedia: 'F&B/ViewTables/assignChair.md'
-  - Cassa: 
-    - Cassa: 'F&B/Cash/cash.md'
+  - Cassa: 'F&B/Cash/cash.md'
   - Gestione Conti:
     - Panoramica Gestione Conti: 'F&B/BillsManagement/aboutBillsManagement.md'
     - Lista Conti: 'F&B/BillsManagement/billsList.md'
@@ -91,9 +84,7 @@ nav:
     - Fatture: 'F&B/BillsManagement/invoices.md'
     - PM: 'F&B/BillsManagement/PM.md' 
   - Storico Ordini:
-    - Tavoli: 'F&B/Registry/tables.md'
     - Prenotazione: 'F&B/Registry/reservations.md'
   - Cucina:
-    - About Kitchen: 'Kitchen/aboutKitchen.md'
     - Sommario Ordini: 'Kitchen/orderSummary.md'
     - Dettaglio Ordini: 'Kitchen/detailedOrder.md'

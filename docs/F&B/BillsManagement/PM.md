@@ -2,6 +2,8 @@
 
 La Pagina dei PM offre la possibilità di gestire i Pay Master in tutte le loro sfaccettature, permette di crearne di nuovi, pagarli totalmente o in parte e ricercarli secondo qualsiasi preferenza
 
+![pmList](../../assets/img/imgBilling/pmList.png#pmList)
+
 ## Tabella PM
 
 Raccoglie tutti i PM attivi, ne visualizza le informazioni e permette il pagamento dell'intero PM o solamente di uno o più conti al suo interno
@@ -43,4 +45,6 @@ Il Pannello di Ricerca offre una ricerca avanzata di un PM specifico secondo i s
 * Paga: seleziona un PM per abilitare il bottone corrispondente che indirizza alla pagina della cassa per poter effettuare il pagamento del PM selezionato
 
 * <div>Nuovo PM: clicca il bottone corrispondente apre il form per la creazione di un nuovo PM</div>
+
+![newPm](../../assets/img/imgBilling/newPm.png#newPm)
 
