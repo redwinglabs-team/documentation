@@ -44,10 +44,6 @@
     
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
-    
-      <link rel="stylesheet" href="../../../assets/stylesheets/extra2.css">
-    
     
       
         
@@ -72,6 +68,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#servizi-e-prodotti" class="md-skip">
+          Vai al contenuto
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -400,10 +401,168 @@
       
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Servizi e prodotti
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         Servizi e prodotti
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduzione-ai-servizi" class="md-nav__link">
+    Introduzione ai Servizi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#servizi-e-prodotti_1" class="md-nav__link">
+    Servizi e prodotti
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creare-servizi-aggiuntivi" class="md-nav__link">
+    Creare Servizi aggiuntivi
+  </a>
+  
+    <nav class="md-nav" aria-label="Creare Servizi aggiuntivi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creare-un-servizio" class="md-nav__link">
+    Creare un servizio
+  </a>
+  
+    <nav class="md-nav" aria-label="Creare un servizio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dettaglio-dei-campi-di-un-servizio" class="md-nav__link">
+    Dettaglio dei campi di un servizio
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cancellare-un-servizio" class="md-nav__link">
+    Cancellare un servizio
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crea-o-cancella-un-prodotto" class="md-nav__link">
+    Crea o cancella un prodotto
+  </a>
+  
+    <nav class="md-nav" aria-label="Crea o cancella un prodotto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crea-un-prodotto" class="md-nav__link">
+    Crea un prodotto
+  </a>
+  
+    <nav class="md-nav" aria-label="Crea un prodotto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dettaglio-dei-campi-di-un-prodotto" class="md-nav__link">
+    Dettaglio dei campi di un prodotto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cancella-un-prodotto" class="md-nav__link">
+    Cancella un prodotto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crea-o-elimina-una-categoria-di-prodotti" class="md-nav__link">
+    Crea o elimina una categoria di prodotti
+  </a>
+  
+    <nav class="md-nav" aria-label="Crea o elimina una categoria di prodotti">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crea-una-categoria-di-prodotti" class="md-nav__link">
+    Crea una categoria di prodotti
+  </a>
+  
+    <nav class="md-nav" aria-label="Crea una categoria di prodotti">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dettaglio-dei-campi-di-una-categoria-di-prodotti" class="md-nav__link">
+    Dettaglio dei campi di una categoria di prodotti
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cancella-una-categoria-di-prodotti" class="md-nav__link">
+    Cancella una categoria di prodotti
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1070,128 +1229,156 @@
               
                 
                 
-                  <h1>Servizi e prodotti</h1>
-                
-                <p>Servizi e Prodotti
-Introduzione ai Servizi
-La possibilità di acquistare o meno un servizio quando un ospite prenota il proprio soggiorno dipende dal tipo di servizio che si tratta.
-Il Servizio legato al soggiorno (e i prodotti allegati) possono essere acquistati al momento della prenotazione, mentre tutti gli altri, devono essere acquistati sul posto e aggiunti manualmente al conto del cliente.
-Servizi e prodotti
-Servizi e prodotti sono strettamente interdipendenti l’uno dagli altri; non è possibile infatti creare un prodotto senza prima aver creato il servizio ad esso collegato. Ciò consente di gestire liberamente il costo sia del prodotto che del servizio ad esso associato. 
-Creare Servizi aggiuntivi
-Un Servizio predefinito o Servizio di Stay, viene creato automaticamente dal software, tuttavia puoi comunque creare, modificare o cancellare altri Servizi.
-Se crei un nuovo Servizio, i clienti non avranno la possibilità di comprare quel servizio (o i prodotti ad esso associati) quando effettueranno la loro prenotazione; il servizio o prodotto deve essere prima acquistato online e successivamente aggiunto manualmente al conto del cliente
-Se vuoi fornire la possibilità ai clienti di acquistare qualcosa al momento della prenotazione, devi necessariamente creare un prodotto legato al Servizio di Stay
-Creare un servizio
-Dal Menu principale vai a Impostazioni &gt; Servizi e Prodotti
-Clicca il bottone +
-Inserisci il nome del Servizio
-Inserisci il prezzo del servizio e seleziona Tax Rate che deve essere applicata. Quando selezioni il prezzo, devi necessariamente selezionare anche la valuta
-Imposta tutte le categoria di contabilità per il servizio 
-Inserisci le altre informazioni secondarie
-Clicca su Salva
-Dettaglio dei campi di un servizio
-Nome: Inserisci il nome del servizio
-Nome abbreviato: Inserisci un abbreviazione del nome per il servizio
-Descrizione: Inserisci una breve descrizione del servizio
-Ordinamento: Inserisci la posizione che vuoi che occupi il servizio selezionato all’interno della tua lista di servizi
-Valuta: Scegli la valuta secondo la quale impostare il servizio
-Prezzo: Se il servizio include prodotti addizionali, questa cifra sarà una tassa in aggiunta al costo di ogni prodotto. Se non vuoi impostare alcuna tassa ulteriore sui prodotti relativi al servizio, lascia questa casella in bianco
-Tax Rate: Seleziona la percentuale di tasse che vuoi applicare al prezzo del servizio
-Opzioni:
-Fattura come pacchetto: Selezionalo se vuoi che i prodotti allegati a questo servizio vengano accorpati in un'unica linea del conto (altrimenti ogni prodotto avrebbe una linea diversa del conto)
-Fattura estesa dell’oggetto: Selezionalo se vuoi che i prodotti vengano visualizzati su più righe separate in un conto
-Tassa Sovrascrivibile: Selezionalo se vuoi che gli impiegati con i privilegi di accesso ai conti abbiano la possibilità di sovrascrivere la tassazione standard applicata ad un prodotto
-Prezzo sovrascrivibile: Selezionalo se vuoi che gli impiegati con i privilegi di accesso ai conti siano abilitati a sovrascrivere il prezzo standard applicato ad un prodotto
-Nuovo ordine elaborato automaticamente: Selezionalo se vuoi che i nuovi ordini in entrata vengano processati automaticamente senza richiedere la conferma manuale da parte dell’impiegato
-Offri all’impiegato: Selezionalo se vuoi che il servizio venga visualizzato nella dashboard del cliente così da fornire all’impiegato la possibilità di aggiungerlo al conto
-Notifiche email: Selezionalo se desideri inviare automaticamente una mail di notifica al relativo dipartimento
-Ordinabile solo con prodotti: Selezionalo se vuoi prevenire che i clienti ordinino un servizio  senza alcun prodotto allegato a esso
-Dipendente responsabile: Se il servizio è gestito da uno specifico dipendente, selezionalo dalla drop-down list
-Dipartimento responsabile: Se il servizio è gestito da uno specifico dipartimento, selezionalo dalla drop-down list
-Categoria contabilità: Seleziona una categoria di contabilità per questo servizio
-Sconto categoria contabilità: Seleziona una categoria contabilità a cui scontare il servizio
-Articolo di categoria contabilità cancellato: Seleziona una categoria contabilità per questo servizio in caso venisse cancellato
-Cancellare un servizio
-Quando cancelli un servizio, anche tutti i prodotti ad esso collegati verranno cancellati. Cancellare un servizio non intacca nessun dato precedentemente creato e ad esso collegato.
-Dal Menu Principale vai su Impostazioni &gt; Servizi e Prodotti
-Clicca l’icona “” del servizio che intendi cancellare
-Clicca su Elimina
-Conferma cliccando nuovamente su Elimina
-Crea o cancella un prodotto
-Un prodotto può essere acquistato o meno dal cliente in fase di prenotazione in base al tipo di servizio a cui è collegato.
-Infatti se si allega un prodotto al servizio Stay, può essere acquistato quando un ospite effettua una prenotazione; se invece alleghi un prodotto a un servizio aggiuntivo creato manualmente, può essere acquistato solo in loco e aggiunto manualmente al conto del cliente
-Crea un prodotto
-Dal Menu principale vai a Impostazioni &gt; Servizi e prodotti 
-Clicca sul servizio al quale si desidera collegare il prodotto
-Se volete che gli ospiti possano acquistare il prodotto al momento della prenotazione, scegliete il servizio Stay
-Se non volete che gli ospiti possano acquistare il prodotto al momento della prenotazione, scegliete uno dei servizi aggiuntivi creati manualmente
-Clicca Prodotti
-Clicca sul bottone +
-Clicca su Nuovo prodotto
-Inserisci i campi obbligatori per la compilazione del prodotto
-Clicca Salva
-Dettaglio dei campi di un prodotto
-Generale
-Nome: Inserisci il nome del prodotto per uso interno
-Nome abbreviato: Inserisci un nome abbreviato per i posti dove lo spazio è limitato
-Descrizione: Inserisci una descrizione del prodotto
-Nome esterno: Inserisci il nome del prodotto come si desidera che venga visto dal cliente
-Categoria: Seleziona la categoria di prodotto a cui assegnare questo prodotto
-Ordinamento: Scegli la posizione che questo prodotto occuperà all’interno di un elenco di prodotti
-Valuta: Inserisci la valuta del prezzo di questo prodotto
-Prezzo: Inserisci il prezzo del prodotto, esclusi i simboli delle valute
-Percentuale Tasse: Seleziona la percentuale di tasse da applicare al prezzo del prodotto
-Prezzo relativo: Se vuoi che il prezzo del prodotto sia relativo al costo totale dei pernottamenti in una prenotazione, inserisci una percentuale 
-Addebito: Scegli come desideri che questo prodotto venga addebitato
-Traduzione: Scegli la lingua nel quale tradurre i campi visualizzati dai clienti e compila il form seguente
-Immagini: Inserisci un immagine di riferimento per uso interno del software. Per ottenere i migliori risultati, utilizzare un’immagine con una risoluzione di almeno 1920x1080
-Sotto Immagini, fare clic su Scegli file
-Seleziona il file di immagine sul computer. Sono supportati solo i formati di file JPEG e PNG
-Fai clic su Cambia 
-N.B. Non è possibile cancellare l'immagine dello sfondo una volta che è stata caricata; è possibile solo sostituirla. Per cambiare tale logo, seguire gli stessi punti sopra elencati
-Opzioni: 
-Opzioni: Seleziona le opzioni che si desidera applicare a questo prodotto
-Contabilità:
-Categoria contabilità: Seleziona una categoria contabile per questo prodotto
-Sconto categoria contabilità: Seleziona una categoria contabile per gli sconti relativi a questo prodotto
-Categoria di contabilità degli articoli cancellati: Imposta una categoria contabile per questo prodotto se viene annullato
-Cancella un prodotto
-L’eliminazione di un prodotto non influisce sui dati già raccolti per quel prodotto
-Dal Menu principale vai a Impostazioni &gt; Servizi e Prodotti
-Clicca sul servizio a cui è collegato il prodotto
-Clicca su prodotti
-Clicca su “” del prodotto che desideri cancellare
-Clicca Elimina
-Conferma cliccando Elimina
-Crea o elimina una categoria di prodotti
-Utilizza le categorie di prodotti per organizzare i prodotti offerti dai tuoi servizi
-Crea una categoria di prodotti
-Dal Menu principale vai a Impostazioni &gt; Servizi e prodotti
-Clicca sul servizio per il quale si desidera creare una categoria di prodotti
-Clicca su prodotti
-Clicca il bottone +, e poi clicca Nuova categoria prodotto
-Inserisci il nome della categoria di prodotto e tutti gli altri dettagli rilevanti
-Clicca crea
-Dettaglio dei campi di una categoria di prodotti
-Nome: Inserisci il nome della categoria di prodotti per uso interno
-Nome abbreviato: Inserisci un nome abbreviato per i posti dove lo spazio è limitato
-Descrizione: Inserisci una descrizione della categoria di prodotti
-Categoria padre: Se desideri creare una sottocategoria, seleziona una delle categorie di prodotti esistenti
-Ordinamento: Scegli la posizione che vuoi che la categoria di prodotti occupi in un elenco di categorie
-Aggiungi traduzione: Inserisci la lingua per il quale inserire la traduzione dei campi visibili agli ospiti
-Immagini: Inserisci un immagine di riferimento per uso interno del software. Per ottenere i migliori risultati, utilizzare un’immagine con una risoluzione di almeno 1920x1080
-Sotto Immagini, fare clic su Scegli file
-Seleziona il file di immagine sul computer. Sono supportati solo i formati di file JPEG e PNG
-Fai clic su Cambia 
-N.B. Non è possibile cancellare l'immagine dello sfondo una volta che è stata caricata; è possibile solo sostituirla. Per cambiare tale logo, seguire gli stessi punti sopra elencati
-Cancella una categoria di prodotti
-Prima di poter cancellare una categoria di prodotti, assicurarsi di averla prima svuotata cancellando tutti i prodotti in essa contenuti o spostandoli in una altra categoria di prodotti.
-Dal Menu principale vai a Impostazioni &gt; Prodotti e Servizi
-Clicca sul servizio a cui è collegata la categoria di prodotti
-Clicca Prodotti
-Clicca su “” corrispondente alla categoria di prodotti che desideri cancellare 
-Clicca Elimina e conferma cliccando nuovamente Elimina</p>
+                <h1 id="servizi-e-prodotti">Servizi e Prodotti</h1>
+<h2 id="introduzione-ai-servizi">Introduzione ai Servizi</h2>
+<p>La possibilità di acquistare o meno un servizio quando un ospite prenota il proprio soggiorno dipende dal tipo di servizio che si tratta.</p>
+<p>Il Servizio legato al soggiorno (e i prodotti allegati) possono essere acquistati al momento della prenotazione, mentre tutti gli altri, devono essere acquistati sul posto e aggiunti manualmente al conto del cliente.</p>
+<h2 id="servizi-e-prodotti_1">Servizi e prodotti</h2>
+<p>Servizi e prodotti sono strettamente interdipendenti l’uno dagli altri; non è possibile infatti creare un prodotto senza prima aver creato il servizio ad esso collegato. Ciò consente di gestire liberamente il costo sia del prodotto che del servizio ad esso associato. </p>
+<h2 id="creare-servizi-aggiuntivi">Creare Servizi aggiuntivi</h2>
+<p>Un Servizio predefinito o Servizio di Stay, viene creato automaticamente dal software, tuttavia puoi comunque creare, modificare o cancellare altri Servizi.</p>
+<p>Se crei un nuovo Servizio, i clienti non avranno la possibilità di comprare quel servizio (o i prodotti ad esso associati) quando effettueranno la loro prenotazione; il servizio o prodotto deve essere prima acquistato online e successivamente aggiunto manualmente al conto del cliente</p>
+<p>Se vuoi fornire la possibilità ai clienti di acquistare qualcosa al momento della prenotazione, devi necessariamente creare un prodotto legato al Servizio di Stay</p>
+<h3 id="creare-un-servizio">Creare un servizio</h3>
+<ol>
+<li>Dal Menu principale vai a Impostazioni &gt; Servizi e Prodotti</li>
+<li>Clicca il bottone +</li>
+<li>Inserisci il nome del Servizio</li>
+<li>Inserisci il prezzo del servizio e seleziona Tax Rate che deve essere applicata. Quando selezioni il prezzo, devi necessariamente selezionare anche la valuta</li>
+<li>Imposta tutte le categoria di contabilità per il servizio </li>
+<li>Inserisci le altre informazioni secondarie</li>
+<li>Clicca su Salva</li>
+</ol>
+<h4 id="dettaglio-dei-campi-di-un-servizio">Dettaglio dei campi di un servizio</h4>
+<ul>
+<li>Nome: Inserisci il nome del servizio</li>
+<li>Nome abbreviato: Inserisci un abbreviazione del nome per il servizio</li>
+<li>Descrizione: Inserisci una breve descrizione del servizio</li>
+<li>Ordinamento: Inserisci la posizione che vuoi che occupi il servizio selezionato all’interno della tua lista di servizi</li>
+<li>Valuta: Scegli la valuta secondo la quale impostare il servizio</li>
+<li>Prezzo: Se il servizio include prodotti addizionali, questa cifra sarà una tassa in aggiunta al costo di ogni prodotto. Se non vuoi impostare alcuna tassa ulteriore sui prodotti relativi al servizio, lascia questa casella in bianco</li>
+<li>Tax Rate: Seleziona la percentuale di tasse che vuoi applicare al prezzo del servizio</li>
+<li>Opzioni:<ul>
+<li>Fattura come pacchetto: Selezionalo se vuoi che i prodotti allegati a questo servizio vengano accorpati in un'unica linea del conto (altrimenti ogni prodotto avrebbe una linea diversa del conto)</li>
+<li>Fattura estesa dell’oggetto: Selezionalo se vuoi che i prodotti vengano visualizzati su più righe separate in un conto</li>
+<li>Tassa Sovrascrivibile: Selezionalo se vuoi che gli impiegati con i privilegi di accesso ai conti abbiano la possibilità di sovrascrivere la tassazione standard applicata ad un prodotto</li>
+<li>Prezzo sovrascrivibile: Selezionalo se vuoi che gli impiegati con i privilegi di accesso ai conti siano abilitati a sovrascrivere il prezzo standard applicato ad un prodotto</li>
+<li>Nuovo ordine elaborato automaticamente: Selezionalo se vuoi che i nuovi ordini in entrata vengano processati automaticamente senza richiedere la conferma manuale da parte dell’impiegato</li>
+<li>Offri all’impiegato: Selezionalo se vuoi che il servizio venga visualizzato nella dashboard del cliente così da fornire all’impiegato la possibilità di aggiungerlo al conto</li>
+<li>Notifiche email: Selezionalo se desideri inviare automaticamente una mail di notifica al relativo dipartimento</li>
+<li>Ordinabile solo con prodotti: Selezionalo se vuoi prevenire che i clienti ordinino un servizio  senza alcun prodotto allegato a esso</li>
+</ul>
+</li>
+<li>Dipendente responsabile: Se il servizio è gestito da uno specifico dipendente, selezionalo dalla drop-down list</li>
+<li>Dipartimento responsabile: Se il servizio è gestito da uno specifico dipartimento, selezionalo dalla drop-down list</li>
+<li>Categoria contabilità: Seleziona una categoria di contabilità per questo servizio</li>
+<li>Sconto categoria contabilità: Seleziona una categoria contabilità a cui scontare il servizio</li>
+<li>Articolo di categoria contabilità cancellato: Seleziona una categoria contabilità per questo servizio in caso venisse cancellato</li>
+</ul>
+<h3 id="cancellare-un-servizio">Cancellare un servizio</h3>
+<p>Quando cancelli un servizio, anche tutti i prodotti ad esso collegati verranno cancellati. Cancellare un servizio non intacca nessun dato precedentemente creato e ad esso collegato.</p>
+<ol>
+<li>Dal Menu Principale vai su Impostazioni &gt; Servizi e Prodotti</li>
+<li>Clicca l’icona “” del servizio che intendi cancellare</li>
+<li>Clicca su Elimina</li>
+<li>Conferma cliccando nuovamente su Elimina</li>
+</ol>
+<h2 id="crea-o-cancella-un-prodotto">Crea o cancella un prodotto</h2>
+<p>Un prodotto può essere acquistato o meno dal cliente in fase di prenotazione in base al tipo di servizio a cui è collegato.</p>
+<p>Infatti se si allega un prodotto al servizio Stay, può essere acquistato quando un ospite effettua una prenotazione; se invece alleghi un prodotto a un servizio aggiuntivo creato manualmente, può essere acquistato solo in loco e aggiunto manualmente al conto del cliente</p>
+<h3 id="crea-un-prodotto">Crea un prodotto</h3>
+<ol>
+<li>Dal Menu principale vai a Impostazioni &gt; Servizi e prodotti </li>
+<li>Clicca sul servizio al quale si desidera collegare il prodotto<ul>
+<li>Se volete che gli ospiti possano acquistare il prodotto al momento della prenotazione, scegliete il servizio Stay</li>
+<li>Se non volete che gli ospiti possano acquistare il prodotto al momento della prenotazione, scegliete uno dei servizi aggiuntivi creati manualmente</li>
+</ul>
+</li>
+<li>Clicca Prodotti</li>
+<li>Clicca sul bottone +</li>
+<li>Clicca su Nuovo prodotto</li>
+<li>Inserisci i campi obbligatori per la compilazione del prodotto</li>
+<li>Clicca Salva</li>
+</ol>
+<h4 id="dettaglio-dei-campi-di-un-prodotto">Dettaglio dei campi di un prodotto</h4>
+<p>Generale</p>
+<ul>
+<li>Nome: Inserisci il nome del prodotto per uso interno</li>
+<li>Nome abbreviato: Inserisci un nome abbreviato per i posti dove lo spazio è limitato</li>
+<li>Descrizione: Inserisci una descrizione del prodotto</li>
+<li>Nome esterno: Inserisci il nome del prodotto come si desidera che venga visto dal cliente</li>
+<li>Categoria: Seleziona la categoria di prodotto a cui assegnare questo prodotto</li>
+<li>Ordinamento: Scegli la posizione che questo prodotto occuperà all’interno di un elenco di prodotti</li>
+<li>Valuta: Inserisci la valuta del prezzo di questo prodotto</li>
+<li>Prezzo: Inserisci il prezzo del prodotto, esclusi i simboli delle valute</li>
+<li>Percentuale Tasse: Seleziona la percentuale di tasse da applicare al prezzo del prodotto</li>
+<li>Prezzo relativo: Se vuoi che il prezzo del prodotto sia relativo al costo totale dei pernottamenti in una prenotazione, inserisci una percentuale </li>
+<li>Addebito: Scegli come desideri che questo prodotto venga addebitato</li>
+<li>Traduzione: Scegli la lingua nel quale tradurre i campi visualizzati dai clienti e compila il form seguente</li>
+<li>Immagini: Inserisci un immagine di riferimento per uso interno del software. Per ottenere i migliori risultati, utilizzare un’immagine con una risoluzione di almeno 1920x1080<ul>
+<li>Sotto Immagini, fare clic su Scegli file</li>
+<li>Seleziona il file di immagine sul computer. Sono supportati solo i formati di file JPEG e PNG</li>
+<li>Fai clic su Cambia </li>
+<li>N.B. Non è possibile cancellare l'immagine dello sfondo una volta che è stata caricata; è possibile solo sostituirla. Per cambiare tale logo, seguire gli stessi punti sopra elencati</li>
+</ul>
+</li>
+</ul>
+<p>Opzioni: </p>
+<ul>
+<li>Opzioni: Seleziona le opzioni che si desidera applicare a questo prodotto</li>
+</ul>
+<p>Contabilità:</p>
+<ul>
+<li>Categoria contabilità: Seleziona una categoria contabile per questo prodotto</li>
+<li>Sconto categoria contabilità: Seleziona una categoria contabile per gli sconti relativi a questo prodotto</li>
+<li>Categoria di contabilità degli articoli cancellati: Imposta una categoria contabile per questo prodotto se viene annullato</li>
+</ul>
+<h3 id="cancella-un-prodotto">Cancella un prodotto</h3>
+<p>L’eliminazione di un prodotto non influisce sui dati già raccolti per quel prodotto</p>
+<ol>
+<li>Dal Menu principale vai a Impostazioni &gt; Servizi e Prodotti</li>
+<li>Clicca sul servizio a cui è collegato il prodotto</li>
+<li>Clicca su prodotti</li>
+<li>Clicca su “” del prodotto che desideri cancellare</li>
+<li>Clicca Elimina</li>
+<li>Conferma cliccando Elimina</li>
+</ol>
+<h2 id="crea-o-elimina-una-categoria-di-prodotti">Crea o elimina una categoria di prodotti</h2>
+<p>Utilizza le categorie di prodotti per organizzare i prodotti offerti dai tuoi servizi</p>
+<h3 id="crea-una-categoria-di-prodotti">Crea una categoria di prodotti</h3>
+<ol>
+<li>Dal Menu principale vai a Impostazioni &gt; Servizi e prodotti</li>
+<li>Clicca sul servizio per il quale si desidera creare una categoria di prodotti</li>
+<li>Clicca su prodotti</li>
+<li>Clicca il bottone +, e poi clicca Nuova categoria prodotto</li>
+<li>Inserisci il nome della categoria di prodotto e tutti gli altri dettagli rilevanti</li>
+<li>Clicca crea</li>
+</ol>
+<h4 id="dettaglio-dei-campi-di-una-categoria-di-prodotti">Dettaglio dei campi di una categoria di prodotti</h4>
+<ul>
+<li>Nome: Inserisci il nome della categoria di prodotti per uso interno</li>
+<li>Nome abbreviato: Inserisci un nome abbreviato per i posti dove lo spazio è limitato</li>
+<li>Descrizione: Inserisci una descrizione della categoria di prodotti</li>
+<li>Categoria padre: Se desideri creare una sottocategoria, seleziona una delle categorie di prodotti esistenti</li>
+<li>Ordinamento: Scegli la posizione che vuoi che la categoria di prodotti occupi in un elenco di categorie</li>
+<li>Aggiungi traduzione: Inserisci la lingua per il quale inserire la traduzione dei campi visibili agli ospiti</li>
+<li>Immagini: Inserisci un immagine di riferimento per uso interno del software. Per ottenere i migliori risultati, utilizzare un’immagine con una risoluzione di almeno 1920x1080<ul>
+<li>Sotto Immagini, fare clic su Scegli file</li>
+<li>Seleziona il file di immagine sul computer. Sono supportati solo i formati di file JPEG e PNG</li>
+<li>Fai clic su Cambia </li>
+<li>N.B. Non è possibile cancellare l'immagine dello sfondo una volta che è stata caricata; è possibile solo sostituirla. Per cambiare tale logo, seguire gli stessi punti sopra elencati</li>
+</ul>
+</li>
+</ul>
+<h3 id="cancella-una-categoria-di-prodotti">Cancella una categoria di prodotti</h3>
+<p>Prima di poter cancellare una categoria di prodotti, assicurarsi di averla prima svuotata cancellando tutti i prodotti in essa contenuti o spostandoli in una altra categoria di prodotti.</p>
+<ol>
+<li>Dal Menu principale vai a Impostazioni &gt; Prodotti e Servizi</li>
+<li>Clicca sul servizio a cui è collegata la categoria di prodotti</li>
+<li>Clicca Prodotti</li>
+<li>Clicca su “” corrispondente alla categoria di prodotti che desideri cancellare </li>
+<li>Clicca Elimina e conferma cliccando nuovamente Elimina</li>
+</ol>
                 
               
               

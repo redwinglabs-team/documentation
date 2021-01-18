@@ -44,10 +44,6 @@
     
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
-    
-      <link rel="stylesheet" href="../../../assets/stylesheets/extra2.css">
-    
     
       
         
@@ -72,6 +68,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#restrictions" class="md-skip">
+          Vai al contenuto
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -340,10 +341,61 @@
       
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Restrictions
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         Restrictions
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#settare-le-restrizioni-di-prezzo" class="md-nav__link">
+    Settare le restrizioni di prezzo
+  </a>
+  
+    <nav class="md-nav" aria-label="Settare le restrizioni di prezzo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creare-una-restrizione-di-prezzo-minimo" class="md-nav__link">
+    Creare una restrizione di prezzo minimo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crea-una-restrizione-di-prezzo-massimo" class="md-nav__link">
+    Crea una restrizione di prezzo massimo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1070,39 +1122,45 @@
               
                 
                 
-                  <h1>Restrictions</h1>
-                
-                <p>Restrictions
-Settare le restrizioni di prezzo
-Una restrizione del prezzo previene l’ingresso di una prenotazione se una singola notte costa meno o più di un prezzo specificato. Le restrizioni possono essere applicate a:
-Tariffe (tutte o alcune specifiche)
-Gruppi tariffari
-Categorie di spazio
-Tipologie di spazio
-In fase di creazione di una restrizione di prezzo, puoi scegliere se applicarla in base alla data di arrivo, alla data di partenza partenza o al periodo del soggiorno:
-Arrivo: una prenotazione che comincia durante il periodo di restrizione non può essere effettuata a meno che ogni notte non abbia il prezzo richiesto
-Partenza: una prenotazione che finisce durante il periodo di restrizione non può essere effettuata a meno che ogni notte della prenotazione non abbia il prezzo richiesto
-Soggiorno: una prenotazione con alcune notti presenti nel periodo di restrizione non può essere effettuata a meno che ogni notte non abbia il prezzo richiesto
-Creare una restrizione di prezzo minimo
-Quando è in vigore una restrizione di prezzo minimo, una prenotazione che rientra nel periodo sottoposto a limitazione non può essere effettuata a meno che ogni notte non soddisfi o superi il prezzo minimo impostato
-Dal Menu principale vai a Impostazioni &gt; Restrictions
-Clicca il bottone +
-Scegli il Tipo di restrizione da applicare tra Arrivo, Partenza o Stay
-Inserisci la data di Inizio e di fine della Restriction. La restrizione si applica sia alla data di inizio che a quella di fine, così come a tutte le date comprese in questo periodo di tempo. Se desideri creare una restrizione che duri solo un giorno, inserisci la medesima data di inizio e fine.
-Seleziona la Tariffa, il gruppo tariffario, la categoria di Spazio e/o il tipo di spazio a cui desideri applicare la restrizione. Se non selezioni un'opzione per i precedenti campi, la restrizione si applicherà a tutti (es. Se non selezioni una tariffa, la restrizione si applicherà a tutte le tariffe)
-Alla voce Prezzo Minimo, inserisci il prezzo per notte minimo applicabile ad una prenotazione
-Seleziona la valuta
-Clicca su Salva
-Crea una restrizione di prezzo massimo
-Quando è in vigore una restrizione di prezzo massimo, una prenotazione effettuata nel periodo delimitato dalla restrizione non può essere effettuata a meno che ogni notte non costi meno o uguale al prezzo stabilito
-Dal menu principale vai a Impostazioni &gt; Restrizioni
-Clicca il bottone +
-Scegli il tipo di restrizione da applicare tra Arrivo, Partenza e Stay
-Inserisci la data di Inizio e di fine della Restriction. La restrizione si applica sia alla data di inizio che a quella di fine, così come a tutte le date comprese in questo periodo di tempo. Se desideri creare una restrizione che duri solo un giorno, inserisci la medesima data di inizio e fine.
-Seleziona la Tariffa, il gruppo tariffario, la categoria di Spazio e/o il tipo di spazio a cui desideri applicare la restrizione. Se non selezioni un'opzione per i precedenti campi, la restrizione si applicherà a tutti (es. Se non selezioni una tariffa, la restrizione si applicherà a tutte le tariffe)
-Alla voce Prezzo Massimo, inserisci il prezzo per notte massimo applicabile ad una prenotazione
-Seleziona la Valuta
-Clicca su Salva</p>
+                <h1 id="restrictions">Restrictions</h1>
+<h2 id="settare-le-restrizioni-di-prezzo">Settare le restrizioni di prezzo</h2>
+<p>Una restrizione del prezzo previene l’ingresso di una prenotazione se una singola notte costa meno o più di un prezzo specificato. Le restrizioni possono essere applicate a:</p>
+<ul>
+<li>Tariffe (tutte o alcune specifiche)</li>
+<li>Gruppi tariffari</li>
+<li>Categorie di spazio</li>
+<li>Tipologie di spazio</li>
+</ul>
+<p>In fase di creazione di una restrizione di prezzo, puoi scegliere se applicarla in base alla data di arrivo, alla data di partenza partenza o al periodo del soggiorno:</p>
+<ul>
+<li>Arrivo: una prenotazione che comincia durante il periodo di restrizione non può essere effettuata a meno che ogni notte non abbia il prezzo richiesto</li>
+<li>Partenza: una prenotazione che finisce durante il periodo di restrizione non può essere effettuata a meno che ogni notte della prenotazione non abbia il prezzo richiesto</li>
+<li>Soggiorno: una prenotazione con alcune notti presenti nel periodo di restrizione non può essere effettuata a meno che ogni notte non abbia il prezzo richiesto</li>
+</ul>
+<h3 id="creare-una-restrizione-di-prezzo-minimo">Creare una restrizione di prezzo minimo</h3>
+<p>Quando è in vigore una restrizione di prezzo minimo, una prenotazione che rientra nel periodo sottoposto a limitazione non può essere effettuata a meno che ogni notte non soddisfi o superi il prezzo minimo impostato</p>
+<ol>
+<li>Dal Menu principale vai a Impostazioni &gt; Restrictions</li>
+<li>Clicca il bottone +</li>
+<li>Scegli il Tipo di restrizione da applicare tra Arrivo, Partenza o Stay</li>
+<li>Inserisci la data di Inizio e di fine della Restriction. La restrizione si applica sia alla data di inizio che a quella di fine, così come a tutte le date comprese in questo periodo di tempo. Se desideri creare una restrizione che duri solo un giorno, inserisci la medesima data di inizio e fine.</li>
+<li>Seleziona la Tariffa, il gruppo tariffario, la categoria di Spazio e/o il tipo di spazio a cui desideri applicare la restrizione. Se non selezioni un'opzione per i precedenti campi, la restrizione si applicherà a tutti (es. Se non selezioni una tariffa, la restrizione si applicherà a tutte le tariffe)</li>
+<li>Alla voce Prezzo Minimo, inserisci il prezzo per notte minimo applicabile ad una prenotazione</li>
+<li>Seleziona la valuta</li>
+<li>Clicca su Salva</li>
+</ol>
+<h3 id="crea-una-restrizione-di-prezzo-massimo">Crea una restrizione di prezzo massimo</h3>
+<p>Quando è in vigore una restrizione di prezzo massimo, una prenotazione effettuata nel periodo delimitato dalla restrizione non può essere effettuata a meno che ogni notte non costi meno o uguale al prezzo stabilito</p>
+<ol>
+<li>Dal menu principale vai a Impostazioni &gt; Restrizioni</li>
+<li>Clicca il bottone +</li>
+<li>Scegli il tipo di restrizione da applicare tra Arrivo, Partenza e Stay</li>
+<li>Inserisci la data di Inizio e di fine della Restriction. La restrizione si applica sia alla data di inizio che a quella di fine, così come a tutte le date comprese in questo periodo di tempo. Se desideri creare una restrizione che duri solo un giorno, inserisci la medesima data di inizio e fine.</li>
+<li>Seleziona la Tariffa, il gruppo tariffario, la categoria di Spazio e/o il tipo di spazio a cui desideri applicare la restrizione. Se non selezioni un'opzione per i precedenti campi, la restrizione si applicherà a tutti (es. Se non selezioni una tariffa, la restrizione si applicherà a tutte le tariffe)</li>
+<li>Alla voce Prezzo Massimo, inserisci il prezzo per notte massimo applicabile ad una prenotazione</li>
+<li>Seleziona la Valuta</li>
+<li>Clicca su Salva</li>
+</ol>
                 
               
               

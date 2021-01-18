@@ -44,10 +44,6 @@
     
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
-    
-      <link rel="stylesheet" href="../../../assets/stylesheets/extra2.css">
-    
     
       
         
@@ -72,6 +68,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#outlets" class="md-skip">
+          Vai al contenuto
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -412,10 +413,88 @@
       
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Outlets
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         Outlets
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#impostare-i-punti-vendita" class="md-nav__link">
+    Impostare i punti vendita
+  </a>
+  
+    <nav class="md-nav" aria-label="Impostare i punti vendita">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creare-un-outlet" class="md-nav__link">
+    Creare un outlet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collegare-il-punto-vendita-al-sistema-di-integrazione" class="md-nav__link">
+    Collegare il punto vendita al sistema di integrazione
+  </a>
+  
+    <nav class="md-nav" aria-label="Collegare il punto vendita al sistema di integrazione">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#trovare-un-outletid" class="md-nav__link">
+    Trovare un OutletID
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trovare-un-serviceid" class="md-nav__link">
+    Trovare un ServiceID
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controllare-gli-introiti-dell-outlet" class="md-nav__link">
+    Controllare gli introiti dell Outlet
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1070,38 +1149,48 @@
               
                 
                 
-                  <h1>Outlets</h1>
-                
-                <p>Outlets
-Impostare i punti vendita
-Se la tua struttura ha fonti di reddito separate dal pernotto che accettano pagamenti all'infuori di Quadro (ad esempio un ristorante che accetta pagamenti diretti), puoi integrarlo al nostro sistema impostando gli outlet.
-Prima di poter impostare gli outlet, devi:
-Integrare l’outlet con il punto vendita
-Creare un servizio per ognuno degli outlet
-Creare una categoria di contabilità per ognuno degli outlet
-Gli outlet tracciano i ricavi esterni, pertanto non puoi tracciare i ricavi ottenuti se  non attraverso l’utilizzo di un software esterno (es FnB)
-Creare un outlet
-Dal Menu principale vai a Impostazioni &gt; Outlets
-Clicca sul bottone +
-Inserisci il nome dell’outlet
-Clicca su Salva. Ripeti l’operazione per ogni punto vendita della tua proprietà 
-Collegare il punto vendita al sistema di integrazione
-Per poter monitorare gli introiti in Quadro, assicurati prima di collegare il tuo outlet ad un servizio e ad una categoria di contabilità
-Il processo di connessione i tuoi outlets ai servizi e alle categorie di contabilità si differenzia in base a quale punto vendita stai usando, ma generalmente hai bisogno di trovare l’ID di mappatura
-Trovare un OutletID
-Dal menu principale vai a impostazioni &gt; Outlets
-Clicca sul nome dell’outlet del quale vuoi conoscere l’ID 
-L’Outlet ID è il lungo codice che trovi alla fine dell’URL in questa pagina (tutto quello che segue l’ultimo “/”)
-Trovare un ServiceID
-Dal menu principale vai a Impostazioni &gt; Servizi e prodotti
-Clicca sul nome del servizio per il quale vuoi trovare l’ID
-Il “ServiceID” è il lungo codice alla fine dell’URL in questa pagina (tutto quello che se segue l’ultimo “/”)
-Controllare gli introiti dell Outlet
-Dal menu principale vai a Contabilità &gt; Report contabilità
-Gli introiti dei tuoi outlet saranno elencati in due punti:
-I ricavi che sono stati addebitati sul conto degli ospiti
-I ricavi derivanti dai pagamenti effettuati al punto vendita (es. contanti)
-N.B. Se incassi attraverso i tuoi punti vendita, ma la sezione Outlets nei report di contabilità’ non mostra nulla, devi assicurarti che i tuoi punti vendita siano mappati in base alle categorie contabili</p>
+                <h1 id="outlets">Outlets</h1>
+<h2 id="impostare-i-punti-vendita">Impostare i punti vendita</h2>
+<p>Se la tua struttura ha fonti di reddito separate dal pernotto che accettano pagamenti all'infuori di Quadro (ad esempio un ristorante che accetta pagamenti diretti), puoi integrarlo al nostro sistema impostando gli outlet.</p>
+<p>Prima di poter impostare gli outlet, devi:</p>
+<ul>
+<li>Integrare l’outlet con il punto vendita</li>
+<li>Creare un servizio per ognuno degli outlet</li>
+<li>Creare una categoria di contabilità per ognuno degli outlet</li>
+</ul>
+<p>Gli outlet tracciano i ricavi esterni, pertanto non puoi tracciare i ricavi ottenuti se  non attraverso l’utilizzo di un software esterno (es FnB)</p>
+<h3 id="creare-un-outlet">Creare un outlet</h3>
+<ul>
+<li>Dal Menu principale vai a Impostazioni &gt; Outlets</li>
+<li>Clicca sul bottone +</li>
+<li>Inserisci il nome dell’outlet</li>
+<li>Clicca su Salva. Ripeti l’operazione per ogni punto vendita della tua proprietà </li>
+</ul>
+<h3 id="collegare-il-punto-vendita-al-sistema-di-integrazione">Collegare il punto vendita al sistema di integrazione</h3>
+<p>Per poter monitorare gli introiti in Quadro, assicurati prima di collegare il tuo outlet ad un servizio e ad una categoria di contabilità</p>
+<p>Il processo di connessione i tuoi outlets ai servizi e alle categorie di contabilità si differenzia in base a quale punto vendita stai usando, ma generalmente hai bisogno di trovare l’ID di mappatura</p>
+<h4 id="trovare-un-outletid">Trovare un OutletID</h4>
+<ol>
+<li>Dal menu principale vai a impostazioni &gt; Outlets</li>
+<li>Clicca sul nome dell’outlet del quale vuoi conoscere l’ID </li>
+<li>L’Outlet ID è il lungo codice che trovi alla fine dell’URL in questa pagina (tutto quello che segue l’ultimo “/”)</li>
+</ol>
+<h4 id="trovare-un-serviceid">Trovare un ServiceID</h4>
+<ol>
+<li>Dal menu principale vai a Impostazioni &gt; Servizi e prodotti</li>
+<li>Clicca sul nome del servizio per il quale vuoi trovare l’ID</li>
+<li>Il “ServiceID” è il lungo codice alla fine dell’URL in questa pagina (tutto quello che se segue l’ultimo “/”)</li>
+</ol>
+<h3 id="controllare-gli-introiti-dell-outlet">Controllare gli introiti dell Outlet</h3>
+<ol>
+<li>Dal menu principale vai a Contabilità &gt; Report contabilità</li>
+<li>Gli introiti dei tuoi outlet saranno elencati in due punti:<ul>
+<li>I ricavi che sono stati addebitati sul conto degli ospiti</li>
+<li>I ricavi derivanti dai pagamenti effettuati al punto vendita (es. contanti)</li>
+</ul>
+</li>
+</ol>
+<p>N.B. Se incassi attraverso i tuoi punti vendita, ma la sezione Outlets nei report di contabilità’ non mostra nulla, devi assicurarti che i tuoi punti vendita siano mappati in base alle categorie contabili</p>
                 
               
               

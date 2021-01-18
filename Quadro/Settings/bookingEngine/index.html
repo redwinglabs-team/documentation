@@ -44,10 +44,6 @@
     
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
-    
-      <link rel="stylesheet" href="../../../assets/stylesheets/extra2.css">
-    
     
       
         
@@ -72,6 +68,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#booking-engine" class="md-skip">
+          Vai al contenuto
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -448,10 +449,115 @@
       
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Booking engine
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         Booking engine
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#configurare-il-booking-engine" class="md-nav__link">
+    Configurare il Booking Engine
+  </a>
+  
+    <nav class="md-nav" aria-label="Configurare il Booking Engine">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-termini-e-condizioni" class="md-nav__link">
+    Step 1: Termini e Condizioni
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-configura-il-tuo-booking-engine" class="md-nav__link">
+    Step 2: Configura il tuo booking engine
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 2: Configura il tuo booking engine">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dettaglio-dei-campi-di-una-configurazione-del-booking-engine" class="md-nav__link">
+    Dettaglio dei campi di una configurazione del Booking Engine
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-mappa-le-tue-categorie-dello-spazio" class="md-nav__link">
+    Step 3: Mappa le tue categorie dello spazio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ottimizzare-il-tuo-booking-engine" class="md-nav__link">
+    Ottimizzare il tuo booking engine
+  </a>
+  
+    <nav class="md-nav" aria-label="Ottimizzare il tuo booking engine">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categorie-di-spazio" class="md-nav__link">
+    Categorie di spazio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tariffe" class="md-nav__link">
+    Tariffe
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prodotti" class="md-nav__link">
+    Prodotti
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1070,79 +1176,89 @@
               
                 
                 
-                  <h1>Booking engine</h1>
-                
-                <p>Booking engine
-Configurare il Booking Engine
-Configura il booking engine dal sistema e aggiungilo al tuo sito web, in modo che i clienti possano effettuare la loro prenotazione direttamente con te.
-Step 1: Termini e Condizioni
-Prima di iniziare a utilizzare il booking engine,  bisogna determinare quali sono i termini e le condizioni della tua struttura, in conformità agli standard del tuo fornitore del portale di pagamento (es. Stripe).
-Dal Menu principale vai a Impostazioni &gt; Stay
-Clicca sul servizio di Stay
-In Opzioni, inserisci un indirizzo o HTML per i Termini e Condizioni. E’ necessario compilare solamente uno di questi due campi.
-Clicca su Salva
-Step 2: Configura il tuo booking engine
-Puoi creare molteplici configurazioni del tuo booking engine
-Dal Menu principale vai a Impostazioni &gt; Booking Engine
-Clicca sul bottone +
-Inserisci il nome della configurazione e clicca su Crea
-Completa tutti i campi rilevanti
-Clicca su Salva
-Dettaglio dei campi di una configurazione del Booking Engine
-Nome: se desideri modificare il nome inserito precedentemente, inseriscilo qui (uso esclusivamente interno)
-Inserimento del pagamento con Carta: scegli come verranno gestite le carte di pagamento nel booking engine. 
-Non richiesto: non richiede le informazioni sulla carta per il pagamento (non ci sarà alcun campo per poter inserire la carta di pagamento)
-Richiesto: include un campo per consentire ai clienti di inserire i dati della loro carta, ma non si desidera che i dati della carta siano convalidati (se i dati inseriti non sono corretti, la prenotazione verrà creata comunque)
-Obbligatorio: include un campo per consentire ai clienti di inserire i dati della loro carta, convalidandola prima che la prenotazione possa essere confermata
-Lingua: scegli la lingua predefinita per il booking engine
-Valuta: scegli la valuta nel quale il pagamento verrà addebitato al cliente (se non viene selezionata alcuna valuta, verrà utilizzata quella predefinita)
-Inizio compensazione: scegli un numero di giorni dopo il giorno in cui il cliente sta prenotando che sarà selezionato come data di inizio predefinita. Se si lascia il campo vuoto, il valore predefinito sarà 0.
-Fine compensazione: scegli un numero di giorni dopo il giorno in cui il cliente sta prenotando che sarà selezionato come data di fine predefinita. Se si lascia il campo vuoto, il valore predefinito sarà 2
-Numero di adulti: scegli il numero di adulti che deve essere selezionato come predefinito
-Numero bambini: scegliere il numero di bambini che deve essere selezionato come predefinito
-Codice Voucher: inserisci uno dei tuoi codici voucher utilizzare nel campo Promozioni come predefinito
-Mostra codice Voucher: scegli se i tuoi codici voucher devono essere elencati nel booking engine
-Mostra richieste speciali: scegli se includere o meno un campo che permetta agli ospiti di aggiungere richieste speciali alla loro prenotazione
-Una volta compilato, questa informazione sarà elencata nelle note di prenotazione (il campo di richiesta speciale è incluso come predefinito)
-Mostra il confronto delle tariffe: scegli se mostrare un banner di confronto delle tariffe sotto le vostre categorie di spazio. Il banner mostrerà la tua tariffa, l’URL di ogni agenzia di viaggio che inserisci nell’apposito campo apposito, e la tariffa di quell’agenzia di viaggio. Il banner di confronto delle tariffe non sarà incluso come valore predefinito
-Mostra disponibilità: scegli se mostrare la disponibilità della tua struttura accanto alla massima occupazione in ogni categoria di spazio 
-Selezione del bambino abilitata: scegli se includere l’opzione di aggiungere bambini alle prenotazioni (i bambini sono accettati nelle prenotazioni come valore predefinito)
-Agenzie di viaggio online: se hai selezionato Sì nel campo Visualizza confronto tariffe, inserisci l’URL delle agenzie di viaggio che vuoi mostrare nel banner di confronto tariffe
-Descrizione della tariffa del concorrente: Inserisci le caratteristiche che differenziano la tua prenotazione online della concorrenza (es. Colazione inclusa). Assicurati di creare una nuova linea per ogni funzione
-Modifica relativa del prezzo concorrente: inserisci la percentuale con il quale mostrare i prezzi del tuo concorrente (elencati nel banner di confronto delle tariffe se hai selezionato Si nel campo “mostra confronto tariffe”) rispetto al tuo BAR.
-URL del video introduttivo: Inserisci l’URL di un video che deve essere mostrato quando un cliente apre il booking engine (questo deve collegarsi a un video in formato MP$ su una pagina web basata su cloud, e non può collegarsi a video provenienti da YouTube, Vimeo o altre piattaforme di condivisione video)
-Id di Google Tag Manager: inserisci il GTM container ID al quale vuoi che vengano inviati tutti gli eventi del booking engine. GTM consente di collegare il motore di prenotazione del booking engine a un sistema di tracciamento, come Google Analytics. Una volta impostato, è possibile utilizzare la modalità anteprima per aiutare a visualizzare i dati raccolti sull’attività dell’utente durante il processo di prenotazione
-Tema: Scegli la combinazione di colori che desideri nel Distributor
-Campi richiesti: scegli se il campo telefono sia obbligatorio o opzionale
-Colore primario: scegli il colore principale che verrà mostrato nel booking engine (questo deve essere formattato in un codice esadecimale)
-Step 3: Mappa le tue categorie dello spazio
-Tutte le categorie di spazio sono elencate con valore predefinito nel booking engine, quindi è necessario mappare le categorie di spazio solo se ce ne sono alcune che non vuoi elencare
-N.B. quando crei nuove categorie di spazio nel channel manager, non dimenticare di mapparle. In caso contrario non saranno elencate nel tuo booking engine)
-Nella configurazione del booking engine, clicca su Mappature della categoria
-Clicca sul bottone +
-Sotto Categoria, seleziona la categoria di spazio che vuoi mappare nel booking engine
-Nel campo Ordine, scegli l’Ordine in cui desideri che le tue categorie di spazio siano elencate nel booking engine
-Clicca su Salva
-Ottimizzare il tuo booking engine
-Tutte le informazioni elencate nel Booking engine sono tratte dal channel manager, quindi è importante che ogni aspetto del tuo servizio di Stay sia completamente configurato con i dettagli rivolti al cliente, in particolare:
-Categorie di spazio
-Assicurati che i seguenti campi siano compilati per ogni categoria di spazioelencata nel booking engine:
-Conteggio dei letti ordinario
-Capienza extra
-Descrizione
-Immagine
-Ordina modello di e-mail
-Tariffe 
-Assicurati che i seguenti campi siano pubblicati per ogni tariffa pubblica:
-Nome 
-Descrizione
-Nome esterno
-N.B. Solo le tariffe più economiche di ogni gruppo tariffario sono elencate nel booking engine
-Prodotti
-Solo i prodotti collegati al tuo servizio di Stay sono elencati nel booking engine. Assicurati che i seguenti campi siano compilati per ogni prodotto allegato al tuo servizio di Stay:
-Nome
-Descrizione
-Nome esterno</p>
+                <h1 id="booking-engine">Booking engine</h1>
+<h2 id="configurare-il-booking-engine">Configurare il Booking Engine</h2>
+<p>Configura il booking engine dal sistema e aggiungilo al tuo sito web, in modo che i clienti possano effettuare la loro prenotazione direttamente con te.</p>
+<h3 id="step-1-termini-e-condizioni">Step 1: Termini e Condizioni</h3>
+<p>Prima di iniziare a utilizzare il booking engine,  bisogna determinare quali sono i termini e le condizioni della tua struttura, in conformità agli standard del tuo fornitore del portale di pagamento (es. Stripe).
+1. Dal Menu principale vai a Impostazioni &gt; Stay
+2. Clicca sul servizio di Stay
+3. In Opzioni, inserisci un indirizzo o HTML per i Termini e Condizioni. E’ necessario compilare solamente uno di questi due campi.
+4. Clicca su Salva</p>
+<h3 id="step-2-configura-il-tuo-booking-engine">Step 2: Configura il tuo booking engine</h3>
+<p>Puoi creare molteplici configurazioni del tuo booking engine</p>
+<ol>
+<li>Dal Menu principale vai a Impostazioni &gt; Booking Engine</li>
+<li>Clicca sul bottone +</li>
+<li>Inserisci il nome della configurazione e clicca su Crea</li>
+<li>Completa tutti i campi rilevanti</li>
+<li>Clicca su Salva</li>
+</ol>
+<h4 id="dettaglio-dei-campi-di-una-configurazione-del-booking-engine">Dettaglio dei campi di una configurazione del Booking Engine</h4>
+<ul>
+<li>Nome: se desideri modificare il nome inserito precedentemente, inseriscilo qui (uso esclusivamente interno)</li>
+<li>Inserimento del pagamento con Carta: scegli come verranno gestite le carte di pagamento nel booking engine. </li>
+<li>Non richiesto: non richiede le informazioni sulla carta per il pagamento (non ci sarà alcun campo per poter inserire la carta di pagamento)</li>
+<li>Richiesto: include un campo per consentire ai clienti di inserire i dati della loro carta, ma non si desidera che i dati della carta siano convalidati (se i dati inseriti non sono corretti, la prenotazione verrà creata comunque)</li>
+<li>Obbligatorio: include un campo per consentire ai clienti di inserire i dati della loro carta, convalidandola prima che la prenotazione possa essere confermata</li>
+<li>Lingua: scegli la lingua predefinita per il booking engine</li>
+<li>Valuta: scegli la valuta nel quale il pagamento verrà addebitato al cliente (se non viene selezionata alcuna valuta, verrà utilizzata quella predefinita)</li>
+<li>Inizio compensazione: scegli un numero di giorni dopo il giorno in cui il cliente sta prenotando che sarà selezionato come data di inizio predefinita. Se si lascia il campo vuoto, il valore predefinito sarà 0.</li>
+<li>Fine compensazione: scegli un numero di giorni dopo il giorno in cui il cliente sta prenotando che sarà selezionato come data di fine predefinita. Se si lascia il campo vuoto, il valore predefinito sarà 2</li>
+<li>Numero di adulti: scegli il numero di adulti che deve essere selezionato come predefinito</li>
+<li>Numero bambini: scegliere il numero di bambini che deve essere selezionato come predefinito</li>
+<li>Codice Voucher: inserisci uno dei tuoi codici voucher utilizzare nel campo Promozioni come predefinito</li>
+<li>Mostra codice Voucher: scegli se i tuoi codici voucher devono essere elencati nel booking engine</li>
+<li>Mostra richieste speciali: scegli se includere o meno un campo che permetta agli ospiti di aggiungere richieste speciali alla loro prenotazione</li>
+<li>Una volta compilato, questa informazione sarà elencata nelle note di prenotazione (il campo di richiesta speciale è incluso come predefinito)</li>
+<li>Mostra il confronto delle tariffe: scegli se mostrare un banner di confronto delle tariffe sotto le vostre categorie di spazio. Il banner mostrerà la tua tariffa, l’URL di ogni agenzia di viaggio che inserisci nell’apposito campo  apposito, e la tariffa di quell’agenzia di viaggio. Il banner di confronto delle tariffe non sarà incluso come valore predefinito</li>
+<li>Mostra disponibilità: scegli se mostrare la disponibilità della tua struttura accanto alla massima occupazione in ogni categoria di spazio </li>
+<li>Selezione del bambino abilitata: scegli se includere l’opzione di aggiungere bambini alle prenotazioni (i bambini sono accettati nelle prenotazioni come valore predefinito)</li>
+<li>Agenzie di viaggio online: se hai selezionato Sì nel campo Visualizza confronto tariffe, inserisci l’URL delle agenzie di viaggio che vuoi mostrare nel banner di confronto tariffe</li>
+<li>Descrizione della tariffa del concorrente: Inserisci le caratteristiche che differenziano la tua prenotazione online della concorrenza (es. Colazione inclusa). Assicurati di creare una nuova linea per ogni funzione</li>
+<li>Modifica relativa del prezzo concorrente: inserisci la percentuale con il quale mostrare i prezzi del tuo concorrente (elencati nel banner di confronto delle tariffe se hai selezionato Si nel campo “mostra confronto tariffe”) rispetto al tuo BAR.</li>
+<li>URL del video introduttivo: Inserisci l’URL di un video che deve essere mostrato quando un cliente apre il booking engine (questo deve collegarsi a un video in formato MP$ su una pagina web basata su cloud, e non può collegarsi a video provenienti da YouTube, Vimeo o altre piattaforme di condivisione video)</li>
+<li>Id di Google Tag Manager: inserisci il GTM container ID al quale vuoi che vengano inviati tutti gli eventi del booking engine. GTM consente di collegare il motore di prenotazione del booking engine a un sistema di tracciamento, come Google Analytics. Una volta impostato, è possibile utilizzare la modalità anteprima per aiutare a visualizzare i dati raccolti sull’attività dell’utente durante il processo di prenotazione</li>
+<li>Tema: Scegli la combinazione di colori che desideri nel Distributor</li>
+<li>Campi richiesti: scegli se il campo telefono sia obbligatorio o opzionale</li>
+<li>Colore primario: scegli il colore principale che verrà mostrato nel booking engine (questo deve essere formattato in un codice esadecimale)</li>
+</ul>
+<h3 id="step-3-mappa-le-tue-categorie-dello-spazio">Step 3: Mappa le tue categorie dello spazio</h3>
+<p>Tutte le categorie di spazio sono elencate con valore predefinito nel booking engine, quindi è necessario mappare le categorie di spazio solo se ce ne sono alcune che non vuoi elencare</p>
+<p>N.B. quando crei nuove categorie di spazio nel channel manager, non dimenticare di mapparle. In caso contrario non saranno elencate nel tuo booking engine)</p>
+<ol>
+<li>Nella configurazione del booking engine, clicca su Mappature della categoria</li>
+<li>Clicca sul bottone +</li>
+<li>Sotto Categoria, seleziona la categoria di spazio che vuoi mappare nel booking engine</li>
+<li>Nel campo Ordine, scegli l’Ordine in cui desideri che le tue categorie di spazio siano elencate nel booking engine</li>
+<li>Clicca su Salva</li>
+</ol>
+<h3 id="ottimizzare-il-tuo-booking-engine">Ottimizzare il tuo booking engine</h3>
+<p>Tutte le informazioni elencate nel Booking engine sono tratte dal channel manager, quindi è importante che ogni aspetto del tuo servizio di Stay sia completamente configurato con i dettagli rivolti al cliente, in particolare:</p>
+<h4 id="categorie-di-spazio">Categorie di spazio</h4>
+<p>Assicurati che i seguenti campi siano compilati per ogni categoria di spazioelencata nel booking engine:</p>
+<ul>
+<li>Conteggio dei letti ordinario</li>
+<li>Capienza extra</li>
+<li>Descrizione</li>
+<li>Immagine</li>
+<li>Ordina modello di e-mail</li>
+</ul>
+<h4 id="tariffe">Tariffe</h4>
+<p>Assicurati che i seguenti campi siano pubblicati per ogni tariffa pubblica:</p>
+<ul>
+<li>Nome </li>
+<li>Descrizione</li>
+<li>Nome esterno</li>
+</ul>
+<p>N.B. Solo le tariffe più economiche di ogni gruppo tariffario sono elencate nel booking engine</p>
+<h4 id="prodotti">Prodotti</h4>
+<p>Solo i prodotti collegati al tuo servizio di Stay sono elencati nel booking engine. Assicurati che i seguenti campi siano compilati per ogni prodotto allegato al tuo servizio di Stay:</p>
+<ul>
+<li>Nome</li>
+<li>Descrizione</li>
+<li>Nome esterno</li>
+</ul>
                 
               
               

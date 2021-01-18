@@ -44,10 +44,6 @@
     
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
-    
-      <link rel="stylesheet" href="../../../assets/stylesheets/extra2.css">
-    
     
       
         
@@ -72,6 +68,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#settare-unagenzia-di-viaggio" class="md-skip">
+          Vai al contenuto
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -500,10 +501,109 @@
       
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Contratti per Agenzie di viaggio
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         Contratti per Agenzie di viaggio
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-crea-un-profilo-per-lagenzia-di-viaggio" class="md-nav__link">
+    Step 1: Crea un profilo per l’Agenzia di viaggio
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-mappa-il-profilo-dellagenzia-di-viaggio" class="md-nav__link">
+    Step 2: Mappa il profilo dell’Agenzia di viaggio
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 2: Mappa il profilo dell’Agenzia di viaggio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metodo-1-utilizza-la-dropdown-del-campo-canale-consigliato" class="md-nav__link">
+    Metodo 1: Utilizza la dropdown del campo “Canale” (consigliato)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metodo-2-utilizza-lid-del-channel-manager" class="md-nav__link">
+    Metodo 2: Utilizza l’ID del channel manager
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metodo-3-utilizza-il-numero-iata" class="md-nav__link">
+    Metodo 3: Utilizza il numero IATA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metodo-4-utilizza-il-nome-dellagenzia-di-viaggio" class="md-nav__link">
+    Metodo 4: Utilizza il nome dell’Agenzia di viaggio
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-crea-un-contratto-per-lagenzia-di-viaggio" class="md-nav__link">
+    Step 3: Crea un Contratto per l’Agenzia di viaggio
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 3: Crea un Contratto per l’Agenzia di viaggio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creare-automaticamente-i-profili-per-le-agenzie-di-viaggio" class="md-nav__link">
+    Creare automaticamente i profili per le agenzie di viaggio
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commissioni-delle-agenzie-di-viaggio" class="md-nav__link">
+    Commissioni delle Agenzie di viaggio
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1070,67 +1170,83 @@
               
                 
                 
-                  <h1>Contratti per Agenzie di viaggio</h1>
-                
-                <p>Settare un’Agenzia di viaggio
-Dopo aver settato un’agenzia di viaggio creandone un profilo e un contratto, Quadro è capace di individuare automaticamente nuove prenotazioni in ingresso da quella determinata agenzia di viaggio e gestiscile esattamente come preferisci.
-N.B. Alcuni channel manager inviano le prenotazioni sia alla compagnia (il luogo di lavoro dell’ospite) e l’Agenzia di viaggio ad esso collegata. Controlla prima se il tuo channel supporta questa funzione.
-Step 1: Crea un profilo per l’Agenzia di viaggio</p>
-<p>Dal Menu principale vai a Profili &gt; Agenzie di Viaggio
-Clicca sul bottone +
-Inserisci il nome dell’Agenzia di viaggio
-Compila tutti gli altri campi rilevanti
-Clicca su Salva
-Step 2: Mappa il profilo dell’Agenzia di viaggio
- Se stai usando un channel manager, è importante mappare i profili delle agenzie di viaggio. Quadro rileverà automaticamente le prenotazioni effettuate dalle agenzie e ne applicherà le condizioni dettate dal contratto di collaborazione.
-Metodo 1: Utilizza la dropdown del campo “Canale” (consigliato)
-Consigliamo di provare questo metodo prima di passare ad un altro.
-Apri il profilo dell’Agenzia di viaggio che hai appena creato
-Alla voce “Canale” cerca l’OTA, il GDS o l’agenzia di viaggio a cui è destinato il profilo.  Se non la trovi, dovrai richiedere le informazioni sulla mappatura direttamente al tuo channel manager.
-Clicca su Salva
-Se non riesci a mappare l’agenzia di viaggio con la dropdown del campo “Canale”, richiedi le informazioni di mappatura al tuo channel manager e prova uno dei metodi riportati di seguito
-Metodo 2: Utilizza l’ID del channel manager
-Dal Menu principale vai su Marketplace &gt; My Subscriptions
-Trova l’integrazione del tuo channel manager e clicca su Impostazioni
-Clicca su Channel manager companies
-Clicca sul bottone +
-Alla voce Channel manager ID inserisci il codice fornito dal proprio channel manager
-Alla voce Company cerca il profilo dell'Agenzia di viaggio che desideri mappare
-Clicca su Crea
-Metodo 3: Utilizza il numero IATA
-Apri il profilo dell’Agenzia di viaggio appena creata
-Alla voce IATA inserisci il numero IATA fornito dal proprio channel manager
-Clicca su Salva
-Metodo 4: Utilizza il nome dell’Agenzia di viaggio
-Apri il profilo dell’Agenzia di viaggio appena creata
-Alla voce Nome, inserisci il nome dell’Agenzia di viaggio che stai cercando di mappare. Questo deve essere formattato esattamente come inviato dal channel manager, o non funzionerà. Quindi, effettua sempre un doppio controllo con il channel manager prima di procedere.
-Clicca su Salva
-Step 3: Crea un Contratto per l’Agenzia di viaggio
-Crea un contratto per le Agenzie di viaggio, così Quadro saprà sempre come gestire le prenotazioni fatte con una determinata Agenzia di viaggio ( come ad esempio commissioni e le regole della struttura)
-Dal Menu principale vai a Profili &gt; Travel Agency contracts
-Clicca sul bottone +
-Alla voce Company, cerca il profilo dell’Agenzia di viaggio appena creata
-Scegli come le prenotazioni debbano essere effettuate attraverso una determinata Agenzia di viaggio. Le prenotazioni possono essere effettuate sia tramite l’ospite che l’agenzia di viaggio
-Compila tutti gli altri campi rilevanti 
-Clicca su Salva
-Creare automaticamente i profili per le agenzie di viaggio
-Abilita Quadro a creare automaticamente i profili per le compagnie e le agenzie di viaggio quando esse sono fornite dal channel manager ma non trovano alcuna corrispondenza in Quadro.
-Dal Menu principale vai a Marketplace &gt; My subscriptions
-Trova l’integrazione con il tuo channel manager e clicca su Impostazioni
-Alla voce Opzioni, abilita Crea profili Aziendali e profili per Agenzie di viaggio
-Clicca su Salva
-Commissioni delle Agenzie di viaggio
-Quando stai settando il Contratto dell’Agenzia di viaggio, può essere compilato anche un campo relativo alle commissioni.
-Questo campo non è obbligatorio, dipende tutto da come vuoi visualizzare le commissioni.
-Se il campo viene compilato, non influenzerà il prezzo di prenotazione e solo il report mostrerà l’importo pagato all’agenzia di viaggio.
-Se vorresti avere prezzi differenti per una prenotazione, ovvero, se l’ospite ha già pagato le commissioni all’Agenzia di viaggio e deve solo pagare a voi il resto, allora è possibile aggiungere delle modifiche.
-Puoi creare sia una Modifica Assoluta che una Modifica relativa.
-Una Modifica assoluta avrà sempre lo stesso valore
-Se la modifica corrisponde a 100, il prezzo della prenotazione sarà modificato di +100 (in qualsiasi valuta applicata ad esso)
-Una Modifica relativa utilizzerà invece una percentuale del valore del prezzo della prenotazione nel calcolo
-Se la modifica corrisponde al 12%, la commissione cambierà in base al totale del prezzo della prenotazione
-N.B. se desideri modificare il prezzo al ribasso, dovrai aggiungere un “-” (meno) prima del numero
-Le opzioni di contratto danno la possibilità di includere la cancellation fee nel preventivo della commissione e/o regolare manualmente le prenotazioni in arrivo dall’Agenzia di viaggio</p>
+                <h1 id="settare-unagenzia-di-viaggio">Settare un’Agenzia di viaggio</h1>
+<p>Dopo aver settato un’agenzia di viaggio creandone un profilo e un contratto, Quadro è capace di individuare automaticamente nuove prenotazioni in ingresso da quella determinata agenzia di viaggio e gestiscile esattamente come preferisci.</p>
+<p>N.B. Alcuni channel manager inviano le prenotazioni sia alla compagnia (il luogo di lavoro dell’ospite) e l’Agenzia di viaggio ad esso collegata. Controlla prima se il tuo channel supporta questa funzione.</p>
+<h3 id="step-1-crea-un-profilo-per-lagenzia-di-viaggio">Step 1: Crea un profilo per l’Agenzia di viaggio</h3>
+<ol>
+<li>Dal Menu principale vai a Profili &gt; Agenzie di Viaggio</li>
+<li>Clicca sul bottone +</li>
+<li>Inserisci il nome dell’Agenzia di viaggio</li>
+<li>Compila tutti gli altri campi rilevanti</li>
+<li>Clicca su Salva</li>
+</ol>
+<h3 id="step-2-mappa-il-profilo-dellagenzia-di-viaggio">Step 2: Mappa il profilo dell’Agenzia di viaggio</h3>
+<p>Se stai usando un channel manager, è importante mappare i profili delle agenzie di viaggio. Quadro rileverà automaticamente le prenotazioni effettuate dalle agenzie e ne applicherà le condizioni dettate dal contratto di collaborazione.</p>
+<h4 id="metodo-1-utilizza-la-dropdown-del-campo-canale-consigliato">Metodo 1: Utilizza la dropdown del campo “Canale” (consigliato)</h4>
+<p>Consigliamo di provare questo metodo prima di passare ad un altro.</p>
+<ol>
+<li>Apri il profilo dell’Agenzia di viaggio che hai appena creato</li>
+<li>Alla voce “Canale” cerca l’OTA, il GDS o l’agenzia di viaggio a cui è destinato il profilo.  Se non la trovi, dovrai richiedere le informazioni sulla mappatura direttamente al tuo channel manager.</li>
+<li>Clicca su Salva</li>
+</ol>
+<p>Se non riesci a mappare l’agenzia di viaggio con la dropdown del campo “Canale”, richiedi le informazioni di mappatura al tuo channel manager e prova uno dei metodi riportati di seguito</p>
+<h4 id="metodo-2-utilizza-lid-del-channel-manager">Metodo 2: Utilizza l’ID del channel manager</h4>
+<ol>
+<li>Dal Menu principale vai su Marketplace &gt; My Subscriptions</li>
+<li>Trova l’integrazione del tuo channel manager e clicca su Impostazioni</li>
+<li>Clicca su Channel manager companies</li>
+<li>Clicca sul bottone +</li>
+<li>Alla voce Channel manager ID inserisci il codice fornito dal proprio channel manager</li>
+<li>Alla voce Company cerca il profilo dell'Agenzia di viaggio che desideri mappare</li>
+<li>Clicca su Crea</li>
+</ol>
+<h4 id="metodo-3-utilizza-il-numero-iata">Metodo 3: Utilizza il numero IATA</h4>
+<ol>
+<li>Apri il profilo dell’Agenzia di viaggio appena creata</li>
+<li>Alla voce IATA inserisci il numero IATA fornito dal proprio channel manager</li>
+<li>Clicca su Salva</li>
+</ol>
+<h4 id="metodo-4-utilizza-il-nome-dellagenzia-di-viaggio">Metodo 4: Utilizza il nome dell’Agenzia di viaggio</h4>
+<ol>
+<li>Apri il profilo dell’Agenzia di viaggio appena creata</li>
+<li>Alla voce Nome, inserisci il nome dell’Agenzia di viaggio che stai cercando di mappare. Questo deve essere formattato esattamente come inviato dal channel manager, o non funzionerà. Quindi, effettua sempre un doppio controllo con il channel manager prima di procedere.</li>
+<li>Clicca su Salva</li>
+</ol>
+<h3 id="step-3-crea-un-contratto-per-lagenzia-di-viaggio">Step 3: Crea un Contratto per l’Agenzia di viaggio</h3>
+<p>Crea un contratto per le Agenzie di viaggio, così Quadro saprà sempre come gestire le prenotazioni fatte con una determinata Agenzia di viaggio ( come ad esempio commissioni e le regole della struttura)</p>
+<ol>
+<li>Dal Menu principale vai a Profili &gt; Travel Agency contracts</li>
+<li>Clicca sul bottone +</li>
+<li>Alla voce Company, cerca il profilo dell’Agenzia di viaggio appena creata</li>
+<li>Scegli come le prenotazioni debbano essere effettuate attraverso una determinata Agenzia di viaggio. Le prenotazioni possono essere effettuate sia tramite l’ospite che l’agenzia di viaggio</li>
+<li>Compila tutti gli altri campi rilevanti </li>
+<li>Clicca su Salva</li>
+</ol>
+<h4 id="creare-automaticamente-i-profili-per-le-agenzie-di-viaggio">Creare automaticamente i profili per le agenzie di viaggio</h4>
+<p>Abilita Quadro a creare automaticamente i profili per le compagnie e le agenzie di viaggio quando esse sono fornite dal channel manager ma non trovano alcuna corrispondenza in Quadro.</p>
+<ol>
+<li>Dal Menu principale vai a Marketplace &gt; My subscriptions</li>
+<li>Trova l’integrazione con il tuo channel manager e clicca su Impostazioni</li>
+<li>Alla voce Opzioni, abilita Crea profili Aziendali e profili per Agenzie di viaggio</li>
+<li>Clicca su Salva</li>
+</ol>
+<h2 id="commissioni-delle-agenzie-di-viaggio">Commissioni delle Agenzie di viaggio</h2>
+<p>Quando stai settando il Contratto dell’Agenzia di viaggio, può essere compilato anche un campo relativo alle commissioni.</p>
+<p>Questo campo non è obbligatorio, dipende tutto da come vuoi visualizzare le commissioni.</p>
+<p>Se il campo viene compilato, non influenzerà il prezzo di prenotazione e solo il report mostrerà l’importo pagato all’agenzia di viaggio.</p>
+<p>Se vorresti avere prezzi differenti per una prenotazione, ovvero, se l’ospite ha già pagato le commissioni all’Agenzia di viaggio e deve solo pagare a voi il resto, allora è possibile aggiungere delle modifiche.</p>
+<p>Puoi creare sia una Modifica Assoluta che una Modifica relativa.
+Una Modifica assoluta avrà sempre lo stesso valore</p>
+<ul>
+<li>Se la modifica corrisponde a 100, il prezzo della prenotazione sarà modificato di +100 (in qualsiasi valuta applicata ad esso)</li>
+</ul>
+<p>Una Modifica relativa utilizzerà invece una percentuale del valore del prezzo della prenotazione nel calcolo</p>
+<ul>
+<li>Se la modifica corrisponde al 12%, la commissione cambierà in base al totale del prezzo della prenotazione</li>
+</ul>
+<p>N.B. se desideri modificare il prezzo al ribasso, dovrai aggiungere un “-” (meno) prima del numero</p>
+<p>Le opzioni di contratto danno la possibilità di includere la cancellation fee nel preventivo della commissione e/o regolare manualmente le prenotazioni in arrivo dall’Agenzia di viaggio</p>
                 
               
               
