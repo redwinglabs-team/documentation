@@ -1,0 +1,1924 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentazione delle app prodotte da RedWingLabs">
+      
+      
+      
+        <meta name="author" content="RedWing Labs">
+      
+      
+      <link rel="shortcut icon" href="../../../assets/img/redwingbird.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.5">
+    
+    
+      
+        <title>New Reservation - RWL Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.15aa0b43.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.75751829.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#546d78">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+        
+<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-167197052-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}),document.addEventListener("DOMContentSwitch",function(){ga("send","pageview",document.location.pathname)})</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="red">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#prenotazioni" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../../.." title="RWL Documentation" class="md-header-nav__button md-logo" aria-label="RWL Documentation">
+      
+  <img src="../../../assets/img/redwingbird.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            RWL Documentation
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              New Reservation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link md-tabs__link--active">
+        Quadro
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../F%26B/intro/" class="md-tabs__link">
+        FnB
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="RWL Documentation" class="md-nav__button md-logo" aria-label="RWL Documentation">
+      
+  <img src="../../../assets/img/redwingbird.png" alt="logo">
+
+    </a>
+    RWL Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
+      
+      <label class="md-nav__link" for="nav-1">
+        Quadro
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Quadro" data-md-level="1">
+        <label class="md-nav__title" for="nav-1">
+          <span class="md-nav__icon md-icon"></span>
+          Quadro
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Quadro
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-2" type="checkbox" id="nav-1-2" >
+      
+      <label class="md-nav__link" for="nav-1-2">
+        Configura il tuo hotel
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Configura il tuo hotel" data-md-level="2">
+        <label class="md-nav__title" for="nav-1-2">
+          <span class="md-nav__icon md-icon"></span>
+          Configura il tuo hotel
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/property/" class="md-nav__link">
+        Configura la tua struttura
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/stay/" class="md-nav__link">
+        Servizi Prenotabili
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/serv%26prod/" class="md-nav__link">
+        Servizi Aggiuntivi
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/products/" class="md-nav__link">
+        Prodotti
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/rates/" class="md-nav__link">
+        Tariffe
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/cancellationPolicy/" class="md-nav__link">
+        Cancellation Policy
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/rateManagement/" class="md-nav__link">
+        Gestione delle Tariffe
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/restrictions/" class="md-nav__link">
+        Restrictions
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/vouchers/" class="md-nav__link">
+        Voucher
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/spaces/" class="md-nav__link">
+        Spazi
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/segments/" class="md-nav__link">
+        Segmenti
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/depts%26Empl/" class="md-nav__link">
+        Dipartimenti ed Impiegati
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/outlets/" class="md-nav__link">
+        Outlets
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/placeholders/" class="md-nav__link">
+        Placeholder Emails
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/accounting/" class="md-nav__link">
+        Contabilità
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/bookingEngine/" class="md-nav__link">
+        Booking engine
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/registrationCard/" class="md-nav__link">
+        Registration Card
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-3" type="checkbox" id="nav-1-3" checked>
+      
+      <label class="md-nav__link" for="nav-1-3">
+        Reservations
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Reservations" data-md-level="2">
+        <label class="md-nav__title" for="nav-1-3">
+          <span class="md-nav__icon md-icon"></span>
+          Reservations
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          New Reservation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        New Reservation
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#creare-una-nuova-prenotazione" class="md-nav__link">
+    Creare una nuova prenotazione
+  </a>
+  
+    <nav class="md-nav" aria-label="Creare una nuova prenotazione">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-scegli-dove-e-quando-soggiornano" class="md-nav__link">
+    Step 1: scegli dove e quando soggiornano
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-aggiungi-le-prenotazioni-al-carrello" class="md-nav__link">
+    Step 2: Aggiungi le prenotazioni al carrello
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-aggiungi-gli-ultimi-dettagli" class="md-nav__link">
+    Step 3: Aggiungi gli ultimi dettagli
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aggiungi-prodotti-ad-una-nuova-prenotazione" class="md-nav__link">
+    Aggiungi prodotti ad una nuova prenotazione
+  </a>
+  
+    <nav class="md-nav" aria-label="Aggiungi prodotti ad una nuova prenotazione">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisito-crea-i-tuoi-prodotti-per-bambino" class="md-nav__link">
+    Prerequisito: Crea i tuoi prodotti per bambino
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aggiungi-i-prodotti" class="md-nav__link">
+    Aggiungi i prodotti
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cancella-una-prenotazione" class="md-nav__link">
+    Cancella una prenotazione
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conferma-o-cancella-una-richiesta" class="md-nav__link">
+    Conferma o cancella una richiesta
+  </a>
+  
+    <nav class="md-nav" aria-label="Conferma o cancella una richiesta">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#conferma-una-richiesta" class="md-nav__link">
+    Conferma una richiesta
+  </a>
+  
+    <nav class="md-nav" aria-label="Conferma una richiesta">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aggiornamento-ad-unopzione-di-prenotazione" class="md-nav__link">
+    Aggiornamento ad un'opzione di prenotazione
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aggiornamento-ad-una-prenotazione-confermata" class="md-nav__link">
+    Aggiornamento ad una prenotazione confermata
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cancella-una-richiesta" class="md-nav__link">
+    Cancella una richiesta
+  </a>
+  
+    <nav class="md-nav" aria-label="Cancella una richiesta">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#imposta-la-scadenza-automatica-delle-richieste" class="md-nav__link">
+    Imposta la scadenza automatica delle richieste
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cancella-una-richiesta-manualmente" class="md-nav__link">
+    Cancella una richiesta manualmente
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cambia-il-prezzo-di-una-prenotazione" class="md-nav__link">
+    Cambia il prezzo di una prenotazione
+  </a>
+  
+    <nav class="md-nav" aria-label="Cambia il prezzo di una prenotazione">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modifica-il-prezzo-medio-per-notte" class="md-nav__link">
+    Modifica il prezzo medio per notte
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modifica-il-prezzo-per-notte-in-percentuale" class="md-nav__link">
+    Modifica il prezzo per notte in percentuale
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modifica-il-prezzo-del-pernotto" class="md-nav__link">
+    Modifica il prezzo del pernotto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resOverview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../timeline/" class="md-nav__link">
+        Timeline
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../report/" class="md-nav__link">
+        Report
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-4" type="checkbox" id="nav-1-4" >
+      
+      <label class="md-nav__link" for="nav-1-4">
+        Profiles
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Profiles" data-md-level="2">
+        <label class="md-nav__title" for="nav-1-4">
+          <span class="md-nav__icon md-icon"></span>
+          Profiles
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Profiles/newUser/" class="md-nav__link">
+        New Customer
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Profiles/usersList/" class="md-nav__link">
+        Customers
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Profiles/companies/" class="md-nav__link">
+        Aziende
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Profiles/travAgencyContracts/" class="md-nav__link">
+        Contratti per Agenzie di viaggio
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-5" type="checkbox" id="nav-1-5" >
+      
+      <label class="md-nav__link" for="nav-1-5">
+        Distribution
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Distribution" data-md-level="2">
+        <label class="md-nav__title" for="nav-1-5">
+          <span class="md-nav__icon md-icon"></span>
+          Distribution
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Distribution/occupancy/" class="md-nav__link">
+        Occupancy
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Distribution/availability/" class="md-nav__link">
+        Availability
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Distribution/rateManagement/" class="md-nav__link">
+        Rate Management
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Distribution/actionLog/" class="md-nav__link">
+        Action Log
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Spaces/spaces/" class="md-nav__link">
+        Spaces
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-7" type="checkbox" id="nav-1-7" >
+      
+      <label class="md-nav__link" for="nav-1-7">
+        Finances
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Finances" data-md-level="2">
+        <label class="md-nav__title" for="nav-1-7">
+          <span class="md-nav__icon md-icon"></span>
+          Finances
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Finances/accountingLedger/" class="md-nav__link">
+        Accounting Ledger
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Finances/postingJournal/" class="md-nav__link">
+        Posting Journal
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Finances/bills%26inv/" class="md-nav__link">
+        Billing & Invoices
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-8" type="checkbox" id="nav-1-8" >
+      
+      <label class="md-nav__link" for="nav-1-8">
+        Report
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Report" data-md-level="2">
+        <label class="md-nav__title" for="nav-1-8">
+          <span class="md-nav__icon md-icon"></span>
+          Report
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Report/manager/" class="md-nav__link">
+        Manager
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Report/accounting/" class="md-nav__link">
+        Accounting
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Report/activity/" class="md-nav__link">
+        Activity
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Report/product/" class="md-nav__link">
+        Product
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Report/spentNight/" class="md-nav__link">
+        Spent Nights
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Report/payment/" class="md-nav__link">
+        Payment
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TaskManager/task/" class="md-nav__link">
+        Task Manager
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+      
+      <label class="md-nav__link" for="nav-2">
+        FnB
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="FnB" data-md-level="1">
+        <label class="md-nav__title" for="nav-2">
+          <span class="md-nav__icon md-icon"></span>
+          FnB
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/intro/" class="md-nav__link">
+        FnB
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/MOH%21Orders/orders/" class="md-nav__link">
+        App Ordini
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/MOH%21Bookings/bookings/" class="md-nav__link">
+        App Prenotazioni
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4" >
+      
+      <label class="md-nav__link" for="nav-2-4">
+        Impostazioni
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Impostazioni" data-md-level="2">
+        <label class="md-nav__title" for="nav-2-4">
+          <span class="md-nav__icon md-icon"></span>
+          Impostazioni
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/general/" class="md-nav__link">
+        Generali
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/reservation/" class="md-nav__link">
+        Prenotazioni
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/room/" class="md-nav__link">
+        Sala
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/service/" class="md-nav__link">
+        Servizio
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/segment/" class="md-nav__link">
+        Segmenti
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/moh%21Delivery/" class="md-nav__link">
+        App Consegna
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/moh%21TakeAway/" class="md-nav__link">
+        App Asporto
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/moh%21Services/" class="md-nav__link">
+        App Servizi
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/EditorSala/aboutEditorSala/" class="md-nav__link">
+        Editor Sala
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Menu/menu/" class="md-nav__link">
+        Menu
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-7" type="checkbox" id="nav-2-7" >
+      
+      <label class="md-nav__link" for="nav-2-7">
+        Prenotazioni
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Prenotazioni" data-md-level="2">
+        <label class="md-nav__title" for="nav-2-7">
+          <span class="md-nav__icon md-icon"></span>
+          Prenotazioni
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Reservations/viewReservations/" class="md-nav__link">
+        Lista Prenotazioni
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Reservations/newReservation/" class="md-nav__link">
+        Nuova Prenotazione
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-8" type="checkbox" id="nav-2-8" >
+      
+      <label class="md-nav__link" for="nav-2-8">
+        Visualizza Tavoli
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Visualizza Tavoli" data-md-level="2">
+        <label class="md-nav__title" for="nav-2-8">
+          <span class="md-nav__icon md-icon"></span>
+          Visualizza Tavoli
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/ViewTables/viewTables/" class="md-nav__link">
+        Tables Manager
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/ViewTables/order/" class="md-nav__link">
+        Comanda
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/ViewTables/assignChair/" class="md-nav__link">
+        Assegna Sedia
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Cash/cash/" class="md-nav__link">
+        Cassa
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-10" type="checkbox" id="nav-2-10" >
+      
+      <label class="md-nav__link" for="nav-2-10">
+        Gestione Conti
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Gestione Conti" data-md-level="2">
+        <label class="md-nav__title" for="nav-2-10">
+          <span class="md-nav__icon md-icon"></span>
+          Gestione Conti
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/BillsManagement/aboutBillsManagement/" class="md-nav__link">
+        Panoramica Gestione Conti
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/BillsManagement/billsList/" class="md-nav__link">
+        Lista Conti
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/BillsManagement/bankCheck%26Transfer/" class="md-nav__link">
+        Assegni/Bonifici
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/BillsManagement/closingReports/" class="md-nav__link">
+        Chiusure Fiscali
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/BillsManagement/invoices/" class="md-nav__link">
+        Fatture
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/BillsManagement/PM/" class="md-nav__link">
+        PM
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-11" type="checkbox" id="nav-2-11" >
+      
+      <label class="md-nav__link" for="nav-2-11">
+        Storico Ordini
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Storico Ordini" data-md-level="2">
+        <label class="md-nav__title" for="nav-2-11">
+          <span class="md-nav__icon md-icon"></span>
+          Storico Ordini
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Registry/reservations/" class="md-nav__link">
+        Prenotazione
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-12" type="checkbox" id="nav-2-12" >
+      
+      <label class="md-nav__link" for="nav-2-12">
+        Cucina
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Cucina" data-md-level="2">
+        <label class="md-nav__title" for="nav-2-12">
+          <span class="md-nav__icon md-icon"></span>
+          Cucina
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Kitchen/orderSummary/" class="md-nav__link">
+        Sommario Ordini
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Kitchen/detailedOrder/" class="md-nav__link">
+        Dettaglio Ordini
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="prenotazioni">Prenotazioni</h1>
+<h2 id="creare-una-nuova-prenotazione">Creare una nuova prenotazione</h2>
+<p>In Quadro, puoi creare una nuova prenotazione manualmente</p>
+<h3 id="step-1-scegli-dove-e-quando-soggiornano">Step 1: scegli dove e quando soggiornano</h3>
+<p>In questo step, puoi scegliere dove e quando effettuare la prenotazione</p>
+<ol>
+<li>Clicca sul bottone + situato nella barra degli strumenti in alto a destra</li>
+<li>Se la tua struttura è parte di una catena, puoi selezionare l’albergo dal menu a tendina posto sotto la voce Struttura.</li>
+<li>Seleziona le date scelte dall’ospite per il soggiorno.</li>
+</ol>
+<h3 id="step-2-aggiungi-le-prenotazioni-al-carrello">Step 2: Aggiungi le prenotazioni al carrello</h3>
+<p>In questo passaggio, puoi verificare la disponibilità della struttura e aggiungere le prenotazioni al carrello</p>
+<ol>
+<li>Alla voce Prenotazione, inserisci il nome dell’ospite per cercarlo in anagrafica o creare un nuovo profilo. Puoi anche  collegare la prenotazione ad un prenotante terzo, un’Agenzia di Viaggio, un’azienda, un voucher o un segmento. Selezionando un’Agenzia di Viaggio, un’azienda, un voucher o un segmento modificherai la scelta    delle tariffe disponibili per la prenotazione. Se l’ospite desidera aggiungere dei prodotti al suo soggiorno (es. Colazione), puoi aggiungerli da questa schermata. (link a Aggiungi prodotti a una nuova prenotazione)</li>
+<li>Alla voce Disponibilità, seleziona il tipo di camera che l’ospite desidera prenotare. Dopo aver selezionato la tipologia di camera, vedrai la disponibilità delle camere per quella categoria.</li>
+<li>Appena sotto la categoria di camera scelta, seleziona il numero di camere che l’ospite ha intenzione di prenotare e il numero di adulti e bambini presenti in ognuna di esse.</li>
+<li>Seleziona la tariffa da applicare per notte<ul>
+<li>Le tariffe sono ordinate per gruppo tariffario; trova il gruppo tariffario che desideri, e seleziona la tariffa dal menu a tendina in basso</li>
+<li>La tariffa più bassa per la categoria di camera selezionata sarà evidenziata in grassetto</li>
+</ul>
+</li>
+<li>Clicca il bottone + appena sotto il prezzo della tariffa per aggiungere la prenotazione al carrello<ul>
+<li>Se il bottone + è grigio, una restrizione ti sta impedendo di aggiungere la camera al carrello. Clicca sul link di fianco al bottone grigio + per collegarti direttamente alla pagina delle tue restrizioni, trovare il motivo che ti impedisce di completare la prenotazione e cambiarlo se necessario</li>
+</ul>
+</li>
+<li>Ripeti gli step da 1 a 5 in caso si voglia creare una prenotazione multipla<ul>
+<li>Dopo aver aggiunto una prenotazione (o camera) al tuo carrello, puoi cambiare alcuni dettagli nella sezione Prenotazioni prima di aggiungerne un’altra. Ad esempio, se stai creando una prenotazione con un prodotto chiamato “Colazione”, deseleziona il prodotto prima di aggiungere un’altra prenotazione al carrello (se non desideri la colazione inclusa)</li>
+</ul>
+</li>
+<li>Dopo aver aggiunto tutte le prenotazioni richieste al carrello, clicca su Next</li>
+</ol>
+<h3 id="step-3-aggiungi-gli-ultimi-dettagli">Step 3: Aggiungi gli ultimi dettagli</h3>
+<p>In questo step, puoi aggiungere i dettagli finali e creare la prenotazione</p>
+<ol>
+<li>Se non hai collegato la prenotazione ad alcun profilo utente durante lo step precedente, inserisci il nome dell’utente per cercare o creare un nuovo profilo in Quadro.<ul>
+<li>Puoi anche inserire il nome del prenotante se qualcuno sta prenotando al posto dell’ospite</li>
+</ul>
+</li>
+<li>Inserisci l’Origine della prenotazione</li>
+<li>Compila tutti i campi rilevanti<ul>
+<li>Puoi scegliere se la prenotazione ha stato confermato, è un'opzione o una richiesta. Se la prenotazione è un’opzione o una richiesta, imposta una data in cui verrà rilasciata in caso di mancata conferma</li>
+<li>Puoi inoltre scegliere se inviare o meno una conferma (se la prenotazione è confermata) o una quotazione (se è un’opzione o una richiesta) tramite email al cliente; se scegli di inviare l’email, seleziona la lingua nel quale inviarla.</li>
+</ul>
+</li>
+<li>Controlla che tutte le prenotazioni siano corrette (puoi sempre tornare indietro agli step precedenti per modificare qualcosa, o modificare le prenotazioni direttamente dal carrello)</li>
+<li>Clicca su Prenota Ora</li>
+</ol>
+<h2 id="aggiungi-prodotti-ad-una-nuova-prenotazione">Aggiungi prodotti ad una nuova prenotazione</h2>
+<p>Abbiamo aggiunto un campo prodotti alla schermata di una nuova prenotazione che ti permette di:</p>
+<ul>
+<li>Scegliere quanti prodotti aggiungere ad una nuova prenotazione </li>
+<li>Aggiungi ulteriori prodotti e servizi ausiliari alla prenotazione (es. Noleggio bici o ski pass)</li>
+<li>Aggiungi prodotti differenti per adulti e bambini<ul>
+<li>Ciò renderà ancora più semplice quotare accuratamente i prezzi per le prenotazioni di famiglie</li>
+</ul>
+</li>
+</ul>
+<h3 id="prerequisito-crea-i-tuoi-prodotti-per-bambino">Prerequisito: Crea i tuoi prodotti per bambino</h3>
+<p>Prima di poter aggiungere prodotti per bambino alle prenotazioni, devi prima crearli. Per far ciò, devi creare due versioni differenti dello stesso prodotto, uno con un prezzo per adulti, e un altro con un prezzo per bambini. Raccomandiamo sempre di aggiungere adulto o bambino al nome dei tuoi prodotti in modo tale da evitare confusioni all’aggiunta del prodotto (es. Colazione (adulto) e Colazione (Bambino)</p>
+<h3 id="aggiungi-i-prodotti">Aggiungi i prodotti</h3>
+<ol>
+<li>Quando stai effettuando una nuova prenotazione, seleziona i prodotti che desideri aggiungere alla voce Prodotti</li>
+<li>Espandi il contenitore del prodotto cliccando sulla freccetta in basso appena sopra la voce del Totale</li>
+<li>Clicca sull'icona della matita e aggiorna la quantità del prodotto</li>
+<li>Clicca i bottoni + e - per modificare la quantità del prodotto<ul>
+<li>N.B. non puoi modificare il numero di persone o di notti a cui il prodotto è applicato</li>
+</ul>
+</li>
+</ol>
+<h2 id="cancella-una-prenotazione">Cancella una prenotazione</h2>
+<p>Prima che una prenotazione abbia effettuato la procedura di check-in, può essere cancellata. Quando la finestra di tempo nel quale poter effettuare modifiche termina, la prenotazione non può più essere cancellata.</p>
+<p>N.B. cancellare una prenotazione è un’operazione permanente. Se desideri ripristinare una prenotazione, dovrai crearla nuovamente</p>
+<ol>
+<li>Apri la prenotazione che desideri cancellare</li>
+<li>Vai alla sezione Status. Se la prenotazione è parte di un gruppo, seleziona tutte le prenotazioni che vuoi cancellare nella parte destra dello schermo (per cancellarle simultaneamente). Assicurati di aver selezionato solo le prenotazioni che vuoi cancellare in quanto l’operazione è irreversibile</li>
+<li>Trova la sezione Cancellazione</li>
+<li>Seleziona i motivi della cancellazione e compila i campi rilevanti</li>
+<li>Scegli se applicare o meno penali per la cancellazione. Invia una mail di conferma della cancellazione all’ospite</li>
+<li>Clicca Ok</li>
+</ol>
+<p>N.B. Se annulli una prenotazione con una fattura chiusa, viene automaticamente creato uno sconto per annullare la fattura. Dopo l'annullamento, la data di consumo degli articoli della fattura viene impostata sulla data e l'ora in cui gli articoli sono stati scontati</p>
+<p>N.B. Non puoi cancellare una prenotazione che è attualmente in casa. Se un ospite deve partire in anticipo, puoi anticipare la procedura di check-out</p>
+<h2 id="conferma-o-cancella-una-richiesta">Conferma o cancella una richiesta</h2>
+<p>Una richiesta non rappresenta una prenotazione confermata, pertanto non verrà bloccata alcuna camera nella tua struttura</p>
+<h3 id="conferma-una-richiesta">Conferma una richiesta</h3>
+<p>Puoi confermare manualmente una richiesta di prenotazione in Quadro</p>
+<ol>
+<li>Trova la richiesta che vuoi confermare</li>
+<li>Vai alla sezione Status</li>
+</ol>
+<h4 id="aggiornamento-ad-unopzione-di-prenotazione">Aggiornamento ad un'opzione di prenotazione</h4>
+<ol>
+<li>Trova la sezione Opzionale</li>
+<li>Seleziona l’indirizzo email al quale mandare la quotazione, o seleziona il campo Invia email con Quotazione se non vuoi inviare alcuna mail. Scegli Email personalizzata se desideri inviare l’email ad un indirizzo differente da quello associato al profilo utente. Scegli invece Email Utente se desideri inviare l’email all’indirizzo associato al profilo utente</li>
+<li>Clicca su Opzionala</li>
+</ol>
+<h4 id="aggiornamento-ad-una-prenotazione-confermata">Aggiornamento ad una prenotazione confermata</h4>
+<ol>
+<li>Trova la sezione Conferma</li>
+<li>Seleziona l’indirizzo email al quale inviare la conferma o seleziona il campo Invia conferma per email se non vuoi inviare alcuna email. Scegli Email personalizzata se vuoi inviare una email ad un indirizzo differente da quello associato al profilo utente. Scegli invece Email utente se desideri inviare l’email all’indirizzo associato al profilo utente</li>
+<li>Clicca su conferma</li>
+</ol>
+<h3 id="cancella-una-richiesta">Cancella una richiesta</h3>
+<p>Ogni richiesta ha una data di scadenza. In base a come la tua struttura è impostata, al momento della scadenza: le richieste verranno annullate automaticamente o ti verrà ricordato di annullarle manualmente.</p>
+<h4 id="imposta-la-scadenza-automatica-delle-richieste">Imposta la scadenza automatica delle richieste</h4>
+<p>Puoi impostare Quadro in maniera tale da cancellare automaticamente le richieste in sospeso quando raggiungono la loro data di scadenza</p>
+<ol>
+<li>Vai a Menu Principale &gt; Impostazioni &gt; Servizi Prenotabili</li>
+<li>Clicca sul tuo servizio prenotabile</li>
+<li>Nella sezione Opzioni, trova il campo Opzioni di soggiorno</li>
+<li>Seleziona Abilita cancellazione automatica delle opzioni. N.B. se selezioni questa opzione, la scadenza automatica sarà attivata anche per le opzioni di prenotazione</li>
+<li>Clicca su Salva</li>
+</ol>
+<p>Consiglio: puoi anche abilitare l’opzione “Abilita invio automatico email di notifica” se desideri che gli utenti siano avvisati 24 ore prima della scadenza della loro richiesta</p>
+<h4 id="cancella-una-richiesta-manualmente">Cancella una richiesta manualmente</h4>
+<p>Se non vuoi che le richieste vengano cancellate automaticamente, dovrai farlo manualmente</p>
+<ol>
+<li>Trova la richiesta che desideri cancellare </li>
+<li>Vai alla sezione Status</li>
+<li>Trova la sezione Cancellazione</li>
+<li>Seleziona il motivo della cancellazione e inserisci eventuali dettagli</li>
+<li>Seleziona Applica penale di cancellazione</li>
+<li>Scegli se inviare o no un’email di notifica di cancellazione all’utente. Se deselezioni questa opzione, l’email sarà inviata sia al prenotante che all’ospite (nel caso siano presenti entrambi)</li>
+<li>Clicca su Ok</li>
+</ol>
+<h2 id="cambia-il-prezzo-di-una-prenotazione">Cambia il prezzo di una prenotazione</h2>
+<p>Puoi cambiare il prezzo di una prenotazione da: </p>
+<ul>
+<li>Impostando il prezzo medio per notte</li>
+<li>Modificando la tariffa del pernotto</li>
+<li>Impostando una tariffa personalizzata per il pernotto</li>
+</ul>
+<p>Per cambiare il prezzo di una prenotazione puoi usare uno dei seguenti metodi:</p>
+<ol>
+<li>Apri la prenotazione</li>
+<li>Vai alla sezione Tariffe</li>
+</ol>
+<h4 id="modifica-il-prezzo-medio-per-notte">Modifica il prezzo medio per notte</h4>
+<ol>
+<li>Trova la sezione Imposta Prezzo medio per notte (prodotti esclusi)</li>
+<li>Alla voce Valore, inserisci la cifra che vuoi addebitare alla prenotazione per notte</li>
+<li>Inserisci la ragione per il quale stai modificando il prezzo</li>
+<li>Clicca su Ok</li>
+</ol>
+<h4 id="modifica-il-prezzo-per-notte-in-percentuale">Modifica il prezzo per notte in percentuale</h4>
+<ol>
+<li>Trova la sezione Modifica il prezzo per notte in percentuale (prodotti esclusi)</li>
+<li>Alla voce Valore, inserisci il valore della percentuale che vuoi applicare al prezzo totale. Se ad esempio inserisci 50%, il prezzo aumenterà del 50%. Se invece inserisci -50%, il prezzo diminuirà del 50%</li>
+<li>Inserisci la ragione per il quale stai modificando il prezzo</li>
+<li>Clicca su Ok</li>
+</ol>
+<h4 id="modifica-il-prezzo-del-pernotto">Modifica il prezzo del pernotto</h4>
+<ol>
+<li>Trova la sezione Modifica prezzo del pernotto (prodotti esclusi)</li>
+<li>Inserisci un prezzo personalizzato per ogni notte della prenotazione. Ogni notte deve avere il suo prezzo, anche se non è obbligatorio che siano tutti diversi</li>
+<li>Clicca su Ok</li>
+</ol>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../../Settings/registrationCard/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Precedente
+                </span>
+                Registration Card
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../resOverview/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Prossimo
+                </span>
+                Overview
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2019 - 2020 RWL Srl
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://github.com/redwinglabs" target="_blank" rel="noopener" title="github.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/vendor.93c04032.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copia", "clipboard.copied": "Copiato", "search.config.lang": "it", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Cerca", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../../..",
+          features: ['navigation.instant', 'navigation.tabs', 'toc.integrate'],
+          search: Object.assign({
+            worker: "../../../assets/javascripts/worker/search.8c7e0a7e.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="../../../assets/javascripts/extra.js"></script>
+      
+    
+  </body>
+</html>
