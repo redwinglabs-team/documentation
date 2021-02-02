@@ -44,6 +44,10 @@
     
     
     
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra2.css">
+    
     
       
         
@@ -205,9 +209,7 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="RWL Documentation" class="md-nav__button md-logo" aria-label="RWL Documentation">
       
@@ -1557,6 +1559,98 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tabella-conti" class="md-nav__link">
+    Tabella Conti
+  </a>
+  
+    <nav class="md-nav" aria-label="Tabella Conti">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tab-conto" class="md-nav__link">
+    Tab Conto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pannello-ricerca" class="md-nav__link">
+    Pannello Ricerca
+  </a>
+  
+    <nav class="md-nav" aria-label="Pannello Ricerca">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cerca-per-prezzo" class="md-nav__link">
+    Cerca per Prezzo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filtra-data" class="md-nav__link">
+    Filtra Data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cerca-n-documento" class="md-nav__link">
+    Cerca N° Documento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cerca-operatore" class="md-nav__link">
+    Cerca Operatore
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filtra-per-metodo-di-pagamento" class="md-nav__link">
+    Filtra per Metodo di Pagamento
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -1698,7 +1792,7 @@
       <script>
         app = initialize({
           base: "../../..",
-          features: ['navigation.instant', 'navigation.tabs', 'toc.integrate'],
+          features: ['navigation.instant', 'navigation.tabs'],
           search: Object.assign({
             worker: "../../../assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)

@@ -44,6 +44,10 @@
     
     
     
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra2.css">
+    
     
       
         
@@ -205,9 +209,7 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="RWL Documentation" class="md-nav__button md-logo" aria-label="RWL Documentation">
       
@@ -1564,6 +1566,105 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-crea-un-profilo-per-lagenzia-di-viaggio" class="md-nav__link">
+    Step 1: Crea un profilo per l’Agenzia di viaggio
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-mappa-il-profilo-dellagenzia-di-viaggio" class="md-nav__link">
+    Step 2: Mappa il profilo dell’Agenzia di viaggio
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 2: Mappa il profilo dell’Agenzia di viaggio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metodo-1-utilizza-la-dropdown-del-campo-canale-consigliato" class="md-nav__link">
+    Metodo 1: Utilizza la dropdown del campo “Canale” (consigliato)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metodo-2-utilizza-lid-del-channel-manager" class="md-nav__link">
+    Metodo 2: Utilizza l’ID del channel manager
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metodo-3-utilizza-il-numero-iata" class="md-nav__link">
+    Metodo 3: Utilizza il numero IATA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metodo-4-utilizza-il-nome-dellagenzia-di-viaggio" class="md-nav__link">
+    Metodo 4: Utilizza il nome dell’Agenzia di viaggio
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-crea-un-contratto-per-lagenzia-di-viaggio" class="md-nav__link">
+    Step 3: Crea un Contratto per l’Agenzia di viaggio
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 3: Crea un Contratto per l’Agenzia di viaggio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creare-automaticamente-i-profili-per-le-agenzie-di-viaggio" class="md-nav__link">
+    Creare automaticamente i profili per le agenzie di viaggio
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commissioni-delle-agenzie-di-viaggio" class="md-nav__link">
+    Commissioni delle Agenzie di viaggio
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -1736,7 +1837,7 @@ Una Modifica assoluta avrà sempre lo stesso valore</p>
       <script>
         app = initialize({
           base: "../../..",
-          features: ['navigation.instant', 'navigation.tabs', 'toc.integrate'],
+          features: ['navigation.instant', 'navigation.tabs'],
           search: Object.assign({
             worker: "../../../assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)

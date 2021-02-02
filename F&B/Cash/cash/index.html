@@ -44,6 +44,10 @@
     
     
     
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra2.css">
+    
     
       
         
@@ -205,9 +209,7 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="RWL Documentation" class="md-nav__button md-logo" aria-label="RWL Documentation">
       
@@ -1617,6 +1619,160 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sezione-menu" class="md-nav__link">
+    Sezione Menu
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sezione-ordineriepilogo" class="md-nav__link">
+    Sezione Ordine/Riepilogo
+  </a>
+  
+    <nav class="md-nav" aria-label="Sezione Ordine/Riepilogo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#display-ordine" class="md-nav__link">
+    Display Ordine
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sezione-conti" class="md-nav__link">
+    Sezione Conti
+  </a>
+  
+    <nav class="md-nav" aria-label="Sezione Conti">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#conto" class="md-nav__link">
+    Conto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lista-azioni" class="md-nav__link">
+    Lista Azioni
+  </a>
+  
+    <nav class="md-nav" aria-label="Lista Azioni">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mappa-tavoli" class="md-nav__link">
+    Mappa Tavoli
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storico-conti" class="md-nav__link">
+    Storico Conti
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pre-conto" class="md-nav__link">
+    Pre Conto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paga" class="md-nav__link">
+    Paga
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addebita" class="md-nav__link">
+    Addebita
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#split" class="md-nav__link">
+    Split
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trasferisci-ordine" class="md-nav__link">
+    Trasferisci Ordine
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sconto" class="md-nav__link">
+    Sconto %
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sconto_1" class="md-nav__link">
+    Sconto €
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acquisisci-check" class="md-nav__link">
+    Acquisisci Check
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -1926,7 +2082,7 @@
       <script>
         app = initialize({
           base: "../../..",
-          features: ['navigation.instant', 'navigation.tabs', 'toc.integrate'],
+          features: ['navigation.instant', 'navigation.tabs'],
           search: Object.assign({
             worker: "../../../assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)

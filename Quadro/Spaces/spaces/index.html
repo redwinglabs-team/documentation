@@ -44,6 +44,10 @@
     
     
     
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra2.css">
+    
     
       
         
@@ -205,9 +209,7 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="RWL Documentation" class="md-nav__button md-logo" aria-label="RWL Documentation">
       
@@ -1583,6 +1585,126 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#report-delle-camere" class="md-nav__link">
+    Report delle camere
+  </a>
+  
+    <nav class="md-nav" aria-label="Report delle camere">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#assegnazione-housekeeping" class="md-nav__link">
+    Assegnazione housekeeping
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filtri" class="md-nav__link">
+    Filtri
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#funzionalita" class="md-nav__link">
+    Funzionalità
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guasto" class="md-nav__link">
+    Guasto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impostare-lo-stato-in-guasto" class="md-nav__link">
+    Impostare lo stato in Guasto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cambiamenti-automatici" class="md-nav__link">
+    Cambiamenti automatici
+  </a>
+  
+    <nav class="md-nav" aria-label="Cambiamenti automatici">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#utilizzo-interno-e-guasto" class="md-nav__link">
+    Utilizzo interno e Guasto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vacante" class="md-nav__link">
+    Vacante
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#occupato" class="md-nav__link">
+    Occupato
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cambio-camera" class="md-nav__link">
+    Cambio camera
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#no-show" class="md-nav__link">
+    No show
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -1753,7 +1875,7 @@ Nota bene che se uno spazio padre viene segnato come guasto, automaticamente anc
       <script>
         app = initialize({
           base: "../../..",
-          features: ['navigation.instant', 'navigation.tabs', 'toc.integrate'],
+          features: ['navigation.instant', 'navigation.tabs'],
           search: Object.assign({
             worker: "../../../assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)

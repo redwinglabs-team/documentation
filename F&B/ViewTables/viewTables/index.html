@@ -44,6 +44,10 @@
     
     
     
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra2.css">
+    
     
       
         
@@ -205,9 +209,7 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="RWL Documentation" class="md-nav__button md-logo" aria-label="RWL Documentation">
       
@@ -1550,6 +1552,91 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#scheda-riassunto-ospite" class="md-nav__link">
+    Scheda Riassunto Ospite
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bottoni-gestisci-tavoli" class="md-nav__link">
+    Bottoni Gestisci Tavoli
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#display-sale" class="md-nav__link">
+    Display Sale
+  </a>
+  
+    <nav class="md-nav" aria-label="Display Sale">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sala" class="md-nav__link">
+    Sala
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tavolo" class="md-nav__link">
+    Tavolo
+  </a>
+  
+    <nav class="md-nav" aria-label="Tavolo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tavolo-libero" class="md-nav__link">
+    Tavolo Libero
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tavolo-occupato" class="md-nav__link">
+    Tavolo Occupato
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -1725,7 +1812,7 @@
       <script>
         app = initialize({
           base: "../../..",
-          features: ['navigation.instant', 'navigation.tabs', 'toc.integrate'],
+          features: ['navigation.instant', 'navigation.tabs'],
           search: Object.assign({
             worker: "../../../assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)

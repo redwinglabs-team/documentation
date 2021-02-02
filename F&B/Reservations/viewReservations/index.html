@@ -44,6 +44,10 @@
     
     
     
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra2.css">
+    
     
       
         
@@ -205,9 +209,7 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="RWL Documentation" class="md-nav__button md-logo" aria-label="RWL Documentation">
       
@@ -1537,6 +1539,78 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#filtra-prenotazioni" class="md-nav__link">
+    Filtra Prenotazioni
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabella-prenotazioni" class="md-nav__link">
+    Tabella Prenotazioni
+  </a>
+  
+    <nav class="md-nav" aria-label="Tabella Prenotazioni">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ospite-arrivato" class="md-nav__link">
+    Ospite Arrivato
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dettagli" class="md-nav__link">
+    Dettagli
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#azioni" class="md-nav__link">
+    Azioni
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nuova-prenotazione" class="md-nav__link">
+    Nuova Prenotazione
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -1688,7 +1762,7 @@
       <script>
         app = initialize({
           base: "../../..",
-          features: ['navigation.instant', 'navigation.tabs', 'toc.integrate'],
+          features: ['navigation.instant', 'navigation.tabs'],
           search: Object.assign({
             worker: "../../../assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)

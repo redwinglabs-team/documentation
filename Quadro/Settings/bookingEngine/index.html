@@ -44,6 +44,10 @@
     
     
     
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra2.css">
+    
     
       
         
@@ -205,9 +209,7 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="RWL Documentation" class="md-nav__button md-logo" aria-label="RWL Documentation">
       
@@ -1570,6 +1572,111 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#configurare-il-booking-engine" class="md-nav__link">
+    Configurare il Booking Engine
+  </a>
+  
+    <nav class="md-nav" aria-label="Configurare il Booking Engine">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-termini-e-condizioni" class="md-nav__link">
+    Step 1: Termini e Condizioni
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-configura-il-tuo-booking-engine" class="md-nav__link">
+    Step 2: Configura il tuo booking engine
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 2: Configura il tuo booking engine">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dettaglio-dei-campi-di-una-configurazione-del-booking-engine" class="md-nav__link">
+    Dettaglio dei campi di una configurazione del Booking Engine
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-mappa-le-tue-categorie-dello-spazio" class="md-nav__link">
+    Step 3: Mappa le tue categorie dello spazio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ottimizzare-il-tuo-booking-engine" class="md-nav__link">
+    Ottimizzare il tuo booking engine
+  </a>
+  
+    <nav class="md-nav" aria-label="Ottimizzare il tuo booking engine">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categorie-di-spazio" class="md-nav__link">
+    Categorie di spazio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tariffe" class="md-nav__link">
+    Tariffe
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prodotti" class="md-nav__link">
+    Prodotti
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -1748,7 +1855,7 @@
       <script>
         app = initialize({
           base: "../../..",
-          features: ['navigation.instant', 'navigation.tabs', 'toc.integrate'],
+          features: ['navigation.instant', 'navigation.tabs'],
           search: Object.assign({
             worker: "../../../assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)
