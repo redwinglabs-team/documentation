@@ -13,3 +13,7 @@
     overflow: hidden;
     padding-bottom: 56.25%;
   }
+
+  .md-typeset table:not([class]) td {
+      min-width: 250px;
+  }
