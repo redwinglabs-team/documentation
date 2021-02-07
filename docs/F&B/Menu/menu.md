@@ -2,11 +2,11 @@
 
 Le funzionalità del Menu vi aiuteranno a creare menu specializzati composti da diverse categorie.
 
-1. Create una o più categorie
+1. <div>Create una o più categorie</div>
 
-2. Create gli elementi appartenenti alle categorie
+2. <div>Create gli elementi appartenenti alle categorie</div>
 
-3. Modificateli e ordinateli per ottenere il menu che più si addice alle vostre esigenze
+3. <div>Modificateli e ordinateli per ottenere il menu che più si addice alle vostre esigenze</div>
 
 ## Sezione Categorie
 
@@ -16,11 +16,11 @@ Selezionate le categorie dal menu a sinistra, e createne di nuove grazie ai bott
 
 ### Nuovo Elemento
 
- 1. Cliccate Aggiungi Elemento 
+ 1. <div>Cliccate Aggiungi Elemento </div>
 
- 2. Compilate i campi richiesti
+ 2. <div>Compilate i campi richiesti</div>
 
- 3. Cliccate Salva per creare l'elemento
+ 3. <div>Cliccate Salva per creare l'elemento</div>
 
  ![addElement](../../assets/img/imgMenu/addElement.png#addElement)
 
@@ -30,29 +30,29 @@ Selezionate le categorie dal menu a sinistra, e createne di nuove grazie ai bott
 
  * <div>Categoria: assegnate l'elemento ad una categoria esistente</div>
 
- * Descrizione: dettagli sulla preparazione del prodotto
+ * <div>Descrizione: dettagli sulla preparazione del prodotto</div>
 
  * <div>Prezzo: unità di prezzo del prodotto</div>
 
- * IVA: stabilite la percentuale di IVA applicata sul prodotto
+ * <div>IVA: stabilite la percentuale di IVA applicata sul prodotto</div>
 
- * Allergie: allergeni presenti nel piatto dovuti agli ingredienti contenuti in esso
+ * <div>Allergie: allergeni presenti nel piatto dovuti agli ingredienti contenuti in esso</div>
 
- * Stato: influenza cosa accade all'elemento in fase di Comanda
+ * <div>Stato: influenza cosa accade all'elemento in fase di Comanda</div>
 
-    * Attivo: disponibile in fase di presa comanda
+    * <div>Attivo: disponibile in fase di presa comanda</div>
 
-    * Nascosto: non disponibile in fase di presa comanda
+    * <div>Nascosto: non disponibile in fase di presa comanda</div>
 
  * <div>Note: corpo delle note aggiuntive </div>
 
 ### Aggiungi Categoria
 
- 1. Cliccate Nuova Categoria
+ 1. <div>Cliccate Nuova Categoria</div>
 
- 2. Compilate i campi richiesti
+ 2. <div>Compilate i campi richiesti</div>
 
- 3. Cliccate Salva per creare la categoria
+ 3. <div>Cliccate Salva per creare la categoria</div>
 
  ![addCategory](../../assets/img/imgMenu/addCategory.png#addCategory)
 
@@ -60,35 +60,35 @@ Selezionate le categorie dal menu a sinistra, e createne di nuove grazie ai bott
 
  * <div>Colore: segno distintivo della categoria</div>
 
- * Stato: influenza cosa accade all'elemento in fase di Comanda
+ * <div>Stato: influenza cosa accade all'elemento in fase di Comanda</div>
 
-    * Attivo: disponibile in fase di presa comanda
+    * <div>Attivo: disponibile in fase di presa comanda</div>
 
-    * Nascosto: non disponibile in fase di presa comanda
+    * <div>Nascosto: non disponibile in fase di presa comanda</div>
 
- * Categoria: influenza cosa accade in fase di presa comanda
+ * <div>Categoria: influenza cosa accade in fase di presa comanda</div>
 
-    * Food: i prodotti vengono visualizzati nella prima parte della comanda e in Cucina
+    * <div>Food: i prodotti vengono visualizzati nella prima parte della comanda e in Cucina</div>
 
     * Drink: i prodotti vengono visualizzati nella seconda parte della comanda (Bevande) e non vengono mostrati in cucina
  
 ### Modifica Categoria
 
- 1. Selezionate una categoria
+ 1. <div>Selezionate una categoria</div>
 
- 2. Cliccate Modifica Categoria
+ 2. <div>Cliccate Modifica Categoria</div>
 
- 3. Modificate i campi desiderati
+ 3. <div>Modificate i campi desiderati</div>
 
- 4. Cliccate Salva per salvare le modifiche
+ 4. <div>Cliccate Salva per salvare le modifiche</div>
 
  ![editCategory](../../assets/img/imgMenu/editCategory.png#editCategory)
 
 ### Cancella Categoria
 
-1. Selezionate una categoria
+1. <div>Selezionate una categoria</div>
 
-2. Cliccate Cancella Categoria
+2. <div>Cliccate Cancella Categoria</div>
 
 ## Lista Prodotti
 
@@ -96,11 +96,11 @@ La lista prodotti è un utile interfaccia dal quale avere sotto controllo tutti 
 
 ![tabElements](../../assets/img/imgMenu/tabElements.png#Elements)
 
-* Shortcut: icone situate in alto a destra
+* <div>Shortcut: icone situate in alto a destra</div>
 
-    * Cliccate + per creare un Nuovo Elemento
+    * <div>Cliccate + per creare un Nuovo Elemento</div>
 
-    * Cliccate le restanti due icone per modificare la visualizzazione dei piatti
+    * <div>Cliccate le restanti due icone per modificare la visualizzazione dei piatti</div>
 
 ### Box Prodotto
 
@@ -112,8 +112,8 @@ La lista prodotti è un utile interfaccia dal quale avere sotto controllo tutti 
 
  ![changeCategory](../../assets/img/imgMenu/changeCategory.png#changeCategory)
 
-* Shortcut: icone situate a destra del prodotto
+* <div>Shortcut: icone situate a destra del prodotto</div>
 
-    * Cliccate la prima icona per modificare il prodotto
+    * <div>Cliccate la prima icona per modificare il prodotto</div>
 
-    * Cliccate la seconda icona per cancellare il prodotto
+    * <div>Cliccate la seconda icona per cancellare il prodotto</div>

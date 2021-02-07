@@ -1,12 +1,12 @@
 # Sommario Ordini
 
-Permette di visualizzare tutti gli ordini di pietanze effettuati
+<div>Permette di visualizzare tutti gli ordini di pietanze effettuati</div>
 
 ![orderSummary](../assets/img/imgKitchen/orderSummary.png#orderSummary)
 
 ## Tabella Portate
 
-visualizza le informazioni relative al tavolo che ha effettuato l’ordinazione, le portate e i piatti di cui è composto
+Visualizza le informazioni relative al tavolo che ha effettuato l’ordinazione, le portate e i piatti di cui è composto
 
 ### Header
 
@@ -14,6 +14,6 @@ Visualizza le informazioni relative al tavolo che ha effettuato l’ordinazione,
 
 ### Tab Piatto
 
-permette di visualizzare le informazioni relative alle portate e ai piatti dell’ordine corrispondente quali: Num. Portata, Stato Portata, Quantità, Nome Piatto, Con e Senza, Note e Quantità di piatti per sedia;
+Permette di visualizzare le informazioni relative alle portate e ai piatti dell’ordine corrispondente quali: Num. Portata, Stato Portata, Quantità, Nome Piatto, Con e Senza, Note e Quantità di piatti per sedia;
 
 * Icona Portata: se il suo stato è in ‘To Do’, ‘Preparing’, o ‘Ready’, cliccare l’icona corrispondente permette di cambiare lo stato della portata selezionata in uno dei precedentemente elencati;

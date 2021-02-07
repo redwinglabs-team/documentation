@@ -6,7 +6,7 @@ La sezione App Consegne permette la gestione delle impostazioni del proprio sist
 
 * Consegna: cliccate lo switch corrispondente per scegliere se abilitare (SI) o disabilitare (NO) il servizio di consegna a domicilio. Ciò influenza la sua disponibilità all’interno dell’app client.
 
-* Numero Prodotto: visualizza il numero di prodotti presenti nel Menu in App
+* <div>Numero Prodotto: visualizza il numero di prodotti presenti nel Menu in App</div>
 
 * E-mail di notifica: compilate il form con l’indirizzo mail sul quale ricevere le notifiche di ricezione degli ordini effettuati tramite App
 
@@ -20,7 +20,7 @@ La sezione App Consegne permette la gestione delle impostazioni del proprio sist
 
 * Categoria: selezionate tramite la drop-down le categorie di cibo proposto dal ristorante (es. pizza, cucina italiana, sushi…). Ciò migliorerà la visibilità del locale all’interno dell’app
 
-* Impostazioni Condivise:
+* <div>Impostazioni Condivise:</div>
 
     * Max Ordini per slot: numero massimo degli ordini che è possibile ricevere in un determinato lasso di tempo
 
@@ -30,6 +30,6 @@ La sezione App Consegne permette la gestione delle impostazioni del proprio sist
 
 * Giorni Attivi: cliccate i bottoni desiderati per abilitare o disabilitare il servizio di consegna a domicilio in giorni specifici
 
-* Salva: memorizza la configurazione inserita;
+* <div>Salva: memorizza la configurazione inserita;</div>
 
-* Cancella: cancella la configurazione inserita ripristinando la precedente;
+* <div>Cancella: cancella la configurazione inserita ripristinando la precedente;</div>

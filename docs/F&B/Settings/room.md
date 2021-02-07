@@ -8,15 +8,15 @@ Tabella riepilogativa contenente le informazioni relative alla/e sala/e create, 
 
 ![Sala](../../assets/img/imgSettings/Sala.png#mobile)
 
-* Stato
+* <div>Stato</div>
 
-* Nome
+* <div>Nome</div>
 
-* Coperti totali
+* <div>Coperti totali</div>
 
-* Prenotazioni online
+* <div>Prenotazioni online</div>
 
-* Servizio
+* <div>Servizio</div>
 
 * <div>Modifica:</div>
 
@@ -32,24 +32,24 @@ Tabella riepilogativa contenente le informazioni relative alla/e sala/e create, 
 
 1. <div>cliccate il bottone in basso a sinistra (+)</div>
 
-2. Compilate i campi richiesti:
+2. <div>Compilate i campi richiesti:</div>
 
     * <div>Nome</div>
 
-    * Coperti Totali: numero dei coperti disponibili nella sala
+    * <div>Coperti Totali: numero dei coperti disponibili nella sala</div>
 
-    * Servizio: selezionate i servizi durante i quali la sala è disponibile
+    * <div>Servizio: selezionate i servizi durante i quali la sala è disponibile</div>
 
-    * Prenotazioni online:
+    * <div>Prenotazioni online:</div>
 
-        * Sì: abilita le prenotazioni provenienti dall'App client
+        * <div>Sì: abilita le prenotazioni provenienti dall'App client</div>
 
-        * No: disabilita le prenotazioni provenienti dall'App client
+        * <div>No: disabilita le prenotazioni provenienti dall'App client</div>
 
-    * Stato:
+    * <div>Stato:</div>
 
-        * Attivato: abilita tutte le funzioni della sala
+        * <div>Attivato: abilita tutte le funzioni della sala</div>
 
-        * Disattivato: disabilita tutte le funzioni della sala
+        * <div>Disattivato: disabilita tutte le funzioni della sala</div>
 
-3. Cliccate Salva e ultimate la creazione della Sala
+3. <div>Cliccate Salva e ultimate la creazione della Sala</div>

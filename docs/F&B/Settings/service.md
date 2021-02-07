@@ -27,9 +27,9 @@ Tabella riepilogativa dei Servizi creati contenente le informazioni ad essi rela
 
 ![Nuovo-Servizio](../../assets/img/imgSettings/Nuovo_Servizio.png#mobile)
 
-1. Cliccate il bottone in basso a sinistra (+) 
+1. <div>Cliccate il bottone in basso a sinistra (+) </div>
 
-2. Compilate i campi richiesti
+2. <div>Compilate i campi richiesti</div>
 
     * <div>Nome</div>
         
@@ -37,11 +37,11 @@ Tabella riepilogativa dei Servizi creati contenente le informazioni ad essi rela
 
     * <div>Ora Fine: cliccate l’icona e selezionate l’orario di fine del servizio</div>
 
-    * Stato:
+    * <div>Stato:</div>
     
-        * Attivato: abilita le prenotazioni per il servizio
+        * <div>Attivato: abilita le prenotazioni per il servizio</div>
 
-        * Disattivato: disabilita le prenotazioni per il servizio
+        * <div>Disattivato: disabilita le prenotazioni per il servizio</div>
 
     * Ultima Prenotazione: cliccate l’icona e selezionate l’orario in cui è possibile ricevere l’ultima prenotazione;
 
@@ -49,6 +49,6 @@ Tabella riepilogativa dei Servizi creati contenente le informazioni ad essi rela
 
     * Ospiti max (per slot): digitate il numero nella box permette di impostare il numero massimo di ospiti che è possibile ricevere nello slot di tempo impostato;
 
-    * Icona: cliccare la box e selezionate un’icona da associare al servizio;
+    * <div>Icona: cliccare la box e selezionate un’icona da associare al servizio;</div>
 
-3. Cliccate Salva e ultimate la creazione del servizio
+3. <div>Cliccate Salva e ultimate la creazione del servizio</div>

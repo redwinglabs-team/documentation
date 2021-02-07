@@ -18,7 +18,7 @@ La sezione App Asporto permette la gestione delle impostazioni del proprio siste
 
 * Categoria: selezionate tramite la drop-down le categorie di cibo proposto dal ristorante (es. pizza, cucina italiana, sushi…). Ciò migliorerà la visibilità del locale all’interno dell’app
 
-* Impostazioni Condivise:
+* <div>Impostazioni Condivise:</div>
 
     * Max Ordini per slot: numero massimo degli ordini che è possibile ricevere in un determinato lasso di tempo
 
@@ -28,6 +28,6 @@ La sezione App Asporto permette la gestione delle impostazioni del proprio siste
 
 * Giorni Attivi: cliccate i bottoni desiderati per abilitare o disabilitare il servizio di consegna a domicilio in giorni specifici
 
-* Salva: memorizza la configurazione inserita;
+* <div>Salva: memorizza la configurazione inserita;</div>
 
-* Cancella: cancella la configurazione inserita ripristinando la precedente;
+* <div>Cancella: cancella la configurazione inserita ripristinando la precedente;</div>

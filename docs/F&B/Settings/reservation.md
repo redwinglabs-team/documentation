@@ -4,7 +4,7 @@ La sezione Prenotazioni fornisce delle semplici scorciatoie per gestire le richi
 
 ![Prenotazioni](../../assets/img/imgSettings/Prenotazioni.png#prenotazioni)
 
-Impostazioni:
+<div>Impostazioni:</div>
 
 * Accetta prenotazioni N giorni in anticipo: numero di giorni entro il quale è possibile ricevere una prenotazione;
 
@@ -12,11 +12,11 @@ Impostazioni:
 
 * Accetta prenotazioni di minimo N e massimo N coperti: numero rappresentante il minimo e il massimo dei coperti accettati per una prenotazione;
 
-* Consenti ai clienti di modificare la prenotazione:
+* <div>Consenti ai clienti di modificare la prenotazione:</div>
 
-    * Si: attivare questa opzione ne permette la modifica
+    * <div>Si: attivare questa opzione ne permette la modifica</div>
 
-    * No: attivare questa opzione disabilita la modifica
+    * <div>No: attivare questa opzione disabilita la modifica</div>
 
 * <div>Cancellation Policy: numero di minuti dal quale il cliente non potrà più modificare o cancellare la sua prenotazione</div>
 

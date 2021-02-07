@@ -10,17 +10,17 @@ Permette di visualizzare le prenotazioni filtrate per i seguenti campi (è possi
 
 * Data: cliccate l’icona e selezionate la data, verranno visualizzate le prenotazioni corrispondenti
 
-* Stato: selezionate lo stato delle prenotazioni che si desidera visualizzare;
+* <div>Stato: selezionate lo stato delle prenotazioni che si desidera visualizzare;</div>
 
-    * Aperto
+    * <div>Aperto</div>
 
-    * In lavorazione
+    * <div>In lavorazione</div>
 
-    * Completato
+    * <div>Completato</div>
 
-    * Perso
+    * <div>Perso</div>
 
-    * Cancellato
+    * <div>Cancellato</div>
 
 * Servizio: cliccate la multi select e selezionate il Servizio per il quale visualizzare le prenotazioni associate;
 
@@ -36,13 +36,13 @@ Mostra le prenotazioni del ristorante, visualizzando i seguenti campi: Cliente, 
 
 ### Dettagli
 
-Cliccate su Dettagli per visualizzare le informazioni relative alla prenotazione desiderata
+<div>Cliccate su Dettagli per visualizzare le informazioni relative alla prenotazione desiderata</div>
 
 ### Azioni
 
 * Cliccate la prima icona per annullare la prenotazione selezionata, aggiornando il suo stato in ‘canceled’;
 
-* Cliccate la seconda icona per aprire il form di ‘Modifica Prenotazione’;
+* <div>Cliccate la seconda icona per aprire il form di ‘Modifica Prenotazione’;</div>
 
 ## Nuova Prenotazione
 

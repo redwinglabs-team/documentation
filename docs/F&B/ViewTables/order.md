@@ -34,8 +34,6 @@ clicca sulla portata desiderata per aprire una modale che ti permette di aggiung
 
 * <div>Quantità: clicca i due bottoni  e  per modificare la quantità del piatto selezionato;</div>
 
-* <div>Clicca ‘M’ o ‘F’ per assegnare alla sedia corrispondente un ospite;</div>
-
 * Centrotavola: cliccare il bottone corrispondente per condividere il piatto selezionato con tutti i commensali;
 
 * Centro Tavola/n: clicca il bottone corrispondente per condividere il piatto selezionato con il numero di sedie selezionate;

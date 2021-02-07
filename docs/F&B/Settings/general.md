@@ -2,15 +2,15 @@
 
 Le Impostazioni sono la prima sezione che dovrete configurare per cominciare a prendere dimestichezza con il vostro nuovo Restaurant Manager. Per fare ciò, dovrete:
 
-1. Creare un profilo per il vostro ristorante (Generali).
+1. <div>Creare un profilo per il vostro ristorante (Generali).</div>
 
-2. Creare il primo Servizio
+2. <div>Creare il primo Servizio.</div>
 
-3. Creare la Sala del vostro ristorante.
+3. <div>Creare la Sala del vostro ristorante.</div>
 
-4. Gestire i periodi di apertura e chiusura dell'attività (Segmenti).
+4. <div>Gestire i periodi di apertura e chiusura dell'attività (Segmenti).</div>
 
-5. Configurare i servizi aggiuntivi offerti
+5. <div>Configurare i servizi aggiuntivi offerti</div>
 
 ## Generali
 

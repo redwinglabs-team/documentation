@@ -14,13 +14,13 @@
 
 ### Nuovo Cliente
 
-1. Cliccate Nuovo Cliente
+1. <div>Cliccate Nuovo Cliente</div>
 
-2. Compilate i campi richiesti
+2. <div>Compilate i campi richiesti</div>
 
-3. Verificate la Disponibilità e selezionate lo slot preferito
+3. <div>Verificate la Disponibilità e selezionate lo slot preferito</div>
 
-4. Cliccate Salva per ultimare la prenotazione
+4. <div>Cliccate Salva per ultimare la prenotazione</div>
 
 ### Anagrafica
 
@@ -36,25 +36,25 @@ Compilate i campi richiesti e verificate la disponibilità di un tavolo per la c
 
 #### Form Principale
 
-Permette di inserire o modificare le informazioni relative al prenotante;
+<div>Permette di inserire o modificare le informazioni relative al prenotante;</div>
 
 ![informationSummary](../../assets/img/imgReservation/informationSummary.png#informationSummary)
 
-* Generale: compilate o modificate i campi richiesti con le seguenti informazioni: 
+* <div>Generale: compilate o modificate i campi richiesti con le seguenti informazioni: </div>
 
-    * Nome, 
+    * <div>Nome, </div>
     
-    * Cognome, 
+    * <div>Cognome, </div>
     
-    * e-mail 
+    * <div>e-mail </div>
     
-    * telefono
+    * <div>telefono </div>
 
 * Preferenze e Intolleranze: compilate o modificate i campi richiesti con le seguenti informazioni: 
 
-    * Intolleranze, 
+    * <div>Intolleranze, </div>
     
-    * Allergie,
+    * <div>Allergie, </div>
 
 #### Pannello Prenotazioni
 
@@ -64,15 +64,15 @@ Permette di inserire o modificare le informazioni relative al prenotante;
 
 * Data Prenotazione: cliccate l’icona e selezionate la data desiderata o compilatela con il formato richiesto
 
-* Ora prenotazione: cliccate l’icona e selezionate l’ora desiderata 
+* <div>Ora prenotazione: cliccate l’icona e selezionate l’ora desiderata </div>
 
 * N. Pax: cliccate i bottoni associati a ciascuna categoria fisica disponibile (adulti, bambini o infanti) per aumentare di un unità il numero dei prenotanti
 
 * <div>Note: campo complabile con eventuali richieste aggiuntive</div>
 
-* cliccate l’icona a destra per eliminare il form della prenotazione inserita;
+* <div>cliccate l’icona a destra per eliminare il form della prenotazione inserita;</div>
 
-* Cliccate l’icona +1 per aggiungere un nuovo pannello per la Nuova Prenotazione;
+* <div>Cliccate l’icona +1 per aggiungere un nuovo pannello per la Nuova Prenotazione;</div>
 
 #### Form Prenotazioni
 
@@ -80,17 +80,17 @@ Permette di inserire o modificare le informazioni relative al prenotante;
 
 ![reservationForm](../../assets/img/imgReservation/reservationForm.png#reservationForm)
 
-* Note
+* <div>Note</div>
 
-* N. Pax
+* <div>N. Pax</div>
 
 ![paxForm](../../assets/img/imgReservation/paxForm.png#paxForm)
 
-* Data
+* <div>Data</div>
 
-* Ora
+* <div>Ora</div>
 
-* Cliccate Verifica Disponibilità e selezionate uno dei tre slot di orari disponibili;
+* <div>Cliccate Verifica Disponibilità e selezionate uno dei tre slot di orari disponibili;</div>
 
 !!! warning
-    Il Bottone Verifica Disponibilità è disponibile solo in caso di compilazione corretta dei campi richiesti
+    <div>Il Bottone Verifica Disponibilità è disponibile solo in caso di compilazione corretta dei campi richiesti</div>

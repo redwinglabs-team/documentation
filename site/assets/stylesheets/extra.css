@@ -1,37 +1,19 @@
-p {
-    display: flex;
-    justify-content: center;
+.md-typeset h1 {
+    font-weight: bold;
+}
+.md-typeset h2 {
+    font-weight: bold;
 }
 
-.admonition-title {
-    display: flex;
-    justify-content: start;
-}
+.video-wrapper {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+  }
 
-@media screen and (max-width: 540px) {
-    p {
-        display: flex;
-        justify-content: center;
-    }
-
-    img {
-        width: 100vw;
-        height: 20vh;
-    }
-
-    img[src*="#mobile"] {
-        width:100vw;
-        height:7vh;
-    }
-
-    img[src*="#largerMobile"] {
-        width:100vw;
-        height:15vh;
-    }
-
-    img[src*="#mediumMobile"] {
-        width:100vw;
-        height:12vh;
-    }
-}
-
+  .md-typeset table:not([class]) td {
+      min-width: 250px;
+  }

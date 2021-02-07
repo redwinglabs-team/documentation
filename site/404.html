@@ -1,6 +1,4 @@
 
-
-
 <!doctype html>
 <html lang="it" class="no-js">
   <head>
@@ -14,8 +12,9 @@
       
         <meta name="author" content="RedWing Labs">
       
+      
       <link rel="shortcut icon" href="/assets/img/redwingbird.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.2.0">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.5">
     
     
       
@@ -23,20 +22,22 @@
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.18ac144a.min.css">
-      
-        <link rel="stylesheet" href="/assets/stylesheets/palette.616af814.min.css">
-      
+      <link rel="stylesheet" href="/assets/stylesheets/main.15aa0b43.min.css">
       
         
+        <link rel="stylesheet" href="/assets/stylesheets/palette.75751829.min.css">
         
-        <meta name="theme-color" content="#2196f3">
+          
+          
+          <meta name="theme-color" content="#546d78">
+        
       
     
     
     
       
-        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
         <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
       
@@ -50,8 +51,7 @@
     
       
         
-<link rel="preconnect dns-prefetch" href="https://www.google-analytics.com">
-<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-167197052-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}),document.addEventListener("DOMContentSwitch",function(){ga("send","pageview")})</script>
+<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-167197052-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}),document.addEventListener("DOMContentSwitch",function(){ga("send","pageview",document.location.pathname)})</script>
 <script async src="https://www.google-analytics.com/analytics.js"></script>
       
     
@@ -62,8 +62,12 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="blue">
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="red">
+      
   
+    
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
@@ -74,7 +78,9 @@
       
     </div>
     
-      <header class="md-header" data-md-component="header">
+      
+
+<header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid" aria-label="Header">
     <a href="/." title="RWL Documentation" class="md-header-nav__button md-logo" aria-label="RWL Documentation">
       
@@ -85,18 +91,20 @@
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
     </label>
     <div class="md-header-nav__title" data-md-component="header-title">
-      
-        <div class="md-header-nav__ellipsis">
-          <span class="md-header-nav__topic md-ellipsis">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
             RWL Documentation
           </span>
-          <span class="md-header-nav__topic md-ellipsis">
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
             
               
             
           </span>
         </div>
-      
+      </div>
     </div>
     
       <label class="md-header-nav__button md-icon" for="__search">
@@ -107,7 +115,7 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
       <label class="md-search__icon md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
@@ -135,12 +143,9 @@
     
     <div class="md-container" data-md-component="container">
       
-        
-      
       
         
           
-
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
@@ -148,12 +153,31 @@
         
   
   
+
+
+  
+  
+  
     <li class="md-tabs__item">
+      <a href="/." class="md-tabs__link">
+        Quadro
+      </a>
+    </li>
+  
+
       
-        <a href="/." class="md-tabs__link">
-          RWL Property Manager
-        </a>
-      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="/F%26B/intro/" class="md-tabs__link">
+        FnB
+      </a>
     </li>
   
 
@@ -167,10 +191,18 @@
         <div class="md-main__inner md-grid">
           
             
-              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+                    
+
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="/." title="RWL Documentation" class="md-nav__button md-logo" aria-label="RWL Documentation">
       
@@ -187,545 +219,1227 @@
       
 
 
-  <li class="md-nav__item md-nav__item--nested">
+  
+  
+  
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
-    
-    <label class="md-nav__link" for="nav-1">
-      RWL Property Manager
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
-    </label>
-    <nav class="md-nav" aria-label="RWL Property Manager" data-md-level="1">
-      <label class="md-nav__title" for="nav-1">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
-        RWL Property Manager
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" >
+      
+      <label class="md-nav__link" for="nav-1">
+        Quadro
+        <span class="md-nav__icon md-icon"></span>
       </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
+      <nav class="md-nav" aria-label="Quadro" data-md-level="1">
+        <label class="md-nav__title" for="nav-1">
+          <span class="md-nav__icon md-icon"></span>
+          Quadro
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
           
-          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/." class="md-nav__link">
+        Quadro
+      </a>
+    </li>
+  
 
-
-  <li class="md-nav__item">
-    <a href="/." title="RWL Property Manager" class="md-nav__link">
-      RWL Property Manager
-    </a>
-  </li>
-
-        
           
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/F%26B/MOH%21Orders/orders/" title="App Ordini" class="md-nav__link">
-      App Ordini
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/F%26B/MOH%21Bookings/bookings/" title="App Prenotazioni" class="md-nav__link">
-      App Prenotazioni
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item md-nav__item--nested">
+            
+  
+  
+  
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-4" type="checkbox" id="nav-1-4">
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-2" type="checkbox" id="nav-1-2" >
+      
+      <label class="md-nav__link" for="nav-1-2">
+        Configura il tuo hotel
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Configura il tuo hotel" data-md-level="2">
+        <label class="md-nav__title" for="nav-1-2">
+          <span class="md-nav__icon md-icon"></span>
+          Configura il tuo hotel
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Settings/property/" class="md-nav__link">
+        Configura la tua struttura
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Settings/stay/" class="md-nav__link">
+        Servizi Prenotabili
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Settings/serv%26prod/" class="md-nav__link">
+        Servizi Aggiuntivi
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Settings/products/" class="md-nav__link">
+        Prodotti
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Settings/rates/" class="md-nav__link">
+        Tariffe
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Settings/cancellationPolicy/" class="md-nav__link">
+        Cancellation Policy
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Settings/rateManagement/" class="md-nav__link">
+        Gestione delle Tariffe
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Settings/restrictions/" class="md-nav__link">
+        Restrictions
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Settings/vouchers/" class="md-nav__link">
+        Voucher
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Settings/spaces/" class="md-nav__link">
+        Spazi
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Settings/segments/" class="md-nav__link">
+        Segmenti
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Settings/depts%26Empl/" class="md-nav__link">
+        Dipartimenti ed Impiegati
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Settings/outlets/" class="md-nav__link">
+        Outlets
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Settings/placeholders/" class="md-nav__link">
+        Placeholder Emails
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Settings/accounting/" class="md-nav__link">
+        Contabilità
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Settings/bookingEngine/" class="md-nav__link">
+        Booking engine
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Settings/registrationCard/" class="md-nav__link">
+        Registration Card
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
     
-    <label class="md-nav__link" for="nav-1-4">
-      Impostazioni
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
-    </label>
-    <nav class="md-nav" aria-label="Impostazioni" data-md-level="2">
-      <label class="md-nav__title" for="nav-1-4">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-3" type="checkbox" id="nav-1-3" >
+      
+      <label class="md-nav__link" for="nav-1-3">
+        Reservations
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Reservations" data-md-level="2">
+        <label class="md-nav__title" for="nav-1-3">
+          <span class="md-nav__icon md-icon"></span>
+          Reservations
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Reservations/reservation/" class="md-nav__link">
+        New Reservation
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Reservations/resOverview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Reservations/timeline/" class="md-nav__link">
+        Timeline
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Reservations/report/" class="md-nav__link">
+        Report
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-4" type="checkbox" id="nav-1-4" >
+      
+      <label class="md-nav__link" for="nav-1-4">
+        Profiles
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Profiles" data-md-level="2">
+        <label class="md-nav__title" for="nav-1-4">
+          <span class="md-nav__icon md-icon"></span>
+          Profiles
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Profiles/newUser/" class="md-nav__link">
+        New Customer
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Profiles/usersList/" class="md-nav__link">
+        Customers
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Profiles/companies/" class="md-nav__link">
+        Aziende
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Profiles/travAgencyContracts/" class="md-nav__link">
+        Contratti per Agenzie di viaggio
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-5" type="checkbox" id="nav-1-5" >
+      
+      <label class="md-nav__link" for="nav-1-5">
+        Distribution
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Distribution" data-md-level="2">
+        <label class="md-nav__title" for="nav-1-5">
+          <span class="md-nav__icon md-icon"></span>
+          Distribution
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Distribution/occupancy/" class="md-nav__link">
+        Occupancy
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Distribution/availability/" class="md-nav__link">
+        Availability
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Distribution/rateManagement/" class="md-nav__link">
+        Rate Management
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Distribution/actionLog/" class="md-nav__link">
+        Action Log
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Spaces/spaces/" class="md-nav__link">
+        Spaces
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-7" type="checkbox" id="nav-1-7" >
+      
+      <label class="md-nav__link" for="nav-1-7">
+        Finances
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Finances" data-md-level="2">
+        <label class="md-nav__title" for="nav-1-7">
+          <span class="md-nav__icon md-icon"></span>
+          Finances
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Finances/accountingLedger/" class="md-nav__link">
+        Accounting Ledger
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Finances/postingJournal/" class="md-nav__link">
+        Posting Journal
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Finances/bills%26inv/" class="md-nav__link">
+        Billing & Invoices
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-8" type="checkbox" id="nav-1-8" >
+      
+      <label class="md-nav__link" for="nav-1-8">
+        Report
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Report" data-md-level="2">
+        <label class="md-nav__title" for="nav-1-8">
+          <span class="md-nav__icon md-icon"></span>
+          Report
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Report/manager/" class="md-nav__link">
+        Manager
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Report/accounting/" class="md-nav__link">
+        Accounting
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Report/activity/" class="md-nav__link">
+        Activity
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Report/product/" class="md-nav__link">
+        Product
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Report/spentNight/" class="md-nav__link">
+        Spent Nights
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/Report/payment/" class="md-nav__link">
+        Payment
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Quadro/TaskManager/task/" class="md-nav__link">
+        Task Manager
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+      
+      <label class="md-nav__link" for="nav-2">
+        FnB
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="FnB" data-md-level="1">
+        <label class="md-nav__title" for="nav-2">
+          <span class="md-nav__icon md-icon"></span>
+          FnB
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/intro/" class="md-nav__link">
+        FnB
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/MOH%21Orders/orders/" class="md-nav__link">
+        App Ordini
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/MOH%21Bookings/bookings/" class="md-nav__link">
+        App Prenotazioni
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4" >
+      
+      <label class="md-nav__link" for="nav-2-4">
         Impostazioni
+        <span class="md-nav__icon md-icon"></span>
       </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
+      <nav class="md-nav" aria-label="Impostazioni" data-md-level="2">
+        <label class="md-nav__title" for="nav-2-4">
+          <span class="md-nav__icon md-icon"></span>
+          Impostazioni
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/Settings/general/" class="md-nav__link">
+        Generali
+      </a>
+    </li>
+  
+
           
-
-
-  <li class="md-nav__item">
-    <a href="/F%26B/Settings/general/" title="Generali" class="md-nav__link">
-      Generali
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/F%26B/Settings/reservation/" title="Prenotazioni" class="md-nav__link">
-      Prenotazioni
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/F%26B/Settings/room/" title="Sala" class="md-nav__link">
-      Sala
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/F%26B/Settings/service/" title="Servizio" class="md-nav__link">
-      Servizio
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/F%26B/Settings/segment/" title="Segmenti" class="md-nav__link">
-      Segmenti
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/F%26B/Settings/moh%21Delivery/" title="App Consegna" class="md-nav__link">
-      App Consegna
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/F%26B/Settings/moh%21TakeAway/" title="App Asporto" class="md-nav__link">
-      App Asporto
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/F%26B/Settings/moh%21Services/" title="App Servizi" class="md-nav__link">
-      App Servizi
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/F%26B/EditorSala/aboutEditorSala/" title="Editor Sala" class="md-nav__link">
-      Editor Sala
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/F%26B/Menu/menu/" title="Menu" class="md-nav__link">
-      Menu
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-7" type="checkbox" id="nav-1-7">
-    
-    <label class="md-nav__link" for="nav-1-7">
-      Prenotazioni
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
-    </label>
-    <nav class="md-nav" aria-label="Prenotazioni" data-md-level="2">
-      <label class="md-nav__title" for="nav-1-7">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/Settings/reservation/" class="md-nav__link">
         Prenotazioni
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/Settings/room/" class="md-nav__link">
+        Sala
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/Settings/service/" class="md-nav__link">
+        Servizio
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/Settings/segment/" class="md-nav__link">
+        Segmenti
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/Settings/moh%21Delivery/" class="md-nav__link">
+        App Consegna
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/Settings/moh%21TakeAway/" class="md-nav__link">
+        App Asporto
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/Settings/moh%21Services/" class="md-nav__link">
+        App Servizi
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/EditorSala/aboutEditorSala/" class="md-nav__link">
+        Editor Sala
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/Menu/menu/" class="md-nav__link">
+        Menu
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-7" type="checkbox" id="nav-2-7" >
+      
+      <label class="md-nav__link" for="nav-2-7">
+        Prenotazioni
+        <span class="md-nav__icon md-icon"></span>
       </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
+      <nav class="md-nav" aria-label="Prenotazioni" data-md-level="2">
+        <label class="md-nav__title" for="nav-2-7">
+          <span class="md-nav__icon md-icon"></span>
+          Prenotazioni
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/Reservations/viewReservations/" class="md-nav__link">
+        Lista Prenotazioni
+      </a>
+    </li>
+  
+
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/Reservations/newReservation/" class="md-nav__link">
+        Nuova Prenotazione
+      </a>
+    </li>
+  
 
-
-  <li class="md-nav__item">
-    <a href="/F%26B/Reservations/viewReservations/" title="Lista Prenotazioni" class="md-nav__link">
-      Lista Prenotazioni
-    </a>
-  </li>
-
-        
           
+        </ul>
+      </nav>
+    </li>
+  
+
           
-          
-
-
-  <li class="md-nav__item">
-    <a href="/F%26B/Reservations/newReservation/" title="Nuova Prenotazione" class="md-nav__link">
-      Nuova Prenotazione
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item md-nav__item--nested">
+            
+  
+  
+  
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-8" type="checkbox" id="nav-1-8">
-    
-    <label class="md-nav__link" for="nav-1-8">
-      Visualizza Tavoli
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
-    </label>
-    <nav class="md-nav" aria-label="Visualizza Tavoli" data-md-level="2">
-      <label class="md-nav__title" for="nav-1-8">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-8" type="checkbox" id="nav-2-8" >
+      
+      <label class="md-nav__link" for="nav-2-8">
         Visualizza Tavoli
+        <span class="md-nav__icon md-icon"></span>
       </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
+      <nav class="md-nav" aria-label="Visualizza Tavoli" data-md-level="2">
+        <label class="md-nav__title" for="nav-2-8">
+          <span class="md-nav__icon md-icon"></span>
+          Visualizza Tavoli
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/ViewTables/viewTables/" class="md-nav__link">
+        Tables Manager
+      </a>
+    </li>
+  
+
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/ViewTables/order/" class="md-nav__link">
+        Comanda
+      </a>
+    </li>
+  
 
-
-  <li class="md-nav__item">
-    <a href="/F%26B/ViewTables/viewTables/" title="Tables Manager" class="md-nav__link">
-      Tables Manager
-    </a>
-  </li>
-
-        
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/ViewTables/assignChair/" class="md-nav__link">
+        Assegna Sedia
+      </a>
+    </li>
+  
+
           
+        </ul>
+      </nav>
+    </li>
+  
+
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/Cash/cash/" class="md-nav__link">
+        Cassa
+      </a>
+    </li>
+  
 
-
-  <li class="md-nav__item">
-    <a href="/F%26B/ViewTables/order/" title="Comanda" class="md-nav__link">
-      Comanda
-    </a>
-  </li>
-
-        
           
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/F%26B/ViewTables/assignChair/" title="Assegna Sedia" class="md-nav__link">
-      Assegna Sedia
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/F%26B/Cash/cash/" title="Cassa" class="md-nav__link">
-      Cassa
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item md-nav__item--nested">
+            
+  
+  
+  
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-10" type="checkbox" id="nav-1-10">
-    
-    <label class="md-nav__link" for="nav-1-10">
-      Gestione Conti
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
-    </label>
-    <nav class="md-nav" aria-label="Gestione Conti" data-md-level="2">
-      <label class="md-nav__title" for="nav-1-10">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-10" type="checkbox" id="nav-2-10" >
+      
+      <label class="md-nav__link" for="nav-2-10">
         Gestione Conti
+        <span class="md-nav__icon md-icon"></span>
       </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
+      <nav class="md-nav" aria-label="Gestione Conti" data-md-level="2">
+        <label class="md-nav__title" for="nav-2-10">
+          <span class="md-nav__icon md-icon"></span>
+          Gestione Conti
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/BillsManagement/aboutBillsManagement/" class="md-nav__link">
+        Panoramica Gestione Conti
+      </a>
+    </li>
+  
+
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/BillsManagement/billsList/" class="md-nav__link">
+        Lista Conti
+      </a>
+    </li>
+  
 
-
-  <li class="md-nav__item">
-    <a href="/F%26B/BillsManagement/aboutBillsManagement/" title="Panoramica Gestione Conti" class="md-nav__link">
-      Panoramica Gestione Conti
-    </a>
-  </li>
-
-        
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/BillsManagement/bankCheck%26Transfer/" class="md-nav__link">
+        Assegni/Bonifici
+      </a>
+    </li>
+  
+
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/BillsManagement/closingReports/" class="md-nav__link">
+        Chiusure Fiscali
+      </a>
+    </li>
+  
+
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/BillsManagement/invoices/" class="md-nav__link">
+        Fatture
+      </a>
+    </li>
+  
 
-
-  <li class="md-nav__item">
-    <a href="/F%26B/BillsManagement/billsList/" title="Lista Conti" class="md-nav__link">
-      Lista Conti
-    </a>
-  </li>
-
-        
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/BillsManagement/PM/" class="md-nav__link">
+        PM
+      </a>
+    </li>
+  
+
           
+        </ul>
+      </nav>
+    </li>
+  
+
           
-
-
-  <li class="md-nav__item">
-    <a href="/F%26B/BillsManagement/bankCheck%26Transfer/" title="Assegni/Bonifici" class="md-nav__link">
-      Assegni/Bonifici
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/F%26B/BillsManagement/closingReports/" title="Chiusure Fiscali" class="md-nav__link">
-      Chiusure Fiscali
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/F%26B/BillsManagement/invoices/" title="Fatture" class="md-nav__link">
-      Fatture
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="/F%26B/BillsManagement/PM/" title="PM" class="md-nav__link">
-      PM
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item md-nav__item--nested">
+            
+  
+  
+  
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-11" type="checkbox" id="nav-1-11">
-    
-    <label class="md-nav__link" for="nav-1-11">
-      Storico Ordini
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
-    </label>
-    <nav class="md-nav" aria-label="Storico Ordini" data-md-level="2">
-      <label class="md-nav__title" for="nav-1-11">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-11" type="checkbox" id="nav-2-11" >
+      
+      <label class="md-nav__link" for="nav-2-11">
         Storico Ordini
+        <span class="md-nav__icon md-icon"></span>
       </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
+      <nav class="md-nav" aria-label="Storico Ordini" data-md-level="2">
+        <label class="md-nav__title" for="nav-2-11">
+          <span class="md-nav__icon md-icon"></span>
+          Storico Ordini
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/F%26B/Registry/reservations/" class="md-nav__link">
+        Prenotazione
+      </a>
+    </li>
+  
+
           
+        </ul>
+      </nav>
+    </li>
+  
 
-
-  <li class="md-nav__item">
-    <a href="/F%26B/Registry/reservations/" title="Prenotazione" class="md-nav__link">
-      Prenotazione
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-        
           
-          
-          
-
-
-  <li class="md-nav__item md-nav__item--nested">
+            
+  
+  
+  
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-12" type="checkbox" id="nav-1-12">
-    
-    <label class="md-nav__link" for="nav-1-12">
-      Cucina
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
-    </label>
-    <nav class="md-nav" aria-label="Cucina" data-md-level="2">
-      <label class="md-nav__title" for="nav-1-12">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-12" type="checkbox" id="nav-2-12" >
+      
+      <label class="md-nav__link" for="nav-2-12">
         Cucina
+        <span class="md-nav__icon md-icon"></span>
       </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
+      <nav class="md-nav" aria-label="Cucina" data-md-level="2">
+        <label class="md-nav__title" for="nav-2-12">
+          <span class="md-nav__icon md-icon"></span>
+          Cucina
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Kitchen/orderSummary/" class="md-nav__link">
+        Sommario Ordini
+      </a>
+    </li>
+  
+
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Kitchen/detailedOrder/" class="md-nav__link">
+        Dettaglio Ordini
+      </a>
+    </li>
+  
 
-
-  <li class="md-nav__item">
-    <a href="/Kitchen/orderSummary/" title="Sommario Ordini" class="md-nav__link">
-      Sommario Ordini
-    </a>
-  </li>
-
-        
           
+        </ul>
+      </nav>
+    </li>
+  
+
           
-          
-
-
-  <li class="md-nav__item">
-    <a href="/Kitchen/detailedOrder/" title="Dettaglio Ordini" class="md-nav__link">
-      Dettaglio Ordini
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
+        </ul>
+      </nav>
+    </li>
+  
 
     
   </ul>
@@ -740,10 +1454,6 @@
             <article class="md-content__inner md-typeset">
               
   <h1>404 - Not found</h1>
-
-              
-                
-
 
               
             </article>
@@ -787,15 +1497,15 @@
       
     </div>
     
-      <script src="/assets/javascripts/vendor.d710d30a.min.js"></script>
-      <script src="/assets/javascripts/bundle.5f27aba8.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copia", "clipboard.copied": "Copiato", "search.config.lang": "it", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati"}</script>
+      <script src="/assets/javascripts/vendor.93c04032.min.js"></script>
+      <script src="/assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copia", "clipboard.copied": "Copiato", "search.config.lang": "it", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Cerca", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({
           base: "/",
-          features: ["instant", "tabs"],
+          features: ['navigation.instant', 'navigation.tabs'],
           search: Object.assign({
-            worker: "/assets/javascripts/worker/search.27c6a5e6.min.js"
+            worker: "/assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>

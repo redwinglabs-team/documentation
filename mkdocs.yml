@@ -11,9 +11,9 @@ theme:
   name: material
   language: it
   palette:
-    scheme: slate
-    primary: blue
-    accent: blue
+    scheme: default
+    primary: blue grey
+    accent: red
   font:
     text: Roboto
     code: Roboto Mono
@@ -22,8 +22,9 @@ theme:
     language: en, it
   favicon: assets/img/redwingbird.png
   features:
-    - instant
-    - tabs
+    - navigation.instant
+    - navigation.tabs
+    # - toc.integrate
 
 # Extras
 extra:
@@ -43,9 +44,16 @@ google_analytics:
 
 # Extensions
 markdown_extensions:
+  - attr_list
   - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - codehilite:
       guess_lang: true
+  - pymdownx.critic
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.smartsymbols
   - toc:
       permalink: false
 plugins:
@@ -53,8 +61,56 @@ plugins:
 
 # Navigation
 nav:
-- RWL Property Manager: 
-  - RWL Property Manager: 'index.md'
+- Quadro:
+  - Quadro: 'index.md'
+  - Configura il tuo hotel: 
+    - Configura la tua struttura: 'Quadro/Settings/property.md'
+    - Servizi Prenotabili: 'Quadro/Settings/stay.md'
+    - Servizi Aggiuntivi: 'Quadro/Settings/serv&prod.md'
+    - Prodotti: 'Quadro/Settings/products.md'
+    - Tariffe: 'Quadro/Settings/rates.md'
+    - Cancellation Policy: 'Quadro/Settings/cancellationPolicy.md'
+    - Gestione delle Tariffe: 'Quadro/Settings/rateManagement.md'
+    - Restrictions: 'Quadro/Settings/restrictions.md'
+    - Voucher: 'Quadro/Settings/vouchers.md'
+    - Spazi: 'Quadro/Settings/spaces.md'
+    - Segmenti: 'Quadro/Settings/segments.md'
+    - Dipartimenti ed Impiegati: 'Quadro/Settings/depts&Empl.md'
+    - Outlets: 'Quadro/Settings/outlets.md'
+    - Placeholder Emails: 'Quadro/Settings/placeholders.md'
+    - Contabilità: 'Quadro/Settings/accounting.md'
+    - Booking engine: 'Quadro/Settings/bookingEngine.md'
+    - Registration Card: 'Quadro/Settings/registrationCard.md'
+  - Reservations:
+    - New Reservation: 'Quadro/Reservations/reservation.md'
+    - Overview: 'Quadro/Reservations/resOverview.md'
+    - Timeline: 'Quadro/Reservations/timeline.md'
+    - Report: 'Quadro/Reservations/report.md'
+  - Profiles:
+    - New Customer: 'Quadro/Profiles/newUser.md'
+    - Customers: 'Quadro/Profiles/usersList.md'
+    - Aziende: 'Quadro/Profiles/companies.md'
+    - Contratti per Agenzie di viaggio: 'Quadro/Profiles/travAgencyContracts.md'
+  - Distribution:
+    - Occupancy: 'Quadro/Distribution/occupancy.md'
+    - Availability: 'Quadro/Distribution/availability.md'
+    - Rate Management: 'Quadro/Distribution/rateManagement.md'
+    - Action Log: 'Quadro/Distribution/actionLog.md'
+  - Spaces: 'Quadro/Spaces/spaces.md'
+  - Finances:
+    - Accounting Ledger: 'Quadro/Finances/accountingLedger.md'
+    - Posting Journal: 'Quadro/Finances/postingJournal.md'
+    - Billing & Invoices: 'Quadro/Finances/bills&inv.md'
+  - Report:
+    - Manager: 'Quadro/Report/manager.md'
+    - Accounting: 'Quadro/Report/accounting.md'
+    - Activity: 'Quadro/Report/activity.md'
+    - Product: 'Quadro/Report/product.md'
+    - Spent Nights: 'Quadro/Report/spentNight.md'
+    - Payment: 'Quadro/Report/payment.md'
+  - Task Manager: 'Quadro/TaskManager/task.md'
+- FnB: 
+  - FnB: 'F&B/intro.md'
   - App Ordini: 'F&B/MOH!Orders/orders.md'
   - App Prenotazioni: 'F&B/MOH!Bookings/bookings.md'
   - Impostazioni:
