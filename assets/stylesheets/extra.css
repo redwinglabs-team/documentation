@@ -49,3 +49,8 @@
 .md-typeset iframe {
   margin-left: 95px;
 }
+
+.md-typeset img {
+  width: 100%;
+  height: 100%;
+}
