@@ -18,7 +18,7 @@
     
     
       
-        <title>Marketplace - Documentation</title>
+        <title>Gestione Prenotazione - Documentation</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#marketplace" class="md-skip">
+        <a href="#status" class="md-skip">
           Vai al contenuto
         </a>
       
@@ -105,7 +105,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              Marketplace
+              Gestione Prenotazione
             
           </span>
         </div>
@@ -542,12 +542,14 @@
             
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-3" type="checkbox" id="nav-1-3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-3" type="checkbox" id="nav-1-3" checked>
       
       <label class="md-nav__link" for="nav-1-3">
         Reservations
@@ -566,7 +568,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Reservations/reservation/" class="md-nav__link">
+      <a href="../reservation/" class="md-nav__link">
         New Reservation
       </a>
     </li>
@@ -578,7 +580,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Reservations/resOverview/" class="md-nav__link">
+      <a href="../resOverview/" class="md-nav__link">
         Overview
       </a>
     </li>
@@ -588,11 +590,339 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../Reservations/status/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Gestione Prenotazione
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Gestione Prenotazione
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#status" class="md-nav__link">
+    Status
+  </a>
+  
+    <nav class="md-nav" aria-label="Status">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#effettua-un-check-in-per-una-prenotazione" class="md-nav__link">
+    Effettua un check-in per una prenotazione
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#effettua-un-cambio-camera-per-una-prenotazione" class="md-nav__link">
+    Effettua un cambio camera per una prenotazione
+  </a>
+  
+    <nav class="md-nav" aria-label="Effettua un cambio camera per una prenotazione">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#la-camera-non-e-stata-ispezionata" class="md-nav__link">
+    La camera non è stata ispezionata
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#details" class="md-nav__link">
+    Details
+  </a>
+  
+    <nav class="md-nav" aria-label="Details">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modificare-i-dettagli-di-una-prenotazione" class="md-nav__link">
+    Modificare i dettagli di una prenotazione
+  </a>
+  
+    <nav class="md-nav" aria-label="Modificare i dettagli di una prenotazione">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vedere-cosa-e-cambiato" class="md-nav__link">
+    Vedere cosa è cambiato
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#group" class="md-nav__link">
+    Group
+  </a>
+  
+    <nav class="md-nav" aria-label="Group">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gestire-un-gruppo-di-camere" class="md-nav__link">
+    Gestire un gruppo di camere
+  </a>
+  
+    <nav class="md-nav" aria-label="Gestire un gruppo di camere">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aggiungere-una-prenotazione-ad-un-gruppo" class="md-nav__link">
+    Aggiungere una prenotazione ad un gruppo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unire-piu-gruppi-di-prenotazioni-in-uno" class="md-nav__link">
+    Unire più gruppi di prenotazioni in uno
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aggiungere-un-utente-alla-prenotazione" class="md-nav__link">
+    Aggiungere un utente alla prenotazione
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rate" class="md-nav__link">
+    Rate
+  </a>
+  
+    <nav class="md-nav" aria-label="Rate">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cambia-il-prezzo-di-una-prenotazione" class="md-nav__link">
+    Cambia il prezzo di una prenotazione
+  </a>
+  
+    <nav class="md-nav" aria-label="Cambia il prezzo di una prenotazione">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modifica-il-prezzo-medio-per-notte" class="md-nav__link">
+    Modifica il prezzo medio per notte
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modifica-il-prezzo-per-notte-in-percentuale" class="md-nav__link">
+    Modifica il prezzo per notte in percentuale
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modifica-il-prezzo-del-pernotto" class="md-nav__link">
+    Modifica il prezzo del pernotto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#items" class="md-nav__link">
+    Items
+  </a>
+  
+    <nav class="md-nav" aria-label="Items">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aggiungi-prodotti-ad-una-nuova-prenotazione" class="md-nav__link">
+    Aggiungi prodotti ad una nuova prenotazione
+  </a>
+  
+    <nav class="md-nav" aria-label="Aggiungi prodotti ad una nuova prenotazione">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisito-crea-i-tuoi-prodotti-per-bambino" class="md-nav__link">
+    Prerequisito: Crea i tuoi prodotti per bambino
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aggiungi-i-prodotti" class="md-nav__link">
+    Aggiungi i prodotti
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#billing" class="md-nav__link">
+    Billing
+  </a>
+  
+    <nav class="md-nav" aria-label="Billing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aggiungi-sposta-o-rimuovi-prodotti-da-conti-aperti" class="md-nav__link">
+    Aggiungi, sposta o rimuovi prodotti da conti aperti
+  </a>
+  
+    <nav class="md-nav" aria-label="Aggiungi, sposta o rimuovi prodotti da conti aperti">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aggiungere-servizi-a-un-conto-aperto" class="md-nav__link">
+    Aggiungere servizi a un conto aperto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aggiungere-un-prodotto-a-un-conto-aperto" class="md-nav__link">
+    Aggiungere un prodotto a un conto aperto
+  </a>
+  
+    <nav class="md-nav" aria-label="Aggiungere un prodotto a un conto aperto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#il-prodotto-e-legato-al-tuo-servizio-prenotabile" class="md-nav__link">
+    Il prodotto è legato al tuo servizio prenotabile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#il-prodotto-non-e-legato-al-tuo-servizio-prenotabile" class="md-nav__link">
+    Il Prodotto non è legato al tuo servizio prenotabile
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trasferire-articoli-dal-conto" class="md-nav__link">
+    Trasferire articoli dal conto
+  </a>
+  
+    <nav class="md-nav" aria-label="Trasferire articoli dal conto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#trasferire-articoli-dal-conto-di-un-ospite-ad-un-altro" class="md-nav__link">
+    Trasferire articoli dal conto di un ospite ad un altro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trasferire-articoli-su-un-conto-aziendale" class="md-nav__link">
+    Trasferire articoli su un conto aziendale
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chiudere-un-conto-aperto" class="md-nav__link">
+    Chiudere un conto aperto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -602,7 +932,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Reservations/timeline/" class="md-nav__link">
+      <a href="../timeline/" class="md-nav__link">
         Timeline
       </a>
     </li>
@@ -614,7 +944,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Reservations/report/" class="md-nav__link">
+      <a href="../report/" class="md-nav__link">
         Report
       </a>
     </li>
@@ -982,14 +1312,12 @@
             
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-10" type="checkbox" id="nav-1-10" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-10" type="checkbox" id="nav-1-10" >
       
       <label class="md-nav__link" for="nav-1-10">
         Marketplace
@@ -1006,158 +1334,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Marketplace
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../Marketplace/intro/" class="md-nav__link">
         Marketplace
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Indice">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Indice
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#come-funziona-il-marketplace" class="md-nav__link">
-    Come funziona il marketplace?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#connettere-e-disconnettere-le-integrazioni" class="md-nav__link">
-    Connettere e disconnettere le integrazioni
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#collegare-un-integrazione" class="md-nav__link">
-    Collegare un integrazione
-  </a>
-  
-    <nav class="md-nav" aria-label="Collegare un integrazione">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#base" class="md-nav__link">
-    Base
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#collegabili" class="md-nav__link">
-    Collegabili
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#acquistabili" class="md-nav__link">
-    Acquistabili
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gestisci-le-tue-integrazioni-acquistabili" class="md-nav__link">
-    Gestisci le tue integrazioni acquistabili
-  </a>
-  
-    <nav class="md-nav" aria-label="Gestisci le tue integrazioni acquistabili">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#fatturazione" class="md-nav__link">
-    Fatturazione:
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#interrompere-la-sottoscrizione-prima-della-scadenza-dei-30-giorni-di-prova" class="md-nav__link">
-    Interrompere la sottoscrizione prima della scadenza dei 30 giorni di prova:
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#interrompere-la-sottoscrizione-dopo-la-scadenza-dei-30-giorni-di-prova" class="md-nav__link">
-    Interrompere la sottoscrizione dopo la scadenza dei 30 giorni di prova:
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#riattivare-unintegrazione-cancellata-possibilmente-entro-il-periodo-di-prova" class="md-nav__link">
-    Riattivare un’integrazione cancellata (possibilmente entro il periodo di prova)
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#disconnetti-integrazioni-base-o-collegabili" class="md-nav__link">
-    Disconnetti integrazioni Base o Collegabili
-  </a>
-  
-    <nav class="md-nav" aria-label="Disconnetti integrazioni Base o Collegabili">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#base_1" class="md-nav__link">
-    Base
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#collegabili_1" class="md-nav__link">
-    Collegabili
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1957,8 +2138,6 @@
 <nav class="md-nav md-nav--secondary" aria-label="Indice">
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1967,45 +2146,37 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#come-funziona-il-marketplace" class="md-nav__link">
-    Come funziona il marketplace?
+  <a href="#status" class="md-nav__link">
+    Status
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#connettere-e-disconnettere-le-integrazioni" class="md-nav__link">
-    Connettere e disconnettere le integrazioni
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#collegare-un-integrazione" class="md-nav__link">
-    Collegare un integrazione
-  </a>
-  
-    <nav class="md-nav" aria-label="Collegare un integrazione">
+    <nav class="md-nav" aria-label="Status">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#base" class="md-nav__link">
-    Base
+  <a href="#effettua-un-check-in-per-una-prenotazione" class="md-nav__link">
+    Effettua un check-in per una prenotazione
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#collegabili" class="md-nav__link">
-    Collegabili
+  <a href="#effettua-un-cambio-camera-per-una-prenotazione" class="md-nav__link">
+    Effettua un cambio camera per una prenotazione
+  </a>
+  
+    <nav class="md-nav" aria-label="Effettua un cambio camera per una prenotazione">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#la-camera-non-e-stata-ispezionata" class="md-nav__link">
+    La camera non è stata ispezionata
   </a>
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#acquistabili" class="md-nav__link">
-    Acquistabili
-  </a>
+      </ul>
+    </nav>
   
 </li>
         
@@ -2015,38 +2186,30 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#gestisci-le-tue-integrazioni-acquistabili" class="md-nav__link">
-    Gestisci le tue integrazioni acquistabili
+  <a href="#details" class="md-nav__link">
+    Details
   </a>
   
-    <nav class="md-nav" aria-label="Gestisci le tue integrazioni acquistabili">
+    <nav class="md-nav" aria-label="Details">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#fatturazione" class="md-nav__link">
-    Fatturazione:
+  <a href="#modificare-i-dettagli-di-una-prenotazione" class="md-nav__link">
+    Modificare i dettagli di una prenotazione
+  </a>
+  
+    <nav class="md-nav" aria-label="Modificare i dettagli di una prenotazione">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vedere-cosa-e-cambiato" class="md-nav__link">
+    Vedere cosa è cambiato
   </a>
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#interrompere-la-sottoscrizione-prima-della-scadenza-dei-30-giorni-di-prova" class="md-nav__link">
-    Interrompere la sottoscrizione prima della scadenza dei 30 giorni di prova:
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#interrompere-la-sottoscrizione-dopo-la-scadenza-dei-30-giorni-di-prova" class="md-nav__link">
-    Interrompere la sottoscrizione dopo la scadenza dei 30 giorni di prova:
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#riattivare-unintegrazione-cancellata-possibilmente-entro-il-periodo-di-prova" class="md-nav__link">
-    Riattivare un’integrazione cancellata (possibilmente entro il periodo di prova)
-  </a>
+      </ul>
+    </nav>
   
 </li>
         
@@ -2056,23 +2219,224 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#disconnetti-integrazioni-base-o-collegabili" class="md-nav__link">
-    Disconnetti integrazioni Base o Collegabili
+  <a href="#group" class="md-nav__link">
+    Group
   </a>
   
-    <nav class="md-nav" aria-label="Disconnetti integrazioni Base o Collegabili">
+    <nav class="md-nav" aria-label="Group">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#base_1" class="md-nav__link">
-    Base
+  <a href="#gestire-un-gruppo-di-camere" class="md-nav__link">
+    Gestire un gruppo di camere
+  </a>
+  
+    <nav class="md-nav" aria-label="Gestire un gruppo di camere">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aggiungere-una-prenotazione-ad-un-gruppo" class="md-nav__link">
+    Aggiungere una prenotazione ad un gruppo
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#collegabili_1" class="md-nav__link">
-    Collegabili
+  <a href="#unire-piu-gruppi-di-prenotazioni-in-uno" class="md-nav__link">
+    Unire più gruppi di prenotazioni in uno
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aggiungere-un-utente-alla-prenotazione" class="md-nav__link">
+    Aggiungere un utente alla prenotazione
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rate" class="md-nav__link">
+    Rate
+  </a>
+  
+    <nav class="md-nav" aria-label="Rate">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cambia-il-prezzo-di-una-prenotazione" class="md-nav__link">
+    Cambia il prezzo di una prenotazione
+  </a>
+  
+    <nav class="md-nav" aria-label="Cambia il prezzo di una prenotazione">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modifica-il-prezzo-medio-per-notte" class="md-nav__link">
+    Modifica il prezzo medio per notte
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modifica-il-prezzo-per-notte-in-percentuale" class="md-nav__link">
+    Modifica il prezzo per notte in percentuale
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modifica-il-prezzo-del-pernotto" class="md-nav__link">
+    Modifica il prezzo del pernotto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#items" class="md-nav__link">
+    Items
+  </a>
+  
+    <nav class="md-nav" aria-label="Items">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aggiungi-prodotti-ad-una-nuova-prenotazione" class="md-nav__link">
+    Aggiungi prodotti ad una nuova prenotazione
+  </a>
+  
+    <nav class="md-nav" aria-label="Aggiungi prodotti ad una nuova prenotazione">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisito-crea-i-tuoi-prodotti-per-bambino" class="md-nav__link">
+    Prerequisito: Crea i tuoi prodotti per bambino
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aggiungi-i-prodotti" class="md-nav__link">
+    Aggiungi i prodotti
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#billing" class="md-nav__link">
+    Billing
+  </a>
+  
+    <nav class="md-nav" aria-label="Billing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aggiungi-sposta-o-rimuovi-prodotti-da-conti-aperti" class="md-nav__link">
+    Aggiungi, sposta o rimuovi prodotti da conti aperti
+  </a>
+  
+    <nav class="md-nav" aria-label="Aggiungi, sposta o rimuovi prodotti da conti aperti">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aggiungere-servizi-a-un-conto-aperto" class="md-nav__link">
+    Aggiungere servizi a un conto aperto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aggiungere-un-prodotto-a-un-conto-aperto" class="md-nav__link">
+    Aggiungere un prodotto a un conto aperto
+  </a>
+  
+    <nav class="md-nav" aria-label="Aggiungere un prodotto a un conto aperto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#il-prodotto-e-legato-al-tuo-servizio-prenotabile" class="md-nav__link">
+    Il prodotto è legato al tuo servizio prenotabile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#il-prodotto-non-e-legato-al-tuo-servizio-prenotabile" class="md-nav__link">
+    Il Prodotto non è legato al tuo servizio prenotabile
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trasferire-articoli-dal-conto" class="md-nav__link">
+    Trasferire articoli dal conto
+  </a>
+  
+    <nav class="md-nav" aria-label="Trasferire articoli dal conto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#trasferire-articoli-dal-conto-di-un-ospite-ad-un-altro" class="md-nav__link">
+    Trasferire articoli dal conto di un ospite ad un altro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trasferire-articoli-su-un-conto-aziendale" class="md-nav__link">
+    Trasferire articoli su un conto aziendale
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chiudere-un-conto-aperto" class="md-nav__link">
+    Chiudere un conto aperto
   </a>
   
 </li>
@@ -2095,117 +2459,193 @@
               
                 
                 
-                <h1 id="marketplace">Marketplace</h1>
-<h2 id="come-funziona-il-marketplace">Come funziona il marketplace?</h2>
-<p>Quadro marketplace è un App Store incluso direttamente in Quadro. Offre diverse integrazioni in varie categorie, come ad esempio:</p>
-<ul>
-<li>Upselling</li>
-<li>Channel Manager</li>
-<li>Revenue Management</li>
-<li>Door Locks</li>
-<li>Point of Purchase e altro…</li>
-</ul>
-<p>Quadro Marketplace ti permette di acquistare e connettere le integrazioni desiderate.</p>
-<p>Alcuni di essi offrono anche prove gratuite di 30 giorni, quindi puoi assicurarti che sia la soluzione migliore per la tua attività prima di acquistarlo.</p>
-<h2 id="connettere-e-disconnettere-le-integrazioni">Connettere e disconnettere le integrazioni</h2>
-<p>Quadro marketplace include tre differenti tipologie di integrazioni:</p>
-<ul>
-<li>Base: integrazioni completamente gratuite (sviluppate da RWL)</li>
-<li>Collegabili: integrazioni con il quale esiste già un contratto con il partner in questione e non verrà addebitato nulla da Quadro per l’utilizzo</li>
-<li>Acquistabili: Integrazioni con un canone di abbonamento aggiunto automaticamente alla fattura mensile di Quadro</li>
-</ul>
-<h2 id="collegare-un-integrazione">Collegare un integrazione</h2>
+                  <h1>Gestione Prenotazione</h1>
+                
+                <h2 id="status">Status</h2>
+<h3 id="effettua-un-check-in-per-una-prenotazione">Effettua un check-in per una prenotazione</h3>
+<p>Prima di effettuare il check-in per una prenotazione, assicurati di </p>
 <ol>
-<li>Vai a menu Principale &gt; Marketplace</li>
-<li>Cerca l’integrazione al quale vuoi connetterti<ul>
-<li>Puoi filtrare le integrazioni per categoria</li>
+<li>Apri la prenotazione per il quale vuoi effettuare il check-in</li>
+<li>Vai alla sezione Status<ul>
+<li>Se la prenotazione è parte di un gruppo e desideri effettuare il check-in per più di una prenotazione in una sola volta, assicurati di aver selezionato tutte le prenotazioni in questione nella parte destra dello schermo</li>
 </ul>
 </li>
-<li>Sotto l’integrazione al quale desideri collegarti, clicca su Mostra Altro. Gli ultimi passaggi del processo di integrazione dipendono molto dalla sua tipologia</li>
+<li>Trova la sezione Spazi<ul>
+<li>Se la camera assegnata ha completato l’ispezione, puoi effettuare il check-in per quella prenotazione</li>
+</ul>
+</li>
+<li>Decidi se vuoi creare delle chiavi per la camera (se non vuoi, puoi sempre crearle dopo che l’ospite ha effettuato il check-in)</li>
+<li>Clicca il bottone check-in per completare la procedura</li>
 </ol>
-<h3 id="base">Base</h3>
+<h3 id="effettua-un-cambio-camera-per-una-prenotazione">Effettua un cambio camera per una prenotazione</h3>
 <ol>
-<li>Clicca su Connetti a destra del nome dell’integrazione</li>
-<li>Compila i campi richiesti</li>
+<li>Apri la prenotazione per il quale vuoi effettuare il cambio camera</li>
+<li>Vai alla sezione Status</li>
+<li>Trova la sezione Spazi</li>
+<li>Dal Menu a tendina seleziona la nuova camera da assegnare alla prenotazione<ul>
+<li>In caso la categoria di camera scelta dovesse essere differente rispetto a quella precedentemente assegnata, Quadro mostrerà un avviso a segnalare l'eventuale upgrade o downgrade della camera assegnata</li>
+</ul>
+</li>
+<li>Clicca sull'icona Salva per completare la procedura</li>
+</ol>
+<h5 id="la-camera-non-e-stata-ispezionata">La camera non è stata ispezionata</h5>
+<p>Se non è possibile ispezionare la camera nel più breve tempo possibile, puoi spostare gli ospiti in una camera differente.</p>
+<h2 id="details">Details</h2>
+<h3 id="modificare-i-dettagli-di-una-prenotazione">Modificare i dettagli di una prenotazione</h3>
+<p>Prima che una prenotazione venga archiviata (e mentre la finestra della cronologia modificabile è operativa), è possibile aggiornarne e modificarne i dettagli.</p>
+<ol>
+<li>Apri la prenotazione.</li>
+<li>Vai alla scheda Dettagli.</li>
+<li>Aggiorna i dettagli della prenotazione e fai clic sull'icona Salva.</li>
+</ol>
+<h4 id="vedere-cosa-e-cambiato">Vedere cosa è cambiato</h4>
+<p>Puoi vedere quali dettagli di una prenotazione sono stati modificati, nonché chi ha apportato le modifiche, nel registro delle azioni.</p>
+<ol>
+<li>Dal Menu principale vai su Distribution</li>
+<li>Vai alla scheda della prenotazione modificata.</li>
+<li>Rivedi le modifiche</li>
+</ol>
+<h2 id="group">Group</h2>
+<h3 id="gestire-un-gruppo-di-camere">Gestire un gruppo di camere</h3>
+<p>Se hai la necessità di accorpare diverse prenotazioni, aggiungere un utente ad una prenotazione o associare la prenotazione stessa ad un gruppo esistente, puoi farlo in qualsiasi momento, anche dopo aver effettuato il check-in.</p>
+<h4 id="aggiungere-una-prenotazione-ad-un-gruppo">Aggiungere una prenotazione ad un gruppo</h4>
+<ol>
+<li>Apri la prenotazione</li>
+<li>Vai alla scheda Gruppo</li>
+<li>Alla voce Group Name, inserisci il nome o le lettere iniziali del gruppo</li>
+<li>Seleziona il Gruppo di Prenotazioni dal menu a tendina</li>
+<li>Clicca sull'icona Salva per completare l'operazione</li>
+</ol>
+<h4 id="unire-piu-gruppi-di-prenotazioni-in-uno">Unire più gruppi di prenotazioni in uno</h4>
+<ol>
+<li>Apri la prenotazione</li>
+<li>Vai alla scheda Gruppo</li>
+<li>Alla voce Merge Group, cerca il gruppo con cui effettuare l'unione</li>
+<li>Seleziona il Gruppo di prenotazioni dal menu a tendina</li>
+<li>Clicca sull'icona Salva per completare l'operazione</li>
+</ol>
+<h4 id="aggiungere-un-utente-alla-prenotazione">Aggiungere un utente alla prenotazione</h4>
+<ol>
+<li>Apri la prenotazione</li>
+<li>Vai alla scheda Gruppo</li>
+<li>Alla voce Add Customer, cerca l'utente che vuoi aggiungere alla prenotazione</li>
+<li>Seleziona l'utente dal menu a tendina</li>
+<li>Clicca sull'icona Salva per completare l'operazione</li>
+</ol>
+<h2 id="rate">Rate</h2>
+<h3 id="cambia-il-prezzo-di-una-prenotazione">Cambia il prezzo di una prenotazione</h3>
+<p>Puoi cambiare il prezzo di una prenotazione da: </p>
+<ul>
+<li>Impostando il prezzo medio per notte</li>
+<li>Modificando la tariffa del pernotto</li>
+<li>Impostando una tariffa personalizzata per il pernotto</li>
+</ul>
+<p>Per cambiare il prezzo di una prenotazione puoi usare uno dei seguenti metodi:</p>
+<ol>
+<li>Apri la prenotazione</li>
+<li>Vai alla sezione Tariffe</li>
+</ol>
+<h4 id="modifica-il-prezzo-medio-per-notte">Modifica il prezzo medio per notte</h4>
+<ol>
+<li>Trova la sezione Imposta Prezzo medio per notte (prodotti esclusi)</li>
+<li>Alla voce Valore, inserisci la cifra che vuoi addebitare alla prenotazione per notte</li>
+<li>Inserisci la ragione per il quale stai modificando il prezzo</li>
+<li>Clicca su Ok</li>
+</ol>
+<h4 id="modifica-il-prezzo-per-notte-in-percentuale">Modifica il prezzo per notte in percentuale</h4>
+<ol>
+<li>Trova la sezione Modifica il prezzo per notte in percentuale (prodotti esclusi)</li>
+<li>Alla voce Valore, inserisci il valore della percentuale che vuoi applicare al prezzo totale. Se ad esempio inserisci 50%, il prezzo aumenterà del 50%. Se invece inserisci -50%, il prezzo diminuirà del 50%</li>
+<li>Inserisci la ragione per il quale stai modificando il prezzo</li>
+<li>Clicca su Ok</li>
+</ol>
+<h4 id="modifica-il-prezzo-del-pernotto">Modifica il prezzo del pernotto</h4>
+<ol>
+<li>Trova la sezione Modifica prezzo del pernotto (prodotti esclusi)</li>
+<li>Inserisci un prezzo personalizzato per ogni notte della prenotazione. Ogni notte deve avere il suo prezzo, anche se non è obbligatorio che siano tutti diversi</li>
+<li>Clicca su Ok</li>
+</ol>
+<h2 id="items">Items</h2>
+<h3 id="aggiungi-prodotti-ad-una-nuova-prenotazione">Aggiungi prodotti ad una nuova prenotazione</h3>
+<p>Abbiamo aggiunto un campo prodotti alla schermata di una nuova prenotazione che ti permette di:</p>
+<ul>
+<li>Scegliere quanti prodotti aggiungere ad una nuova prenotazione </li>
+<li>Aggiungi ulteriori prodotti e servizi ausiliari alla prenotazione (es. Noleggio bici o ski pass)</li>
+<li>Aggiungi prodotti differenti per adulti e bambini<ul>
+<li>Ciò renderà ancora più semplice quotare accuratamente i prezzi per le prenotazioni di famiglie</li>
+</ul>
+</li>
+</ul>
+<h4 id="prerequisito-crea-i-tuoi-prodotti-per-bambino">Prerequisito: Crea i tuoi prodotti per bambino</h4>
+<p>Prima di poter aggiungere prodotti per bambino alle prenotazioni, devi prima crearli. Per far ciò, devi creare due versioni differenti dello stesso prodotto, uno con un prezzo per adulti, e un altro con un prezzo per bambini. </p>
+<p>Raccomandiamo sempre di aggiungere adulto o bambino al nome dei tuoi prodotti in modo tale da evitare confusioni all’aggiunta del prodotto (es. Colazione (adulto) e Colazione (Bambino)</p>
+<h4 id="aggiungi-i-prodotti">Aggiungi i prodotti</h4>
+<ol>
+<li>Quando stai effettuando una nuova prenotazione, seleziona i prodotti che desideri aggiungere alla voce Prodotti</li>
+<li>Espandi il contenitore del prodotto cliccando sulla freccetta in basso appena sopra la voce del Totale</li>
+<li>Clicca sull'icona della matita e aggiorna la quantità del prodotto</li>
+<li>Clicca i bottoni + e - per modificare la quantità del prodotto<ul>
+<li>N.B. non puoi modificare il numero di persone o di notti a cui il prodotto è applicato</li>
+</ul>
+</li>
+</ol>
+<h2 id="billing">Billing</h2>
+<h3 id="aggiungi-sposta-o-rimuovi-prodotti-da-conti-aperti">Aggiungi, sposta o rimuovi prodotti da conti aperti</h3>
+<p>Prima di chiudere un conto, puoi effettuare tutte le modifiche necessarie ai prodotti in esso contenuti.</p>
+<h4 id="aggiungere-servizi-a-un-conto-aperto">Aggiungere servizi a un conto aperto</h4>
+<p>Quando qualcuno effettua una prenotazione, il pernotto (notti) e tutti i prodotti confezionati con il pernotto vengono aggiunti alla scheda di fatturazione del profilo del cliente. </p>
+<p>Se la liquidazione è automatica, gli articoli vengono aggiunti a una fattura aperta con pagamento e la fattura viene chiusa; se la liquidazione è manuale, vengono aggiunti alla scheda Fatturazione come elementi non pagati, che possono essere spostati in una fattura aperta in un secondo momento.</p>
+<p>Se un cliente ordina un servizio o un prodotto direttamente tramite te (invece di acquistarlo con la sua sistemazione), puoi aggiungerlo manualmente alla sua fattura in Quadro.</p>
+<h4 id="aggiungere-un-prodotto-a-un-conto-aperto">Aggiungere un prodotto a un conto aperto</h4>
+<h5 id="il-prodotto-e-legato-al-tuo-servizio-prenotabile">Il prodotto è legato al tuo servizio prenotabile</h5>
+<p>Se l’ospite desidera acquistare un prodotto che è solitamente legato al servizio prenotabile, dovrai aggiungerlo durante la fase di prenotazione.</p>
+<ol>
+<li>Apri la prenotazione</li>
+<li>Vai alla sezione Billing</li>
+<li>Trova il bottone + Aggiungi Prodotto</li>
+<li>Seleziona il prodotto che vuoi aggiungere e modificane la quantità</li>
+<li>Clicca su Create. Il prodotto verrà aggiunto al conto selezionato appartenente al titolare della prenotazione. Clicca su Payments per pagare il conto con i prodotti appena aggiunti.</li>
+</ol>
+<h5 id="il-prodotto-non-e-legato-al-tuo-servizio-prenotabile">Il Prodotto non è legato al tuo servizio prenotabile</h5>
+<p>Se l’ospite compra un prodotto o un servizio che non è legato al tuo servizio prenotabile, puoi aggiungerli direttamente tra gli articoli non pagati nella sezione Conti del proprio profilo o prenotazione.</p>
+<ol>
+<li>Apri il profilo dell’ospite</li>
+<li>Vai alla sezione Conti</li>
+<li>Trova il bottone + Aggiungi prodotto e seleziona l’articolo che desideri aggiungere al conto selezionato</li>
+<li>Se il servizio ha molteplici prodotti, puoi cliccare le icone + o - per aggiungere o rimuovere qualsivoglia prodotto al conto</li>
 <li>Clicca su Crea</li>
-<li>Clicca Ok</li>
-<li>Una richiesta viene inviata al partner in questione che si incaricherà del processo di setup.<ul>
-<li>Aspetta per ulteriori istruzioni dal gestore dell’integrazione</li>
-</ul>
-</li>
 </ol>
-<h3 id="collegabili">Collegabili</h3>
-<p>Se hai già un contratto con un'integrazione, ti consigliamo di connettere tale integrazione per evitare un doppio addebito per il servizio offerto da Quadro e dal partner terzo.</p>
+<h4 id="trasferire-articoli-dal-conto">Trasferire articoli dal conto</h4>
+<h5 id="trasferire-articoli-dal-conto-di-un-ospite-ad-un-altro">Trasferire articoli dal conto di un ospite ad un altro</h5>
 <ol>
-<li>Clicca Connetti a destra del nome dell’integrazione, o, seleziona “Ho già un account” e successivamente clicca su Connetti</li>
-<li>Leggi attentamente le informazioni e clicca Ok</li>
-<li>Una notifica viene automaticamente inviata al partner terzo che prenderà in carico la richiesta di setup</li>
-<li>Attendi per ulteriori informazioni dal partner dell’integrazione</li>
+<li>Apri il profilo dell’ospite</li>
+<li>Vai alla sezione Conti</li>
+<li>Trova il conto con gli articoli che desideri trasferire</li>
+<li>Spunta la casella degli articoli scelti</li>
+<li>Clicca sul bottone Sposta Selezione in basso a destra</li>
+<li>Scegli l’ospite e il conto al quale trasferire gli articoli</li>
+<li>Clicca su Sposta</li>
 </ol>
-<h3 id="acquistabili">Acquistabili</h3>
-<p>Se invece non possiedi un contratto con un partner per un’integrazione, dovrai acquistarla.</p>
-<p>Le integrazioni acquistabili hanno un periodo di prova di 30 giorni, così da testare le funzionalità senza rischi, cancellando la sottoscrizione all’integrazione entro la scadenza dei 30 giorni, così da non ricevere alcun addebito.</p>
+<h5 id="trasferire-articoli-su-un-conto-aziendale">Trasferire articoli su un conto aziendale</h5>
+<p>Attualmente, non puoi spostare singoli articoli su un conto aziendale, ma solamente interi conti. Se non desideri spostare tutti gli articoli del conto in questione, raggruppali prima in un nuovo conto.</p>
 <ol>
-<li>Seleziona “Crea un nuovo account”, poi clicca su Abbonati. Puoi cliccare sulla freccia rivolta verso il basso per controllare i costi dell’abbonamento.</li>
-<li>Leggi attentamente e accetta i termini e condizioni del contratto, poi clicca su Acquista.</li>
+<li>Apri il profilo dell’ospite</li>
+<li>Vai alla sezione Conti</li>
+<li>Trova il conto che desideri trasferire ad un’azienda</li>
+<li>Spunta le box di fianco agli articoli che desideri trasferire</li>
+<li>Clicca su Sposta Selezione</li>
+<li>Scegli Azienda e poi la compagnia a cui vuoi addebitare il conto</li>
+<li>Clicca su Sposta</li>
 </ol>
-<div class="admonition nota">
-<p class="admonition-title">Nota</p>
-<p>L'accettazione dei termini e delle condizioni è vincolante: un addebito mensile non rimborsabile verrà automaticamente aggiunto alla fattura di Quadro ogni mese dopo il periodo di prova</p>
-</div>
+<h3 id="chiudere-un-conto-aperto">Chiudere un conto aperto</h3>
+<p>Prima di poter chiudere un conto aperto, assicurarsi che tutti gli articoli all'interno del conto siano stati pagati e il Balance sia pari a zero</p>
 <ol>
-<li>Leggi le informazioni e clicca Ok</li>
-<li>Una notifica viene automaticamente inviata al partner terzo che prenderà in carico la richiesta di setup</li>
-<li>Attendi per ulteriori informazioni dal partner dell’integrazione</li>
-</ol>
-<h2 id="gestisci-le-tue-integrazioni-acquistabili">Gestisci le tue integrazioni acquistabili</h2>
-<h3 id="fatturazione">Fatturazione:</h3>
-<ul>
-<li>Gestione dei problemi legati alle fatture del mese precedente di integrazioni acquistate</li>
-<li>Se hai qualche domanda riguardante le tue fatture, contatta il team di supporto di Quadro</li>
-</ul>
-<h3 id="interrompere-la-sottoscrizione-prima-della-scadenza-dei-30-giorni-di-prova">Interrompere la sottoscrizione prima della scadenza dei 30 giorni di prova:</h3>
-<ol>
-<li>Vai a Menu Principale &gt; Marketplace</li>
-<li>Clicca su Le mie Sottoscrizioni</li>
-<li>Clicca su Impostazioni di fianco all'integrazione che desideri cancellare</li>
-<li>Se sei ancora nel periodo di prova, clicca l’icona del cestino, poi su Cancella</li>
-</ol>
-<h3 id="interrompere-la-sottoscrizione-dopo-la-scadenza-dei-30-giorni-di-prova">Interrompere la sottoscrizione dopo la scadenza dei 30 giorni di prova:</h3>
-<p>Se desideri interrompere gli addebiti legati ad un’integrazione dopo che il periodo di prova è terminato, l’integrazione dovrà essere cancellata.</p>
-<ol>
-<li>Vai a Menu principale &gt; Marketplace</li>
-<li>Clicca su Le mie sottoscrizioni</li>
-<li>Clicca Impostazioni di fianco all’integrazione che desideri cancellare</li>
-<li>Clicca su cancella</li>
-</ol>
-<div class="admonition nota">
-<p class="admonition-title">Nota</p>
-<p>Indipendentemente dal fatto che la tua struttura sia aperta o temporaneamente chiusa, devi annullare la sottoscrizione per impedire che venga aggiunta alla tua fattura mensile di Quadro.</p>
-</div>
-<h3 id="riattivare-unintegrazione-cancellata-possibilmente-entro-il-periodo-di-prova">Riattivare un’integrazione cancellata (possibilmente entro il periodo di prova)</h3>
-<p>Se hai cancellato un’integrazione dopo aver terminato il periodo di prova, rimarrà nelle sottoscrizioni del tuo marketplace per altri 30 giorni, alla voce “Cancellate”</p>
-<ol>
-<li>Vai a Menu principale &gt; Marketplace</li>
-<li>Clicca su Le mie sottoscrizioni</li>
-<li>Clicca su Impostazioni di fianco all’integrazione che desideri riattivare</li>
-<li>Clicca su Riattiva</li>
-</ol>
-<h2 id="disconnetti-integrazioni-base-o-collegabili">Disconnetti integrazioni Base o Collegabili</h2>
-<h3 id="base_1">Base</h3>
-<ol>
-<li>Vai a Menu principale &gt; Marketplace</li>
-<li>Clicca su Le mie sottoscrizioni</li>
-<li>Clicca su Impostazioni di fianco all’integrazione che desideri cancellare</li>
-<li>Clicca su Cancella</li>
-</ol>
-<h3 id="collegabili_1">Collegabili</h3>
-<ol>
-<li>Vai a Menu principale &gt; Marketplace</li>
-<li>Clicca su Le mie sottoscrizioni</li>
-<li>Clicca su Impostazioni di fianco all’integrazione che desideri cancellare</li>
-<li>Clicca, poi Cancella</li>
-<li>Contatta il partner gestore dell’integrazione per cancellare la tua sottoscrizione</li>
+<li>Apri la prenotazione o il profilo dell'ospite</li>
+<li>Vai alla sezione Conti</li>
+<li>Trova il conto che desideri chiudere</li>
+<li>Clicca sul bottone Close</li>
+<li>Nella modale di riepilogo del conto, seleziona il contatore di scontrini che desideri utilizzare</li>
+<li>Clicca sul bottone Close per completare l'operazione</li>
 </ol>
                 
               
@@ -2225,7 +2665,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../../TaskManager/task/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../resOverview/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -2234,19 +2674,19 @@
                 <span class="md-footer-nav__direction">
                   Precedente
                 </span>
-                Task Manager
+                Overview
               </div>
             </div>
           </a>
         
         
-          <a href="../../../F%26B/intro/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../timeline/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Prossimo
                 </span>
-                FnB
+                Timeline
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
