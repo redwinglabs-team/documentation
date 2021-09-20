@@ -32,7 +32,7 @@ Nella parte superiore della Timeline sono presenti alcuni filtri diversi:
 * Oggi: questo pulsante vi porterà sempre alla data di oggi, che sarà sempre evidenziata
 * Seleziona data: utilizzate questo selezionatore di data per saltare rapidamente a una data specifica
 * Seleziona spazio: Cerca per nome delle categorie di spazio o per numero di camera al fine di visualizzare gli spazi con i criteri corrispondenti nel menu a tendina.
-* Prenotazione per l’uso interno: ??
+* Prenotazione per l’uso interno: Seguire la medesima procedura per assegnare la camera in stato Guasto.
 
 ### Spazi
 

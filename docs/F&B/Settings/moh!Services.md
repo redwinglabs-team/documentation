@@ -2,16 +2,19 @@
 
 La Sezione di App Servizi permette la gestione delle impostazioni relative ai servizi offerti dalla struttura prenotabili attraverso l’App
 
-![MOH!ServicesSettings](../../assets/img/imgSettings/MOH!ServicesSettings.png#MOH!ServicesSettings)
+1. Vai a Menu principale > Impostazioni > App Services
+2. Spunta la casella Servizi permessi per abilitare il servizio
+3. Compila i campi con i dettaglio sul servizio
+4. Clicca su Salva
 
-* Servizi: cliccate lo switch corrispondente per scegliere se abilitare (SI) o disabilitare (NO) la vendita dei servizi offerti all’interno dell’App
+## Dettaglio dei campi
 
-* Categoria: selezionate dalla drop-down le cateogorie appartenenti ai servizi proposti. Ciò migliorerà la visibilità della struttura all’interno dell’App
+* Categoria: seleziona dalla drop-down le cateogorie appartenenti ai servizi proposti. Ciò migliorerà la visibilità della struttura all’interno dell’App
 
-* Termini e Condizioni: compilate il form corrispondente inserendo i Termini e Condizioni relativi ai servizi venduti
+* Termini e Condizioni: compila il form inserendo i Termini e Condizioni relativi ai servizi venduti
 
-* Politiche di Cancellazione: compilate il form corrispondente con le politiche di cancellazione adottate dalla struttura
+* Politiche di Cancellazione: compila il form con le politiche di cancellazione adottate dalla struttura
 
-* Servizi Offerti dalla Struttura: compilate il form corrispondente elencando e descrivendo i servizi aggiuntivi della struttura che non sono soggetti a prenotazione
+* Servizi Offerti dalla Struttura: compila il form elencando e descrivendo i servizi aggiuntivi della struttura che non sono soggetti a prenotazione
 
-* Regolamento: compilate infine il campo corrispondente spiegando il regolamento interno che si è soliti rispettare, come ad esempio norme igieniche e sanitarie e così via
+* Regolamento: compilate infine il campo spiegando il regolamento interno che si è soliti rispettare, come ad esempio norme igieniche e sanitarie e così via

@@ -2,24 +2,21 @@
 
 La sezione Prenotazioni fornisce delle semplici scorciatoie per gestire le richieste in entrata per il proprio Ristorante
 
-![Prenotazioni](../../assets/img/imgSettings/Prenotazioni.png#prenotazioni)
+1. Vai a Menu Principale > Impostazioni > Prenotazioni
+2. Compila i campi richiesti
+3. Clicca su Salva
 
-<div>Impostazioni:</div>
+## Dettaglio dei campi
 
-* Accetta prenotazioni N giorni in anticipo: numero di giorni entro il quale è possibile ricevere una prenotazione;
+* Giorni massimo prima della prenotazione: numero di giorni entro il quale poter effettuare una prenotazione per una determinata data.
 
-* Accetta prenotazioni online: selezionate se accettare prenotazioni provenienti dall'App client;
+* Accetto prenotazioni online: seleziona se abilitare le prenotazioni attraverso piattaforme integrate con il sistema.
 
-* Accetta prenotazioni di minimo N e massimo N coperti: numero rappresentante il minimo e il massimo dei coperti accettati per una prenotazione;
+* Prenotazioni min/max accettabili:
 
-* <div>Consenti ai clienti di modificare la prenotazione:</div>
+    - Valore minimo: numero minimo di ospiti presenti in un tavolo
+    - Valore massimo: numero massimo di ospiti presenti in un tavolo
 
-    * <div>Si: attivare questa opzione ne permette la modifica</div>
+* Gli ospiti possono cambiare la loro prenotazione: seleziona se abilitare la modifica di una prenotazione effettuata attraverso piattaforme integrate, una volta che essa viene confermata.
 
-    * <div>No: attivare questa opzione disabilita la modifica</div>
-
-* <div>Cancellation Policy: numero di minuti dal quale il cliente non potrà più modificare o cancellare la sua prenotazione</div>
-
-* <div>Salva: memorizza la configurazione inserita;</div>
-
-* <div>Cancella: annulla l'operazione</div>
+* Cancellation Policy: numero di minuti dal quale il cliente non potrà più modificare o cancellare la sua prenotazione

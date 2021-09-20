@@ -2,7 +2,6 @@
 
 La pagina di Assegni e Bonifici semplifica la gestione di questi metodi di pagamento permettendo di aggiornare il loro stato, visualizzare i Report e filtrarli in maniera specifica
 
-![bankTransfer](../../assets/img/imgBilling/bankTransfer.png#bankTransfer)
 
 ## Tabella Conti
 
@@ -10,7 +9,7 @@ La Tabella Conti visualizza la lista dei pagamenti e degli addebiti relativa al 
 
 * Seleziona Data: clicca uno dei due bottoni per scegliere un mese precedente o successivo a quello corrente
 
-* <div>Totale: visualizza la cifra complessiva provvisoria degli incassi giornalieri</div>
+* Totale: visualizza la cifra complessiva provvisoria degli incassi giornalieri
 
 ### Tab Conto
 

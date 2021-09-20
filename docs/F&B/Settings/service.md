@@ -1,54 +1,48 @@
 # Servizio
 
-<div>La sezione Servizio gestisce la creazione e modifica dei tuoi orari lavorativi </div> 
+La sezione Servizio gestisce la creazione e modifica dei tuoi orari lavorativi  
+
+Le informazioni relative ai servizi sono visibili su tutti i portali integrati con Quadro FnB come ad esempio Quadro Guest.
 
 ## Tabella Servizi 
 
-Tabella riepilogativa dei Servizi creati contenente le informazioni ad essi relativi, ordinati per i seguenti campi: 
+Nella Tabella riepilogativa oltre alla lista dei servizi creati, sono presenti alcune informazioni sul servizio stesso, quali: lo stato, l'ora di inizio, di fine e dell'ultima prenotazione effettuabile.
 
-* Stato
-* Icona
-* Nome
-* Inizio 
-* Fine
-* Ultima Prenotazione
+## Crea un nuovo Servizio
 
-![Tab-Servizi](../../assets/img/imgSettings/Tab-Servizi.png#tab-servizi)
+1. Vai a Menu principale > Impostazioni > Servizio
 
-* <div>Modifica:</div>
+2. Clicca sul bottone +
 
-    * Apri: cliccate il bottone corrispondente per modificare il Servizio selezionato (vedi Nuovo Servizio);
+3. Spunta la casella Stato per rendere disponibile questo Servizio
 
-* <div>Elimina:</div>
+4. Compila i campi richiesti
 
-    * Cliccate l’icona in questa colonna per eliminare il relativo servizio
+5. Clicca su Salva
 
-## Nuovo Servizio 
+### Dettaglio dei campi di un servizio
 
-![Nuovo-Servizio](../../assets/img/imgSettings/Nuovo_Servizio.png#mobile)
+- Nome: Inserisci il nome del prodotto.
+- Orario inizio: Seleziona l'orario di inizio del servizio.
+- Orario fine: Seleziona l'orario di termine del servizio.
+- Ultima prenotazione: Seleziona l'orario in cui è possibile effettuare l'ultima prenotazione, superato questo orario, non sarà più possibile prenotare per il suddetto servizio.
+- Intervallo di tempo (minuti): Inserisci i minuti che compongono l'intervallo di tempo entro il quale accettare prenotazioni composte entro un numero massimo di persone.
+- Ospiti massimi (per slot): Inserisci il numero di pax limite ammessi nel ristorante in un dato intervallo di tempo.
+- Icona: Scegli un icona distintiva per il servizio in oggetto
 
-1. <div>Cliccate il bottone in basso a sinistra (+) </div>
+## Modifica un Servizio
 
-2. <div>Compilate i campi richiesti</div>
+1. Vai a Menu principale > Impostazioni > Servizio
+2. Clicca sul servizio che intendi modificare
+3. Modifica i campi desiderati
+4. Clicca su Salva
 
-    * <div>Nome</div>
-        
-    * <div>Ora Inizio: cliccate l’icona e selezionate l’orario d'inizio del servizio</div>
+## Elimina un Servizio
 
-    * <div>Ora Fine: cliccate l’icona e selezionate l’orario di fine del servizio</div>
+1. Vai a Menu Principale > Impostazioni > Servizio
+2. Clicca sull'icona del menu a destra del servizio che intendi cancellare
+3. Clicca su Elimina
+4. Clicca nuovamente su Elimina per confermare l'operazione
 
-    * <div>Stato:</div>
-    
-        * <div>Attivato: abilita le prenotazioni per il servizio</div>
-
-        * <div>Disattivato: disabilita le prenotazioni per il servizio</div>
-
-    * Ultima Prenotazione: cliccate l’icona e selezionate l’orario in cui è possibile ricevere l’ultima prenotazione;
-
-    * Tempo Slot (minuti): digitate il numero nella box permette di impostare uno slot di tempo nel quale poter ricevere un numero massimo di ospiti;
-
-    * Ospiti max (per slot): digitate il numero nella box permette di impostare il numero massimo di ospiti che è possibile ricevere nello slot di tempo impostato;
-
-    * <div>Icona: cliccare la box e selezionate un’icona da associare al servizio;</div>
-
-3. <div>Cliccate Salva e ultimate la creazione del servizio</div>
+!!! Nota 
+    Non è possibile eliminare un servizio a cui sono ancora associate prenotazioni attive (presenti o future)

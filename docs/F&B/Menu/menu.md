@@ -2,118 +2,83 @@
 
 Le funzionalità del Menu vi aiuteranno a creare menu specializzati composti da diverse categorie.
 
-1. <div>Create una o più categorie</div>
+Il Menu è direttamente integrato con le app di delivery e take away, e con pochi e semplici passaggi, si può abilitare o disabilitare un piatto per qualsivoglia servizio.
 
-2. <div>Create gli elementi appartenenti alle categorie</div>
+## Crea, modifica o cancella una categoria di articoli
 
-3. <div>Modificateli e ordinateli per ottenere il menu che più si addice alle vostre esigenze</div>
+### Creare una nuova categoria di articoli
 
-## Sezione Categorie
+Le categorie possono racchiudere un numero infinito di articoli al loro interno. Consigliamo di raggruppare all'interno di una stessa categoria, articoli con caratteristiche simili (es. latticini, vini o bevande).
 
-Selezionate le categorie dal menu a sinistra, e createne di nuove grazie ai bottoni a piè pagina
+1. Vai a Menu principale > Menu > Nuova Categporia
+2. Seleziona a quale macro categoria appartiene
+   - Food: gli articoli vengono iniviati in cucina
+   - Drink: gli articoli vengono aggiunti alla corsa Bevande
+3. Compila i restanti campi
+4. Clicca su Salva
 
-![tabCategory](../../assets/img/imgMenu/tabCategory.png#tabCategory)
+#### Dettaglio dei campi di una categoria
 
-### Nuovo Elemento
+- Nome: Identificativo della categoria
+- Categoria: Macro categoria di appartenenza degli articoli al suo interno (food o drink)
+- Ordine: Scegli l'ordine in cui desideri che le categorie siano elencate
+- Colore Categoria: Seleziona il colore che contraddistingua la categoria
+- Stato: Attiva o disattiva una categoria. Le categorie disattivate, non vengono visualizzate all'interno del menu
 
- 1. <div>Cliccate Aggiungi Elemento </div>
+### Modificare una categoria
 
- 2. <div>Compilate i campi richiesti</div>
+1. Vai a Menu principale > Menu
+2. Seleziona la categoria che desideri modificare
+3. Clicca sull'icona della modifica della categoria
+4. Aggiorna i dettagli della categoria
+5. Clicca Salva
 
- 3. <div>Cliccate Salva per creare l'elemento</div>
+### Cancellare una categoria
 
- ![addElement](../../assets/img/imgMenu/addElement.png#addElement)
+1. Vai a Menu Principale > Menu
+2. Seleziona la categoria che desideri cancellare
+3. Clicca sull'icona della cartella con un cestino
+4. Clicca Elimina
 
- * <div>Cliccate il form della foto per sceglierne una, o trascinatela al suo interno</div>
+## Crea, modifica o cancella un articolo
 
- * <div>Nome: nome del piatto da visualizzare in App</div>
+### Creare un nuovo articolo
 
- * <div>Categoria: assegnate l'elemento ad una categoria esistente</div>
+La gestione di un articolo è completamente personalizzabile. Puoi scegliere se abilitarlo ovunque all'interno dell'ecosistema, o scegliere nel dettaglio in quali sezioni disattivarlo.
 
- * <div>Descrizione: dettagli sulla preparazione del prodotto</div>
+1. Vai a Menu principale > Menu > Nuovo Articolo
+2. Seleziona la Categoria di appartenenza
+3. Compila i restanti campi
+4. Clicca Salva
 
- * <div>Prezzo: unità di prezzo del prodotto</div>
+!!! Nota
+      Per poter creare un articolo, è necessario prima aver creato una Categoria al quale assegnarlo
 
- * <div>IVA: stabilite la percentuale di IVA applicata sul prodotto</div>
+#### Dettaglio dei campi di un articolo
 
- * <div>Allergie: allergeni presenti nel piatto dovuti agli ingredienti contenuti in esso</div>
+- Nome: Inserisci un nome per l'articolo
+- Categoria: Seleziona la categoria di appartenza
+- Descrizione: Inserisci una descrizione dell'articolo per uso interno ed esterno
+- Prezzo: Inserisci il prezzo che verrà addebitato al pagamento
+- Aliquota fiscale: Seleziona l'aliquota fiscale da applicare
+- Note: Inserisi eventuali note aggiuntive
+- Allergie: Seleziona gli allergeni di cui è composto l'articolo
+- Stato: Attiva o disattiva un articolo. Gli articoli disattivati, non vengono visualizzati all'interno del menu
+- Delivery/Take Away: Attiva o disattiva l'artcolo per la consegna a domicilio o l'asporto. Gli articoli disattivati non vengono visualizzati all'interno del menu
+- Immagine: Seleziona un'immagine rappresentativa del prodotto
 
- * <div>Stato: influenza cosa accade all'elemento in fase di Comanda</div>
+### Modificare un articolo
 
-    * <div>Attivo: disponibile in fase di presa comanda</div>
+1. Vai a Menu principale > Menu
+2. Seleziona la categoria contenente l'articolo 
+3. Clicca sull'articolo che desideri modificare
+4. Aggiorna i dettagli dell'articolo
+5. Clicca Salva
 
-    * <div>Nascosto: non disponibile in fase di presa comanda</div>
+### Cancellare un articolo
 
- * <div>Note: corpo delle note aggiuntive </div>
-
-### Aggiungi Categoria
-
- 1. <div>Cliccate Nuova Categoria</div>
-
- 2. <div>Compilate i campi richiesti</div>
-
- 3. <div>Cliccate Salva per creare la categoria</div>
-
- ![addCategory](../../assets/img/imgMenu/addCategory.png#addCategory)
-
- * <div>Nome: nome della categoria visualizzato in presa comanda</div>
-
- * <div>Colore: segno distintivo della categoria</div>
-
- * <div>Stato: influenza cosa accade all'elemento in fase di Comanda</div>
-
-    * <div>Attivo: disponibile in fase di presa comanda</div>
-
-    * <div>Nascosto: non disponibile in fase di presa comanda</div>
-
- * <div>Categoria: influenza cosa accade in fase di presa comanda</div>
-
-    * <div>Food: i prodotti vengono visualizzati nella prima parte della comanda e in Cucina</div>
-
-    * Drink: i prodotti vengono visualizzati nella seconda parte della comanda (Bevande) e non vengono mostrati in cucina
- 
-### Modifica Categoria
-
- 1. <div>Selezionate una categoria</div>
-
- 2. <div>Cliccate Modifica Categoria</div>
-
- 3. <div>Modificate i campi desiderati</div>
-
- 4. <div>Cliccate Salva per salvare le modifiche</div>
-
- ![editCategory](../../assets/img/imgMenu/editCategory.png#editCategory)
-
-### Cancella Categoria
-
-1. <div>Selezionate una categoria</div>
-
-2. <div>Cliccate Cancella Categoria</div>
-
-## Lista Prodotti
-
-La lista prodotti è un utile interfaccia dal quale avere sotto controllo tutti gli elementi appartenenti a una categoria, modificarli e cancellarli
-
-![tabElements](../../assets/img/imgMenu/tabElements.png#Elements)
-
-* <div>Shortcut: icone situate in alto a destra</div>
-
-    * <div>Cliccate + per creare un Nuovo Elemento</div>
-
-    * <div>Cliccate le restanti due icone per modificare la visualizzazione dei piatti</div>
-
-### Box Prodotto
-
- Al suo interno vengono visualizzate le informazioni relative al piatto quali: Nome Piatto, Prezzo, Immagine, categoria appartenente e possibilità di modificare o cancellare il piatto in questione
-
- ![tabElement](../../assets/img/imgMenu/tabElement.png#tabElement)
-
- * Cambia Categoria: cliccate la multi-select corrispondente per selezionare una tra le categorie disponibili e cambiarla;
-
- ![changeCategory](../../assets/img/imgMenu/changeCategory.png#changeCategory)
-
-* <div>Shortcut: icone situate a destra del prodotto</div>
-
-    * <div>Cliccate la prima icona per modificare il prodotto</div>
-
-    * <div>Cliccate la seconda icona per cancellare il prodotto</div>
+1. Vai a Menu principale > Menu
+2. Seleziona la categoria contenente l'articolo
+3. Clicca sull'icona del menu a destra dell'articolo
+4. Clicca Elimina
+5. Clicca nuovamente Elimina per completare l'operazione

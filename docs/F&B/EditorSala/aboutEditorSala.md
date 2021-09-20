@@ -1,53 +1,61 @@
 # Introduzione all'Editor Sala
 
-Utilizzate la nostra sezione di Editor Sala per creare o modificare la disposizione dei tavoli del ristorante.
-
-1. <div>Scegliete la Sala</div>
-
-2. <div>Create i tavoli</div>
-
-3. <div>Posizionateli secondo la vostra preferenza</div>
-
-4. <div>Salvate e vedrete le modifiche nella sezione Tables Manager</div>
+Utilizza la sezione di Editor Sala per creare o modificare la disposizione dei tavoli del ristorante. Il livello di personalizzazione offre la possibilità di gestire in prima persona la disposizione della sala, plasmandola il più fedelmente possibile all'originale.
 
 !!! warning "Attenzione" 
-    <div>Per gestire la creazione e la modifica dei tavoli, bisogna prima creare almeno una Sala. Per farlo, recatevi in Impostazioni > Sala [Nuova Sala](../Settings/room.md)</div>
+    Per gestire la creazione e la modifica dei tavoli, bisogna prima creare almeno una Sala. Per farlo, recatevi in Impostazioni > Sala [Nuova Sala](../Settings/room.md)
 
-## Crea Tavolo
+## Crea, modifica o cancella un Tavolo
 
-![NewTable](../../assets/img/imgEditor/nuovoTavolo.png#mobile)
+### Creare un nuovo Tavolo
 
-* <div>Scegli Sala: cliccate la multi-select corrispondente e selezionate la sala desiderata;</div>
+1. Vai a Menu principale > Editor Sala
+2. Seleziona la sala in cui creare il tavolo
+3. Inserisci forma, capacità e quantità
+4. Clicca su ->
 
-* Tipo Forma: cliccate la multi-select corrispondente e selezionare la forma desiderata del tavolo che si vuole creare;
+#### Dettaglio dei campi di un Tavolo
 
-* <div>Capienza: numero dei coperti che è possibile far accomodare al tavolo;</div>
+* Scegli Sala: seleziona la sala di destinazione del tavolo
 
-* <div>Quantità: numero dei tavoli che si intende creare con la configurazione appena inserita</div>
+* Forma: seleziona la forma del tavolo (rotondo, quadrato, rettangolare)
 
-* Nascosto: selezionate la checkbox per nascondere o meno il tavolo creato nella sezione ‘visualizza tavoli’;
+* Capienza: numero dei coperti che è possibile far accomodare al tavolo
 
-* Sedie Capotavola: selezionate la rispettiva checkbox permette di inserire una sedia al capotavola per ogni tavolo creato (impossibile in tavoli Tondi);
+* Quantità: numero dei tavoli da creare in serie
 
-* Salva o Reset: cliccate sui rispettivi bottoni permette di salvare le modifiche effettuate alla sala o resettare le stesse alla configurazione precedente;
+* Nascosto: scegli se nascondere o meno il tavolo dalla sezione Spaces
 
-## Modifica Tavolo
+* Sedie Capotavola: scegli se inserire una sedia al capotavola (impossibile in tavoli Tondi)
 
-<div>Cliccate un tavolo qualsiasi per aprire il banner di modifica</div>
+### Modificare un Tavolo
 
-![EditTable](../../assets/img/imgEditor/editTable.png#mediumMobile)
+1. Vai a Menu principale > Editor Sala
+2. Seleziona la sala in cui modificare il tavolo
+3. Clicca su un tavolo
+4. Aggiorna i dettagli del tavolo
+5. Clicca Salva
 
-* N° Tavolo: numero o combinazione di essi rappresentanti il fattore distintivo del tavolo
+#### Dettaglio dei campi del form di modifica di un Tavolo
+
+* N° Tavolo: identificativo del tavolo per uso interno
 
 !!! warning "Attenzione"
-    <div>Il numero del tavolo deve essere unico, pertanto non può essere duplicato su un'altro elemento.</div>
+    Il numero del tavolo deve essere unico, pertanto non può essere duplicato su un'altro elemento.
 
-* Tipo Forma: cliccate la multi-select e selezionate la forma desiderata del tavolo che si vuole modificare, scegliendo tra quelle proposte;
+* Tipo Forma: seleziona la forma del tavolo (rotondo, quadrato, rettangolare)
 
-* <div>Capienza: numero dei coperti che è possibile far accomodare al tavolo;</div>
+* Capienza: numero dei coperti che è possibile far accomodare al tavolo
 
-* <div>Nascosto: selezionate la checkbox per nascondere o meno il tavolo creato nella sezione ‘visualizza tavoli’;</div>
+* Nascosto: scegli se nascondere o meno il tavolo dalla sezione Spaces
 
-* Sedie Capotavola: selezionate la rispettiva checkbox permette di inserire una sedia al capotavola per ogni tavolo creato (impossibile in tavoli Tondi);
+* Sedie Capotavola: scegli se inserire una sedia al capotavola (impossibile in tavoli Tondi)
 
-* Salva o Cancella: cliccate sui rispettivi bottoni per salvare le modifiche effettuate al tavolo o cancellarlo definitavemente;
+- Ruota a sinistra/destra: scegli se ruotare il tavolo in una delle due direzioni
+
+### Cancellare un Tavolo
+
+1. Vai a Menu principale > Editor Sala
+2. Seleziona una sala
+3. Clicca sul tavolo che desideri eliminare
+4. Clicca Elimina tavolo

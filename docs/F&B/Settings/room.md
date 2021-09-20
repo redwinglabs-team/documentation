@@ -1,55 +1,43 @@
-# Sala
+# Spazi
 
-<div>La sezione Sala aiuta la creazione, modifica e gestione delle vostre sale affinchè possiate ricreare il più fedelmente possibile la conformazione del ristorante</div>
+La sezione Spazi aiuta la creazione, modifica e gestione delle vostre sale affinchè possiate ricreare il più fedelmente possibile la conformazione del ristorante
 
-## Tabella Sale
+La creazione delle sale è illimitata, a patto che si rispetti il numero totale dei coperti definito nelle impostazioni Generali.
 
-Tabella riepilogativa contenente le informazioni relative alla/e sala/e create, ordinate nei seguenti campi:
+## Tabella Spazi
 
-![Sala](../../assets/img/imgSettings/Sala.png#mobile)
+ Nella Tabella riepilogativa sono contenute, oltre alla lista di tutte le sale create, informazioni generali sulla sala stessa, tra le quali:
 
-* <div>Stato</div>
+* Stato: Lo stato in cui la sala si trova attualmente (Attivo o Disattivo)
 
-* <div>Nome</div>
+* Nome: Il nome assegnato alla sala
 
-* <div>Coperti totali</div>
+* Coperti massimi: Il numero di pax contenuti nella sala
 
-* <div>Prenotazioni online</div>
+* Prenotazioni online: Dato indicativo sulla possibilità di accettare prenotazioni attraverso piattaforme integrate
 
-* <div>Servizio</div>
+* Servizio: Nomi dei servizi in cui la sala è attiva
 
-* <div>Modifica:</div>
+## Crea uno Spazio
 
-    * Apri: cliccate il bottone corrispondente per modificare le impostazioni relative alla relativa sala.
+1. Vai a Menu principale > Impostazioni > Spazi
+2. Clicca su bottone +
+3. Compila i campi richiesti
+4. Clicca su Salva
 
-* <div>Elimina:</div>
+!!! Note
+    Le sale sono strettamente legate ai servizi della struttura. Prima di poter creare qualsiasi sala, assicurarsi di aver prima configurato almeno un servizio
 
-    * cliccate l'icona in questa colonna per eliminare la relativa sala.
+## Modifica uno Spazio
 
-## Nuova Sala
+1. Vai a Menu Principale > Impostazioni > Spazi
+2. Clicca sullo Spazio che intendi modificare
+3. Modifica i campi interessati
+4. Clicca su Salva
 
-![Nuova-Sala](../../assets/img/imgSettings/Nuova-Sala.png#mobile)
+## Elimina uno Spazio
 
-1. <div>cliccate il bottone in basso a sinistra (+)</div>
-
-2. <div>Compilate i campi richiesti:</div>
-
-    * <div>Nome</div>
-
-    * <div>Coperti Totali: numero dei coperti disponibili nella sala</div>
-
-    * <div>Servizio: selezionate i servizi durante i quali la sala è disponibile</div>
-
-    * <div>Prenotazioni online:</div>
-
-        * <div>Sì: abilita le prenotazioni provenienti dall'App client</div>
-
-        * <div>No: disabilita le prenotazioni provenienti dall'App client</div>
-
-    * <div>Stato:</div>
-
-        * <div>Attivato: abilita tutte le funzioni della sala</div>
-
-        * <div>Disattivato: disabilita tutte le funzioni della sala</div>
-
-3. <div>Cliccate Salva e ultimate la creazione della Sala</div>
+1. Vai a Menu Principale > Impostazioni > Spazi
+2. Clicca sull'icona del menu a destra dello spazio che desideri eliminare
+3. Clicca su Elimina
+4. Clicca nuovamente sul bottone Elimina per confermare l'operazione

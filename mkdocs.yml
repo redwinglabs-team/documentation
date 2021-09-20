@@ -1,5 +1,5 @@
 # Project information
-site_name: RWL Documentation
+site_name: Documentation
 site_description: Documentazione delle app prodotte da RedWingLabs
 site_author: RedWing Labs
 
@@ -11,16 +11,24 @@ theme:
   name: material
   language: it
   palette:
-    scheme: default
-    primary: blue grey
-    accent: red
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
-  logo: assets/img/redwingbird.png
+  icon:
+    repo: fontawesome/solid/globe
+  logo: assets/img/redwinglabs16.png
   search:
     language: en, it
-  favicon: assets/img/redwingbird.png
+  favicon: assets/img/rwl3.png
   features:
     - navigation.instant
     - navigation.tabs
@@ -28,6 +36,22 @@ theme:
 
 # Extras
 extra:
+  alternate:
+
+    # Switch to English
+    - name: English
+      link: https://redwinglabs-team.github.io/doc-eng/
+      lang: en
+
+    # # Switch to German
+    # - name: Deutsch
+    #   link: <your-site>/de/
+    #   lang: de
+
+    # # Switch to Japanese
+    # - name: 日本語
+    #   link: <your-site>/ja/
+    #   lang: ja
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/redwinglabs
@@ -74,7 +98,6 @@ nav:
     - Restrictions: 'Quadro/Settings/restrictions.md'
     - Voucher: 'Quadro/Settings/vouchers.md'
     - Spazi: 'Quadro/Settings/spaces.md'
-    - Segmenti: 'Quadro/Settings/segments.md'
     - Dipartimenti ed Impiegati: 'Quadro/Settings/depts&Empl.md'
     - Outlets: 'Quadro/Settings/outlets.md'
     - Placeholder Emails: 'Quadro/Settings/placeholders.md'
@@ -84,6 +107,7 @@ nav:
   - Reservations:
     - New Reservation: 'Quadro/Reservations/reservation.md'
     - Overview: 'Quadro/Reservations/resOverview.md'
+    - Gestione Prenotazione: 'Quadro/Reservations/status.md'
     - Timeline: 'Quadro/Reservations/timeline.md'
     - Report: 'Quadro/Reservations/report.md'
   - Profiles:
@@ -98,6 +122,7 @@ nav:
     - Action Log: 'Quadro/Distribution/actionLog.md'
   - Spaces: 'Quadro/Spaces/spaces.md'
   - Finances:
+    - New Charge: 'Quadro/Finances/newCharge.md'
     - Accounting Ledger: 'Quadro/Finances/accountingLedger.md'
     - Posting Journal: 'Quadro/Finances/postingJournal.md'
     - Billing & Invoices: 'Quadro/Finances/bills&inv.md'
@@ -109,10 +134,10 @@ nav:
     - Spent Nights: 'Quadro/Report/spentNight.md'
     - Payment: 'Quadro/Report/payment.md'
   - Task Manager: 'Quadro/TaskManager/task.md'
-- FnB: 
-  - FnB: 'F&B/intro.md'
-  - App Ordini: 'F&B/MOH!Orders/orders.md'
-  - App Prenotazioni: 'F&B/MOH!Bookings/bookings.md'
+  - Marketplace:
+    - Marketplace: 'Quadro/Marketplace/intro.md'
+- Quadro Fnb: 
+  - Quadro Fnb: 'F&B/intro.md'
   - Impostazioni:
     - Generali: 'F&B/Settings/general.md'
     - Prenotazioni: 'F&B/Settings/reservation.md'
@@ -122,11 +147,16 @@ nav:
     - App Consegna: 'F&B/Settings/moh!Delivery.md'
     - App Asporto: 'F&B/Settings/moh!TakeAway.md'
     - App Servizi: 'F&B/Settings/moh!Services.md'
+    - Avanzate: 'F&B/Settings/advanced.md'
+    - Impiegati: 'F&B/Settings/employee.md'
+    - Outlets: 'F&B/Settings/outlets.md'
+    - QR Code: 'F&B/Settings/qrCode.md'
   - Editor Sala: 'F&B/EditorSala/aboutEditorSala.md'
   - Menu: 'F&B/Menu/menu.md'
   - Prenotazioni:
     - Lista Prenotazioni: 'F&B/Reservations/viewReservations.md'
     - Nuova Prenotazione: 'F&B/Reservations/newReservation.md'
+  - Anagrafica: 'F&B/Profiles/newCustomer.md'
   - Visualizza Tavoli:
     - Tables Manager: 'F&B/ViewTables/viewTables.md'
     - Comanda: 'F&B/ViewTables/order.md'
@@ -143,4 +173,30 @@ nav:
     - Prenotazione: 'F&B/Registry/reservations.md'
   - Cucina:
     - Sommario Ordini: 'Kitchen/orderSummary.md'
-    - Dettaglio Ordini: 'Kitchen/detailedOrder.md'
+  - Inventario: 'F&B/Inventory/inventory.md'
+  - App Ordini: 'F&B/MOH!Orders/orders.md'
+  - App Prenotazioni: 'F&B/MOH!Bookings/bookings.md'
+- Quadro Guest:
+  - Quadro Guest: 'GA/intro.md'
+  - Online Check-in: 'GA/checkIn.md'
+  - Profile: 'GA/profile.md'
+  - Messages: 'GA/messages.md'
+- Quadro Staff:
+  - Quadro Staff: 'SA/intro.md'
+  - Spaces: 'SA/spaces.md'
+  - Messages: 'SA/messages.md'
+  - Task: 'SA/tasks.md'
+  - Customers: 'SA/customers.md'
+  - Point of Sale: 'SA/pos.md'
+  - Complaints: 'SA/complaints.md'
+  - Delivery: 'SA/delivery.md'
+  - Reservations: 'SA/reservations.md'
+  - Settings: 'SA/settings.md'
+- Quadro Pop:
+  - Quadro Pop: 'Pop/intro.md'
+  - Cassiere: 'Pop/cash.md'
+  - Anagrafica: 'Pop/customers.md'
+  - Gestione conti: 'Pop/billing.md'
+  - Articoli: 'Pop/menu.md'
+  - Inventario: 'Pop/inventory.md'
+  - Impostazioni: 'Pop/settings.md'

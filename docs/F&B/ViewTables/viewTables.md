@@ -1,73 +1,80 @@
 # Tables Manager
 
-La sezione del Tables Manager è l’interfaccia ideale per la gestione delle proprie sale durante il Servizio in corso, per la gestione dei tavoli occupati e delle Comande ricevute o in attesa
+La sezione del Tables Manager è l’interfaccia ideale per la gestione delle proprie sale durante il Servizio in corso, per la gestione dei tavoli occupati e delle Comande ricevute o in attesa.
 
-Select Servizio: permette di selezionare lo specifico servizio del quale si vogliono visualizzare le prenotazioni;
+## Assegna prenotazione ad un tavolo
 
-## Scheda Riassunto Ospite
+Per poter effettuare l'ordinazione al tavolo, è necessario prima di tutto occupare quel tavolo. Un tavolo può essere occupato sia da una prenotazione già effettuata, che da un Ordine veloce.
 
-Visualizza i dati principali della prenotazione in questione quali: Nome Ospite, Ora Prenotazione, N Stanza, N Pax e due bottoni:
+Nonostante si possa scegliere per quale servizio impostare la sala, è possibile solo gestire la sala per il giorno corrente.
 
-![guestProfile](../../assets/img/imgTables/guestProfile.png#guestProfile)
+### Assegna Prenotazione
 
-* Aggiungi (permette tramite click sull’icona e successivamente sul tavolo scelto di assegnarla ad esso)
+Le prenotazioni per il giorno corrente vengono visualizzate nella colonna a sinistra della schermata. Puoi scegliere quali prenotazioni gestire grazie al filtro per Servizio.
 
-* <div>Dettagli (permette tramite click l’apertura della sezione ‘Modifica Prenotazione);</div>
+!!! Nota
+    Assegnare ad un tavolo una prenotazione, cambia automaticamente il suo stato in "in Lavorazione"
 
-## Bottoni Gestisci Tavoli
+1. Vai a Menu Principale > Spaces
+2. Cerca la prenotazione che vuoi assegnare ad un tavolo
+3. Clicca sul bottone Aggiungi
+4. Seleziona il tavolo al quale assegnare la prenotazione
+5. Clicca su conferma per completare l'operazione
 
-![actionButtons](../../assets/img/imgTables/actionButtons.png#actionButtons)
+!!! Nota
+    Puoi assegnare una prenotazione esclusivamente ad un tavolo non occupato. I tavoli liberi sono segnalati con il cerchietto del loro numero di colore verde.
 
-* Unisci Tavoli: clicca il bottone e sui due tavoli che desideri unire, scegliere se confermare o annullare l’operazione;
+### Ordine Veloce
 
-* Dividi Tavolo: clicca il bottone e seleziona il tavolo, aumentare o diminuire la capacità del tavolo che vuoi creare e scegliere se confermare o annullare l’operazione;
+Assegnare ad un tavolo un Ordine veloce permette di prendere immediatamente l'ordinazione per quel tavolo. Ciò consente di risparmiare tempo sulla creazione della prenotazione, ma non verrà tenuto conto dei dati dei clienti nella sezione di reportistica.
 
-* <div>Libera Tavolo: clicca il bottone e seleziona un tavolo occupato;</div>
+1. Vai a Menu principale > Spaces
+2. Clicca su di un tavolo vuoto
+3. Dal menu laterale, clicca sulla voce Ordine veloce
 
-* Trasferisci Tavolo: clicca il bottone, seleziona il tavolo da trasferire e il tavolo di destinazione;
+## Gestione dei Tavoli
 
-* <div>Trasferisci Sedia: clicca il bottone, seleziona la sedia da trasferire e la sedia di destinazione;</div>
+Durante un servizio può capitare di dover modificare in corsa la disposizione della sala. Quadro FnB risponde a questa esigenza con la possibilità di spostare, dividere e unire i tavoli in pochi passaggi.
 
-* Aggiungi Sedia: clicca il bottone, seleziona il tavolo su cui si vogliono aggiungere le sedie e seleziona il numero di sedie che vuoi aggiungere;
+Qualsiasi modifica effettuata non è tuttavia permanente. Essa si resetterà una volta terminato il servizio in corso.
 
-* <div>Libera Sedia: clicca il bottone e seleziona la sedia che vuoi liberare;</div>
+In caso abbia creato più di una sala, puoi cambiare la sala visualizzata dai tab con i nomi delle sale in cima alla pagina.
 
-## Display Sale
+### Unisci un tavolo
 
-Permette di visualizzare le sale disponibili, la disposizione dei tavoli al loro interno consentendone la modifica e la gestione delle azioni per il singolo tavolo;
+1. Vai a Menu principale > Spaces
+2. Seleziona un primo tavolo che desideri unire
+3. Dal menu laterale, clicca sul bottone Unisci tavolo
+4. Seleziona un secondo tavolo 
+5. Clicca su Conferma
 
-![roomDisplay](../../assets/img/imgTables/roomDisplay.png#roomDisplay)
+!!! Nota
+    Non puoi unire tra loro due tavoli occupati. Assicurati che almeno uno dei due sia un tavolo libero.
 
-* Seleziona Sala: clicca il tab con il nome della sala desiderata per visualizzare la disposizione dei tavoli al suo interno;
+### Dividi un tavolo
 
-### Sala
+1. Vai a Menu principale > Spaces
+2. Seleziona il tavolo che desideri dividere
+3. Dal menu laterale, clicca sul bottone Dividi tavolo
+4. Seleziona la capienza del tavolo
+5. Clicca su Dividi
 
-* <div>Clicca l’icona per aumentare o diminuire lo zoom della visualizzazione della sala;</div>
+!!! Nota
+    Non puoi dividere un tavolo occupato. Il tavolo deve essere necessariamente libero
 
-* Editor Sala: clicca il bottone per avere la possibilità di spostare e ordinare i tavoli a proprio piacimento. Selezionare il tavolo e trascinarlo nella direzione desiderata. Al termine delle modifiche clicca il bottone per memorizzare la configurazione impostata o il bottone per tornare alla configurazione precedente;
+### LIbera un tavolo
 
-## Tavolo
+Liberare un tavolo ripristina la sua disponibilità. Non si possono liberare dei tavoli con una comdanda all'attivo.
 
-<div>Utilizza i Tavoli presenti in Sala per gestire le prenotazioni e le comande ricevute</div>
+1. Vai a Menu principale > Spaces
+2. Seleziona il tavolo che desideri liberare
+3. Dal menu laterale, clucca su Libera tavolo
+4. Clicca su Conferma
 
-### Tavolo Libero
+### Trasferisci un tavolo
 
- Al clic sul tavolo libero si apre la lista Prenotazioni che permette di assegnarne una selezionandola tra le prenotazioni esistenti, crearne una nuova cliccando il bottone  o   per occupare il tavolo senza bisogno di prenotazione alcuna;
-
- ![emptyTable](../../assets/img/imgTables/emptyTable.png#emptyTable)
-
-### Tavolo Occupato
-
- <div>Al clic sul tavolo occupato si visualizza una lista con le seguenti proprietà:</div>
-
- ![busyTable](../../assets/img/imgTables/busyTable.png#busyTable)
-
-* Chiamata: selezionare questa voce permette di cambiare lo stato della/e portata/e da ‘To Do’, ‘Preparing’ o ‘Ready’ (vedi cap. 10 Cucina) in ‘Completed’, modificando a sua volta quello della prima portata con stato ‘None’ in ‘To Do’;
-
-* <div>Agg./mod. portata: apre la modale di creazione e modifica della comanda;</div>
-
-* <div>Assegna Sedia: apre la modale di assegnazione  e modifica della sedia;</div>
-
-* <div>Modifica prenotazione: apre la modale di modifica della prenotazione;</div>
-
-* <div>Paga:  apre la sezione Cassa per il relativo pagamento;</div>
+1. Vai a Menu principale > Spaces
+2. Seleziona il tavolo di partenza
+3. Dal menu laterale, clicca su trasferisci tavolo
+4. Seleziona il tavolo di destinazione
+5. Clicca su Conferma

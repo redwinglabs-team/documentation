@@ -2,6 +2,8 @@
 
 ## Crea o cancella un prodotto
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YJz1IwZKnUo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Un prodotto può essere acquistato o meno dal cliente in fase di prenotazione in base al tipo di servizio a cui è collegato.
 
 Infatti se si allega un prodotto al servizio Stay, può essere acquistato quando un ospite effettua una prenotazione; se invece alleghi un prodotto a un servizio aggiuntivo creato manualmente, può essere acquistato solo in loco e aggiunto manualmente al conto del cliente
@@ -62,6 +64,8 @@ L’eliminazione di un prodotto non influisce sui dati già raccolti per quel pr
 6. Conferma cliccando Elimina
 
 ## Crea o elimina una categoria di prodotti
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9tJEQgW36-Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Utilizza le categorie di prodotti per organizzare i prodotti offerti dai tuoi servizi
 

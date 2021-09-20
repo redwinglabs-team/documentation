@@ -1,49 +1,55 @@
 # Visualizza Prenotazioni
 
-Permette di visualizzare, modificare lo stato, gestire il Servizio e cercare le prenotazioni odierne, passate e future
+L'Overview delle prenotazioni permette di visualizzare, modificare lo stato, gestire il Servizio e cercare le prenotazioni odierne, passate e future di un ristorante.
 
-![resrevationList](../../assets/img/imgList/reservationList.png#mediumMobile)
+Integrata con Quadro, i due sistemi condividono le informazioni sui prenotanti, compresi il numero di camera e informazioni sensibili (es. allergie e intolleranze). I pagamenti sono completamente automatizzati, e la prenotazione di un ospite può comodamente essere visionata su entrambi i sistemi.
 
-## Filtra Prenotazioni
+L'overview delle prenotazioni offre un ampio sistema di filtri che incontra qualsiasi esigenza.
 
-Permette di visualizzare le prenotazioni filtrate per i seguenti campi (è possibile attivare più di un filtro simultaneamente):
+## Filtri
 
-* Data: cliccate l’icona e selezionate la data, verranno visualizzate le prenotazioni corrispondenti
+* Data: mostra le prenotazioni per la data selezionata.
 
-* <div>Stato: selezionate lo stato delle prenotazioni che si desidera visualizzare;</div>
+- Luogo: visualizza le prenotazioni dell'outlet selezionato.
 
-    * <div>Aperto</div>
+* Stato: selezionate lo stato delle prenotazioni che si desidera visualizzare.
 
-    * <div>In lavorazione</div>
+    * Aperto: mostra le prenotazioni confermate.
 
-    * <div>Completato</div>
+    * In lavorazione: mostra le prenotazioni che hanno effettivamente preso possesso del tavolo.
 
-    * <div>Perso</div>
+    * Completato: mostra le prenotazioni che hanno ultimato il servizio e pagato il conto.
 
-    * <div>Cancellato</div>
+    * Perso: mostra le prenotazioni che non hanno rispettato la prenotazione effettuata non presentandosi all'appuntamento.
 
-* Servizio: cliccate la multi select e selezionate il Servizio per il quale visualizzare le prenotazioni associate;
+    * Cancellato: mostra le prenotazioni cancellate prima della data e dell'ora di prenotazione.
 
-* <div>Cerca per nome: richiesto nome o cognome del prenotante per validare la ricerca</div>
+* Servizio: visualizza le prenotazioni corrispondenti al servizio selezionato.
 
-## Tabella Prenotazioni
+* Cerca: Inserisci nome, cognome o numero di camera per visualizzare le prenotazioni legate ai dati inseriti.
 
-Mostra le prenotazioni del ristorante, visualizzando i seguenti campi: Cliente, Note, n. pax, Num Tavolo, Ora prenotazione;
+## Info
 
-### Ospite Arrivato
+Mostra le prenotazioni del ristorante, visualizzando i seguenti campi: 
 
-* Cliccate su Conferma nella colonna di Ospite Arrivato per modificare lo stato dell’ospite. Lo stato si aggiornerà in ‘working’. 
+- Stato della prenotazione: Riquadro che rappresenta lo stato attuale della prenotazione.
+- Numero clienti: Il totale dei pax appartenenti alla prenotazione, suddivisi per fasce d'età.
+- Data: Data e ora di arrivo della prenotazione
+- Outlet: Ristorante presso il quale è stata effettuata la prenotazione
 
-### Dettagli
+## Dashboard
 
-<div>Cliccate su Dettagli per visualizzare le informazioni relative alla prenotazione desiderata</div>
+La dashboard offre una panoramica generale di tutti gli outlet appartenenti alla tua catena, o di tutti i punti vendita. Tieni sotto controllo l'occupazione di tutti i locali grazie alle informazioni divise per servizio e fasce d'età.
 
-### Azioni
+1. Vai a Menu principale > Reservations > Overview
+2. Clicca sul bottone Dashboard in alto a destra
+3. Clicca sul nome di un outlet per visualizzare l'overview delle prenotazioni
 
-* Cliccate la prima icona per annullare la prenotazione selezionata, aggiornando il suo stato in ‘canceled’;
+## Confermare l'arrivo di un ospite
 
-* <div>Cliccate la seconda icona per aprire il form di ‘Modifica Prenotazione’;</div>
+Dalla schermata di overview, puoi segnalare se una prenotazione è effettivamente arrivata in struttura o meno. Questa operazione diventa fondamentale anche per scopi di reportistica, in quanto, al termine del servizio, il sistema calcolerà il numero dei no-show.
 
-## Nuova Prenotazione
-
-<div>Cliccate Aggiungi Prenotazione per creare una nuova prenotazione</div>
+1. Vai a Menu principale > Prenotazioni > Overview
+2. Cerca la prenotazione di cui desideri confermare l'arrivo
+3. Clicca sul bottone "Ospite arrivato"
+4. Attendi il conseguente cambio di stato a conferma dell'operazione

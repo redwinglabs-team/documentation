@@ -4,6 +4,8 @@ La creazione meticolosa degli spazi è fondamentale per la tua struttura; infatt
 
 ## Crea, modifica e cancella una categoria di spazio
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E4-eCZDGLx8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Crea una categoria di spazio
 
 Imposta le categorie di spazio per raggruppare gli spazi secondo la loro tipologia
@@ -45,6 +47,8 @@ Ricordati di svuotare la categoria di spazio in questione prima di procedere con
 
 Prima di creare i tuoi spazi, ricordati di settare prima le relative categorie di spazio
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NUUtH6EAN6Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Crea uno spazio
 
 1. Dal Menu principale vai a Impostazioni > Spazi
@@ -80,6 +84,8 @@ Ricorda che non puoi cancellare uno spazio che ha delle prenotazioni future.
 3. Clicca Elimina e conferma cliccando nuovamente Elimina
 
 ## Crea, modifica o cancella una caratteristica di spazio
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aJyyBH5cUNM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Crea una caratteristica di spazio
 

@@ -8,7 +8,8 @@ Il report della Panoramica delle Prenotazioni è una rapida istantanea di tutte 
 
 Di seguito troverai una panoramica completa di tutte le funzioni e le opzioni di filtro disponibili per questo report. Il report stesso è diviso in cinque sezioni. Per le sezioni Arrivi, Partenze, Pernottamenti e in House, le schede di prenotazione sono utilizzate per fornire un riepilogo di tutti i dettagli della prenotazione per una facile consultazione.
 
-N.B. Se una prenotazione viene effettuata per più di una persona, ma non c'è un compagno di viaggio assegnato alla prenotazione, la scheda di registrazione per quell'accompagnatore verrà stampata vuota. Si prega di assicurarsi di avere un ospite assegnato alla prenotazione per evitare ulteriori trasferimenti di dati dalla carta al sistema.
+!!! Note
+    Se una prenotazione viene effettuata per più di una persona, ma non c'è un compagno di viaggio assegnato alla prenotazione, la scheda di registrazione per quell'accompagnatore verrà stampata vuota. Si prega di assicurarsi di avere un ospite assegnato alla prenotazione per evitare ulteriori trasferimenti di dati dalla carta al sistema.
 
 ### Arrivi
 
@@ -119,22 +120,3 @@ Vedrai i seguenti filtri di dati:
 
 Le carte rappresentano tutte le prenotazioni attualmente in corso. Questo include le prenotazioni che sono arrivate e controllate in quel giorno, così come le prenotazioni con pernottamento, coloro che sono nel bel mezzo del loro soggiorno e saranno presso la struttura durante la notte.
 
-## Effettua un check-in per una prenotazione
-
-1. Apri la prenotazione per il quale vuoi effettuare il check-in
-2. Vai alla sezione Status
-    * Se la prenotazione è parte di un gruppo e desideri effettuare il check-in per più di una prenotazione in una sola volta, assicurati di aver selezionato tutte le prenotazioni in questione nella parte destra dello schermo
-3. Trova la sezione Spazi
-    * Se la camera assegnata ha completato l’ispezione, puoi effettuare il check-in per quella prenotazione
-4. Decidi se vuoi creare delle chiavi per la camera (se non vuoi, puoi sempre crearle dopo che l’ospite ha effettuato il check-in)
-5. Clicca il bottone check-in per completare la procedura
-
-### Serve aiuto?
-
-#### La camera non è stata ispezionata
-
-Se non è possibile ispezionare la camera nel più breve tempo possibile, puoi spostare gli ospiti in una camera differente
-
-#### C’è un errore quando provo a creare le chiavi
-
-Se stai riscontrando problemi nella creazione delle chiavi, vai alla sezione Device Commands Queue per maggiori info su cosa non ha funzionato

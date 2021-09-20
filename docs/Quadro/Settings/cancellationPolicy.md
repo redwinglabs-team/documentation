@@ -1,5 +1,7 @@
 # Creare o modificare una Politica di cancellazione
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ThwOWVct-BI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Creare una politica di cancellazione
 
 1. Dal menu principale vai a Impostazioni > Tariffe

@@ -2,8 +2,6 @@
 
 La Pagina dei PM offre la possibilità di gestire i Pay Master in tutte le loro sfaccettature, permette di crearne di nuovi, pagarli totalmente o in parte e ricercarli secondo qualsiasi preferenza
 
-![pmList](../../assets/img/imgBilling/pmList.png#pmList)
-
 ## Tabella PM
 
 Raccoglie tutti i PM attivi, ne visualizza le informazioni e permette il pagamento dell'intero PM o solamente di uno o più conti al suo interno
@@ -12,7 +10,7 @@ Raccoglie tutti i PM attivi, ne visualizza le informazioni e permette il pagamen
 
 Permette di gestire il singolo PM visualizzando le sue informazioni, categorizzate per: Numero PM, Nome Cliente, Tipo PM, Durata PM, Operations e Prezzo
 
-<div>Clicca il Tab PM per visualizzare tutti i conti, pagati e non, addebitati al PM selezionato</div>
+Clicca il Tab PM per visualizzare tutti i conti, pagati e non, addebitati al PM selezionato
 
 * Seleziona conto: clicca la checkbox corrispondente per selezionare il conto desiderato e abilitarne il pagamento
 
@@ -20,7 +18,7 @@ Permette di gestire il singolo PM visualizzando le sue informazioni, categorizza
 
 * Stato Conto: verifica lo stato del conto a lui associato e cambia il suo colore se è stato pagato (Verde) o è ancora insoluto (Rosso)
 
-* <div>Icona Check: clicca l'icona per visualizzare il check firmato del conto corrispondente</div>
+* Icona Check: clicca l'icona per visualizzare il check firmato del conto corrispondente
 
 * Paga: clicca il bottone corrispondente per essere indirizzato alla cassa e avere la possibilità di pagare il conto
 
@@ -44,7 +42,5 @@ Il Pannello di Ricerca offre una ricerca avanzata di un PM specifico secondo i s
 
 * Paga: seleziona un PM per abilitare il bottone corrispondente che indirizza alla pagina della cassa per poter effettuare il pagamento del PM selezionato
 
-* <div>Nuovo PM: clicca il bottone corrispondente apre il form per la creazione di un nuovo PM</div>
-
-![newPm](../../assets/img/imgBilling/newPm.png#newPm)
+* Nuovo PM: clicca il bottone corrispondente apre il form per la creazione di un nuovo PM
 

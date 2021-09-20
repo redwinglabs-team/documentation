@@ -13,23 +13,19 @@
         <meta name="author" content="RedWing Labs">
       
       
-      <link rel="shortcut icon" href="../../../assets/img/redwingbird.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.5">
+      <link rel="icon" href="../../../assets/img/rwl3.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.3">
     
     
       
-        <title>Payment - RWL Documentation</title>
+        <title>Payment - Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.15aa0b43.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.e35208c4.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.75751829.min.css">
-        
-          
-          
-          <meta name="theme-color" content="#546d78">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ef6f36e2.min.css">
         
       
     
@@ -39,7 +35,7 @@
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
       
     
     
@@ -51,7 +47,7 @@
     
       
         
-<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-167197052-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}),document.addEventListener("DOMContentSwitch",function(){ga("send","pageview",document.location.pathname)})</script>
+<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-167197052-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){var e;this.value&&(e=document.location.pathname,ga("send","pageview",e+"?q="+this.value))}),"undefined"!=typeof location$&&location$.subscribe(function(e){ga("send","pageview",e.pathname)})})</script>
 <script async src="https://www.google-analytics.com/analytics.js"></script>
       
     
@@ -61,12 +57,17 @@
   
     
     
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="red">
       
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
   
+    
+    <script>function __prefix(e){return new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -83,26 +84,24 @@
       
     </div>
     
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
       
-
-<header class="md-header" data-md-component="header">
-  <nav class="md-header-nav md-grid" aria-label="Header">
-    <a href="../../.." title="RWL Documentation" class="md-header-nav__button md-logo" aria-label="RWL Documentation">
-      
-  <img src="../../../assets/img/redwingbird.png" alt="logo">
+  <img src="../../../assets/img/redwinglabs16.png" alt="logo">
 
     </a>
-    <label class="md-header-nav__button md-icon" for="__drawer">
+    <label class="md-header__button md-icon" for="__drawer">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
     </label>
-    <div class="md-header-nav__title" data-md-component="header-title">
-      <div class="md-header-nav__ellipsis">
-        <div class="md-header-nav__topic">
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
           <span class="md-ellipsis">
-            RWL Documentation
+            Documentation
           </span>
         </div>
-        <div class="md-header-nav__topic">
+        <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
               Payment
@@ -112,8 +111,52 @@
       </div>
     </div>
     
-      <label class="md-header-nav__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="" type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m10-3a5 5 0 0 1 5 5 5 5 0 0 1-5 5H7a5 5 0 0 1-5-5 5 5 0 0 1 5-5h10M7 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3h10a3 3 0 0 0 3-3 3 3 0 0 0-3-3H7z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="" type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+      <div class="md-header__option">
+        <div class="md-select">
+          
+          <button class="md-header__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24z"/></svg>
+          </button>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              
+                <li class="md-select__item">
+                  <a href="https://redwinglabs-team.github.io/doc-eng/" hreflang="en" class="md-select__link">
+                    English
+                  </a>
+                </li>
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
       </label>
       
 <div class="md-search" data-md-component="search" role="dialog">
@@ -122,11 +165,11 @@
     <form class="md-search__form" name="search">
       <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
       <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
       </label>
-      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
       </button>
     </form>
     <div class="md-search__output">
@@ -183,7 +226,55 @@
   
     <li class="md-tabs__item">
       <a href="../../../F%26B/intro/" class="md-tabs__link">
-        FnB
+        Quadro Fnb
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../GA/intro/" class="md-tabs__link">
+        Quadro Guest
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../SA/intro/" class="md-tabs__link">
+        Quadro Staff
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../Pop/intro/" class="md-tabs__link">
+        Quadro Pop
       </a>
     </li>
   
@@ -199,24 +290,22 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
-
-
 
   
 
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="RWL Documentation" class="md-nav__button md-logo" aria-label="RWL Documentation">
+    <a href="../../.." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
       
-  <img src="../../../assets/img/redwingbird.png" alt="logo">
+  <img src="../../../assets/img/redwinglabs16.png" alt="logo">
 
     </a>
-    RWL Documentation
+    Documentation
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -224,7 +313,6 @@
       
       
       
-
 
   
   
@@ -235,19 +323,18 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" checked>
       
-      <label class="md-nav__link" for="nav-1">
+      <label class="md-nav__link" for="__nav_1">
         Quadro
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Quadro" data-md-level="1">
-        <label class="md-nav__title" for="nav-1">
+        <label class="md-nav__title" for="__nav_1">
           <span class="md-nav__icon md-icon"></span>
           Quadro
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
           
             
   
@@ -269,19 +356,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-2" type="checkbox" id="nav-1-2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_2" type="checkbox" id="__nav_1_2" >
       
-      <label class="md-nav__link" for="nav-1-2">
+      <label class="md-nav__link" for="__nav_1_2">
         Configura il tuo hotel
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Configura il tuo hotel" data-md-level="2">
-        <label class="md-nav__title" for="nav-1-2">
+        <label class="md-nav__title" for="__nav_1_2">
           <span class="md-nav__icon md-icon"></span>
           Configura il tuo hotel
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
           
             
   
@@ -408,18 +494,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Settings/segments/" class="md-nav__link">
-        Segmenti
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../Settings/depts%26Empl/" class="md-nav__link">
         Dipartimenti ed Impiegati
       </a>
@@ -501,19 +575,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-3" type="checkbox" id="nav-1-3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3" type="checkbox" id="__nav_1_3" >
       
-      <label class="md-nav__link" for="nav-1-3">
+      <label class="md-nav__link" for="__nav_1_3">
         Reservations
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Reservations" data-md-level="2">
-        <label class="md-nav__title" for="nav-1-3">
+        <label class="md-nav__title" for="__nav_1_3">
           <span class="md-nav__icon md-icon"></span>
           Reservations
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
           
             
   
@@ -534,6 +607,18 @@
     <li class="md-nav__item">
       <a href="../../Reservations/resOverview/" class="md-nav__link">
         Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Reservations/status/" class="md-nav__link">
+        Gestione Prenotazione
       </a>
     </li>
   
@@ -577,19 +662,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-4" type="checkbox" id="nav-1-4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4" type="checkbox" id="__nav_1_4" >
       
-      <label class="md-nav__link" for="nav-1-4">
+      <label class="md-nav__link" for="__nav_1_4">
         Profiles
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Profiles" data-md-level="2">
-        <label class="md-nav__title" for="nav-1-4">
+        <label class="md-nav__title" for="__nav_1_4">
           <span class="md-nav__icon md-icon"></span>
           Profiles
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
           
             
   
@@ -653,19 +737,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-5" type="checkbox" id="nav-1-5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_5" type="checkbox" id="__nav_1_5" >
       
-      <label class="md-nav__link" for="nav-1-5">
+      <label class="md-nav__link" for="__nav_1_5">
         Distribution
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Distribution" data-md-level="2">
-        <label class="md-nav__title" for="nav-1-5">
+        <label class="md-nav__title" for="__nav_1_5">
           <span class="md-nav__icon md-icon"></span>
           Distribution
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
           
             
   
@@ -741,19 +824,30 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-7" type="checkbox" id="nav-1-7" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_7" type="checkbox" id="__nav_1_7" >
       
-      <label class="md-nav__link" for="nav-1-7">
+      <label class="md-nav__link" for="__nav_1_7">
         Finances
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Finances" data-md-level="2">
-        <label class="md-nav__title" for="nav-1-7">
+        <label class="md-nav__title" for="__nav_1_7">
           <span class="md-nav__icon md-icon"></span>
           Finances
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Finances/newCharge/" class="md-nav__link">
+        New Charge
+      </a>
+    </li>
+  
+
           
             
   
@@ -807,19 +901,18 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-8" type="checkbox" id="nav-1-8" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_8" type="checkbox" id="__nav_1_8" checked>
       
-      <label class="md-nav__link" for="nav-1-8">
+      <label class="md-nav__link" for="__nav_1_8">
         Report
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Report" data-md-level="2">
-        <label class="md-nav__title" for="nav-1-8">
+        <label class="md-nav__title" for="__nav_1_8">
           <span class="md-nav__icon md-icon"></span>
           Report
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
           
             
   
@@ -891,6 +984,7 @@
       
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
+      
         
       
       
@@ -907,6 +1001,7 @@
 <nav class="md-nav md-nav--secondary" aria-label="Indice">
   
   
+  
     
   
   
@@ -914,7 +1009,7 @@
       <span class="md-nav__icon md-icon"></span>
       Indice
     </label>
-    <ul class="md-nav__list" data-md-scrollfix>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
   <a href="#payment-report" class="md-nav__link">
@@ -996,6 +1091,45 @@
   
 
           
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_10" type="checkbox" id="__nav_1_10" >
+      
+      <label class="md-nav__link" for="__nav_1_10">
+        Marketplace
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Marketplace" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_10">
+          <span class="md-nav__icon md-icon"></span>
+          Marketplace
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Marketplace/intro/" class="md-nav__link">
+        Marketplace
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
         </ul>
       </nav>
     </li>
@@ -1006,7 +1140,6 @@
       
       
 
-
   
   
   
@@ -1014,19 +1147,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
       
-      <label class="md-nav__link" for="nav-2">
-        FnB
+      <label class="md-nav__link" for="__nav_2">
+        Quadro Fnb
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="FnB" data-md-level="1">
-        <label class="md-nav__title" for="nav-2">
+      <nav class="md-nav" aria-label="Quadro Fnb" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
-          FnB
+          Quadro Fnb
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
           
             
   
@@ -1034,31 +1166,7 @@
   
     <li class="md-nav__item">
       <a href="../../../F%26B/intro/" class="md-nav__link">
-        FnB
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../F%26B/MOH%21Orders/orders/" class="md-nav__link">
-        App Ordini
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../F%26B/MOH%21Bookings/bookings/" class="md-nav__link">
-        App Prenotazioni
+        Quadro Fnb
       </a>
     </li>
   
@@ -1072,19 +1180,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
       
-      <label class="md-nav__link" for="nav-2-4">
+      <label class="md-nav__link" for="__nav_2_2">
         Impostazioni
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Impostazioni" data-md-level="2">
-        <label class="md-nav__title" for="nav-2-4">
+        <label class="md-nav__title" for="__nav_2_2">
           <span class="md-nav__icon md-icon"></span>
           Impostazioni
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
           
             
   
@@ -1182,6 +1289,54 @@
   
 
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/advanced/" class="md-nav__link">
+        Avanzate
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/employee/" class="md-nav__link">
+        Impiegati
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/outlets/" class="md-nav__link">
+        Outlets
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/qrCode/" class="md-nav__link">
+        QR Code
+      </a>
+    </li>
+  
+
+          
         </ul>
       </nav>
     </li>
@@ -1220,19 +1375,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-7" type="checkbox" id="nav-2-7" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
       
-      <label class="md-nav__link" for="nav-2-7">
+      <label class="md-nav__link" for="__nav_2_5">
         Prenotazioni
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Prenotazioni" data-md-level="2">
-        <label class="md-nav__title" for="nav-2-7">
+        <label class="md-nav__title" for="__nav_2_5">
           <span class="md-nav__icon md-icon"></span>
           Prenotazioni
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
           
             
   
@@ -1268,23 +1422,34 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Profiles/newCustomer/" class="md-nav__link">
+        Anagrafica
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
     
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-8" type="checkbox" id="nav-2-8" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_7" type="checkbox" id="__nav_2_7" >
       
-      <label class="md-nav__link" for="nav-2-8">
+      <label class="md-nav__link" for="__nav_2_7">
         Visualizza Tavoli
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Visualizza Tavoli" data-md-level="2">
-        <label class="md-nav__title" for="nav-2-8">
+        <label class="md-nav__title" for="__nav_2_7">
           <span class="md-nav__icon md-icon"></span>
           Visualizza Tavoli
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
           
             
   
@@ -1348,19 +1513,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-10" type="checkbox" id="nav-2-10" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_9" type="checkbox" id="__nav_2_9" >
       
-      <label class="md-nav__link" for="nav-2-10">
+      <label class="md-nav__link" for="__nav_2_9">
         Gestione Conti
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Gestione Conti" data-md-level="2">
-        <label class="md-nav__title" for="nav-2-10">
+        <label class="md-nav__title" for="__nav_2_9">
           <span class="md-nav__icon md-icon"></span>
           Gestione Conti
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
           
             
   
@@ -1448,19 +1612,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-11" type="checkbox" id="nav-2-11" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_10" type="checkbox" id="__nav_2_10" >
       
-      <label class="md-nav__link" for="nav-2-11">
+      <label class="md-nav__link" for="__nav_2_10">
         Storico Ordini
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Storico Ordini" data-md-level="2">
-        <label class="md-nav__title" for="nav-2-11">
+        <label class="md-nav__title" for="__nav_2_10">
           <span class="md-nav__icon md-icon"></span>
           Storico Ordini
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
           
             
   
@@ -1488,19 +1651,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-12" type="checkbox" id="nav-2-12" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_11" type="checkbox" id="__nav_2_11" >
       
-      <label class="md-nav__link" for="nav-2-12">
+      <label class="md-nav__link" for="__nav_2_11">
         Cucina
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Cucina" data-md-level="2">
-        <label class="md-nav__title" for="nav-2-12">
+        <label class="md-nav__title" for="__nav_2_11">
           <span class="md-nav__icon md-icon"></span>
           Cucina
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
           
             
   
@@ -1514,13 +1676,43 @@
   
 
           
+        </ul>
+      </nav>
+    </li>
+  
+
+          
             
   
   
   
     <li class="md-nav__item">
-      <a href="../../../Kitchen/detailedOrder/" class="md-nav__link">
-        Dettaglio Ordini
+      <a href="../../../F%26B/Inventory/inventory/" class="md-nav__link">
+        Inventario
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/MOH%21Orders/orders/" class="md-nav__link">
+        App Ordini
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/MOH%21Bookings/bookings/" class="md-nav__link">
+        App Prenotazioni
       </a>
     </li>
   
@@ -1528,6 +1720,342 @@
           
         </ul>
       </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      <label class="md-nav__link" for="__nav_3">
+        Quadro Guest
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Quadro Guest" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Quadro Guest
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../GA/intro/" class="md-nav__link">
+        Quadro Guest
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../GA/checkIn/" class="md-nav__link">
+        Online Check-in
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../GA/profile/" class="md-nav__link">
+        Profile
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../GA/messages/" class="md-nav__link">
+        Messages
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      <label class="md-nav__link" for="__nav_4">
+        Quadro Staff
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Quadro Staff" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Quadro Staff
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SA/intro/" class="md-nav__link">
+        Quadro Staff
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SA/spaces/" class="md-nav__link">
+        Spaces
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SA/messages/" class="md-nav__link">
+        Messages
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SA/tasks/" class="md-nav__link">
+        Task
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SA/customers/" class="md-nav__link">
+        Customers
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SA/pos/" class="md-nav__link">
+        Point of Sale
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SA/complaints/" class="md-nav__link">
+        Complaints
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SA/delivery/" class="md-nav__link">
+        Delivery
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SA/reservations/" class="md-nav__link">
+        Reservations
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SA/settings/" class="md-nav__link">
+        Settings
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      <label class="md-nav__link" for="__nav_5">
+        Quadro Pop
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Quadro Pop" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Quadro Pop
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Pop/intro/" class="md-nav__link">
+        Quadro Pop
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Pop/cash/" class="md-nav__link">
+        Cassiere
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Pop/customers/" class="md-nav__link">
+        Anagrafica
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Pop/billing/" class="md-nav__link">
+        Gestione conti
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Pop/menu/" class="md-nav__link">
+        Articoli
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Pop/inventory/" class="md-nav__link">
+        Inventario
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Pop/settings/" class="md-nav__link">
+        Impostazioni
+      </a>
     </li>
   
 
@@ -1546,11 +2074,12 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
 <nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
   
   
     
@@ -1560,7 +2089,7 @@
       <span class="md-nav__icon md-icon"></span>
       Indice
     </label>
-    <ul class="md-nav__list" data-md-scrollfix>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
   <a href="#payment-report" class="md-nav__link">
@@ -1624,7 +2153,7 @@
               </div>
             
           
-          <div class="md-content">
+          <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
@@ -1699,45 +2228,44 @@
             </article>
           </div>
         </div>
+        
       </main>
       
         
 <footer class="md-footer">
   
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
-        
-          <a href="../spentNight/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../spentNight/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Precedente
+              </span>
+              Spent Nights
             </div>
-            <div class="md-footer-nav__title">
-              <div class="md-ellipsis">
-                <span class="md-footer-nav__direction">
-                  Precedente
-                </span>
-                Spent Nights
-              </div>
+          </div>
+        </a>
+      
+      
+        <a href="../../TaskManager/task/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Prossimo
+              </span>
+              Task Manager
             </div>
-          </a>
-        
-        
-          <a href="../../TaskManager/task/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-footer-nav__title">
-              <div class="md-ellipsis">
-                <span class="md-footer-nav__direction">
-                  Prossimo
-                </span>
-                Task Manager
-              </div>
-            </div>
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-            </div>
-          </a>
-        
-      </nav>
-    </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -1751,6 +2279,7 @@
         <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
           Material for MkDocs
         </a>
+        
       </div>
       
   <div class="md-footer-social">
@@ -1771,19 +2300,13 @@
 </footer>
       
     </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tabs"], "translations": {"clipboard.copy": "Copia", "clipboard.copied": "Copiato", "search.config.lang": "it", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Cerca", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
     
-      <script src="../../../assets/javascripts/vendor.93c04032.min.js"></script>
-      <script src="../../../assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copia", "clipboard.copied": "Copiato", "search.config.lang": "it", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Cerca", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
-      
-      <script>
-        app = initialize({
-          base: "../../..",
-          features: ['navigation.instant', 'navigation.tabs'],
-          search: Object.assign({
-            worker: "../../../assets/javascripts/worker/search.8c7e0a7e.min.js"
-          }, typeof search !== "undefined" && search)
-        })
-      </script>
+    
+      <script src="../../../assets/javascripts/bundle.4ea5477f.min.js"></script>
       
         <script src="../../../assets/javascripts/extra.js"></script>
       

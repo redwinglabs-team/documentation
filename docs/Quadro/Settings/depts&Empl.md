@@ -1,5 +1,7 @@
 # Dipartimenti e impiegati
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ia7zq8HMi1M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Crea, modifica o cancella un dipartimento
 
 I dipartimenti aiutano l’organizzazione della tua struttura, assegnando ad essi i dipendenti che svolgono compiti simili tra loro.

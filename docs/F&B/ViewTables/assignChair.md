@@ -1,43 +1,54 @@
 # Assegna Sedia
 
-Assegnare una sedia ad un ospite ti permette di avere una gestione più completa dei tuoi clienti salvando tutti i loro ordini e preferenze;
+Assegnare una sedia ad un ospite ti permette di avere una gestione più completa dei tuoi clienti, salvando tutti i loro ordini e preferenze.
 
-## Anagrafica
+L'integrazaione con Quadro PMS aggiunge anche la possibilità di addebitare automaticamente nelle rispettive camere in casi in cui gli ospiti seduti ad un tavolo alloggino in camere differenti.
 
-Fornisce una panoramica dei dati principali del titolare della prenotazione per il tavolo selezionato visualizzando i seguenti campi: Nome, Stanza, Ora prenotazione, n pax, n tavolo, allergie, intolleranze, vino preferito e acqua preferita;
+## Assegnare una sedia ad un ospite
 
-![guestinfo](../../assets/img/imgTables/guestinfo.png#guestinfo)
+1. Vai a Menu principale > Spaces
+2. Seleziona un tavolo occupato
+3. Dal menu laterale, clicca su Assegna Sedia
+4. Nella Panoramica Tavolo, seleziona la sedia che desideri assegnare
+5. Seleziona la tipologia di ospite
+    - Seleziona un cliente dalla lista in Anagrafica
+    - Clicca su Ospite in House per accedere alla lista dei clienti dell'albergo integrato
+    - Clicca su Crea nuovo per creare un nuovo profilo utente
+    - Assegna un ospite esterno selezionando solamente il suo sesso
+6. Clicca su Assegna
 
-* Vai alla Comanda: clicca il bottone corrispondente permette di aprire la modale di Agg/mod portata;
+Le sedie occupate saranno contrassegnate dal colore rosso e dalle informazioni sull'ospite occupante.
 
-* <div>Libera Sedia: vedi bottone corrispondente in [Visualizza Tavoli](viewTables.md);</div>
+### Libera una sedia
 
-* <div>Storico Ordini: clicca il bottone corrispondente per visualizzare lo storico dei suoi Ordini;</div>
+Liberare una sedia occupata è significativo ai fini di reportistica del ristorante.
 
-* <div>Storico Vini: clicca il bottone corrispondente per visualizzare lo storico dei Vini ordinati;</div>
+Non puoi liberare una sedia alla quale è stata assegnata almeno una portata dalla comanda.
 
-## Assegna Sedia 
+1. Vai a Menu principale > Spaces
+2. Seleziona un tavolo occupato
+3. Dal menu laterale, clicca su Libera Sedia
+4. Seleziona una sedia occupata
+5. Clicca su Conferma
 
-Clicca su una sedia tra quelle disponibili per avere la possibilità di assegnarle un ospite attraverso l’apposito form;
+### Trasferisci una sedia
 
-![assignChair](../../assets/img/imgTables/assignChair.png#assignChair)
+Il trasferimento di una sedia occupata può essere effettuato sia all'interno di uno stesso tavolo, che tra due tavoli diversi.
 
-### Form Assegna Sedia
+Il trasferimento deve avvenire tra una sedia occupata e una libera o viceversa.
 
-Il form ti aiuta a selezionare gli ospiti filtrando quelli associati alla camera appartenente al titolare della prenotazione;
+1. Vai a Menu principale > Spaces
+2. Seleziona un tavolo occupato
+3. Dal menu laterale, clicca su Trasferisci Sedia
+4. Seleziona la sedia di partenza
+5. Seleziona una sedia di destinazione
+6. Clicca su Conferma
 
-![externalForm](../../assets/img/imgTables/externalForm.png#externalForm)
+### Aggiungi una sedia
 
-* <div>Cerca per Stanza: compila l’apposito form con il numero di stanza desiderato;</div>
+Nel corso di un servizio può essere necessario dover aggiungere una sedia ad un tavolo. Ciò è possibile in FnB senza limiti di numero.
 
-* Libera Sedia: clicca il bottone corrispondente per rendere nuovamente disponibile la sedia selezionata;
-
-* Cerca per Nome: clicca il bottone corrispondente per cercare attraverso le sue generalità, un ospite specifico;
-
-    * Assegna Ospite: clicca la checkbox corrispondente all’ospite desiderato nella colonna Sel;
-
-    * <div>Clicca  per assegnare l’ospite selezionato alla sedia corrispondente;</div>
-
-![searchName](../../assets/img/imgTables/searchName.png#searchName)
-
-* Esterno: clicca il bottone corrispondente per selezionare la tipologia di Ospite qualora non si dovessero conoscere le sue generalità;
+1. Vai a Menu principale > Spaces
+2. Seleziona un tavolo occupato
+3. Dal menu laterale, clicca su Aggiungi Sedia
+4. Clicca su Conferma

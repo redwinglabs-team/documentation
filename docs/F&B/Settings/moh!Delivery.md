@@ -2,34 +2,35 @@
 
 La sezione App Consegne permette la gestione delle impostazioni del proprio sistema di delivery. Potrete scegliere se rendere disponibile questo servizio, in quali giorni, e gestire il suo raggio di competenza.
 
-![AppDeliverySettings](../../assets/img/imgSettings/AppDeliverySettings.png#AppDeliverySettings)
+1. Vai a Menu principale > Impostazioni > App Delivery
+2. Spunta la casella Delivery permessi per abilitare il servizio di consegna a domicilio
+3. Aggiorna i campi con le preferenze sulla consegna a domicilio
+4. Clicca su Salva
 
-* Consegna: cliccate lo switch corrispondente per scegliere se abilitare (SI) o disabilitare (NO) il servizio di consegna a domicilio. Ciò influenza la sua disponibilità all’interno dell’app client.
+## Dettaglio dei campi
 
-* <div>Numero Prodotto: visualizza il numero di prodotti presenti nel Menu in App</div>
+* E-mail di notifica: Inserisci un indirizzo di posta elettronica valido sul quale ricevere le notifiche di ricezione di un ordine, di consegna effettuata o di supporto clienti.
 
-* E-mail di notifica: compilate il form con l’indirizzo mail sul quale ricevere le notifiche di ricezione degli ordini effettuati tramite App
+* Prezzo consegna: Inserisci la cifra da applicare al costo totale dell'ordine. Il sovraprezzo si applica a tutti gli ordini effettuati.
 
-* Prezzo: compilate il campo corrispondente con il prezzo da applicare al servizio di delivery utilizzando caratteri numerici
+- Ordini minimi per il delivery: Inserisci la cifra minima di cui ogni ordine deve essere composto. Al di sotto di tale cifra, non sarà possibile effettuare alcun ordine.
 
-* Ora Inizio: cliccate l’icona per selezionare l’orario di inizio del servizio di consegna a domicilio, abilitando quindi la ricezione degli ordini effettuati tramite App
+* Orario Inizio: seleziona l'ora esatta in cui abilitare il servizio di delivery.
 
-* Ora fine: cliccate l’icona per selezionare l’orario di chiusura del servizio di consegna a domicilio, disabilitando quindi la ricezione degli ordini effettuati tramite App
+* Orario fine: seleziona l'ora esatta in cui disabilitare il servizio di delivery.
 
-* Raggio: possibilità di impostare il raggio d’azione del servizio di consegna a domicilio, delimitando l’area entro il quale poter effettuare le consegne
+* Range (Km): Inserisci il numero di chilometri entro il quale il ristorante sarà disponibile per effettuare un ordine.
 
-* Categoria: selezionate tramite la drop-down le categorie di cibo proposto dal ristorante (es. pizza, cucina italiana, sushi…). Ciò migliorerà la visibilità del locale all’interno dell’app
+* Categorie disponibili: seleziona le categorie di cibo al quale appartiene il ristorante in base alla cucina proposta (es. pizza, sushi)
 
-* <div>Impostazioni Condivise:</div>
+* Impostazioni Condivise:
 
-    * Max Ordini per slot: numero massimo degli ordini che è possibile ricevere in un determinato lasso di tempo
+    * Ordini massimi per slot: Inserisci il numero di ordini limite da poter ricevere in un determinato lasso di tempo.
 
-    * Durata slot (minuti): numero rappresentante il lasso di tempo in cui è possibile ricevere una data quantità di ordini
+    * Durata slot (minuti): Inserisci il numero di minuti entro il quale poter evadere un numero prestabilito di ordini.
 
-    * Takeaway e consegne: spuntate la casella se volete utilizzare la medesima configurazione per entrambi i servizi
+    - Tempo tra i delivery (min): Inserisci il numero di minuti in cui un ordine può essere pronto. Questo dato è influenzato dai tempi di preparazione media di un ordine e dai tempi di spedizione. L'utente che effettua l'ordine avrà come primo slot disponibile quello a cui è sommato il numero di minuti inseriti in questo campo.
 
-* Giorni Attivi: cliccate i bottoni desiderati per abilitare o disabilitare il servizio di consegna a domicilio in giorni specifici
+    * Applica sia al Takeaway che al Delivery: spunta la casella per abilitare i settaggi su entrambi i servizi.
 
-* <div>Salva: memorizza la configurazione inserita;</div>
-
-* <div>Cancella: cancella la configurazione inserita ripristinando la precedente;</div>
+* Giorni disponibili: scegli in quali giorni della settimana il servizio di delivery deve essere attivo.

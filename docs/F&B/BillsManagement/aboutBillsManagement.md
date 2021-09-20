@@ -6,15 +6,15 @@ I Report e i dati dei pagamenti effettuati con il nostro modulo F&B sono accessi
 
 ### Lista Conti
 
-<div>Resoconto di tutti i pagamenti fatti in giornata</div>
+Resoconto di tutti i pagamenti fatti in giornata
 
 ### Assegni/Bonifici
 
-<div>Sommario dei pagamenti effettuati tramite assegno o bonifico nel corso del mese</div>
+Sommario dei pagamenti effettuati tramite assegno o bonifico nel corso del mese
 
 ### Chiusure Fiscali
 
-<div>Elenco delle chiusure di cassa effettuate con pagamenti effettivi</div>
+Elenco delle chiusure di cassa effettuate con pagamenti effettivi
 
 ### Chiusure Giornaliere
 
@@ -22,7 +22,7 @@ Visualizza le varie chiusure di cassa quotidiane inglobando l'icasso complessivo
 
 ### Fatture
 
-<div>Pagina di gestione delle fatture, verifica del loro stato e ricerca</div>
+Pagina di gestione delle fatture, verifica del loro stato e ricerca
 
 ### Addebiti
 

@@ -2,6 +2,8 @@
 
 ## Creare una nuova prenotazione
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZYY-bvewJUo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 In Quadro, puoi creare una nuova prenotazione manualmente
 
 ### Step 1: scegli dove e quando soggiornano
@@ -40,27 +42,6 @@ In questo step, puoi aggiungere i dettagli finali e creare la prenotazione
     * Puoi inoltre scegliere se inviare o meno una conferma (se la prenotazione è confermata) o una quotazione (se è un’opzione o una richiesta) tramite email al cliente; se scegli di inviare l’email, seleziona la lingua nel quale inviarla.
 4. Controlla che tutte le prenotazioni siano corrette (puoi sempre tornare indietro agli step precedenti per modificare qualcosa, o modificare le prenotazioni direttamente dal carrello)
 5. Clicca su Prenota Ora
-
-## Aggiungi prodotti ad una nuova prenotazione
-
-Abbiamo aggiunto un campo prodotti alla schermata di una nuova prenotazione che ti permette di:
-
-* Scegliere quanti prodotti aggiungere ad una nuova prenotazione 
-* Aggiungi ulteriori prodotti e servizi ausiliari alla prenotazione (es. Noleggio bici o ski pass)
-* Aggiungi prodotti differenti per adulti e bambini
-    * Ciò renderà ancora più semplice quotare accuratamente i prezzi per le prenotazioni di famiglie
-
-### Prerequisito: Crea i tuoi prodotti per bambino
-
-Prima di poter aggiungere prodotti per bambino alle prenotazioni, devi prima crearli. Per far ciò, devi creare due versioni differenti dello stesso prodotto, uno con un prezzo per adulti, e un altro con un prezzo per bambini. Raccomandiamo sempre di aggiungere adulto o bambino al nome dei tuoi prodotti in modo tale da evitare confusioni all’aggiunta del prodotto (es. Colazione (adulto) e Colazione (Bambino)
-
-### Aggiungi i prodotti
-
-1. Quando stai effettuando una nuova prenotazione, seleziona i prodotti che desideri aggiungere alla voce Prodotti
-2. Espandi il contenitore del prodotto cliccando sulla freccetta in basso appena sopra la voce del Totale
-3. Clicca sull'icona della matita e aggiorna la quantità del prodotto
-4. Clicca i bottoni + e - per modificare la quantità del prodotto
-    * N.B. non puoi modificare il numero di persone o di notti a cui il prodotto è applicato
 
 ## Cancella una prenotazione
 
@@ -129,36 +110,3 @@ Se non vuoi che le richieste vengano cancellate automaticamente, dovrai farlo ma
 5. Seleziona Applica penale di cancellazione
 6. Scegli se inviare o no un’email di notifica di cancellazione all’utente. Se deselezioni questa opzione, l’email sarà inviata sia al prenotante che all’ospite (nel caso siano presenti entrambi)
 7. Clicca su Ok
-
-## Cambia il prezzo di una prenotazione
-
-Puoi cambiare il prezzo di una prenotazione da: 
-
-* Impostando il prezzo medio per notte
-* Modificando la tariffa del pernotto
-* Impostando una tariffa personalizzata per il pernotto
-
-Per cambiare il prezzo di una prenotazione puoi usare uno dei seguenti metodi:
-
-1. Apri la prenotazione
-2. Vai alla sezione Tariffe
-
-#### Modifica il prezzo medio per notte
-
-1. Trova la sezione Imposta Prezzo medio per notte (prodotti esclusi)
-2. Alla voce Valore, inserisci la cifra che vuoi addebitare alla prenotazione per notte
-3. Inserisci la ragione per il quale stai modificando il prezzo
-4. Clicca su Ok
-
-#### Modifica il prezzo per notte in percentuale
-
-1. Trova la sezione Modifica il prezzo per notte in percentuale (prodotti esclusi)
-2. Alla voce Valore, inserisci il valore della percentuale che vuoi applicare al prezzo totale. Se ad esempio inserisci 50%, il prezzo aumenterà del 50%. Se invece inserisci -50%, il prezzo diminuirà del 50%
-3. Inserisci la ragione per il quale stai modificando il prezzo
-4. Clicca su Ok
-
-#### Modifica il prezzo del pernotto
-
-1. Trova la sezione Modifica prezzo del pernotto (prodotti esclusi)
-2. Inserisci un prezzo personalizzato per ogni notte della prenotazione. Ogni notte deve avere il suo prezzo, anche se non è obbligatorio che siano tutti diversi
-3. Clicca su Ok

@@ -1,25 +1,48 @@
-# Storico Prenotazioni
+# Storico
 
-Utilizza la sezione Reservations per avere traccia di tutte le prenotazioni effettuate nel tuo Outlet, il loro stato, eventualmente l’ordine effettuato e tutte le informazioni visualizzate secondo i campi: Nome Cliente, Data Prenotazione, Ora Prenotazione, Num. Stanza, N. Pax, Status Prenotazione, Canale Prenotazione, Pacchetto e Arrangiamento;
+## Storico Prenotazioni
 
-![registry](../../assets/img/imgRegistry/registry.png#registry)
+La sezione Reservations ha traccia di tutte le prenotazioni effettuate nel tuo Outlet, il loro stato, eventualmente l’ordine effettuato e tutte le informazioni ad essa relative. 
 
-## Ricerca Prenotazione
+### Cercare una Prenotazione passata
 
-<div>Utilizza le diverse opzioni di ricerca per trovare la prenotazione che desideri;</div>
+Utilizza le diverse opzioni di ricerca per trovare la prenotazione che desideri.
 
-* <div>Ricerca per Data: clicca l’icona  per selezionare la data desiderata;</div>
+1. Vai a Menu principale > Storici
+2. Clicca su Prenotazioni
+3. Inserisci almeno un filtro
 
-* <div>Ricerca per Ora: clicca l’icona  per selezionare l’orario desiderato;</div>
+#### Filtri
 
-* Ricerca per Nome: compila il form corrispondente per cercare le prenotazioni intestate al nome desiderato;
+* Data: Seleziona la data in cui è stata effettuata la prenotazione
 
-## Tabella Prenotazioni
+* Status: Seleziona lo stato della prenotazione
 
-Visualizza tutte le prenotazioni o solamente quelle desiderate ordinate secondo i seguenti campi: Nome Cliente, Data Prenotazione, Ora Prenotazione, Num. Stanza, N. Pax, Status Prenotazione, Canale Prenotazione, Pacchetto e Arrangiamento;
+* Cerca: Inserisci il nome o il cognome del cliente che ha effettuato la prenotazione
 
-* Ordine: clicca il bottone corrispondente per visualizzare lo storico della comanda con i relativi piatti;
+#### Colonne
 
-![registryOrder](../../assets/img/imgRegistry/registryOrder.png#registryOrder)
+- Nome Cliente: Nome del titolare della prenotazione
+- Data Prenotazione: Data in cui è stata effettuata la prenotazione
+- Ora Prenotazione: Ora in cui è stata effettuata la prenotazione
+- N-pax: Numero delle persone che compongono la prenotazione
+- Stato prenotazione: Stato in cui la prenotazione si trova attualmente
+- Canale di prenotazione: Informazioni sulla provenienza della prenotazione. Se è stata effettuata tramite app, pms o internamente
 
-* Dettagli: clicca il bottone corrispondente per visualizzare i dettagli della prenotazione dell’ospite secondo i seguenti campi: Ora arrivo, Tipo cliente, Arrangiamento, Num. coperti, Mood, Canale di prenotazione, Num. tavolo, Note e Pacchetto;
+### Visualizza i dettagli o l'ordine di una prenotazione passata
+
+1. Vai a Menu principale > Storici
+2. Clicca su prenotazioni
+3. Cerca la prenotazione che desideri ispezionare
+4. Clicca su Dettagli o su Ordine
+
+#### Dettaglio dei campi
+
+- Tipo Cliente
+- Numero Stanza: Numero della camera della struttura in cui alloggia il titolare della prenotazione (integrazione con Quadro richiesta)
+- Repeater: Stabilisce se l'ospite è già stato o meno presso la tua struttura
+- Arrangiamento: Tipologia di accomodamento dell'ospite. Es. Full Board, Half Board (integrazione con Quadro richiesta)
+
+## Storico Tavoli
+
+La sezione Tavoli riprende le medesime informazioni della precedente, considerando però anche quei tavoli le cui prenotazioni sono frutto di un Ordine veloce o senza prenotante.

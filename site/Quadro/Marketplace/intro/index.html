@@ -1,0 +1,2491 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentazione delle app prodotte da RedWingLabs">
+      
+      
+      
+        <meta name="author" content="RedWing Labs">
+      
+      
+      <link rel="icon" href="../../../assets/img/rwl3.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.3">
+    
+    
+      
+        <title>Marketplace - Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.e35208c4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ef6f36e2.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra2.css">
+    
+    
+      
+        
+<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-167197052-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){var e;this.value&&(e=document.location.pathname,ga("send","pageview",e+"?q="+this.value))}),"undefined"!=typeof location$&&location$.subscribe(function(e){ga("send","pageview",e.pathname)})})</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#marketplace" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
+      
+  <img src="../../../assets/img/redwinglabs16.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Marketplace
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="" type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m10-3a5 5 0 0 1 5 5 5 5 0 0 1-5 5H7a5 5 0 0 1-5-5 5 5 0 0 1 5-5h10M7 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3h10a3 3 0 0 0 3-3 3 3 0 0 0-3-3H7z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="" type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+      <div class="md-header__option">
+        <div class="md-select">
+          
+          <button class="md-header__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24z"/></svg>
+          </button>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              
+                <li class="md-select__item">
+                  <a href="https://redwinglabs-team.github.io/doc-eng/" hreflang="en" class="md-select__link">
+                    English
+                  </a>
+                </li>
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link md-tabs__link--active">
+        Quadro
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../F%26B/intro/" class="md-tabs__link">
+        Quadro Fnb
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../GA/intro/" class="md-tabs__link">
+        Quadro Guest
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../SA/intro/" class="md-tabs__link">
+        Quadro Staff
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../Pop/intro/" class="md-tabs__link">
+        Quadro Pop
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
+      
+  <img src="../../../assets/img/redwinglabs16.png" alt="logo">
+
+    </a>
+    Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" checked>
+      
+      <label class="md-nav__link" for="__nav_1">
+        Quadro
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Quadro" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Quadro
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Quadro
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_2" type="checkbox" id="__nav_1_2" >
+      
+      <label class="md-nav__link" for="__nav_1_2">
+        Configura il tuo hotel
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Configura il tuo hotel" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Configura il tuo hotel
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/property/" class="md-nav__link">
+        Configura la tua struttura
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/stay/" class="md-nav__link">
+        Servizi Prenotabili
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/serv%26prod/" class="md-nav__link">
+        Servizi Aggiuntivi
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/products/" class="md-nav__link">
+        Prodotti
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/rates/" class="md-nav__link">
+        Tariffe
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/cancellationPolicy/" class="md-nav__link">
+        Cancellation Policy
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/rateManagement/" class="md-nav__link">
+        Gestione delle Tariffe
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/restrictions/" class="md-nav__link">
+        Restrictions
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/vouchers/" class="md-nav__link">
+        Voucher
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/spaces/" class="md-nav__link">
+        Spazi
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/depts%26Empl/" class="md-nav__link">
+        Dipartimenti ed Impiegati
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/outlets/" class="md-nav__link">
+        Outlets
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/placeholders/" class="md-nav__link">
+        Placeholder Emails
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/accounting/" class="md-nav__link">
+        Contabilità
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/bookingEngine/" class="md-nav__link">
+        Booking engine
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/registrationCard/" class="md-nav__link">
+        Registration Card
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3" type="checkbox" id="__nav_1_3" >
+      
+      <label class="md-nav__link" for="__nav_1_3">
+        Reservations
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Reservations" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Reservations
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Reservations/reservation/" class="md-nav__link">
+        New Reservation
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Reservations/resOverview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Reservations/status/" class="md-nav__link">
+        Gestione Prenotazione
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Reservations/timeline/" class="md-nav__link">
+        Timeline
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Reservations/report/" class="md-nav__link">
+        Report
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4" type="checkbox" id="__nav_1_4" >
+      
+      <label class="md-nav__link" for="__nav_1_4">
+        Profiles
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Profiles" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          Profiles
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Profiles/newUser/" class="md-nav__link">
+        New Customer
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Profiles/usersList/" class="md-nav__link">
+        Customers
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Profiles/companies/" class="md-nav__link">
+        Aziende
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Profiles/travAgencyContracts/" class="md-nav__link">
+        Contratti per Agenzie di viaggio
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_5" type="checkbox" id="__nav_1_5" >
+      
+      <label class="md-nav__link" for="__nav_1_5">
+        Distribution
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Distribution" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_5">
+          <span class="md-nav__icon md-icon"></span>
+          Distribution
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Distribution/occupancy/" class="md-nav__link">
+        Occupancy
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Distribution/availability/" class="md-nav__link">
+        Availability
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Distribution/rateManagement/" class="md-nav__link">
+        Rate Management
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Distribution/actionLog/" class="md-nav__link">
+        Action Log
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Spaces/spaces/" class="md-nav__link">
+        Spaces
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_7" type="checkbox" id="__nav_1_7" >
+      
+      <label class="md-nav__link" for="__nav_1_7">
+        Finances
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Finances" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_7">
+          <span class="md-nav__icon md-icon"></span>
+          Finances
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Finances/newCharge/" class="md-nav__link">
+        New Charge
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Finances/accountingLedger/" class="md-nav__link">
+        Accounting Ledger
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Finances/postingJournal/" class="md-nav__link">
+        Posting Journal
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Finances/bills%26inv/" class="md-nav__link">
+        Billing & Invoices
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_8" type="checkbox" id="__nav_1_8" >
+      
+      <label class="md-nav__link" for="__nav_1_8">
+        Report
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Report" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_8">
+          <span class="md-nav__icon md-icon"></span>
+          Report
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Report/manager/" class="md-nav__link">
+        Manager
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Report/accounting/" class="md-nav__link">
+        Accounting
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Report/activity/" class="md-nav__link">
+        Activity
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Report/product/" class="md-nav__link">
+        Product
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Report/spentNight/" class="md-nav__link">
+        Spent Nights
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Report/payment/" class="md-nav__link">
+        Payment
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TaskManager/task/" class="md-nav__link">
+        Task Manager
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_10" type="checkbox" id="__nav_1_10" checked>
+      
+      <label class="md-nav__link" for="__nav_1_10">
+        Marketplace
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Marketplace" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_10">
+          <span class="md-nav__icon md-icon"></span>
+          Marketplace
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Marketplace
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Marketplace
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#come-funziona-il-marketplace" class="md-nav__link">
+    Come funziona il marketplace?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connettere-e-disconnettere-le-integrazioni" class="md-nav__link">
+    Connettere e disconnettere le integrazioni
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#collegare-un-integrazione" class="md-nav__link">
+    Collegare un integrazione
+  </a>
+  
+    <nav class="md-nav" aria-label="Collegare un integrazione">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#base" class="md-nav__link">
+    Base
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collegabili" class="md-nav__link">
+    Collegabili
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acquistabili" class="md-nav__link">
+    Acquistabili
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gestisci-le-tue-integrazioni-acquistabili" class="md-nav__link">
+    Gestisci le tue integrazioni acquistabili
+  </a>
+  
+    <nav class="md-nav" aria-label="Gestisci le tue integrazioni acquistabili">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fatturazione" class="md-nav__link">
+    Fatturazione:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interrompere-la-sottoscrizione-prima-della-scadenza-dei-30-giorni-di-prova" class="md-nav__link">
+    Interrompere la sottoscrizione prima della scadenza dei 30 giorni di prova:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interrompere-la-sottoscrizione-dopo-la-scadenza-dei-30-giorni-di-prova" class="md-nav__link">
+    Interrompere la sottoscrizione dopo la scadenza dei 30 giorni di prova:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#riattivare-unintegrazione-cancellata-possibilmente-entro-il-periodo-di-prova" class="md-nav__link">
+    Riattivare un’integrazione cancellata (possibilmente entro il periodo di prova)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disconnetti-integrazioni-base-o-collegabili" class="md-nav__link">
+    Disconnetti integrazioni Base o Collegabili
+  </a>
+  
+    <nav class="md-nav" aria-label="Disconnetti integrazioni Base o Collegabili">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#base_1" class="md-nav__link">
+    Base
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collegabili_1" class="md-nav__link">
+    Collegabili
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      <label class="md-nav__link" for="__nav_2">
+        Quadro Fnb
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Quadro Fnb" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Quadro Fnb
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/intro/" class="md-nav__link">
+        Quadro Fnb
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      <label class="md-nav__link" for="__nav_2_2">
+        Impostazioni
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Impostazioni" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Impostazioni
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/general/" class="md-nav__link">
+        Generali
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/reservation/" class="md-nav__link">
+        Prenotazioni
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/room/" class="md-nav__link">
+        Sala
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/service/" class="md-nav__link">
+        Servizio
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/segment/" class="md-nav__link">
+        Segmenti
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/moh%21Delivery/" class="md-nav__link">
+        App Consegna
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/moh%21TakeAway/" class="md-nav__link">
+        App Asporto
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/moh%21Services/" class="md-nav__link">
+        App Servizi
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/advanced/" class="md-nav__link">
+        Avanzate
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/employee/" class="md-nav__link">
+        Impiegati
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/outlets/" class="md-nav__link">
+        Outlets
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Settings/qrCode/" class="md-nav__link">
+        QR Code
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/EditorSala/aboutEditorSala/" class="md-nav__link">
+        Editor Sala
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Menu/menu/" class="md-nav__link">
+        Menu
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      <label class="md-nav__link" for="__nav_2_5">
+        Prenotazioni
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Prenotazioni" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Prenotazioni
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Reservations/viewReservations/" class="md-nav__link">
+        Lista Prenotazioni
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Reservations/newReservation/" class="md-nav__link">
+        Nuova Prenotazione
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Profiles/newCustomer/" class="md-nav__link">
+        Anagrafica
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_7" type="checkbox" id="__nav_2_7" >
+      
+      <label class="md-nav__link" for="__nav_2_7">
+        Visualizza Tavoli
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Visualizza Tavoli" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_7">
+          <span class="md-nav__icon md-icon"></span>
+          Visualizza Tavoli
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/ViewTables/viewTables/" class="md-nav__link">
+        Tables Manager
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/ViewTables/order/" class="md-nav__link">
+        Comanda
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/ViewTables/assignChair/" class="md-nav__link">
+        Assegna Sedia
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Cash/cash/" class="md-nav__link">
+        Cassa
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_9" type="checkbox" id="__nav_2_9" >
+      
+      <label class="md-nav__link" for="__nav_2_9">
+        Gestione Conti
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Gestione Conti" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_9">
+          <span class="md-nav__icon md-icon"></span>
+          Gestione Conti
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/BillsManagement/aboutBillsManagement/" class="md-nav__link">
+        Panoramica Gestione Conti
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/BillsManagement/billsList/" class="md-nav__link">
+        Lista Conti
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/BillsManagement/bankCheck%26Transfer/" class="md-nav__link">
+        Assegni/Bonifici
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/BillsManagement/closingReports/" class="md-nav__link">
+        Chiusure Fiscali
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/BillsManagement/invoices/" class="md-nav__link">
+        Fatture
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/BillsManagement/PM/" class="md-nav__link">
+        PM
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_10" type="checkbox" id="__nav_2_10" >
+      
+      <label class="md-nav__link" for="__nav_2_10">
+        Storico Ordini
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Storico Ordini" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_10">
+          <span class="md-nav__icon md-icon"></span>
+          Storico Ordini
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Registry/reservations/" class="md-nav__link">
+        Prenotazione
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_11" type="checkbox" id="__nav_2_11" >
+      
+      <label class="md-nav__link" for="__nav_2_11">
+        Cucina
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Cucina" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_11">
+          <span class="md-nav__icon md-icon"></span>
+          Cucina
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Kitchen/orderSummary/" class="md-nav__link">
+        Sommario Ordini
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/Inventory/inventory/" class="md-nav__link">
+        Inventario
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/MOH%21Orders/orders/" class="md-nav__link">
+        App Ordini
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../F%26B/MOH%21Bookings/bookings/" class="md-nav__link">
+        App Prenotazioni
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      <label class="md-nav__link" for="__nav_3">
+        Quadro Guest
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Quadro Guest" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Quadro Guest
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../GA/intro/" class="md-nav__link">
+        Quadro Guest
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../GA/checkIn/" class="md-nav__link">
+        Online Check-in
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../GA/profile/" class="md-nav__link">
+        Profile
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../GA/messages/" class="md-nav__link">
+        Messages
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      <label class="md-nav__link" for="__nav_4">
+        Quadro Staff
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Quadro Staff" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Quadro Staff
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SA/intro/" class="md-nav__link">
+        Quadro Staff
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SA/spaces/" class="md-nav__link">
+        Spaces
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SA/messages/" class="md-nav__link">
+        Messages
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SA/tasks/" class="md-nav__link">
+        Task
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SA/customers/" class="md-nav__link">
+        Customers
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SA/pos/" class="md-nav__link">
+        Point of Sale
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SA/complaints/" class="md-nav__link">
+        Complaints
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SA/delivery/" class="md-nav__link">
+        Delivery
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SA/reservations/" class="md-nav__link">
+        Reservations
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SA/settings/" class="md-nav__link">
+        Settings
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      <label class="md-nav__link" for="__nav_5">
+        Quadro Pop
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Quadro Pop" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Quadro Pop
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Pop/intro/" class="md-nav__link">
+        Quadro Pop
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Pop/cash/" class="md-nav__link">
+        Cassiere
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Pop/customers/" class="md-nav__link">
+        Anagrafica
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Pop/billing/" class="md-nav__link">
+        Gestione conti
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Pop/menu/" class="md-nav__link">
+        Articoli
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Pop/inventory/" class="md-nav__link">
+        Inventario
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Pop/settings/" class="md-nav__link">
+        Impostazioni
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#come-funziona-il-marketplace" class="md-nav__link">
+    Come funziona il marketplace?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connettere-e-disconnettere-le-integrazioni" class="md-nav__link">
+    Connettere e disconnettere le integrazioni
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#collegare-un-integrazione" class="md-nav__link">
+    Collegare un integrazione
+  </a>
+  
+    <nav class="md-nav" aria-label="Collegare un integrazione">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#base" class="md-nav__link">
+    Base
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collegabili" class="md-nav__link">
+    Collegabili
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acquistabili" class="md-nav__link">
+    Acquistabili
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gestisci-le-tue-integrazioni-acquistabili" class="md-nav__link">
+    Gestisci le tue integrazioni acquistabili
+  </a>
+  
+    <nav class="md-nav" aria-label="Gestisci le tue integrazioni acquistabili">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fatturazione" class="md-nav__link">
+    Fatturazione:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interrompere-la-sottoscrizione-prima-della-scadenza-dei-30-giorni-di-prova" class="md-nav__link">
+    Interrompere la sottoscrizione prima della scadenza dei 30 giorni di prova:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interrompere-la-sottoscrizione-dopo-la-scadenza-dei-30-giorni-di-prova" class="md-nav__link">
+    Interrompere la sottoscrizione dopo la scadenza dei 30 giorni di prova:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#riattivare-unintegrazione-cancellata-possibilmente-entro-il-periodo-di-prova" class="md-nav__link">
+    Riattivare un’integrazione cancellata (possibilmente entro il periodo di prova)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disconnetti-integrazioni-base-o-collegabili" class="md-nav__link">
+    Disconnetti integrazioni Base o Collegabili
+  </a>
+  
+    <nav class="md-nav" aria-label="Disconnetti integrazioni Base o Collegabili">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#base_1" class="md-nav__link">
+    Base
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collegabili_1" class="md-nav__link">
+    Collegabili
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="marketplace">Marketplace</h1>
+<h2 id="come-funziona-il-marketplace">Come funziona il marketplace?</h2>
+<p>Quadro marketplace è un App Store incluso direttamente in Quadro. Offre diverse integrazioni in varie categorie, come ad esempio:</p>
+<ul>
+<li>Upselling</li>
+<li>Channel Manager</li>
+<li>Revenue Management</li>
+<li>Door Locks</li>
+<li>Point of Purchase e altro…</li>
+</ul>
+<p>Quadro Marketplace ti permette di acquistare e connettere le integrazioni desiderate.</p>
+<p>Alcuni di essi offrono anche prove gratuite di 30 giorni, quindi puoi assicurarti che sia la soluzione migliore per la tua attività prima di acquistarlo.</p>
+<h2 id="connettere-e-disconnettere-le-integrazioni">Connettere e disconnettere le integrazioni</h2>
+<p>Quadro marketplace include tre differenti tipologie di integrazioni:</p>
+<ul>
+<li>Base: integrazioni completamente gratuite (sviluppate da RWL)</li>
+<li>Collegabili: integrazioni con il quale esiste già un contratto con il partner in questione e non verrà addebitato nulla da Quadro per l’utilizzo</li>
+<li>Acquistabili: Integrazioni con un canone di abbonamento aggiunto automaticamente alla fattura mensile di Quadro</li>
+</ul>
+<h2 id="collegare-un-integrazione">Collegare un integrazione</h2>
+<ol>
+<li>Vai a menu Principale &gt; Marketplace</li>
+<li>Cerca l’integrazione al quale vuoi connetterti<ul>
+<li>Puoi filtrare le integrazioni per categoria</li>
+</ul>
+</li>
+<li>Sotto l’integrazione al quale desideri collegarti, clicca su Mostra Altro. Gli ultimi passaggi del processo di integrazione dipendono molto dalla sua tipologia</li>
+</ol>
+<h3 id="base">Base</h3>
+<ol>
+<li>Clicca su Connetti a destra del nome dell’integrazione</li>
+<li>Compila i campi richiesti</li>
+<li>Clicca su Crea</li>
+<li>Clicca Ok</li>
+<li>Una richiesta viene inviata al partner in questione che si incaricherà del processo di setup.<ul>
+<li>Aspetta per ulteriori istruzioni dal gestore dell’integrazione</li>
+</ul>
+</li>
+</ol>
+<h3 id="collegabili">Collegabili</h3>
+<p>Se hai già un contratto con un'integrazione, ti consigliamo di connettere tale integrazione per evitare un doppio addebito per il servizio offerto da Quadro e dal partner terzo.</p>
+<ol>
+<li>Clicca Connetti a destra del nome dell’integrazione, o, seleziona “Ho già un account” e successivamente clicca su Connetti</li>
+<li>Leggi attentamente le informazioni e clicca Ok</li>
+<li>Una notifica viene automaticamente inviata al partner terzo che prenderà in carico la richiesta di setup</li>
+<li>Attendi per ulteriori informazioni dal partner dell’integrazione</li>
+</ol>
+<h3 id="acquistabili">Acquistabili</h3>
+<p>Se invece non possiedi un contratto con un partner per un’integrazione, dovrai acquistarla.</p>
+<p>Le integrazioni acquistabili hanno un periodo di prova di 30 giorni, così da testare le funzionalità senza rischi, cancellando la sottoscrizione all’integrazione entro la scadenza dei 30 giorni, così da non ricevere alcun addebito.</p>
+<ol>
+<li>Seleziona “Crea un nuovo account”, poi clicca su Abbonati. Puoi cliccare sulla freccia rivolta verso il basso per controllare i costi dell’abbonamento.</li>
+<li>Leggi attentamente e accetta i termini e condizioni del contratto, poi clicca su Acquista.</li>
+</ol>
+<div class="admonition nota">
+<p class="admonition-title">Nota</p>
+<p>L'accettazione dei termini e delle condizioni è vincolante: un addebito mensile non rimborsabile verrà automaticamente aggiunto alla fattura di Quadro ogni mese dopo il periodo di prova</p>
+</div>
+<ol>
+<li>Leggi le informazioni e clicca Ok</li>
+<li>Una notifica viene automaticamente inviata al partner terzo che prenderà in carico la richiesta di setup</li>
+<li>Attendi per ulteriori informazioni dal partner dell’integrazione</li>
+</ol>
+<h2 id="gestisci-le-tue-integrazioni-acquistabili">Gestisci le tue integrazioni acquistabili</h2>
+<h3 id="fatturazione">Fatturazione:</h3>
+<ul>
+<li>Gestione dei problemi legati alle fatture del mese precedente di integrazioni acquistate</li>
+<li>Se hai qualche domanda riguardante le tue fatture, contatta il team di supporto di Quadro</li>
+</ul>
+<h3 id="interrompere-la-sottoscrizione-prima-della-scadenza-dei-30-giorni-di-prova">Interrompere la sottoscrizione prima della scadenza dei 30 giorni di prova:</h3>
+<ol>
+<li>Vai a Menu Principale &gt; Marketplace</li>
+<li>Clicca su Le mie Sottoscrizioni</li>
+<li>Clicca su Impostazioni di fianco all'integrazione che desideri cancellare</li>
+<li>Se sei ancora nel periodo di prova, clicca l’icona del cestino, poi su Cancella</li>
+</ol>
+<h3 id="interrompere-la-sottoscrizione-dopo-la-scadenza-dei-30-giorni-di-prova">Interrompere la sottoscrizione dopo la scadenza dei 30 giorni di prova:</h3>
+<p>Se desideri interrompere gli addebiti legati ad un’integrazione dopo che il periodo di prova è terminato, l’integrazione dovrà essere cancellata.</p>
+<ol>
+<li>Vai a Menu principale &gt; Marketplace</li>
+<li>Clicca su Le mie sottoscrizioni</li>
+<li>Clicca Impostazioni di fianco all’integrazione che desideri cancellare</li>
+<li>Clicca su cancella</li>
+</ol>
+<div class="admonition nota">
+<p class="admonition-title">Nota</p>
+<p>Indipendentemente dal fatto che la tua struttura sia aperta o temporaneamente chiusa, devi annullare la sottoscrizione per impedire che venga aggiunta alla tua fattura mensile di Quadro.</p>
+</div>
+<h3 id="riattivare-unintegrazione-cancellata-possibilmente-entro-il-periodo-di-prova">Riattivare un’integrazione cancellata (possibilmente entro il periodo di prova)</h3>
+<p>Se hai cancellato un’integrazione dopo aver terminato il periodo di prova, rimarrà nelle sottoscrizioni del tuo marketplace per altri 30 giorni, alla voce “Cancellate”</p>
+<ol>
+<li>Vai a Menu principale &gt; Marketplace</li>
+<li>Clicca su Le mie sottoscrizioni</li>
+<li>Clicca su Impostazioni di fianco all’integrazione che desideri riattivare</li>
+<li>Clicca su Riattiva</li>
+</ol>
+<h2 id="disconnetti-integrazioni-base-o-collegabili">Disconnetti integrazioni Base o Collegabili</h2>
+<h3 id="base_1">Base</h3>
+<ol>
+<li>Vai a Menu principale &gt; Marketplace</li>
+<li>Clicca su Le mie sottoscrizioni</li>
+<li>Clicca su Impostazioni di fianco all’integrazione che desideri cancellare</li>
+<li>Clicca su Cancella</li>
+</ol>
+<h3 id="collegabili_1">Collegabili</h3>
+<ol>
+<li>Vai a Menu principale &gt; Marketplace</li>
+<li>Clicca su Le mie sottoscrizioni</li>
+<li>Clicca su Impostazioni di fianco all’integrazione che desideri cancellare</li>
+<li>Clicca, poi Cancella</li>
+<li>Contatta il partner gestore dell’integrazione per cancellare la tua sottoscrizione</li>
+</ol>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../../TaskManager/task/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Precedente
+              </span>
+              Task Manager
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../../../F%26B/intro/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Prossimo
+              </span>
+              Quadro Fnb
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2019 - 2020 RWL Srl
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://github.com/redwinglabs" target="_blank" rel="noopener" title="github.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tabs"], "translations": {"clipboard.copy": "Copia", "clipboard.copied": "Copiato", "search.config.lang": "it", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Cerca", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.4ea5477f.min.js"></script>
+      
+        <script src="../../../assets/javascripts/extra.js"></script>
+      
+    
+  </body>
+</html>

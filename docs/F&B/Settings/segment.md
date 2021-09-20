@@ -4,63 +4,40 @@ La sezione Segmenti facilita la gestione dei periodi di apertura del locale. Pot
 
 ## Tab. Segmenti 
 
-Tabella riepilogativa dei Segmenti creati contenente le informazioni ad essi relativi ordinati per i seguenti campi: 
+Nella Tabella riepilogativa dei Segmenti, oltre a quelli creati, sono contenute le informazioni ad essi relativi quali: stato, periodo e servizio. 
 
-* Stato, 
-* Nome, 
-* Periodo, 
-* Servizio,
+## Crea un nuovo Segmento
 
-![Tab-Segmenti](../../assets/img/imgSettings/Tab-Segmenti.png#largerMobile)
+1. Vai a Menu principale > Impostazioni > Segmenti
 
-* <div>Modifica:</div>
-    
-    * Cliccate Apri e modificate il Segmento selezionato (vedi Nuovo Segmento)
+2. Clicca sul bottone + 
 
-* <div>Cancella:</div>
+3. Spunta la casella Stato per attivare questo Segmento
 
-    *  Cliccate l’icona corrispondente per cancellare il Segmento
+4. Seleziona i servizi da attivare durante il segmento
 
-## Nuovo Segmento
+5. Scegli i giorni lavorativi attivi per ogni servizio scelto
 
-1. <div>Cliccate il bottone in basso a sinistra (+)</div>
+6. Compila i restanti campi
 
-    ![Nuovo-Segmento](../../assets/img/imgSettings/Nuovo-Segmento.png#mobile)
+7. Clicca su Salva
 
-2. <div>Compilate i campi relativi alle informazioni generali del Segmento:</div>   
+### Dettaglio dei campi di un segmento
 
-    * <div>Nome</div>
+- Nome: Inserisci il nome del segmento per uso interno
+- Data Inizio: Seleziona il giorno e il mese in cui il segmento inizia ad avere validità
+- Data Fine: Seleziona il giorno e il mese in cui il segmento cessa la sua validità
 
-    * <div>Data Inizio: cliccate l’icona e selezionate la data di inizio del Segmento</div>
+## Modifica un Segmento
 
-    * <div>Data Fine: cliccate l’icona e selezionate la data di fine del Segmento</div>
+1. Vai a Menu principale > Impostazioni > Segmenti
+2. Clicca sul segmento che desideri modificare
+3. Modifica i campi desiderati
+4. Clicca su Salva
 
-    * <div>Stato:</div>
+## Elimina un Segmento
 
-        * <div>Attivato: abilita le funzioni del Segmento</div>
-
-        * <div>Disattivato: disabilita le funzioni del Segmento</div>
-
-3. Cliccate i bottoni raffiguranti i Giorni della settimana per stabilire quali sono i Giorni lavorativi del locale in relazione a un Servizio specifico. Selezionarne almeno uno abilita i seguenti campi:
-
-    * Servizio: cliccate la multi-select corrispondente e selezionate il/i Servizio/i per il quale utilizzare la configurazione dei Giorni Lavorativi
-
-    * <div>Cliccate "Ripeti per tutti i giorni" abilita automaticamente tutti i giorni della settimana</div>
-
-    * <div>Cliccate "Cancella" per resettare la configurazione inserita</div>
-
-    * Cliccate "Salva" per memorizzare la configurazione inserita e avere la possibilità di modificare o aggiungerne altre
-
-    ![Nuovo-Segmento2](../../assets/img/imgSettings/Nuovo-Segmento2.png#nuovo-segmento2)
-
-4. <div>Verificate la lista delle configurazioni per i Servizi</div>
-
-    * Cliccate "Cancella" per eliminare il Servizio appena creato oppure "Modifica", e avrete la possibilità di modificare i giorni lavorativi attivi per il Servizio corrispondente
-
-        * <div>Cliccate "Salva" per rendere effettive le modifiche</div>
-
-        * Cliccate "Cancella" per annullare le modifiche e resettare la configurazione precedente
-
-    ![Nuovo-Segmento3](../../assets/img/imgSettings/Nuovo-Segmento3.png#nuovo-segmento3)
-
-5. <div>Cliccate "Salva" e ultimate la creazione del Segmento</div>
+1. Vai a Menu principale > Impostazioni > Segmenti
+2. Clicca l'icona del menu a destra sul segmento che desideri cancellare
+3. Clicca su Elimina
+4. Clicca nuovamente su Elimina per confermare l'operazione

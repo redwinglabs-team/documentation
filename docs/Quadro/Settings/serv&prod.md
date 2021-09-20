@@ -1,5 +1,7 @@
 ## Creare Servizi aggiuntivi
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eSzvcaEyNFE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Un Servizio predefinito o Servizio di Stay, viene creato automaticamente dal software, tuttavia puoi comunque creare, modificare o cancellare altri Servizi.
 
 Se crei un nuovo Servizio, i clienti non avranno la possibilità di comprare quel servizio (o i prodotti ad esso associati) quando effettueranno la loro prenotazione; il servizio o prodotto deve essere prima acquistato online e successivamente aggiunto manualmente al conto del cliente

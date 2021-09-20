@@ -1,7 +1,5 @@
 # Servizi Prenotabili
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KP5QzKBjqEo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## Introduzione ai Servizi
 
 La possibilità di acquistare o meno un servizio quando un ospite prenota il proprio soggiorno dipende dal tipo di servizio che si tratta.
@@ -81,3 +79,23 @@ __House Rules__:
 |   :-------------------------  |   :------------------------------------------------------------------------------------------------------------------------------------------------   |
 |   __Orario di arrivo__        |    Inserisci l’orario di arrivo ufficiale per la tua struttura, che sarà l'orario di arrivo predefinito per tutte le nuove prenotazioni               |
 |   __Orario di partenza__      |    Inserisci l’orario di partenza ufficiale per la tua struttura, che sarà l’orario di partenza predefinito per tutte le nuove prenotazioni           |
+
+## Segmenti
+
+### Gestione dei segmenti
+
+Utilizzate i segmenti per per classificare le prenotazioni in base ad alcune informazioni rilevanti per le vostre operazioni (es. Motivo del soggiorno, Tipologia di cliente)
+
+I segmenti possono essere assegnati alle agenzie di viaggio, ai channel manager, alle tariffe e alle prenotazioni e sono strettamente legati al tuo servizio prenotabile. Questo favorisce la creazione di una reportistica maggiormente dettagliata, utile ad indirizzare i clienti in modo più efficace.
+
+Dopo aver creato un segmento, è possibile regolarne gli utilizzi:
+
+* Consentire ai dipendenti di assegnare i segmenti quando creano le prenotazioni
+* Applicare automaticamente determinati segmenti come predefiniti
+
+#### Creare un segmento
+
+1. Dal Menu principale vai a Impostazioni > Segmenti 
+2. Clicca il bottone +
+3. Inserisci il nome del segmento
+4. Clicca su Salva

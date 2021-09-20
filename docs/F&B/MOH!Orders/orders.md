@@ -1,76 +1,72 @@
 # App Ordini
 
-La sezione App Ordini riceve le comande effettuate tramite app gestendo separatamente gli ordini in due sezioni: la prima per le consegne a domicilio e la seconda per l’asporto. Potrete così controllare e modificare lo stato degli ordini, visualizzarne i dettagli e persino annullarli qualora fosse necessario.
+La sezione App Ordini riceve le comande effettuate tramite app gestendo separatamente gli ordini in due sezioni: la prima per le consegne a domicilio e la seconda per l’asporto. Puoi così controllare e modificare lo stato degli ordini, visualizzarne i dettagli e persino annullarli qualora fosse necessario.
 
-![AppOrdini](../../assets/img/imgApp/AppOrdini.png#AppOrdini)
+## Delivery
 
-## Ricerca Ordini
+### Filtri
 
-1. Filtra per Data: cliccate l’icona per avere la possibilità di selezionare una data specifica. Verranno così visualizzati tutti gli ordini effettuati in quella data
+Nella sezione Ordini è possibile filtrare i dati attraverso le seguenti opzioni:
 
-2. Cerca: compilate il form corrispondente per cercare gli ordini effettuati da un cliente. Verranno così visualizzati tutti gli ordini effettuati da esso
+- Data: seleziona la data per visualizzare i risultati in base al giorno scelto
+- Cerca: inserisci il nome o il cognome di un utente per cercare gli ordini da lui effettuati
+- Status: seleziona uno stato per visualizzare gli ordini corrispondenti
 
-## Consegne
+### Colonne
 
 La Tabella Consegne mostra un resoconto dettagliato degli ordini del giorno o del servizio corrente, ordinati a partire dall’ultimo ricevuto. In cima alla tabella viene mostrato il numero totale di ordini ricevuti per quel servizio. Le colonne invece, visualizzano le seguenti informazioni:
 
-* Nome: mostra il nome completo della persona che ha effettuato l’ordine;
-* Ora Richiesta: mostra l’orario in cui è stato effettuato l’ordine;
-* Ora Consegna: mostra l’ora in cui è stata richiesta o prevista la consegna;
-* Note: visualizza eventuali note inserite dalla persona che ha effettuato l’ordine (es. allergie, intolleranze ecc…)
-* Indirizzo: 
-* Stato: clicca la drop-down per modificare lo stato dell’ordine selezionato tra quelli disponibili:..... . Modificare lo stato in questa schermata comporta la medesima modifica all’interno dell’App, fornendo al cliente un monitoraggio costante del proprio ordine;
-* Driver: clicca la drop-down per selezionare il driver che effettuerà la consegna.
-* Dettagli: 
+* Nome: nome completo della persona che ha effettuato l’ordine
+* Ora Richiesta: orario in cui è stato effettuato l’ordine
+* Ora Consegna: ora in cui è stata richiesta o prevista la consegna
+* Note: informazioni o richieste aggiuntive
+* Indirizzo: via, numero civico e informazioni utili sul luogo dove effettuare la consegna
+* Stato: seleziona lo stato in cui si trova l'ordine
+* Driver: seleziona il rider che deve effettuare la consegna
+* Dettagli: informazioni dettagliate sulla composizione dell'ordine
 
-![details](../../assets/img/imgApp/details.png#details)
+## Driver
 
-* Cancella: clicca l’icona per annullare l’ordine selezionato. N.B. questa azione è irreversibile
+La pagina dedicata ai driver gestisce i tuoi fattorini nel miglior modo possibile. Integrata con l'app driver, i tuoi corrieri saranno sempre aggiornati sulle destinazioni e gli ordini da consegnare grazie al sistema di notifche push.
 
-### Lista Driver
+### Creare un nuovo driver
 
-Cliccate il bottone per essere indirizzati alla sezione di gestione dei driver, accedere alle loro informazioni e monitorare il loro stato di servizio.
+1. Vai a Menu principale > App Ordini
+2. Clicca sul tab Driver list in alto a destra
+3. Clicca sul bottone +
+4. Compila i campi rilevanti
+5. Clicca Salva
 
-![driverList](../../assets/img/imgApp/driverList.png#driverList)
+#### Dettaglio dei campi di un driver
 
-* Lista Driver del: cliccate l’icona per selezionare una data specifica. Verrà mostrata la lista dei driver in servizio durante la data selezionata;
-* Cerca: compilate il form con il nome del driver desiderato, il filtro mostrerà il risultato della ricerca compatibile con il testo digitato;
-* Tab Drivers: la tabella mostra la lista dei driver complessivi, organizzati secondo le seguenti informazioni:
-    * Nome Completo: dati anagrafici del driver
-    * Numero di telefono
-    * Indirizzo e-mail
-    * Stato: cliccate la drop-down per modificare lo stato di servizio del driver selezionato.
-        * On: il driver è in servizio
-        * Off: il driver è fuori servizio
-    * Cancella: cliccate l’icona per eliminare definitivamente un driver dalla lista. N.B. questa azione è irreversibile.
+* Nome Completo: nome e cognome del driver
+* Numero di telefono: inserisci un recapito telefonico del rider
+* Indirizzo e-mail: inserisci un indirizzo di posta elettronica dove inviare le notifiche
 
-#### Nuovo Driver
+### Cancellare un driver
 
-Cliccate il bottone corrispondente per procedere alla creazione di un nuovo driver da aggiungere alla lista 
-
-![newDriver](../../assets/img/imgApp/newDriver.png#newDriver)
-
-* Nome Completo: per prima cosa compilate questo campo con Nome e Cognome del vostro nuovo driver
-* Numero di telefono: digitate qui il numero di telefono tramite il quale contattarlo
-* E-Mail: infine compila questo campo con l'indirizzo e-mail sul quale notificare gli ordini assegnati ad esso
-* Annulla: cliccate questo bottone per resettare i campi inseriti
-* Salva: cliccate il bottone corrispondente per salvare la configurazione e ultimare il processo di creazione di un nuovo driver
+1. Vai a Menu principale > App Ordini
+2. Clicca sul tab Driver list in alto a destra
+3. Clicca l'icona del menu sul tab del driver che desideri eliminare
+4. Clicca Elimina
 
 ## Asporto
 
-La Tabella Asporto mostra un resoconto dettagliato degli ordini del giorno o del servizio corrente, ordinati a partire dall’ultimo ricevuto. In cima alla tabella viene mostrato il numero totale di ordini ricevuti per quel servizio. Le colonne della tabella visualizzano le seguenti informazioni:
+La Tabella Asporto mostra un resoconto dettagliato degli ordini del giorno o del servizio corrente, ordinati a partire dall’ultimo ricevuto. In cima alla tabella viene mostrato il numero totale di ordini ricevuti per quel servizio. 
 
-![appTakeAway](../../assets/img/imgApp/appTakeAway.png#appTakeAway)
+### Filtri
 
-* Nome: mostra il nome completo della persona che ha effettuato l’ordine;
-* Ora Richiesta: mostra l’orario in cui è stato effettuato l’ordine;
-* Ora Consegna: mostra l’ora in cui è stato richiesto o previsto il ritiro;
-* Note: visualizza eventuali note inserite dalla persona che ha effettuato l’ordine (es. allergie, intolleranze ecc…)
-* Stato: cliccate la drop-down per modificare lo stato dell’ordine selezionato tra quelli disponibili:..... . Modificare lo stato in questa schermata comporta la medesima modifica all’interno dell’App, fornendo al cliente un monitoraggio costante del proprio ordine;
-* Dettagli:
+- Data: seleziona la data per visualizzare i risultati in base al giorno scelto
+- Cerca: inserisci il nome o il cognome di un utente per cercare gli ordini da lui effettuati
+- Status: seleziona uno stato per visualizzare gli ordini corrispondenti
 
-![takeAwayDetails](../../assets/img/imgApp/takeAwayDetails.png#takeAwayDetails)
+### Colonne 
 
-* Cancella: cliccate l’icona per annullare l’ordine selezionato. N.B. questa azione è irreversibile
+Le colonne della tabella visualizzano le seguenti informazioni:
 
-
+* Nome: nome completo della persona che ha effettuato l’ordine
+* Ora Richiesta: orario in cui è stato effettuato l’ordine
+* Ora Consegna: ora in cui è stato richiesto o previsto il ritiro
+* Note: informazioni o richieste aggiuntive
+* Stato: seleziona lo stato in cui si trova l'ordine
+* Dettagli: informazioni dettagliate sulla composizione dell'ordine

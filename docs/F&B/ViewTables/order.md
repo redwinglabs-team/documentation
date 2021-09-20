@@ -1,61 +1,75 @@
 # Comanda
 
-<div>Utilizza la comanda per inviare in cucina l’ordine effettuato e gestire i piatti al suo interno</div>
+Utilizza la comanda per inviare in cucina l’ordine effettuato e gestire i piatti al suo interno.
 
-## Gestione Portata
+La comanda è disponibile su qualsiasi dispositivo, dal pc allo smartphone. La gestione della comanda parte dalla presa in carico del piatto, fino alla chiamata alla portata successiva.
 
-clicca sulla portata desiderata per aprire una modale che ti permette di aggiungere, modificare o eliminare un piatto dalla portata;
+## Creare una nuova comanda
 
-![modifyCourse](../../assets/img/imgTables/modifyCourse.png#modifyCourse)
+La comanda utilizza un sistema di Corse per facilitare il lavoro di tutto lo staff. Le Corse si dividono in due categorie: quelle dedicate al cibo, e quelle dedicate alle bevande.
 
-* <div>Clicca il bottone  e successivamente  per eliminare la portata desiderata</div>
+1. Vai a Menu principale > Spaces
+2. Seleziona il tavolo di cui desideri prendere la comanda
+3. Clicca su Aggiungi/modifica portata
+4. Aggiungi almeno un piatto alla Corsa
+    - Dopo aver aggiunto un piatto ad una Corsa, si crea automaticamente la Corsa successiva. Usa questo sistema per dividere l'ordinazione e facilitare il lavoro in cucina. Ad esempio puoi suddividere le corse per portata (antipasti, primi, secondi ecc).
+5. Dopo aver inserito i piatti, puoi inviare l'ordine:
+    - Invia ordine: processa la comanda e invia l'ordine in cucina
+    - Stampa e invia ordine: se hai collegato una stampante, il sistema contemporaneamente stampa la comanda  e invia l'ordine in cucina.
 
-* <div>Cliccare il bottone  per visualizzare tutte le portate inserite;</div>
+### dettaglio dei campi di un piatto
 
-* Cliccare il bottone  per confermare le portate inserite e inviare la comanda al modulo Cucina;
+Aggiungere un piatto ad una comanda è un azione complessa che comporta una serie di dettagli da specificare
 
-* Clicca l’icona corrispondente per modificare lo stato della portata selezionata in uno dei seguenti: None(), To Do() o Completed();
+- Seleziona Sedia: Seleziona una delle sedie del tavolo alla quale assegnare il piatto
+- Quantità: Seleziona il quantitativo di piatti da aggiungere alla comanda
+- Centro Tavola: Scegli se il piatto è condiviso tra tutti i commensali
+- Condiviso con: Scegli se il piatto è condiviso tra due o più membri del tavolo
+- 1/2 porzione: Crea una mezza porzione del piatto
+- Con/Senza: Inserisci eventuali ingredienti da aggiungere o togliere dal piatto
+- Note: eventuali note aggiuntive sul piatto (es. cottura media, ben cotta ecc)
 
-## Gestione Piatto
+## Modifcare una comanda
 
-![menuCategory](../../assets/img/imgTables/menuCategory.png#menuCategory)
+Una volta inviata la comanda, la prima Corsa cambia automaticamente il suo stato in "Da Fare" e la palla passa così alla cucina che deve preparare i piatti. Tuttavia, è sempre possibile modificare un piatto all'interno di una portata a meno che essa non sia in stato "Completato".
 
-* <div>Compila la search bar per cercare il piatto desiderato;</div>
+Alla modifica della comanda, la prima Corsa avente stato diverso da "Completato" viene messa in pausa.
 
-* Clicca il tag di ogni categoria (es. primi, secondi) per visualizzare la lista dei piatti appartenenti alla categoria selezionata;
+All'invio della comanda, la Corsa non è più in pausa e riprende il suo stato precedente.
 
-* <div>Clicca il piatto desiderato per aprire la modale di personalizzazione del piatto:</div>
+### Modificare un piatto in una comanda
 
-### Aggiungi Piatto
+1. Vai a Menu principale > Spaces
+2. Seleziona il tavolo di cui desideri prendere la comanda
+3. Clicca su Aggiungi/modifica portata
+4. Seleziona un piatto dalle Corse a sinistra cliccando sull'icona della sedia appena sotto il nome del piatto
+5. Modifica i campi desiderati
+6. Clicca su Modifica elemento
+7. Clicca sul bottone Invia ordine per completare l'operazione
 
-![dishManager](../../assets/img/imgTables/dishManager.png#dishManager)
+### Eliminare un piatto in una comanda
 
-* Seleziona il numero di sedia al quale associare il piatto cliccando sull’icona corrispondente();
+1. Vai a Menu principale > Spaces
+2. Seleziona il tavolo di cui desideri prendere la comanda
+3. Clicca su Aggiungi/modifica portata
+4. Seleziona un piatto dalle Corse a sinistra cliccando sull'icona della sedia appena sotto il nome del piatto
+5. Clicca su Elimina
+6. Clicca sul bottone Invia ordine per completare l'operazione
 
-* <div>Quantità: clicca i due bottoni  e  per modificare la quantità del piatto selezionato;</div>
+### Eliminare una Corsa
 
-* Centrotavola: cliccare il bottone corrispondente per condividere il piatto selezionato con tutti i commensali;
+1. Vai a Menu principale > Spaces
+2. Seleziona il tavolo di cui desideri prendere la comanda
+3. Clicca su Aggiungi/modifica portata
+4. Seleziona la Corsa che desideri cancellare
+5. Clicca su Elimina Corsa
 
-* Centro Tavola/n: clicca il bottone corrispondente per condividere il piatto selezionato con il numero di sedie selezionate;
+All'eliminazione di una Corsa, la successiva eredita il suo stato e la comanda cessa di essere in pausa.
 
-* ½ Porzione: cliccare il bottone corrispondente per richiedere una porzione ridotta per quel piatto;
+## Funzione Chiama
 
-* Con e Senza: permette di aggiungere o eliminare alcuni ingredienti del piatto selezionato. Clicca il bottone, seleziona l’ingrediente da aggiungere o rimuovere e clicca la box per aggiungere un altro ingrediente;
+La funzione Chiama è fondamentale per la gestione delle comande. La chiamata infatti cambia lo stato della prima Corsa all'interno di una comanda in "Completato", e modifica automaticamento quello della Corsa successiva in "Da fare". In questo modo si mantiene sempre attiva la comunicazione tra sala e cucina.
 
-* Note: corpo delle note compilabile liberamente con eventuali richieste aggiuntive per il piatto selezionato;
-
-### Modifica Piatto
-
-Clicca il bottone  nella modale della portata per visualizzare le opzioni di modifica del piatto  e mettere in pausa la portata corrispondente
-
-* <div>Elimina: clicca l’icona corrispondente per eliminare il piatto selezionato;</div>
-
-* <div>Modifica: clicca l’icona corrispondente per aprire la modale di personalizzazione del piatto;</div>
-
-* Salva e Chiudi: clicca il bottone corrispondente per salvare e portare la portata nuovamente in lavorazione;
-
-* Annulla Modifiche: cliccare il bottone corrispondente per chiudere la modale di modifica portata resettando le impostazioni a quelle salvate in precedenza;
-
-* Cancella Portata: cliccare il bottone corrispondente permette di eliminare la portata selezionata e tutti i piatti contenuti al suo interno;
-
-
+1. Vai a Menu principale > Spaces
+2. Seleziona un tavolo con una comanda attiva
+3. Clicca su Chiama

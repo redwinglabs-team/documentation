@@ -1,185 +1,138 @@
 # Cassa
 
-Permette di visualizzare il conto di un tavolo selezionato, pagarlo o creare un nuovo conto veloce
+La sezione Pagamenti di FnB è dove puoi creare tipi di pagamento, aggiungere terminali di pagamento, configurare l'elaborazione dei pagamenti e accedere alle informazioni sugli addebiti.
 
-![cashPage](../../assets/img/imgCash/cashPage.png#cashPage)
+La cassa si distingue in due macro sezioni: l'Ordine e il Conto al fine di garantire una gestione dei pagamenti a 360°.
 
-## Sezione Menu
+## Ordine
 
-<div>Permette di aggiungere un piatto dal Menu a un nuovo conto o ad uno già esistente</div>
+L'ordine rappresenta un riepilogo della comanda, ma a differenza del conto, non ha implicazioni fiscali o legami diretti con i pagamenti. La creazione di un ordine è automatica ogni qualvolta si accede alla cassa.
 
-![menuList](../../assets/img/imgCash/menuList.png#menuList)
+All'ordine sono concesse modifiche quali: l'aggiunta di un piatto, il trasferimento al travolo e viceversa e l'assegnazione ad un ospite. 
 
-* <div>Cliccare il banner con la categoria del menu desiderata apre la selezione del piatto.</div>
+Di seguito analizzeremo nel dettaglio le funzioni di un Ordine.
 
-* Cliccare il piatto desiderato apre il form Selezione piatto che consente di ordinare il piatto scelto selezionando i seguenti attributi:
+### Aggiungere un piatto all'ordine
 
-    * <div>Quantità</div>
+Sia in caso l'ordine sia vuoto (es. pagamenti in cassa di singoli articoli) o contenga una comanda di un tavolo è possibile aggiungere uno o più piatti dal menu del locale.
 
-    * <div>Con e Senza</div>
+1. Vai a Menu principale > Cassa o vai a Menu principale > Spaces > Paga (selezionando un tavolo con comanda attiva)
+2. Seleziona una categoria del Menu
+3. Seleziona un piatto
+4. Inserisci la Quantità
+5. Clicca Crea
 
-    * <div>Note</div>
+Gli articoli del Menu aggiunti direttamente in cassa vengono cosiderati automaticamente come "Centrotavola". In caso l'ordine non sia vuoto, viene inviato automaticamente in Cucina per la preparazione.
 
-    * <div>Salva</div>
+### Eliminare un ordine
 
-    * <div>Annulla</div>
+Prima di pagare un ordine puoi modificarlo a piacimento eliminando i piatti in esso contenuti. In caso, puoi procedere con l'eliminazione dell'intero ordine.
 
-![menuItem](../../assets/img/imgCash/menuItem.png#menuItem)
+1. Vai a Menu principale > Cassa
+2. Clicca su Elimina Ordine
+3. Clicca Elimina 
 
-## Sezione Ordine/Riepilogo
+### Aggiungere un cliente ad un Ordine
 
-Permette di visualizzare il resoconto dell’ordine effettuato, aprire un nuovo ordine e selezionare quali piatti si desiderano pagare;
+In caso si stia creando un Ordine direttamente dalla cassa, è possibile assegnarli un cliente presente in anagrafica così da storicizzare la sua ordinazioni per funzioni di reportistica.
 
-### Display Ordine
+1. Vai a Menu principale > Cassa
+2. Clicca su Aggiungi Cliente
+3. Cerca il cliente o selezionalo dalla lista
+4. Clicca su Aggiungi
 
-Permette di visualizzare i dettagli dei piatti presenti nell’ordine secondo i seguenti campi: Quantità, Descrizione, Importo,
+### Trsferire gli Ordini
 
-![orderList](../../assets/img/imgCash/orderList.png#list) 
+In cassa hai la possibilità di trasferire un ordine in due opzioni: puoi trasferire un ordine creato in cassa e assegnarlo ad un tavolo, o puoi selezionare un tavolo con una comanda attiva e trasferire l'ordine in cassa.
 
-* Sedia/e: Aggiungi: cliccare il bottone corrispondente fornisce la possibilità di aggiungere al conto solamente il piatto desiderato per una sedia specifica;
+#### Trasferire un ordine al tavolo
 
-* Aggiungi Tutto: cliccare il bottone corrispondente permette di aggiungere al conto tutta la quantità dei piatti selezionati indipendentemente dalle sedie che l'hanno ordinato;
+1. Vai a Menu principale > Cassa
+2. Aggiungi almeno un articolo all'Ordine
+3. Clicca su trasferisci Ordine
+4. Dalla panoramica della sala, seleziona un tavolo libero
 
-* <div>x: cliccare l’icona corrispondente permette di cancellare il piatto dalla lista dell’ordine;</div> 
+#### Trasferire un ordine in cassa
 
-* <div>Totale: visualizza la somma totale dei prodotti presenti nella sezione di Ordine/Riepilogo;</div>
+1. Vai a Menu principale > Cassa
+2. Clicca su Mappa Tavoli
+3. Dalla panoramica della sala, seleziona un tavolo con una comanda attiva
 
-+: cliccare il pannello corrispondente permette la creazione di un nuovo Ordine veloce;
+### Stampare un pre conto
 
-Aggiungi Tutto: cliccare il bottone corrispondente permette di aggiungere al conto tutti i prodotti contenuti all’interno del Riepilogo/Ordine selezionato;
+Prima di poter effettuare un pagamento, spesso si ha la necessità di dover fornire un'anteprima del conto all'ospite. La funzione di stampa pre conto provvede a tale esigenza stampando un sommario dell'ordine senza alcun valore fiscale.
 
-## Sezione Conti
+1. Vai a Menu principale > Cassa
+2. Crea un nuovo ordine o trasferisci un ordine dalla sala
+3. Clicca su Stampa pre conto
+4. Controlla l'anteprima e clicca Stampa
 
-<div>Permette la gestione di tutti i piatti o gli ordini di cui si vuole processare il pagamento;</div>
+### Pagare un ordine
 
-### Conto
+Per poter effettuare il pagamento di un ordine e contabilizzarlo ai fini fiscali devi accedere alla sezione dei Conti. Per far ciò, vi sono due strade da poter seguire.
 
-Permette di visualizzare l’elenco dei piatti di cui si vuole processare il pagamento (pannello di colore Blu) o di quelli già pagati (pannello colore Verde) secondo i seguenti campi:
+#### Pagamento conto intero
 
-![billList](../../assets/img/imgCash/billList.png#list)
+1. Vai a Menu principale > Cassa
+2. Crea un nuovo ordine o trasferisci un ordine dalla sala
+3. Clicca su Paga
 
-* Quantità: cliccare il numero corrispondente apre la Tastiera Numerica che permette di modificare la quantità del piatto selezionato prima di averlo pagato;
+#### Dividere un conto
 
-* <div>Descrizione: visualizza il nome completo del piatto</div>
+1. Vai a Menu principale > Cassa
+2. Crea un nuovo ordine o trasferisci un ordine dalla sala
+3. Clicca su Dividi
+4. Seleziona il numero di persone nel quale dividere il conto
+5. Clicca Conferma
 
-* Importo: cliccare il prezzo corrispondente apre la Tastiera Numerica che permette di modificare il costo del piatto selezionato prima di averlo pagato;
+!!! Nota
+    La divisione di un ordine creerà tanti conti quante le persone inserite
 
-* <div>x: cliccare l’icona corrispondente permette di cancellare il piatto dalla lista dell’ordine;</div>
+## Conto
 
-* <div>Totale: visualizza la somma totale dei prodotti presenti nella sezione Conto;</div>
+Il conto rappresenta il sommario degli articoli che dovranno essere pagati. Il pagamento di un conto implica la stampa del relativo scontrino e la fiscalizzazione della transazione del venduto.
 
-<div>+: cliccare il pannello corrispondente permette la creazione di un nuovo Conto;</div>
+### Applicare uno sconto
 
-## Lista Azioni
+Prima di pagare un conto, puoi applicare uno sconto al costo totale degli articoli, compresi di IVA.
 
-### Mappa Tavoli
+1. Vai a Menu principale > Cassa
+2. Crea un nuovo ordine o trasferisci un ordine dalla sala
+3. Clicca su Paga
+4. Seleziona quale tipo di sconto applicare
+    - Percentuale: inserisci la cifra per il calcolo in percentuale
+    - Fissa: inserisci la cifra da sottrare al costo totale del conto
+5. Clicca sul bottone +
 
-Cliccare il bottone corrispondente apre un pannello che visualizza le sale dell’outlet e permette la selezione di un tavolo, trasferendo così in cassa l’ordine ad esso relativo;
+### Paga o elimina un conto
 
-![tablesMap](../../assets/img/imgCash/tablesMap.png#tablesMap)
+#### Pagare un conto
 
-### Storico Conti
+1. Vai a Menu principale > Cassa
+2. Crea un nuovo ordine o trasferisci un ordine dalla sala
+3. Clicca su Paga
+4. Seleziona la modalità di pagamento
+5. Clicca Conferma
 
-<div>Cliccare il bottone corrispondente permette di collegarsi alla pagina di Storico Conti;</div>
+#### Addebitare un conto
 
-### Pre Conto
+L'integrazione tra Quadro e FnB consente l'addebito del conto direttamente sul conto relativo alla camera dell'ospite.
 
-Cliccare il bottone corrispondente permette di visualizzare l’anteprima dello scontrino con il riepilogo di tutti i prodotti appartenenti all’Ordine/Riepilogo;
+In alternativa, è possibile addebitare il conto su un portafoglio visrtuale chiamato paymaster.
 
-* Stampa: cliccare il bottone corrispondente permette la stampa del Pre Conto associato;
+1. Vai a Menu principale > Cassa
+2. Crea un nuovo ordine o trasferisci un ordine dalla sala
+3. Clicca su Paga
+4. Clicca su Addebita
+5. Seleziona la lista di utenti al quale addebitare il conto (Addebiti in camera o Paymaster)
+6. Cerca l'utente o selezionalo dalla lista
+7. Clicca su Aggiungi
 
-![billSummary](../../assets/img/imgCash/billSummary.png#billSummary)
+#### Eliminare un conto
 
-### Paga
+Puoi eliminare tutti i piatti associati ad un conto o rimuoverli singolarmente
 
-Cliccare il bottone corrispondente apre la selezione delle modalità di pagamento disponibili (Contanti, Carte di Credito, Assegno e Bonifico) con il relativo form per la stampa dello scontrino o della fattura;
-
-![paymentList](../../assets/img/imgCash/paymentList.png#paymentList)
-
-### Addebita
-
-* PM: permette di effettuare l’addebito del conto selezionato su un conto aperto esistente o su un nuovo PM;
-
-![chargeModal](../../assets/img/imgCash/chargeModal.png#chargeModal)
-
-* Tab PM: mostra l’elenco di tutti i PM aperti visualizzando le seguenti informazioni: Nome PM, Intestatario, Tipo PM, Scadenza e Dettagli. Include anche una checkbox che permette di selezionare il PM desiderato;
-
-* <div>Cerca per Nome: compilare il form corrispondente permette la ricerca del PM desiderato;</div>
-
-* Nuovo PM: cliccare il bottone corrispondente permette di aprire il form per la creazione di un nuovo PM;
-
-    * Tipo PM: cliccare lo switch corrispondente per scegliere la tipologia di PM, se crearlo per un singolo individuo o un gruppo di persone;
-
-    * Durata PM: cliccare lo switch corrispondente per scegliere se assegnare una data di scadenza al Pm, o crearne uno con scadenza indefinita;
-
-    * Dati Anagrafici: compilare il form dei rispettivi campi con i dati richiesti (Nome Pm, Nome e Cognome campi Obbligatori);
-
-    * Annulla: cliccare il bottone corrispondente chiude il form di creazione PM visualizzando la schermata precedente;
-
-    * Salva: cliccare il bottone corrispondente permette il salvataggio e la creazione del PM appena configurato;
-
-    * Salva e Assegna: cliccare il bottone corrispondente permette il salvataggio e l’assegnazione del Pm appena configurato al Conto selezionato;
-
-* <div>Cancella: clicca il bottone per chiudere la modale di addebito;</div>
-
-* Check Digitale: cliccare il bottone corrispondente permette di visualizzare il riepilogo del conto selezionato con eventuali sconti e/o modifiche applicate ad esso;
-
-    * <div>Firma: form compilabile con firma digitale;</div>
-
-    * Addebita: cliccare il bottone corrispondente permette di addebitare il conto relativo al check visualizzato sul PM selezionato;
-
-    * <div>Stampa: cliccare il bottone corrispondente permette la stampa del check visualizzato;</div>
-
-* Check Cartaceo: cliccare il bottone corrispondente permette di visualizzare il riepilogo del conto selezionato con eventuali sconti e/o modifiche applicate ad esso;
-
-    * <div>Firma: form compilabile con firma autografa;</div>
-
-    * Addebita: cliccare il bottone corrispondente permette di addebitare il conto relativo al check acquisito previa firma autografa;
-
-    * <div>Stampa: cliccare il bottone corrispondente permette la stampa del check visualizzato;</div>
-
-### Split
-
-Cliccare il bottone corrispondente mostra le opzioni per dividere il Riepilogo/Ordine in più conti separati;
-
-* Per Seduta: cliccare il bottone corrispondente permette la selezione dal Riepilogo di una delle sedie presenti al tavolo, estrapolandone i piatti ordinati e aggiungendoli in un conto appositamente creato;
-
-* Per X Persone: cliccare il bottone corrispondente permette la selezione del numero di persone per il quale dividere il Riepilogo/Ordine, dividendo il totale da pagare per il numero di Pax selezionato e creando un numero di conti pari al loro;
-
-### Trasferisci Ordine
-
-Cliccare il bottone corrispondente permette di assegnare l’Ordine creato e le sue portate, ad un tavolo presente all’interno dell’Outlet corrente (vedi Mappa Tavoli);
-
-### Sconto %
-
-Cliccare il bottone corrispondente apre il form per la selezione dello sconto desiderato calcolato attraverso il sistema percentuale;
-
-![%Discount](../../assets/img/imgCash/%Discount.png#%Discount)
-
-* Sconto %: compilare il form con il valore numerico corrispondente allo sconto percentuale desiderato;
-
-* <div>Note: compilare il form corrispondente (max. 500 caratteri inclusi gli spazi);</div>
-
-* Bottoni %: cliccare uno dei bottoni permette di selezionare la percentuale di sconto desiderata;
-
-* Annulla: cliccare il bottone corrispondente chiude il form, annulla le modifiche indirizzando alla pagina precedente;
-
-* Salva: cliccare il bottone corrispondente permette il salvataggio delle modifiche applicando lo sconto scelto al conto selezionato;
-
-### Sconto €
-
-<div>Cliccare il bottone corrispondente apre il form per la selezione dello sconto applicato in valuta;</div>
-
-![euroDiscount](../../assets/img/imgCash/euroDiscount.png#euroDiscount)
-
- * Sconto €: compilare il form con il valore numerico corrispondente allo sconto in valuta che si vuole applicare;
-
- * <div>Note: compilare il form corrispondente (max. 500 caratteri inclusi gli spazi);</div>
-
- * Annulla: cliccare il bottone corrispondente chiude il form, annulla le modifiche indirizzando alla pagina precedente;
-
- * Salva: cliccare il bottone corrispondente permette il salvataggio delle modifiche applicando lo sconto scelto al conto selezionato;
-
-### Acquisisci Check
-
-Cliccare il bottone corrispondente permette l’acquisizione digitale del Check Cartaceo precedentemente stampato, permettendone così l’addebito;
+1. Vai a Menu principale > Cassa
+2. Crea un nuovo ordine o trasferisci un ordine dalla sala
+3. Clicca su Paga
+4. Clicca Elimina tutti

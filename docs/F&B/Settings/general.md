@@ -2,41 +2,35 @@
 
 Le Impostazioni sono la prima sezione che dovrete configurare per cominciare a prendere dimestichezza con il vostro nuovo Restaurant Manager. Per fare ciò, dovrete:
 
-1. <div>Creare un profilo per il vostro ristorante (Generali).</div>
+1. Creare un profilo per il vostro ristorante (Generali).
 
-2. <div>Creare il primo Servizio.</div>
+2. Creare il primo Servizio.
 
-3. <div>Creare la Sala del vostro ristorante.</div>
+3. Creare la Sala del vostro ristorante.
 
-4. <div>Gestire i periodi di apertura e chiusura dell'attività (Segmenti).</div>
+4. Gestire i periodi di apertura e chiusura dell'attività (Segmenti).
 
-5. <div>Configurare i servizi aggiuntivi offerti</div>
+5. Configurare i servizi aggiuntivi offerti
 
 ## Generali
 
-<div>Le Impostazioni Generali profilano il vostro ristorante con tutte le informazioni utili per migliorare la visibilità e la ricerca all'interno dell'App client</div>
+Le Impostazioni Generali profilano il vostro ristorante con tutte le informazioni utili per migliorare la visibilità e la ricerca all'interno dell'App client
 
-![Generali](../../assets/img/imgSettings/General.png#generali)
+1. Vai a Menu Principale > Impostazioni > Generali
+2. Compila i campi richiesti
+3. Seleziona quali categorie fisiche (adulti, bambini, infanti) sono ammesse nella tua struttura
+4. Clicca su Salva
 
-### Info Ristorante
+### Dettaglio dei campi
 
-Compila con le informazioni che desideri vengano visualizzate all'interno dell'app i seguenti campi: 
-
-- Nome
-- Email
-- Tel
+- Nome: un nome per il ristorante
+- Email: un indirizzo valido di posta elettronica da mostrare sulle piattaforme collegate
+- Tel: un numero di telefono associato alla struttura da mostrare sulle piattaforme collegate
 - Indirizzo
 - Città
 - Paese
 - CAP
-- Foto
-- Descrizione
-- Latitudine e longitudine
-
-#### Ospiti Ammessi
-
-* Cliccate lo switch corrispondente per decidere di accettare prenotazioni contenenti le categorie fisiche proposte: Adulti, Bambini e Neonati;
-
-* <div>Salva: memorizza la configurazione inserita.</div>
-
-* <div>Cancella: annulla l'operazione.</div>
+- Foto: un immagine rappresentativa del ristorante da mostrare sulle piattaforme collegate
+- Descrizione: una breve descrizione con le info rilevanti del ristorante
+- Latitudine e longitudine: utili per la localizzazione della struttura nell'utilizzo delle piattaforme di asporto e delivery
+- Max Pax: numero indicativo dei coperti effettivi nella struttura

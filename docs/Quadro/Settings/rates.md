@@ -2,6 +2,8 @@
 
 ## Creare o modificare un gruppo tariffario
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MY7SZ40yVQw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 E’ consigliato raggruppare le tariffe quando possiedono la medesima politica di cancellazione. Dopo aver creato un gruppo di tariffe, è possibile creare la sua politica di cancellazione
 
 ### Creare un gruppo tariffario
@@ -46,6 +48,8 @@ E’ consigliato raggruppare le tariffe quando possiedono la medesima politica d
 4. Clicca salva
 
 ## Crea, cancella o modifica una tariffa
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fL_gTdj1c_4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Prima di poter creare una tariffa, è necessaria la creazione di un gruppo tariffario
 

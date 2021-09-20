@@ -4,7 +4,6 @@ Dalla Lista Conti puoi visualizzare report specifici filtrati per data. Un repor
 
 La Lista Conti visualizza tutti i pagamenti effettuati, compresi quelli saldati dalla cassa veloce o da una prenotazione al tavolo
 
-![billingList](../../assets/img/imgBilling/billingList.png#billingList)
 
 ## Tabella Conti
 
@@ -12,7 +11,7 @@ La Tabella Conti visualizza la lista dei pagamenti e degli addebiti relativa all
 
 * Seleziona Data: clicca uno dei due bottoni per scegliere un giorno precedente o successivo alla data odierna
 
-* <div>Totale: visualizza la cifra complessiva provvisoria degli incassi giornalieri</div>
+* Totale: visualizza la cifra complessiva provvisoria degli incassi giornalieri
 
 ### Tab Conto
 
@@ -20,7 +19,7 @@ Visualizza i dettagli di ogni conto prodotto categorizzati per: #ID, Ora, Modali
 
 * Clicca un Tab Conto per estendere la modale e visualizzare le portate che compongono il conto categorizzate per: Quantità, Descrizione e Importo
 
-* <div>Clicca la checkbox posta al lato del Tab Conto per abilitare il bottone Annulla Conto</div>
+* Clicca la checkbox posta al lato del Tab Conto per abilitare il bottone Annulla Conto
 
 ## Pannello Ricerca
 
@@ -40,11 +39,11 @@ Compilare il form corrispondente permette di cercare un conto specifico assegnat
 
 ### Cerca Operatore
 
-<div>Compilare il form corrispondente permette di filtrare i conti effettuati dall'operatore desiderato</div>
+Compilare il form corrispondente permette di filtrare i conti effettuati dall'operatore desiderato
 
 ### Filtra per Metodo di Pagamento
 
-<div>Spunta la checkbox corrispondente per filtrare i conti secondo il metodo di pagamento scelto</div>
+Spunta la checkbox corrispondente per filtrare i conti secondo il metodo di pagamento scelto
 
 * Annulla Conto: clicca il bottone corrispondente per avere la possibilità di annullare il conto selezionato
 

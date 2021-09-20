@@ -1,96 +1,57 @@
 # Prenotazioni
 
-<div>Permette la creazione di una nuova prenotazione o modificare quella appena creata.</div>
+## Creare una nuova prenotazione
 
-## Nuova Prenotazione
+In Fnb, puoi creare una nuova prenotazione manualmente.
 
-![tabClient](../../assets/img/imgReservation/tabClient.png#tabClient)
+1. Vai a Menu Principale > Prenotazioni > Nuova
+2. Cerca il cliente o creane uno nuovo
+3. Seleziona l'outlet nel quale effettuare la prenotazione
+4. Inserisci il numero di pax
+5. Seleziona la data e l'ora della prenotazione
+6. Clicca su Controlla Disponibilità
+7. Seleziona lo Slot Disponibile e clicca su Aggiungi Prenotazione
+    - Verranno mostrati in nero gli slot orari disponibili, in grigio quelli occupati
+8. Clicca sul bottone Conferma per completare l'operazione
 
-* <div>Cliente: </div>
+## Dettaglio dei campi di una nuova prenotazione
 
-    * <div>Nuovo Cliente: effettua una prenotazione creando una nuova anagrafica</div>
+- Cliente:
+    - Cliente: Inserisci il nome dell’ospite per cercarlo in anagrafica o creare un nuovo profilo. 
+    - Luogo: Seleziona un outlet dalla lista
+- Dettagli: 
+    - Categorie fisiche: Seleziona il numero di adulti, bambini o infanti
+    - Data: Seleziona la data e l'ora della prenotazione
+    - Note: Aggiungi eventuali richieste dell'ospite
+    - Slot Disponibili: Seleziona la fascia oraria per il quale effettuare la prenotazione. Gli slot sono generati automaticamente in base alla configurazione inserita nelle Impostazioni.
 
-    * <div>Anagrafica: effettua una prenotazione per un ospite già presente in anagrafica</div>
+### Modificare una prenotazione nel carrello
 
-### Nuovo Cliente
+In fase di creazione di una nuova prenotazione tramite FnB, è possibile creare molteplici prenotazioni. Le informazioni ad esse relative sono elencate nel Carrello all'estrema destra della schermata. 
 
-1. <div>Cliccate Nuovo Cliente</div>
+1. Vai a Menu principale > Prenotazioni > Nuova
+2. Crea una o più prenotazioni
+3. Clicca sull'icona della modifica di fianco alla prenotazione presente nel carrello
+4. Modifica i campi desiderati
+5. Clicca su Aggiungi Prenotazione per ultimare le modifiche
 
-2. <div>Compilate i campi richiesti</div>
+## Modifica una prenotazione
 
-3. <div>Verificate la Disponibilità e selezionate lo slot preferito</div>
+1. Vai a Menu principale > Prenotazioni > Overview
+2. Cerca la prenotazione che desideri modificare 
+3. Clicca l'icona del menu in alto a destra del pannello
+4. Clicca su Modifica
+5. Modifica i campi in questione
+6. Clicca sul bottone Aggiungi prenotazione
+7. Clicca su Conferma per completare l'operazione
 
-4. <div>Cliccate Salva per ultimare la prenotazione</div>
+## Cancella una prenotazione
 
-### Anagrafica
+1. Vai a Menu principale > Prenotazioni > Overview
+2. Cerca la prenotazione che desideri cancellare
+3. Clicca l'icona del menu in alto a destra del pannello
+4. Clicca su Elimina
+5. Clicca su Conferma per completare l'operazione
 
-![searchClient](../../assets/img/imgReservation/searchClient.png#mobile)
-
-* <div>Cerca per nome: richiesto nome o cognome del prenotante per validare la ricerca</div>
-
-* Banner Ospite: cliccate il banner con le informazioni dell’ospite desiderato e effettuate una nuova prenotazione per esso
-
-### Disponibilità
-
-Compilate i campi richiesti e verificate la disponibilità di un tavolo per la configurazione inserita
-
-#### Form Principale
-
-<div>Permette di inserire o modificare le informazioni relative al prenotante;</div>
-
-![informationSummary](../../assets/img/imgReservation/informationSummary.png#informationSummary)
-
-* <div>Generale: compilate o modificate i campi richiesti con le seguenti informazioni: </div>
-
-    * <div>Nome, </div>
-    
-    * <div>Cognome, </div>
-    
-    * <div>e-mail </div>
-    
-    * <div>telefono </div>
-
-* Preferenze e Intolleranze: compilate o modificate i campi richiesti con le seguenti informazioni: 
-
-    * <div>Intolleranze, </div>
-    
-    * <div>Allergie, </div>
-
-#### Pannello Prenotazioni
-
-<div>Permette la compilazione di uno o più form di prenotazione</div>
-
-![reservationPanel](../../assets/img/imgReservation/reservationPanel.png#reservationPanel)
-
-* Data Prenotazione: cliccate l’icona e selezionate la data desiderata o compilatela con il formato richiesto
-
-* <div>Ora prenotazione: cliccate l’icona e selezionate l’ora desiderata </div>
-
-* N. Pax: cliccate i bottoni associati a ciascuna categoria fisica disponibile (adulti, bambini o infanti) per aumentare di un unità il numero dei prenotanti
-
-* <div>Note: campo complabile con eventuali richieste aggiuntive</div>
-
-* <div>cliccate l’icona a destra per eliminare il form della prenotazione inserita;</div>
-
-* <div>Cliccate l’icona +1 per aggiungere un nuovo pannello per la Nuova Prenotazione;</div>
-
-#### Form Prenotazioni
-
-<div>Permette l'inserimento di una sola prenotazione attraverso le modalità appena descritte;</div>
-
-![reservationForm](../../assets/img/imgReservation/reservationForm.png#reservationForm)
-
-* <div>Note</div>
-
-* <div>N. Pax</div>
-
-![paxForm](../../assets/img/imgReservation/paxForm.png#paxForm)
-
-* <div>Data</div>
-
-* <div>Ora</div>
-
-* <div>Cliccate Verifica Disponibilità e selezionate uno dei tre slot di orari disponibili;</div>
-
-!!! warning
-    <div>Il Bottone Verifica Disponibilità è disponibile solo in caso di compilazione corretta dei campi richiesti</div>
+!!! Note
+    Anche se una prenotazione viene cancellata, essa non viene rimossa dalla lista delle prenotazione. La cancellazione infatti, comporta solamente un cambio di stato della stessa in "Cancellato". Questo per favorire le operazioni di reportistica all'interno di un outlet.
