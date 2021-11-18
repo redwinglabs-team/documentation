@@ -554,6 +554,18 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../Quadro/Settings/fiscalPrinters/" class="md-nav__link">
+        Stampanti Fiscali
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../Quadro/Settings/bookingEngine/" class="md-nav__link">
         Booking engine
       </a>
@@ -1277,6 +1289,19 @@
   <a href="#trovare-indirizzo-ip-di-una-stampante-fiscale" class="md-nav__link">
     Trovare indirizzo IP di una stampante fiscale
   </a>
+  
+    <nav class="md-nav" aria-label="Trovare indirizzo IP di una stampante fiscale">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recuperare-lindirizzo-ip-della-stampante" class="md-nav__link">
+    Recuperare l'indirizzo IP della stampante:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -2096,6 +2121,19 @@
     Trovare indirizzo IP di una stampante fiscale
   </a>
   
+    <nav class="md-nav" aria-label="Trovare indirizzo IP di una stampante fiscale">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recuperare-lindirizzo-ip-della-stampante" class="md-nav__link">
+    Recuperare l'indirizzo IP della stampante:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -2117,25 +2155,25 @@
                 
                 
                 <h1 id="configurazione-stampanti-fiscali">Configurazione stampanti fiscali</h1>
-<p>Configura i profili della stampante in Restaurant Manager per ogni stampante fisica nell'ambiente del tuo ristorante (ad es. Stampanti per ricevute, fiscali, da cucina o da bar). Se hai quattro stampanti uniche nel tuo ristorante, dovresti avere quattro stampanti configurate in Restaurant Manager.</p>
-<p>Una volta aggiunte le stampanti a Restaurant Manager, è possibile collegarle ai modelli di stampante in modo che i tipi particolari di lavori di stampa vengano inviati al modello di stampante corretto.</p>
-<p>Tieni presente che l'aggiunta di una stampante fisica a Restaurant Manager richiede anche alcune impostazioni hardware e configurazioni di rete.</p>
+<p>Configura i profili della stampante in Restaurant Manager per ogni stampante fisica all'interno del tuo ristorante (ad es. Stampanti per ricevute, fiscali, da cucina o da bar). Se hai quattro unità attive, dovresti avere quattro corrispondenti configurazioni in Restaurant Manager.</p>
+<p>Tieni presente che l'aggiunta di una stampante fisica in Fnb richiede anche alcune impostazioni hardware e configurazioni di rete.</p>
 <h2 id="aggiungere-una-stampante-fiscale">Aggiungere una stampante fiscale</h2>
 <ol>
 <li>Vai a Menu principale &gt; Impostazioni &gt; Avanzate</li>
 <li>Clicca sul bottone +</li>
-<li>Spunta la casella usa stampante fiscale</li>
-<li>Inserisci l'indirizzo IP di riferimento </li>
+<li>Spunta la casella "Abilita"</li>
+<li>Inserisci l'indirizzo IP e il seriale della stampante di riferimento</li>
+<li>Associa un Contatore. Il contatore in questione, ogni qualvolta verrà utilizzato per la chiusura di un conto, invierà la richiesta di stampa scontrino alla stampante</li>
 <li>Clicca Salva</li>
 </ol>
 <h3 id="trovare-indirizzo-ip-di-una-stampante-fiscale">Trovare indirizzo IP di una stampante fiscale</h3>
-<p>Indirizzo IP della stampante sulla rete.</p>
-<p>Per recuperare l'indirizzo IP della stampante:</p>
+<h4 id="recuperare-lindirizzo-ip-della-stampante">Recuperare l'indirizzo IP della stampante:</h4>
 <ol>
 <li>Accendi la stampante e collegala alla rete che utilizzi per i tuoi dispositivi.</li>
 <li>Per garantire che l'indirizzo IP della stampante non cambi, è necessario assegnare alla stampante un indirizzo IP statico (riservato) nelle impostazioni del router.</li>
 <li>Spegnere la stampante.</li>
 <li>Tenendo premuto il pulsante di avanzamento, accendere la stampante e continuare a premere il pulsante di avanzamento per circa 7 secondi. L'indirizzo IP viene visualizzato sulla ricevuta stampata.</li>
+<li>Copiare la seguente stringa subito dopo l'indirizzo IP trovato: "/cgi-bin/fpmate.cgi?devid=local_printer&amp;timeout=10000"</li>
 </ol>
                 
               
