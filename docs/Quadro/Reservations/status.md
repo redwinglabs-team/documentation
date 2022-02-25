@@ -133,6 +133,28 @@ Raccomandiamo sempre di aggiungere adulto o bambino al nome dei tuoi prodotti in
 4. Clicca i bottoni + e - per modificare la quantità del prodotto
     * N.B. non puoi modificare il numero di persone o di notti a cui il prodotto è applicato
 
+### Come funzionano i depositi
+
+Quando ricevi un pagamento anticipato, puoi creare un nuovo deposito per lo stesso importo del pagamento anticipato e allegare l'aliquota fiscale del tuo servizio prenotabile.
+
+1. In una prenotazione, clicca sul tab Item
+2. Alla voce Additional Expenses, clicca il bottone +
+3. Compila i campi richiesti e inserisci il valore del Deposito
+4. Clicca su Crea
+
+Ogni deposito è composto da due voci di ricavo:
+
+* uno con un valore positivo
+* uno con valore negativo
+
+#### Depositi positivi
+
+I depositi positivi sono essenzialmente pagamenti anticipati. Quadro li aggiunge come importo positivo al conto prima dell'arrivo dell'ospite, come crediti e sotto gli articoli non pagati del cliente. Un deposito positivo imita il valore di tutti gli articoli su una fattura che devono essere chiusi con il deposito. Ciò consente agli utenti di saldare i pagamenti anticipati.
+
+#### Depositi negativi
+
+Quadro elenca un deposito negativo sotto gli articoli non pagati del cliente, insieme all'articolo del soggiorno. Imita il pagamento, consentendoti di saldare l'articolo senza contabilizzare due volte le entrate e le tasse.
+
 ## Billing
 
 ### Aggiungi, sposta o rimuovi prodotti da conti aperti

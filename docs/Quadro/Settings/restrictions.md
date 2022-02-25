@@ -1,4 +1,4 @@
-# Restrictions
+# Restrizioni
 
 ## Settare le restrizioni di prezzo
 

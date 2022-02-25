@@ -40,6 +40,7 @@ In questo step, puoi aggiungere i dettagli finali e creare la prenotazione
 3. Compila tutti i campi rilevanti
     * Puoi scegliere se la prenotazione ha stato confermato, è un'opzione o una richiesta. Se la prenotazione è un’opzione o una richiesta, imposta una data in cui verrà rilasciata in caso di mancata conferma
     * Puoi inoltre scegliere se inviare o meno una conferma (se la prenotazione è confermata) o una quotazione (se è un’opzione o una richiesta) tramite email al cliente; se scegli di inviare l’email, seleziona la lingua nel quale inviarla.
+    * Puoi anche assegnare uno spazio specifico tra quelli disponibili in base alla categoria di spazio aggiunta nel carrello
 4. Controlla che tutte le prenotazioni siano corrette (puoi sempre tornare indietro agli step precedenti per modificare qualcosa, o modificare le prenotazioni direttamente dal carrello)
 5. Clicca su Prenota Ora
 

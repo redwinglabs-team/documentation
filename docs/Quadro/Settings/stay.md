@@ -2,25 +2,25 @@
 
 ## Introduzione ai Servizi
 
-La possibilità di acquistare o meno un servizio quando un ospite prenota il proprio soggiorno dipende dal tipo di servizio che si tratta.
+La possibilità di acquistare o meno un servizio quando un ospite prenota il proprio soggiorno dipende dal tipo di servizio di cui si tratta.
 
-Il Servizio legato al soggiorno (e i prodotti allegati) possono essere acquistati al momento della prenotazione, mentre tutti gli altri, devono essere acquistati sul posto e aggiunti manualmente al conto del cliente.
+Il Servizio legato al soggiorno, o Servizio Prenotabile (e i suoi prodotti allegati), possono essere acquistati al momento della prenotazione, mentre tutti gli altri, devono essere acquistati sul posto e aggiunti manualmente al conto del cliente.
 
 ## Servizi e prodotti
 
-Servizi e prodotti sono strettamente interdipendenti l’uno dagli altri; non è possibile infatti creare un prodotto senza prima aver creato il servizio ad esso collegato. Ciò consente di gestire liberamente il costo sia del prodotto che del servizio ad esso associato.
+Servizi e prodotti sono strettamente interdipendenti l’uno dagli altri; non è possibile infatti creare un prodotto senza prima aver creato il servizio ad esso collegato. Ciò consente di gestire liberamente il costo sia del prodotto che del servizio in maniera autonoma.
 
 ## Crea il tuo Servizio prenotabile
 
-Principalmente lo Stay è l’opzione di pernotto che offri ai tuoi clienti
+Il Servizio Prneotabile è l'interfaccia dal quale gestire le opzioni di pernotto offerte ai clienti
 
 ### Vendere il servizio di Prenotabile
 
-Quando un cliente prenota nella tua struttura, loro in realtà stanno prenotando un servizio Stay. Se infatti dovessi creare altri servizi, essi verranno acquistati sul sito e addebitati manualmente sul conto del cliente.
+Quando un cliente prenota nella tua struttura, in realtà sta prenotando il servizio prenotabile. ulteriori servizi infatti, possono essere acquistati esclusivamente su Quadro e addebitati manualmente sul conto del cliente.
 
 ### Vendere un prodotto legato al servizio Prenotabile
 
-Ogni prodotto deve essere collegato ad un servizio. Se desideri che i clienti comprino dei prodotti in fase di prenotazione, allora dei creare dei prodotti allegati al servizio Stay.
+Ogni prodotto deve essere collegato ad un servizio. Se desideri che i clienti possano comprare dei prodotti già in fase di prenotazione, dovrai associarli al servizio prenotabile.
 
 ### Imposta il tuo servizio Prenotabile
 
@@ -46,12 +46,25 @@ __Opzioni__:
 
 |  Method                               |    Description                                                                                                                                                                                          | 
 |  :-----------------------------       |  :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  |
-|  __Segmento channel manager__         |    Scegli un segmento per la prenotazione creato attraverso il channel manager                                                                                                                          |
-|  __Segmento booking engine__          |    Scegli un segmento per la prenotazione creato attraverso il motore prenotazione                                                                                                                      |
-|  __Segmento predefinito__             |    Scegli il segmento da selezionare come predefinito nella schermata di una nuova prenotazione                                                                                                         |
-|  __Booking engine URL__               |    Inserisci lo URL collegato al sito web della tua struttura dove si trova il tuo booking engine                                                                                                       |
+|  __Segmento channel manager__         |    Scegli un segmento per la prenotazione creato attraverso il channel manager                                                                                                                                            |
+|  __Segmento booking engine__          |    Scegli un segmento per la prenotazione creato attraverso il motore prenotazione                                                                                                                                       |
+|  __Segmento predefinito__             |    Scegli il segmento da selezionare come predefinito nella schermata di una nuova prenotazione          |
+|  __Opzioni__                          |    __Fattura come pacchetto__: permette di accorpare i prodotti con il servizio prenotabile, mostrando solamente il prezzo totale nel pacchetto nel conto
+|                                       |    __Fattura estesa dell'oggetto__: permette di visualizzare ogni prodotto singolarmente nel conto dell'ospite
+|                                       |    __Prezzo sovrascrivibile__: permette ai dipendenti con i permessi legati ai conti di sovrascrivere il prezzo di un prodotto
+|                                       |    __Tassa sovrascrivibile__: permette ai dipendenti con i permessi legati alla contabilità di sovrascrivere l'IVA standard pe run prodotto
+|                                       |    __Nuovo ordine elaborato automaticamente__: permette di processari automaticamente nuovi ordini senza la conferma manuale da parte dell'impiegato
+|                                       |    __Offri all'impiegato__: rende disponibile il servizio agli impiegati
+|                                       |    __Ordinabile solo con prodotti__: rende il servizio disponibile solamente se alcuni dei suoi prodotti sono selezionati. 
+|                                       |    __Notifiche email__: invia una mail di notifica al dipendente responsabile e ai membri del dipartimento responsabile alla ricezione di nuovi ordini
+|  __Opzioni di visita__:               |    __Abilitare la cancellazione automatica per mancato arrivo__: Quadro cancella automaticamente le prenotazioni no-show del giorno precedente alle 6 di mattina
+|                                       |    __Cambia da Ispezionato a pulito dopo la notte__: quadro cambia automaticamente lo stato di pulizia di uno spazio vuoto, da "Ispezionato" a "Pulito" dopo la notte, per assicurarsi che l'housekeeping li controlli prima dell'arrivo dell'ospite
+|                                       |    __Check-in rende lo spazio sporco__: Quadro cambia automaticamente lo stato di pulizia della camera in "Sporco" quando un ospite effettua il check-in
+|                                       |    __Check-out rende lo spazio sporco__: Quadro cambia automaticamente lo stato di pulizia della camera in "Sporco" quando un ospite effettua il check-out
+|  __Opzioni email__                    |    __Invia mail in automatico__: Quadro invia automaticamente mail all'ospite riguardo gli aggiornamenti della prenotazione
+|  __Booking engine URL__               |    Inserisci lo URL collegato al sito web della tua struttura dove si trova il tuo booking engine                                                                                                                                             |
 |  __T&C’s URL__                        |    Inserisci lo URL collegato alla pagina web di termini e condizioni sul sito della tua struttura. Quando un utente clicca sulla dicitura “Property T&C”, viene indirizzato sulla pagina web inserita  |
-|  __Privacy Policy URL__               |    Inserisci lo URL collegato alla pagina web corrispondente sul sito della tua struttura.                                                                                                              |
+|  __Privacy Policy URL__               |    Inserisci lo URL collegato alla pagina web corrispondente sul sito della tua struttura.                                                                                                                                         |
 
 __Gestione__:
 

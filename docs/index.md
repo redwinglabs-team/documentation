@@ -1,6 +1,6 @@
 # BENVENUTI in Quadro Pms!
 
-Il gestionale alberghiero ideato per le più moderne strutture ricettive con il fine di automatizzare e semplificare l'operatività, accrescendo allo stesso tempo la capacità di relazionarsi con gli ospiti.
+Il gestionale alberghiero ideato per le più moderne strutture ricettive al fine di automatizzare e semplificare l'operatività, accrescendo allo stesso tempo la capacità di relazionarsi con gli ospiti.
 
 Il primo rilascio di Quadro include funzionalità quali: un'integrazione avanzata con il booking engine e il channel manager, la gestione delle prenotazioni, una timeline interattiva, un'anagrafica approfondita, un sistema di addebiti rinnovato, la gestione degli spazi, la gestione delle catene alberghiere, una reportistica completa e una configurazione user friendly.
 

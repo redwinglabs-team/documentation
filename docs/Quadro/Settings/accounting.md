@@ -96,6 +96,9 @@ Gli International Financial Reporting Standards (IFRS) raccomandano le seguenti 
  * Tasse:
     * Tassa di soggiorno
 
+## Crea o cancella una regola di smistamento
+
+
 ## Crea o cancella una cassa
 
 Le casse registrano tutte le transazioni in contanti nel sistema, comprese le transazioni interne e i pagamenti dei conti

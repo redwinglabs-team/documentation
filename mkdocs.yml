@@ -4,7 +4,7 @@ site_description: Documentazione delle app prodotte da RedWingLabs
 site_author: RedWing Labs
 
 # Copyright
-copyright: Copyright &copy; 2019 - 2020 RWL Srl
+copyright: Copyright &copy; 2019 - 2022 RWL Srl
 
 # Configuration
 theme:
@@ -32,10 +32,15 @@ theme:
   features:
     - navigation.instant
     - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    # - navigation.tabs
+    # - navigation.sections
     # - toc.integrate
 
 # Extras
 extra:
+  generator: false
   alternate:
 
     # Switch to English
@@ -61,10 +66,10 @@ extra_css:
 extra_javascript:
   - assets/javascripts/extra.js
 
-# Google Analytics
-google_analytics:
-  - UA-167197052-1
-  - auto
+# # Google Analytics
+# google_analytics:
+#   - UA-167197052-1
+#   - auto
 
 # Extensions
 markdown_extensions:
@@ -87,21 +92,25 @@ plugins:
 nav:
 - Quadro:
   - Quadro: 'index.md'
-  - Configura il tuo hotel: 
-    - Configura la tua struttura: 'Quadro/Settings/property.md'
+  - Configura la tua struttura:
+    - 'Quadro/Settings/index.md' 
     - Servizi Prenotabili: 'Quadro/Settings/stay.md'
+    - Tassa di Soggiorno: 'Quadro/Settings/cityTax.md'
     - Servizi Aggiuntivi: 'Quadro/Settings/serv&prod.md'
     - Prodotti: 'Quadro/Settings/products.md'
     - Tariffe: 'Quadro/Settings/rates.md'
     - Cancellation Policy: 'Quadro/Settings/cancellationPolicy.md'
     - Gestione delle Tariffe: 'Quadro/Settings/rateManagement.md'
-    - Restrictions: 'Quadro/Settings/restrictions.md'
+    - Restrizioni: 'Quadro/Settings/restrictions.md'
     - Voucher: 'Quadro/Settings/vouchers.md'
     - Spazi: 'Quadro/Settings/spaces.md'
     - Dipartimenti ed Impiegati: 'Quadro/Settings/depts&Empl.md'
+    - Settare i permessi: 'Quadro/Settings/permissionsList.md'
+    - Gruppi d'età: 'Quadro/Settings/ageGroups.md'
     - Outlets: 'Quadro/Settings/outlets.md'
     - Placeholder Emails: 'Quadro/Settings/placeholders.md'
     - Contabilità: 'Quadro/Settings/accounting.md'
+    - Stampanti Fiscali: 'Quadro/Settings/fiscalPrinters.md'
     - Booking engine: 'Quadro/Settings/bookingEngine.md'
     - Registration Card: 'Quadro/Settings/registrationCard.md'
   - Reservations:
@@ -113,6 +122,7 @@ nav:
   - Profiles:
     - New Customer: 'Quadro/Profiles/newUser.md'
     - Customers: 'Quadro/Profiles/usersList.md'
+    - Istat Report: 'Quadro/Profiles/istatReport.md'
     - Aziende: 'Quadro/Profiles/companies.md'
     - Contratti per Agenzie di viaggio: 'Quadro/Profiles/travAgencyContracts.md'
   - Distribution:
@@ -134,19 +144,20 @@ nav:
     - Spent Nights: 'Quadro/Report/spentNight.md'
     - Payment: 'Quadro/Report/payment.md'
   - Task Manager: 'Quadro/TaskManager/task.md'
+  - Alert Manager: 'Quadro/TaskManager/alert.md'
   - Marketplace:
-    - Marketplace: 'Quadro/Marketplace/intro.md'
+    - 'Quadro/Marketplace/index.md'
 - Quadro Fnb: 
-  - Quadro Fnb: 'F&B/intro.md'
+  - Quadro Fnb: 'F&B/index.md'
   - Impostazioni:
     - Generali: 'F&B/Settings/general.md'
     - Prenotazioni: 'F&B/Settings/reservation.md'
     - Sala: 'F&B/Settings/room.md'
     - Servizio: 'F&B/Settings/service.md'
     - Segmenti: 'F&B/Settings/segment.md'
-    - App Consegna: 'F&B/Settings/moh!Delivery.md'
-    - App Asporto: 'F&B/Settings/moh!TakeAway.md'
-    - App Servizi: 'F&B/Settings/moh!Services.md'
+    # - App Consegna: 'F&B/Settings/moh!Delivery.md'
+    # - App Asporto: 'F&B/Settings/moh!TakeAway.md'
+    # - App Servizi: 'F&B/Settings/moh!Services.md'
     - Avanzate: 'F&B/Settings/advanced.md'
     - Impiegati: 'F&B/Settings/employee.md'
     - Outlets: 'F&B/Settings/outlets.md'
@@ -174,26 +185,26 @@ nav:
   - Cucina:
     - Sommario Ordini: 'Kitchen/orderSummary.md'
   - Inventario: 'F&B/Inventory/inventory.md'
-  - App Ordini: 'F&B/MOH!Orders/orders.md'
-  - App Prenotazioni: 'F&B/MOH!Bookings/bookings.md'
-- Quadro Guest:
-  - Quadro Guest: 'GA/intro.md'
-  - Online Check-in: 'GA/checkIn.md'
-  - Profile: 'GA/profile.md'
-  - Messages: 'GA/messages.md'
-- Quadro Staff:
-  - Quadro Staff: 'SA/intro.md'
-  - Spaces: 'SA/spaces.md'
-  - Messages: 'SA/messages.md'
-  - Task: 'SA/tasks.md'
-  - Customers: 'SA/customers.md'
-  - Point of Sale: 'SA/pos.md'
-  - Complaints: 'SA/complaints.md'
-  - Delivery: 'SA/delivery.md'
-  - Reservations: 'SA/reservations.md'
-  - Settings: 'SA/settings.md'
+  # - App Ordini: 'F&B/MOH!Orders/orders.md'
+  # - App Prenotazioni: 'F&B/MOH!Bookings/bookings.md'
+# - Quadro Guest:
+#   - Quadro Guest: 'GA/index.md'
+#   - Online Check-in: 'GA/checkIn.md'
+#   - Profile: 'GA/profile.md'
+#   - Messages: 'GA/messages.md'
+# - Quadro Staff:
+#   - Quadro Staff: 'SA/index.md'
+#   - Spaces: 'SA/spaces.md'
+#   - Messages: 'SA/messages.md'
+#   - Task: 'SA/tasks.md'
+#   - Customers: 'SA/customers.md'
+#   - Point of Sale: 'SA/pos.md'
+#   - Complaints: 'SA/complaints.md'
+#   - Delivery: 'SA/delivery.md'
+#   - Reservations: 'SA/reservations.md'
+#   - Settings: 'SA/settings.md'
 - Quadro Pop:
-  - Quadro Pop: 'Pop/intro.md'
+  - Quadro Pop: 'Pop/index.md'
   - Cassiere: 'Pop/cash.md'
   - Anagrafica: 'Pop/customers.md'
   - Gestione conti: 'Pop/billing.md'
